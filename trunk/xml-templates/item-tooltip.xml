@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/items/tooltip.xsl"?><page globalSearch="1" lang="$LANGUAGE" requestUrl="/item-tooltip.xml">
+<itemTooltips>
+	<itemTooltip>
+		<id>$ITEMID</id>
+		<name>$ITEMNAME</name>
+		<icon>$ITEMICON</icon>
+		<overallQualityId>$QUALITYID</overallQualityId>
+		<bonding>$BONDING</bonding>
+		$MAXCOUNT
+		<classId>$CLASSID</classId>
+		$STATMODIFIERS
+		<equipData>
+			<inventoryType>$INVENTORYTYPE</inventoryType>
+			<subclassName>$SUBCLASSNAME</subclassName>
+		</equipData>
+		<damageData>
+			$DAMAGEDATA
+		</damageData>
+		$SPELLS
+		$ENCHANT
+		$SOCKETDATA
+		$RANDOMENCHANT
+		$DURABILITY
+		$ALLOWABLECLASSES
+		$REQUIREDLEVEL
+		$ITEMSETDATA
+		<itemSource value="$SOURCETYPE" $SOURCEINFO />
+	</itemTooltip>
+</itemTooltips>
+</page>

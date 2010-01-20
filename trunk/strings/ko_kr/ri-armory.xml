@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="전투정보실 정보">
+	<faqlist>
+		<faq key="whatisarmory" question="전투정보실이 무엇인가요?">
+			전투정보실은 월드 오브 워크래프트와 관련된 모든 정보를 광범위하게 검색할 수 있는 자료입니다. 이 정보는 실제 서버에서 바로 수집되어 실시간으로 갱신되며 사용자에게 편리한 인터페이스로 나타납니다. 전투정보실은 실제 게임 서버에서 데이터를 수집하기 때문에 현존하는 캐릭터나 투기장 팀, 길드, 아이템까지 월드 오브 워크래프트에 대한 가장 빠르고 포괄적인 자료라 할 수 있습니다.
+		</faq>
+		<faq question="전투정보실에는 또 어떤 다른 내용이 포함되어 있나요?">
+			전투정보실에는 캐릭터 정보, 아이템, 길드 정보, 투기장 팀과 평판 보상 등이 포함되어 있습니다. 검색어를 입력하기 전에 메인 화면에서 이들에 해당하는 검색 필터를 선택할 수 있습니다.
+		</faq>
+		<faq question="전투정보실에 로그인한 후에 어떠한 추가 내용을 확인할 수 있나요?">
+			전투정보실의 메뉴 오른쪽 끝에 "로그인" 버튼이 있습니다. 로그인을 누르면 현재 페이지를 벗어나지 않고 자신의 월드 오브 워크래프트 계정을 사용하여 전투정보실에 로그인할 수 있습니다. 또한 전투정보실에서 측정한 가장 정확도가 높은 캐릭터로 가는 링크를 보여줍니다. 해당 링크에 있는 "내 캐릭터" 옵션을 사용하여 해당 계정에 있는 다른 캐릭터의 정보를 확인할 수도 있습니다. 로그인하면 언제라도, 해당 계정에 있는 캐릭터의 길드 은행과 달력 정보를 포함하여 로그인해야 볼 수 있는 콘텐츠를 확인할 수 있습니다.
+			캐릭터 선택 인터페이스에 대한 자세한 내용은 <a href="/faq-login.xml">전투정보실 로그인 자주 묻는 질문 및 답</a>페이지를 확인해 주세요.
+	
+		</faq>
+		<faq question="캐릭터 정보의 &quot;추천 아이템 찾기&quot; 항목은 어떤 기능을 하나요?">
+			캐릭터 정보에 있는 아이템에 마우스를 올려놓으면 작은 화살표가 표시되면서 "추천 아이템 찾기" 단추로 바뀝니다. 이 단추를 누르면 아이템 검색 결과 페이지로 이동합니다. 
+			<p/>
+			이 페이지에서는 특정 캐릭터가 현재 소유한 아이템보다 더 나은 것으로 간주하는 아이템의 목록이 표시됩니다. 추천 아이템은 캐릭터의 직업, 능력치, 전체적인 장비 수준을 고려하여 검색됩니다. 이 기능을 통해 본인의 캐릭터에 대해서뿐만 아니라 월드 오브 워크래프트에 있는 모든 캐릭터에 대해서 추천 아이템을 찾아볼 수 있습니다. 			이 기능은 여러 가지 장비 세트를 착용하고 있는 캐릭터가 각 장비 세트에 대한 추천 아이템을 찾을 때 도움이 되도록 만들어졌습니다. 추천 아이템 기능은 능력치에 영향을 미치는 강화 효과를 받지 않은 캐릭터에 사용했을 때 가장 정확한 결과를 보여 줍니다.
+			<p/>
+			<a href="faq-item-info-recommended.xml">추천 아이템 찾기 F.A.Q.</a>.
+		</faq>
+		<faq question="검색 결과 페이지의 정확도라는 용어는 무엇을 의미하나요?">
+			검색 엔진의 검색 정확도와 마찬가지로 가장 적합한 검색 결과를 순서에 따라 정렬하여 보여주는 역할을 합니다. 정확도는 알고리즘을 통한 몇 가지 척도를 조합하여 결정됩니다. 이러한 척도는 검색 종류에 따라 달라집니다. 예를 들면, 특정 캐릭터 이름 검색에 대한 정확도는 캐릭터 레벨과 최종 접속 시간 등과 같은 척도에 영향을 받습니다. 
+		</faq>
+		<faq question="전투정보실에 가장 권장하는 브라우저와 지원하는 브라우저는 무엇인가요?">
+			전투정보실에서 지원하는 브라우저는 인터넷 익스플로어(Internet Explorer, 버전 6.0 이상), 오페라 9(Opera 9), 그리고 사파리(Safari)입니다. 그러나 전투정보실은 <a href="http://www.mozilla.com/en-US/">파이어폭스(Firefox)</a>에 최적화되어 있습니다. 아울러 일부 기능은 <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&amp;promoid=BIOW">플래시 플레이어(Flash Player)</a>가 있어야 정상적으로 작동합니다. 지금은 투기장 팀 아이콘이 플래시로 만들어져 있으며, 앞으로도 플래시를 사용하여 만드는 부분이 다수 있을 예정입니다. 
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<!--<relatedlink name = "Updates - November 19, 2008" url = "/updates.xml" type = "new" />
+		<relatedlink type = "hr"/>-->
+		<relatedlink name="무용의 문장 보상" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofheroism&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="용맹의 문장 보상" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofvalor&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="계승 아이템" url="/search.xml?fl[source]=all&amp;fl[type]=all&amp;fl[usbleBy]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[rrt]=hm&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>						
+		<relatedlink type="hr"/>
+		<relatedlink name="투기장 계산기" url="/arena-calculator.xml"/>
+		<relatedlink name="브라우저 검색 플러그인" url="/search-plugin.xml"/>
+		
+		<relatedlink type="hr"/>
+		<relatedlink name="업데이트" url="/updates.xml"/>
+		<relatedlink name="F.A.Q." url="/faq-armory.xml"/>		
+		<relatedlink name="알려진 문제들" url="Javascript:openIssues()"/>
+		<relatedlink name="전투정보실 오류 신고" type="report" url="mailto:bugreport@blizzard.co.kr"/>
+	</relatedlinks>
+</relatedinfo>

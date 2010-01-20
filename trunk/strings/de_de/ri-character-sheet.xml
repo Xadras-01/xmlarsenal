@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Charakteransicht">
+	<faqlist>
+		<faq question="Was bewirkt die Option &quot;Besseren Gegenstand finden&quot; bei Gegenständen im Charakterprofil?">
+			Beim Überfahren eines Gegenstands in einem Charakterprofil mit der Maus wird ein kleiner Pfeil angezeigt, der zu einer Schaltfläche wird. Beim Klick auf diese führt ihr eine Suche nach einem möglichen besseren Ersatz für diesen Gegenstand und Charakter durch. Die angezeigten Ergebnisse berücksichtigen die Klasse, Werte und generelle Ausrüstungsqualität des ausgewählten Charakters.
+			<p/>
+			Auf diese Weise könnt ihr nach Verbesserungen sowohl für euren eigenen als auch für alle anderen Charaktere in World of Warcraft suchen. Dieses Feature ist besonders nützlich für Charaktere mit verschiedenen Ausrüstungssets, da diese so Verbesserungen für all ihre Ausrüstung finden können.		
+			<p/>
+			Mehr hierzu findet ihr in unserer <a href="faq-item-info-recommended.xml;">FAQ zu Upgrade finden</a>.
+		</faq>
+		<faq question="Warum erscheint meine Charakteransicht nicht?">
+			Hier werden nur Charaktere von europäischen Realms angezeigt, da dies die europäische Version des Arsenals ist. Um zu einer anderen Region zu wechseln, müsst ihr das Arsenal der entsprechenden Region aufrufen und dort nach dem gewünschten Charakter suchen. Außerdem muss ein Charakter kürzlich aktiv gewesen sein, damit sein Profil im Arsenal erscheint.
+		</faq>
+		<faq question="Warum kann ich meinen niedrigstufigen Charakter nicht finden?">
+			Diese Einschränkung gilt nicht für XMLArsenal.
+		</faq>
+		<faq question="Wo kann ich alle Arena-Symbole sehen?">
+			Ihr findet <a href="legend-achievements.xml" target="_blank">hier</a> alle verfügbaren Arena-Symbole.
+		</faq>
+		<faq question="Wieso wird die Gesamtzahl meiner ehrenhaften Siege nicht angezeigt?">
+			Um die gesamten ehrenhaften Siege anzeigen zu lassen, muss der Charakter insgesamt mindestens 1337 ehrenhafte Siege erzielt haben.
+		</faq>
+		<faq question="Warum erscheint meine Munition nicht in meinem Charakterprofil?">
+			Dieses Feature wird unter Umständen zu einem späteren Zeitpunkt hinzugefügt.
+		</faq>
+		<faq question="Warum wird mein Portrait falsch angezeigt?">
+			Das Arsenal zeigt in eurem Profil kein Abbild eures tatsächlichen Charakters an. Das Portrait ist ein automatisch generiertes Standardbild, abhängig von Volk, Klasse und Geschlecht verwendet.
+		</faq>
+		<faq question="Welche Titel kann ein Spieler erhalten?">
+			Eine komplette Liste findet ihr auf der <a href="http://www.wow-europe.com/de/info/basics/titles.html">Seite mit Charaktertiteln</a>.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="Charaktersuche" url="/character-search.xml"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Guide zu Charakterattributen" type="external" url="http://www.wow-europe.com/de/info/basics/characters.html"/>
+		<relatedlink name="Völker" type="external" url="http://www.wow-europe.com/de/info/races/index.html"/>
+		<relatedlink name="Klassen" type="external" url="http://www.wow-europe.com/de/info/classes/index.html"/>
+		<relatedlink name="Berufe" type="external" url="http://www.wow-europe.com/de/info/professions/index.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Häufig gestellte Fragen" url="/faq-armory.xml"/>
+		<relatedlink name="Bekannte Probleme" type="external" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+		<relatedlink name="Fehler melden" type="report" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+		<relatedlink name="Übersetzungsfehler melden" type="translation" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+	</relatedlinks>
+</relatedinfo>

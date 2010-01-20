@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/search/search.xsl"?><page globalSearch="1" lang="$LANGUAGE" requestQuery="searchType=all&amp;searchQuery=$QUERYSTRING&amp;selectedTab=guilds" requestUrl="/search.xml">
+	<armorySearch>
+		<tabs count="$COUNTALL" selected="guilds">
+			<tab count="$COUNTCHARS" label="armory.tabs.characters" type="characters"/>
+			<tab count="$COUNTTEAMS" label="armory.tabs.arenateams" type="arenateams"/>
+			<tab count="0" label="armory.tabs.items" type="items"/>
+			<tab count="$COUNTGUILDS" label="armory.tabs.guilds" type="guilds"/>
+		</tabs>
+		<searchResults pageCount="1" pageCurrent="1" searchError="" searchFilter="" searchMsg="" searchText="$SEARCHTEXT" searchType="all" url="searchType=all&amp;searchQuery=$QUERYSTRING&amp;p=1&amp;selectedTab=guilds&amp;sd=a" version="1.0">
+			<filters/>
+			<guilds>
+				$GUILDRESULTS
+			</guilds>
+		</searchResults>
+	</armorySearch>
+</page>

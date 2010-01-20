@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<title>XMLArsenal - Inicia sesión</title>
+			
+			<meta http-equiv="imagetoolbar" content="false"/>
+			
+			<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+			<link rel="stylesheet" type="text/css" media="screen, projection" href="/login/common/master.css"/>
+			<link rel="stylesheet" type="text/css" media="screen, projection" href="/login/common/EU.css"/>
+			<link rel="stylesheet" type="text/css" media="screen, projection" href="/login/common/es-mx.css"/>
+						
+		
+			<!--[if IE 6]>
+				<link rel="stylesheet" type="text/css" href="/login/_themes/wam/css/master-ie6.css" />
+			<![endif]-->			
+			
+			<script type="text/javascript" src="/login/common/common.js"/>
+			<script type="text/javascript" src="/login/common/jquery.js"/>
+			<script type="text/javascript">
+				var $j = jQuery.noConflict();
+				var processingStr = "En proceso";
+			</script>			
+		</head>
+		<body class="es-es">
+
+	<div class="page loginView">
+	
+
+	<div class="">
+
+		<form id="loginForm" class="submitForm" name="loginForm" autocomplete="off" method="post" action="/login.xml" onsubmit="login.disableButton('submit', this); return true;">
+	
+			<div class="formRow accountName">
+				<label class="formLabel" for="accountName" style="margin-bottom: 1px;">Cuenta de WoW</label>
+	            <input type="text" id="accountName" name="accountName" maxlength="320" tabindex="1" class="text"/>
+				<script type="text/javascript">
+					document.getElementById('accountName').focus();
+				</script>
+			</div>
+			
+			<div class="formRow password">
+				<label class="formLabel" for="password">Contraseña</label>
+	            <input type="password" id="password" name="password" maxlength="16" tabindex="2" autocomplete="off" class="text"/>
+	        </div>
+			
+			<p><label class="formLabel" for="error" style="color:red;">Contraseña o nombre de usuario no válido, por favor inténtalo de nuevo.</label></p>
+		    
+		    
+	        <input type="submit" class="hiddenSubmit"/>
+	                
+			<a class="submit" href="javascript:;" onclick="Form.submit(this)" tabindex="3">Iniciar sesión</a>
+			
+			<div class="signUp">
+				<!--<p>¿Has olvidado la <a href="https://eu.battle.net/account/support/login-support.xml">contraseña</a> de tu cuenta?</p>
+				<p>¿Aún no tienes una cuenta? ¡<a href="https://eu.battle.net/account/creation/tos.xml?ref=http%3A%2F%2Feu.wowarmory.com%2Findex.xml">Regístrate ya</a>!</p>-->
+			</div>	 	
+		</form>	
+	</div>
+		
+		<div class="selectLocale">
+			<!--<p>Si deseas ver esta página en otro idioma haz clic en:</p>
+			
+				<a href="javascript:selectLanguage('de_de');">Deutsch</a>
+				|			
+				<a href="javascript:selectLanguage('en_us');">English (US)</a>
+				|			
+				<a href="javascript:selectLanguage('en_gb');">English (EU)</a>
+				|			
+				<a href="javascript:selectLanguage('es_mx');">Español (AL)</a>
+				|			
+				<a href="javascript:selectLanguage('es_es');">Español (EU)</a>
+				|			
+				<a href="javascript:selectLanguage('fr_fr');">Français</a>
+				|			
+				<a href="javascript:selectLanguage('ru_ru');">Русский</a>
+				|			
+				<a href="javascript:selectLanguage('ko_kr');">한국어</a>-->
+							
+				
+		</div>
+		
+		<div class="legal">
+			<!--<p>Por razones de seguridad, cierra tu navegador cuando termines de utilizar servicios que requieran autenticación. Los URLs de las páginas seguras de Blizzard Entertainment que soliciten tu nombre de cuenta y contraseña serán worldofwarcraft.com, wow-europe.com, blizzard.com y battle.net.</p>
+			
+			<div class="legalLinks">			
+				<a href="http://eu.blizzard.com/es-es/company/about/privacy.html" onclick="window.open(this.href);return false;">Política de Protección de Datos</a> |
+				<a href="http://eu.blizzard.com/es-es/company/about/termsofuse.html" onclick="window.open(this.href);return false;">Condiciones de Uso Blizzard</a> |
+				<a href="http://eu.blizzard.com/support/index.xml?locale=es_ES">Servicio al cliente</a><br/>
+				<a href="http://eu.blizzard.com/es-es/company/about/legal-faq.html" onclick="window.open(this.href);return false;">2009 Blizzard Entertainment, Inc. Todos los derechos reservados.</a>		
+			</div>
+			-->
+		</div>
+	</div>
+		</body>
+	</html>

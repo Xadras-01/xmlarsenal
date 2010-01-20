@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Armory Info">
+	<faqlist>
+		<faq key="whatisarmory" question="What is the Armory?">
+			The Armory is a vast searchable database of information for World of Warcraft - taken straight from the real servers and presented in a user-friendly interface. Since the Armory pulls its data from the actual game servers, it is the most comprehensive and up-to-date database on the characters, arena teams, guilds, items, dungeons, raids, bosses, and faction rewards of World of Warcraft in existence. 
+		</faq>
+		<faq question="What can I search for in the Armory?">
+			You can search for characters, items, guilds, dungeons, arena teams, bosses, and faction rewards. You can select one of these master search filters from the top drop-down menu before entering a search term.
+		</faq>
+		<faq question="What extra features are accessible after logging in to the Armory?">
+						At the top right hand corner of the Armory there is a tab labeled "Log In". Clicking this tab allows you to log in to the Armory using your World of Warcraft account information without leaving the current page, and displays a link to the character on the account with the highest relevance as determined by the Armory. You can use the "My Characters" option below this profile link to access the profiles of the other characters on this account. Once logged in, you can access login-protected content for the characters on that account including guild banks and the player calendar.
+			<p/>
+			Read more about the character selection interface and the login process at our <a href="/faq-login.xml">Armory Login FAQ</a>.
+		</faq>
+		<faq question="What is the &quot;Find an Upgrade&quot; option for items in a character profile?">
+			Mousing over any item in a character profile will display a small arrow that turns into a button. Clicking this "Find an Upgrade" button will take you to an item search results page. On this page will be a list of items that may be considered upgrades for that item and for that particular character.
+			<p/>
+			These recommended upgrades take into account the character’s class, statistics, and overall gear quality. In this manner, you can look for upgrades for your character’s items as well as for any other character in World of Warcraft. This feature is also intended to be helpful for characters with multiple gear sets, as they can find upgrades for all their sets. The recommended upgrades feature will produce the most accurate results when used on characters that have no buffs affecting their statistics.
+			<p/>
+			Read more at our <a href="/faq-item-info-recommended.xml">Find an Upgrade FAQ</a>.
+		</faq>
+		<faq question="What does the term &quot;relevance&quot; mean on the search results pages?">
+			Similar to a search engine relevance rating, the relevance category attempts to sort the matches to a search with the goal that the most appropriate matches appear near the top of the search results. Relevance is determined by running a combination of factors through an algorithm. These factors are different depending on what category is being searched for. For example, relevancy for a particular character name search may be affected by the level of the character, the last login time of the character, and other factors.
+		</faq>
+		<faq question="What are the recommended and supported browsers for the Armory?">
+			The Armory supports Internet Explorer (version 6.0 and up), Opera 9, and Safari. However, the Armory is best experienced with <a href="http://www.mozilla-europe.org/en/products/firefox/" target="_blank">Firefox</a>. In addition, certain features require <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&amp;promoid=BIOW">Flash Player</a> to function.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<!--<relatedlink name = "Updates - November 19, 2008" url = "/updates.xml" type = "new" />
+		<relatedlink type = "hr"/>-->
+		<relatedlink name="Emblem of Heroism Rewards" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofheroism&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Emblem of Valor Rewards" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofvalor&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Heirloom Items" url="/search.xml?fl[source]=all&amp;fl[type]=all&amp;fl[usbleBy]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[rrt]=hm&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>						
+		<relatedlink type="hr"/>
+		<relatedlink name="Arena Calculator" url="/arena-calculator.xml"/>
+		<relatedlink name="Browser Search Plugin" url="/search-plugin.xml"/>
+
+		<relatedlink type="hr"/>
+		<relatedlink name="Armory Updates" url="/updates.xml"/>
+		<relatedlink name="F.A.Q.s" url="/faq-armory.xml"/>
+		<relatedlink name="Known Issues" type="external" url="http://forums.wow-europe.com/thread.html?topicId=1016061940&amp;sid=1"/>
+		<relatedlink name="Post About An Error" type="report" url="http://forums.wow-europe.com/board.html?forumId=11088&amp;sid=1"/>
+	</relatedlinks>
+</relatedinfo>

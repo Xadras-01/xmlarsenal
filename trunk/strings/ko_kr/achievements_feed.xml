@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><strs>
+
+<!--<str id="serverFirst.realm.first."></str>
+<str id="regionFirst.realm.first."></str>-->
+
+<str id="serverFirst.realm.first.level.80">
+    <param-html1/> 님께서 <param-html2/> 서버 최초로 80 레벨을 달성하셨습니다!</str>
+<str id="regionFirst.realm.first.level.80">축하합니다! <param-html2/> 서버의 <param-html1/> 님께서 전체 서버를 통틀어 최초로 80 레벨을 달성하셨습니다!</str>
+<str id="serverFirst.realm.first.level.80.classrace">
+    <param-html1/> 님은 <param-html2/> 서버 최초로 80 레벨을 달성한 <param-html3/>입니다!</str>
+<str id="regionFirst.realm.first.level.80.classrace">축하합니다! <param-html2/> 서버의 <param-html1/> 님은 전체 서버를 통틀어 최초로 80 레벨을 달성한 <param-html3/>입니다!</str>
+<str id="serverFirst.realm.first.northrend.vanguard">
+    <param-html1/> 님께서 <param-html2/> 서버 최초로 은빛십자군, 고룡쉼터 사원 용군단, 키린 토, 칠흑의 기사단과 확고한 동맹을 달성하셨습니다!</str>
+<str id="regionFirst.realm.first.northrend.vanguard">축하합니다! <param-html1/> 님께서 전체 서버를 통틀어 최초로 은빛십자군, 고룡쉼터 사원 용군단, 키린 토, 칠흑의 기사단과 확고한 동맹을 달성하셨습니다!</str>
+<str id="serverFirst.realm.first.grand.master.profession">
+    <param-html1/> 님께서 <param-html2/> 서버 최초로  <param-html3/> 숙련도 450을 달성하셨습니다!</str>
+<str id="regionFirst.realm.first.grand.master.profession">축하합니다! <param-html1/> 님께서 전체 서버를 통틀어 최초로 <param-html3/> 숙련도 450을 달성하셨습니다!</str>
+<str id="serverFirst.realm.first.conqueror.of.naxxramas">
+    <param-html1/> 길드가 <param-html2/> 서버 최초로 영웅 난이도에서 켈투자드를 처치하였습니다! 함께했던 플레이어에게는 "낙스라마스의 정복자" 칭호가 수여되었습니다.</str>
+<str id="regionFirst.realm.first.conqueror.of.naxxramas">축하합니다! <param-html2/> 서버의 <param-html1/> 길드가 전체 서버를 통틀어 최초로 영웅 난이도에서 켈투자드를 처치했습니다! 함께했던 플레이어에게는 "낙스라마스의 정복자" 칭호가 수여되었습니다.</str>
+<str id="serverFirst.realm.first.conqueror.of.naxxramas.single">
+    <param-html1/> 길드가 <param-html2/> 서버 최초로 영웅 난이도에서 켈투자드를 처치하였습니다! 함께했던 플레이어에게는 "낙스라마스의 정복자" 칭호가 수여되었습니다.</str>
+<str id="regionFirst.realm.first.conqueror.of.naxxramas.single">축하합니다! <param-html2/> 서버의 <param-html1/> 길드가 전체 서버를 통틀어 최초로 영웅 난이도에서 켈투자드를 처치했습니다! 함께했던 플레이어에게는 "낙스라마스의 정복자" 칭호가 수여되었습니다.</str>
+<str id="serverFirst.realm.first.obsidian.slayer">
+    <param-html1/> 길드가 <param-html2/> 전체 서버를 통틀어 최초로 영웅 난이도에서 칠흑의 수호자 살타리온을 처치했습니다! 함께했던 플레이어에게는 "흑요석 성소의 정복자" 칭호가 수여되었습니다.</str>
+<str id="regionFirst.realm.first.obsidian.slayer">축하합니다! <param-html1/> 길드가 전체 서버를 통틀어 최초로 영웅 난이도에서 칠흑의 수호자 살타리온을 처치했습니다! 함께했던 플레이어에게는 "흑요석 성소의 정복자" 칭호가 수여되었습니다.</str>
+<str id="serverFirst.realm.first.obsidian.slayer.single">
+    <param-html1/> 길드가 <param-html2/> 서버 최초로 영웅 난이도에서 칠흑의 수호자 살타리온을 처치하였습니다! 함께했던 플레이어에게는 "흑요석 성소의 정복자" 칭호가 수여되었습니다.</str>
+<str id="regionFirst.realm.first.obsidian.slayer.single">축하합니다! <param-html2/> 서버의 <param-html1/> 길드가 전체 서버를 통틀어 최초로 칠흑의 수호자 살타리온을 처치했습니다! 함께했던 플레이어에게는 "흑요석 성소의 정복자" 칭호가 수여되었습니다.</str>
+<str id="serverFirst.realm.first.magic.seeker">
+    <param-html1/> 길드가 <param-html2/> 서버 최초로 영웅 난이도에서 말리고스를 처치하였습니다! 함께했던 플레이어에게는 "마법 탐구가" 칭호가 수여되었습니다.</str>
+<str id="regionFirst.realm.first.magic.seeker">축하합니다! <param-html2/> 서버의 <param-html1/> 길드가 전체 서버를 통틀어 최초로 말리고스를 처치했습니다! 함께했던 플레이어에게는 "마법 탐구가" 칭호가 수여되었습니다.</str>
+<str id="serverFirst.realm.first.magic.seeker.single">
+    <param-html1/> 길드가 <param-html2/> 서버 최초로 영웅 난이도에서 말리고스를 처치하였습니다! 함께했던 플레이어에게는 "마법 탐구가" 칭호가 수여되었습니다.</str>
+<str id="regionFirst.realm.first.magic.seeker.single">축하합니다! <param-html2/> 서버의 <param-html1/> 길드가 전체 서버를 통틀어 최초로 말리고스를 처치했습니다! 함께했던 플레이어에게는 "마법 탐구가" 칭호가 수여되었습니다.</str>
+<str id="regionFirst.realm.first.celestial.defender">축하합니다! <param-html2/> 서버의 <param-html1/> 길드가 전체 서버를 통틀어 최초로 영웅 난이도에서 관찰자 알갈론을 처치했습니다! 함께했던 플레이어에게는 "천체 수호자" 칭호가 수여되었습니다.</str>
+<str id="serverFirst.realm.first.celestial.defender.single">
+    <param-html1/> 길드가 <param-html2/> 서버 최초로 영웅 난이도에서 관찰자 알갈론을 처치했습니다! 함께했던 플레이어에게는 "천체 수호자" 칭호가 수여되었습니다.</str>
+<str id="regionFirst.realm.first.celestial.defender.single">축하합니다! <param-html2/> 서버의 <param-html1/> 길드가 전체 서버를 통틀어 최초로 영웅 난이도에서 관찰자 알갈론을 처치했습니다! 함께했던 플레이어에게는 "천체 수호자" 칭호가 수여되었습니다.</str>
+<str id="serverFirst.realm.first.deaths.demise">
+    <param-html1/> 길드가 <param-html2/> 서버 최초로 영웅 난이도에서 감시자의 도움 없이 요그사론을 처치했습니다! 함께했던 플레이어에게는 "사신을 쓰러뜨린 자" 칭호가 수여되었습니다.</str>
+<str id="regionFirst.realm.first.deaths.demise">축하합니다! <param-html2/> 서버의 <param-html1/> 길드가 전체 서버를 통틀어 최초로 영웅 난이도에서 요그사론을 처치했습니다! 함께했던 플레이어에게는 "사신을 쓰러뜨린 자" 칭호가 수여되었습니다.</str>
+<str id="serverFirst.realm.first.deaths.demise.single">
+    <param-html1/> 길드가 <param-html2/> 서버 최초로 영웅 난이도에서 감시자의 도움 없이 요그사론을 처치했습니다! 함께했던 플레이어에게는 "사신을 쓰러뜨린 자" 칭호가 수여되었습니다.</str>
+<str id="regionFirst.realm.first.deaths.demise.single">축하합니다! <param-html2/> 서버의 <param-html1/> 길드가 전체 서버를 통틀어 최초로 영웅 난이도에서 요그사론을 처치했습니다! 함께했던 플레이어에게는 "사신을 쓰러뜨린 자" 칭호가 수여되었습니다.</str>
+<str id="level80pos">23</str>
+
+<str id="blood.elf.name">블러드 엘프</str>
+<str id="death.knight.name">죽음의 기사</str>
+<str id="draenei.name">드레나이</str>
+<str id="druid.name">드루이드</str>
+<str id="dwarf.name">드워프</str>
+<str id="forsaken.name">포세이큰</str>
+<str id="gnome.name">노움</str>
+<str id="human.name">인간</str>
+<str id="hunter.name">사냥꾼</str>
+<str id="mage.name">마법사</str>
+<str id="night.elf.name">나이트 엘프</str>
+<str id="orc.name">오크</str>
+<str id="paladin.name">팔라딘</str>
+<str id="priest.name">사제</str>
+<str id="rogue.name">도적</str>
+<str id="shaman.name">주술사</str>
+<str id="tauren.name">타우렌</str>
+<str id="troll.name">트롤</str>
+<str id="warlock.name">흑마법사</str>
+<str id="warrior.name">전사</str>
+
+<str id="cooking.grand.master.type">요리</str>
+<str id="first.aid.grand.master.type">응급치료</str>
+<str id="grand.master.alchemist.type">연금술</str>
+<str id="grand.master.angler.type">낚시</str>
+<str id="grand.master.blacksmith.type">대장기술</str>
+<str id="grand.master.enchanter.type">마법부여</str>
+<str id="grand.master.engineer.type">기계공학</str>
+<str id="grand.master.herbalist.type">약초채집</str>
+<str id="grand.master.jewelcrafter.type">보석세공</str>
+<str id="grand.master.leatherworker.type">가죽세공</str>
+<str id="grand.master.miner.type">채광</str>
+<str id="grand.master.scribe.type">주문각인</str>
+<str id="grand.master.skinner.type">무두질</str>
+<str id="grand.master.tailor.type">재봉술</str>
+
+</strs>

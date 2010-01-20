@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Informations sur l'Armurerie">
+	<faqlist>
+		<faq question="Qu'est-ce que l'Armurerie ?">
+			L’Armurerie est une vaste base de données interrogeable qui fournit des informations prises en direct des royaumes de World of Warcraft et présentée de façon conviviale. Comme l’Armurerie prend ses données directement des royaumes de jeux, c’est la source la plus complète et la plus à jour qui soit en matière de personnages, équipes d’arène, guildes, objets et récompenses de donjons, raids, boss et factions de World of Warcraft.
+		</faq>
+		<faq question="Que puis-je rechercher dans l'Armurerie ?">
+			Vous pouvez rechercher des personnages, des objets, des guildes, des équipes d'arène ainsi que des récompenses de faction, de mode joueur contre joueur ou trouvées sur des boss ou dans des donjons. Vous pouvez sémectionner l'une de ces grandes catégories par le menu déroulant en haut de page.
+		</faq>
+		<faq question="Quelles fonctionnalités supplémentaires sont accessibles après s'être identifié dans l'Armurerie ?">
+			Dans le coin supérieur droit de l'Armurerie, vous pouvez voir un onglet « Connexion » qui vous permet de vous identifier dans l'Armurerie avec votre nom de compte World of Warcraft et votre mot de passe, sans quitter la page actuelle. Un lien vers le personnage le plus pertinent déterminé par l'Armurerie apparaîtra alors à cet endroit. Vous pouvez cliquer sur « Mes personnages » sous le lien de la fiche pour accéder à celle de vos autres personnages sur ce compte. Une fois connecté, vous aurez accès au contenu protégé de vos personnages, comme les banques de guilde et le calendrier en jeu.
+			<p/>
+			Tous les détails sur l'interface de sélection de personnage et sur le processus d'identification sont disponibles sur notre <a href="/faq-login.xml">F.A.Q. de connexion</a> à l'Armurerie.
+		</faq>
+		<faq question="Que fait la fonction « Trouver mieux » sur les objets d’une fiche de personnage ?">
+			Si vous passez votre souris sur un objet d’une feuille de personnage, vous verrez apparaître une petite flèche qui se transforme en bouton. Si vous cliquez sur ce bouton « Trouver mieux », vous serez dirigé vers une page de résultats de recherche d’objets. Sur cette page, les objets affichés sont ceux qui sont considérés comme « meilleurs » pour ce personnage en particulier.
+			<p/>
+			Ces améliorations recommandées prennent en compte la classe de personnage, les caractéristiques et la qualité générale de l’équipement. De cette façon, vous pourrez rechercher quelle amélioration votre personnage ou n’importe quel autre personnage de World of Warcraft peut désirer. Cette fonctionnalité est aussi là pour faciliter les choix des personnages qui ont plusieurs ensembles différents d’équipement suivant les circonstances, leur permettant de trouver les améliorations pour chaque ensemble. Cette fonctionnalité donne des résultats plus précis lorsqu’elle est utilisée sur un personnage qui n’a pas d’amélioration magique temporaire (buff) qui affecte ses caractéristiques.
+			<p/>
+			Vous trouverez plus de précisions sur notre F.A.Q. <a href="/faq-item-info-recommended.xml">Trouver mieux</a>.
+		</faq>
+		<faq question="Lors d’une recherche, que signifie le terme « Pertinence » sur la page de résultats ?">
+			D’une façon comparable à la pertinence des résultats d’un moteur de recherche, la catégorie « Pertinence » a pour objectif de trier les résultats d’une recherche, en plaçant les résultats les plus pertinents en haut de colonne. Cette pertinence est déterminée par un algorithme appliqué à une combinaison de facteurs. Ces facteurs sont différents suivant le type de catégorie recherchée. Par exemple, la pertinence lors d’une recherche de nom de personnage est déterminée par le niveau du personnage, le fait qu’il ait été joué récemment, ainsi que d’autres facteurs.
+		</faq>
+		<faq question="Quels sont les navigateurs Internet compatibles et recommandés pour l'Armurerie ?">
+			L'armurerie est compatible avec Internet Explorer (versions 6.0 et supérieures), Opera 9 et Safari. Toutefois, il est conseillé d'utiliser <a href="http://www.mozilla-europe.org/fr/products/firefox/" target="_blank">Firefox</a> pour voir les meilleurs résultats en naviguant sur l'Armurerie. De plus, vous devez avoir installé <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&amp;promoid=BIOW">Flash Player</a> pour accéder à certaines fonctionnalités.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<!--<relatedlink name = "Mise à jour - 19 novembre 2008" url = "/updates.xml" type = "new" />
+		<relatedlink type = "hr"/>-->
+		<relatedlink name="Récompenses des Emblèmes d'héroïsme" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofheroism&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Récompenses des Emblèmes de vaillance" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofvalor&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Objets « Héritage »" url="/search.xml?fl[source]=all&amp;fl[type]=all&amp;fl[usbleBy]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[rrt]=hm&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>						
+		<relatedlink type="hr"/>
+		<relatedlink name="Calculateur d'arène" url="/arena-calculator.xml"/>
+		<relatedlink name="Module de recherche pour navigateur" url="/search-plugin.xml"/>
+		
+		<relatedlink type="hr"/>
+		<relatedlink name="Mises à jour de l'Armurerie" url="/updates.xml"/>
+		<relatedlink name="F.A.Q." url="/faq-armory.xml"/>		
+		<relatedlink name="Problèmes connus" type="external" url="http://forums.wow-europe.com/thread.html?topicId=1016252442&amp;sid=2"/>
+		<relatedlink name="Signaler une erreur technique" type="report" url="http://forums.wow-europe.com/board.html?forumId=11088&amp;sid=1"/>
+		<relatedlink name="Signaler une erreur de traduction" type="translation" url="http://forums.wow-europe.com/board.html?forumId=11213&amp;sid=2"/>
+	</relatedlinks>
+</relatedinfo>

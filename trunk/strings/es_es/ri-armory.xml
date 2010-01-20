@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Información sobre la Armería">
+	<faqlist>
+		<faq question="¿Qué es la Armería?">
+			La Armería es una gran base de datos con información sobre World of Warcraft, recopilada directamente de los reinos, actualizada en tiempo real y presentada en una simple interfaz de usuario. El hecho de que se tomen los datos directamente de los reinos de juego hace que esta sea la mayor base de datos y la más actualizada que existe sobre personajes, equipos de Arenas, hermandades, objetos, mazmorras, bandas, jefes y recompensas de facción sobre World of Warcraft.
+		</faq>
+		<faq question="¿Qué puedo buscar en la Armería?">
+			En la Armería puedes buscar personajes, objetos, hermandades, mazmorras, equipos de Arenas, jefes y recompensas de facción. En el momento de hacer una búsqueda puedes elegir cualquiera de los anteriores filtros.
+		</faq>
+		<faq question="¿Cuáles son las nuevas funciones disponibles al iniciar sesión en la Armería?">
+			En la esquina superior derecha de la Armería puedes encontrar la pestaña "Iniciar sesión". Si haces clic en ella podrás acceder a la Armería usando tu información de cuenta de World of Warcraft sin salir de la página actual y establecer un vínculo con un personaje de esta cuenta con mayor relevancia determinada por la Armería. Puedes usar la opción “Mis Personajes” bajo el enlace de perfil para acceder a los perfiles de otros personajes de esta cuenta. Una vez que hayas iniciado sesión, podrás acceder al contenido protegido por contraseña de todos los personajes de la cuenta, además de la información de los bancos de hermandad y del calendario de jugadores. 
+			<p/>
+			Más información sobre la interfaz de selección de personaje y del proceso de inicio de sesión en nuestras <a href="/faq-login.xml">preguntas frecuentes sobre el acceso a la Armería</a>.
+		</faq>
+		<faq question="¿Para qué es la opción &quot;Buscar una mejora&quot; en los objetos del perfil de personaje?">
+			Al pasar el puntero del ratón sobre un objeto aparecerá una pequeña flecha que se convierte en un botón. Hacer clic en este botón "Buscar una mejora" te conducirá a una página con resultados de una búsqueda de objetos. En esa página encontrarás una lista de posibles mejoras de ese objeto para ese personaje en particular.
+			<p/>
+			Estas mejoras recomendadas tienen en cuenta la clase del personaje, sus estadísticas, y la calidad general de su equipo. De esta forma, puedes buscar mejoras para los objetos de tu personaje. Así puedes ver las actualizaciones que puedes hacer en tu equipo y en el de otros personajes de World of Warcraft. Esta característica también pretende ser útil a los personajes con varios equipos, pues podrán encontrar mejoras para todos sus equipos. Los resultados de esta lista serán mucho más precisos si no hay ningún hechizo o ventaja activo en el personaje en el momento de salir del juego.
+			<p/>
+			Más información en nuestras <a href="/faq-item-info-recommended.xml">preguntas frecuentes actualizadas</a>.
+		</faq>
+		<faq question="¿Qué significa el término &quot;relevancia&quot; en la página de resultados de la búsqueda?">
+			Su significado es similar al que le dan los motores de búsqueda en internet, que intentan ordenar los resultados de las búsquedas de manera que los resultados más apropiados o relevantes se muestren en la parte superior de la página. Esta relevancia se determina a través de un algoritmo en el cual se toman en consideración distintos factores. Por ejemplo, la relevancia del nombre de un personaje en particular puede estar determinada por el nivel de dicho personaje o la última vez que entró en el juego, entre otros factores.
+		</faq>
+		<faq question="¿Cuáles son los navegadores recomendados para la Armería?">
+			Se puede navegar por la Armería con Internet Explorer (versión 6 y superiores), Opera 9 y Safari. Sin embargo, se puede disfrutar más de esta sección usando <a href="http://www.mozilla-europe.org/es/products/firefox/" target="_blank">Firefox</a>. Por otra parte, ciertas funciones necesitan <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&amp;promoid=BIOW">Flash Player</a> para su correcto funcionamiento.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<!--<relatedlink name = "Novedades - 19 de noviembre de 2008" url = "/updates.xml" type = "new" />
+		<relatedlink type = "hr"/>-->
+		<relatedlink name="Recompensas: Emblema de Heroísmo" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofheroism&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Recompensas: Emblema de Valor" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofvalor&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Reliquias" url="/search.xml?fl[source]=all&amp;fl[type]=all&amp;fl[usbleBy]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[rrt]=hm&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>						
+		<relatedlink type="hr"/>
+		<relatedlink name="Calculadora para las Arenas" url="/arena-calculator.xml"/>
+		<relatedlink name="Motor de búsqueda para tu navegador" url="/search-plugin.xml"/>
+
+		<relatedlink type="hr"/>
+		<relatedlink name="Novedades en la Armería" url="/updates.xml"/>
+		<relatedlink name="Preguntas frecuentes" url="/faq-armory.xml"/>		
+		<relatedlink name="Problemas conocidos" type="external" url="http://forums.wow-europe.com/thread.html?topicId=1016251969&amp;sid=4"/>
+		<relatedlink name="Informa de un error" type="report" url="http://forums.wow-europe.com/board.html?forumId=11088&amp;sid=1"/>
+		<relatedlink name="Informa de un problema de traducción" type="translation" url="http://forums.wow-europe.com/board.html?forumId=11200&amp;sid=4"/>
+	</relatedlinks>
+</relatedinfo>

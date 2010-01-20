@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="팀 정보">
+	<faqlist>
+		<faq question="팀 정보 페이지에는 어떠한 내용을 확인할 수 있나요?">
+			모든 투기장 팀에는 팀 정보와 투기장 기록이 있습니다. 팀 정보의 기본 설정 페이지에는 팀원 명단을 각각 클릭하여 확인할 수도 있으며, 가장 최근의 1주일 기록과 전체 누적 기록, 팀 승률과 현재 순위, 그리고 팀원의 개인 승률이 나타납니다. 경기 전적과 상대 전적에서는 해당 팀의 투기장 기록을 구체적으로 확인하실 수 있습니다.
+		</faq>
+		<faq question="투기장 기록이란 무엇인가요?">
+			전투정보실의 모든 투기장 팀 정보에 투기장 기록 탭이 생겼습니다. 투기장 기록은 경기 전적, 경기 보고서, 상대 전적으로 구성되어 있습니다.
+			<ul>
+			<li>경기 전적 탭에서는 모든 투기장 경기가 특별한 그래프로 표시됩니다. 그래프에 마우스를 올리면 해당 경기 날짜, 승패에 따른 평점 변화, 상대팀 이름을 보실 수 있습니다. 그래프 아래에서는 현재의 시즌 동안 팀이 참가한 모든 경기를 검색하거나 정렬해서 볼 수 있습니다. </li>
+			<li>경기 전적의 경기 결과 오른쪽에 있는 버튼을 클릭하면 자세한 경기 보고서를 보실 수 있습니다. 이 페이지에는 게임 안에서 확인할 수 있는 모든 결과와 통계, 즉 팀 목록, 결정타, 피해량과 치유량, 평점 변화가 표시됩니다. </li>
+			<li>상대 전적 탭에서는 모든 팀의 투기장 경기를 약간 다른 기준인 “상대팀의 이름”에 따라 볼 수 있습니다. 이 페이지에 있는 값들은 상대팀이 누구였는지에 따라 결정됩니다. 한 경기당 평균 평점 변화량, 각 팀에 대한 승률, 각 팀에 대해 승리한 횟수와 패배한 횟수 등의 통계를 이 페이지에서 확인하세요.</li>
+			</ul>
+		</faq>
+		<faq question="삭제한 팀도 팀 정보와 투기장 성적을 확인할 수 있나요?">
+			확인하실 수 없습니다. 삭제한 팀은 전투 정보실에 남지 않으므로 팀 정보나 투기장 성적도 나타나지 않습니다. 어떤 팀을 삭제한 다음, 같은 이름으로 재결성하면, 현재 팀의 팀 정보와 투기장 성적만을 확인하실 수 있습니다. 같은 이름으로 결성되었던 이전 팀의 정보와 기록은 남지 않습니다. 아울러, 삭제한 팀의 이름은 투기장 성적에서 클릭하여 확인할 수 없습니다.
+		</faq>
+		<faq question="어느 투기장 팀의 명단이 달라진 이유는 뭔가요?">
+			전투정보실에 있는 팀 정보에는 현재 팀원만이 나타납니다. 일정 시점 이후의 정확한 팀원은 조만간 경기 보고서에서 확인하실 수 있습니다.
+		</faq>
+		<faq question="이번 주에 우리 팀이 하지 않은 경기가 &quot;이번 주&quot; 열에 나타나는 이유는 뭔가요?">
+		"이번 주"라 표시된 열은 해당 투기장 팀이 가장 최근에 실제로 게임을 했던 주를 의미합니다. 실제로 이번 주에 경기를 했다면 달력에서 의미하는 이번 주를 말하고, 그렇지 않았다면 과거의 어떤 주를 뜻합니다.
+		</faq>
+		<faq question="팀 순위 옆에 나타나는 투기장 아이콘은 어디에서 전부 볼 수 있나요?">
+			<a href="legend-achievements.xml" target="_blank">여기</a>에서 획득할 수 있는 투기장 아이콘 전부를 확인하실 수 있습니다.
+		</faq>		
+		<faq question="팀 정보와 투기장 성적은 얼마 만에 한 번씩 갱신되나요?">
+			팀 정보와 투기장 성적은 게임 안에 변동 사항이 생기고 24시간 안에 새로운 내용으로 갱신됩니다.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="투기장 래더" url="javascript: arenaLadderLink()"/>
+		
+		<relatedlink type="hr"/>
+		<relatedlink name="투기장 시스템 개요" type="external" url="http://www.worldofwarcraft.co.kr/guide/arena/"/>
+		<relatedlink name="투기장 심층 분석" type="external" url="http://www.worldofwarcraft.co.kr/news/world/article/arena.html"/>
+		<relatedlink name="투기장 무기 보상 아이템" type="external" url="http://www.worldofwarcraft.co.kr/guide/arena/rewards-arena-weapons.html"/>
+		<relatedlink name="투기장 직업별 방어구 보상 아이템" type="external" url="http://www.worldofwarcraft.co.kr/guide/arena/rewards-arena-class-armor.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="F.A.Q." url="/faq-armory.xml"/>		
+		<relatedlink name="알려진 문제들" type="external" url="Javascript:openIssues()"/>	
+		<relatedlink name="전투정보실 오류 신고" type="report" url="mailto:bugreport@blizzard.co.kr"/>
+	</relatedlinks>
+</relatedinfo>

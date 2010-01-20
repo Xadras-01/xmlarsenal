@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="캐릭터 평판">
+	<faqlist>
+		<faq question="평판 페이지에는 어떤 기능들이 있나요?">
+			캐릭터가 현재 획득한 모든 평판의 상태를 이 페이지에서 확인하실 수 있습니다. 게임 안의 평판 창과 같이, 모든 평판은 다양한 색상의 막대로 구분되어 나타납니다. 캐릭터의 현재 평판 레벨은 각 막대 오른쪽에서 확인하실 수 있습니다.
+		</faq>
+		<faq question="다른 진영에 대한 정보는 어디에서 찾을 수 있나요?">
+			온라인 게임 가이드에 해당 페이지가 있습니다. 진영의 이름이 해당 페이지에 바로 연결되어 있어 파란색 텍스트로 표시됩니다.
+		</faq>
+		<faq question="평판 레벨은 모두 어떻게 분류되며 상위 레벨로 올라가려면 평판 점수를 얼마나 획득해야 하나요?">
+			아래 목록에서 각 평판 레벨에 대한 평판 점수대를 참조해 주십시오:
+			  <ul>
+			0/36000 – 매우 적대적 ~ 적대적
+			  <br/>
+			0/3000 – 적대적 ~ 약간 적대적
+			  <br/>			  
+			0/3000 – 약간 적대적 ~ 중립적
+			  <br/>
+			0/3000 – 중립적 ~ 약간 우호적
+			  <br/>
+			0/6000 – 약간 우호적 ~ 우호적
+			  <br/>
+			0/12000 – 우호적 ~ 매우 우호적
+			  <br/>
+			0/21000 – 매우 우호적 ~ 확고한 동맹
+			  </ul>
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="캐릭터 검색" url="javascript: ajaxLink('character-search.xml')"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="평판 기본 정보" type="external" url="http://www.worldofwarcraft.co.kr/info/basics/factions/reputation.html"/>
+		<relatedlink name="오리지널 진영별 평판" type="external" url="http://www.worldofwarcraft.co.kr/info/basics/factions/zandalar.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="F.A.Q." url="/faq-armory.xml"/>		
+		<relatedlink name="알려진 문제들" type="external" url="Javascript:openIssues()"/>
+		<relatedlink name="전투정보실 오류 신고" type="report" url="mailto:bugreport@blizzard.co.kr"/>
+	</relatedlinks>
+</relatedinfo>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/character/sheet.xsl"?><page globalSearch="1" lang="$LANGUAGE" requestUrl="/character-sheet.xml">
+  <tabInfo subTab="profile" tab="character" tabGroup="character" tabUrl="$TABURL"/>
+  <characterInfo>
+    <character battleGroup="$REALMPOOL" charUrl="$CHARURL" class="$CLASS" classId="$CLASSID" classUrl="$CLASSURL" faction="$FACTION" factionId="$FACTIONID" gender="$GENDER" genderId="$GENDERID" $GUILDVALUES lastModified="$MODIFIED" level="$LEVEL" name="$NAME" points="$ACHIEVEMENTPOINTS" prefix="$PREFIX" race="$RACE" raceId="$RACEID" realm="$REALM" suffix="$SUFFIX" titleId="$TITLEID">
+		$ARENATEAMSSTART
+			$ARENATEAMS
+		$ARENATEAMSEND
+	</character>
+	<characterTab>
+      <talentSpecs>
+		$TALENTS
+      </talentSpecs>
+      <buffs/>
+      <debuffs/>
+      <pvp>
+        <lifetimehonorablekills value="$LIFETIMEHONORABLEKILLS"/>
+        <arenacurrency value="$ARENACURRENCY"/>
+      </pvp>
+      <professions>
+		$PROFESSIONS
+      </professions>
+      <characterBars>
+        <health effective="$STAT_HEALTH"/>
+        <secondBar casting="$STAT_POWER_REGEN_CASTING" effective="$STAT_POWER_AMOUNT" notCasting="$STAT_POWER_REGEN_NOTCASTING" type="$STAT_POWER_TYPE"/>
+      </characterBars>
+      <baseStats>
+        <strength attack="$STAT_STRENGTH_ATTACK_POWER" base="$STAT_STRENGTH_BASE" block="$STAT_STRENGTH_BLOCK_VALUE" effective="$STAT_STRENGTH"/>
+        <agility armor="$STAT_AGILITY_ARMOR" attack="$STAT_AGILITY_ATTACK_POWER" base="$STAT_AGILITY_BASE" critHitPercent="$STAT_AGILITY_CRIT_HIT_PERCENT" effective="$STAT_AGILITY"/>
+        <stamina base="$STAT_STAMINA_BASE" effective="$STAT_STAMINA" health="$STAT_STAMINA_HEALTH_BONUS" petBonus="-1"/>
+        <intellect base="$STAT_INTELLECT_BASE" critHitPercent="$STAT_INTELLECT_CRIT_HIT_PERCENT" effective="$STAT_INTELLECT" mana="$STAT_INTELLECT_MANA_BONUS" petBonus="-1"/>
+        <spirit base="$STAT_SPIRIT_BASE" effective="$STAT_SPIRIT" healthRegen="$STAT_SPIRIT_HEALTH_REGEN" manaRegen="$STAT_SPIRIT_MANA_REGEN"/>
+        <armor base="$STAT_ARMOR" effective="$STAT_ARMOR" percent="$STAT_ARMOR_PERCENT" petBonus="-1"/>
+      </baseStats>
+      <resistances>
+        <arcane petBonus="-1" value="$STAT_RES_ARCANE"/>
+        <fire petBonus="-1" value="$STAT_RES_FIRE"/>
+        <frost petBonus="-1" value="$STAT_RES_FROST"/>
+        <holy petBonus="-1" value="$STAT_RES_HOLY"/>
+        <nature petBonus="-1" value="$STAT_RES_NATURE"/>
+        <shadow petBonus="-1" value="$STAT_RES_SHADOW"/>
+      </resistances>
+      <melee>
+        <mainHandDamage dps="$STAT_MAINHAND_DPS" max="$STAT_MAINHAND_MAXDMG" min="$STAT_MAINHAND_MINDMG" percent="0" speed="$STAT_MAINHAND_SPEED"/>
+        <offHandDamage dps="$STAT_OFFHAND_DPS" max="$STAT_OFFHAND_MAXDMG" min="$STAT_OFFHAND_MINDMG" percent="0" speed="$STAT_OFFHAND_SPEED"/>
+        <mainHandSpeed hastePercent="$STAT_MAINHAND_HASTE_PERCENT" hasteRating="$STAT_MAINHAND_HASTE_RATING" value="$STAT_MAINHAND_SPEED"/>
+        <offHandSpeed hastePercent="$STAT_OFFHAND_HASTE_PERCENT" hasteRating="$STAT_OFFHAND_HASTE_RATING" value="$STAT_OFFHAND_SPEED"/>
+        <power base="$STAT_ATTACK_POWER" effective="$STAT_ATTACK_POWER" increasedDps="$STAT_ATTACK_POWER_DPS"/>
+        <hitRating increasedHitPercent="$STAT_HIT_INCREASE_PERCENT" penetration="$STAT_HIT_PENETRATION" reducedArmorPercent="$STAT_HIT_DECREASE_ARMOR_PERCENT" value="$STAT_HIT_RATING"/>
+        <critChance percent="$STAT_MELEE_CRIT_PERCENT" plusPercent="$STAT_MELEE_CRIT_POS_PERCENT" rating="$STAT_MELEE_CRIT_RATING"/>
+        <expertise additional="$STAT_EXPERTISE_ADD" percent="$STAT_EXPERTISE_PERCENT" rating="$STAT_EXPERTISE_RATING" value="$STAT_EXPERTISE_VALUE"/>
+      </melee>
+      <ranged>
+        <weaponSkill rating="$STAT_RANGED_RATING" value="$STAT_RANGED_VALUE"/>
+        <damage dps="$STAT_RANGED_DPS" max="$STAT_RANGED_MAXDMG" min="$STAT_RANGED_MINDMG" percent="0" speed="$STAT_RANGED_SPEED"/>
+        <speed hastePercent="$STAT_RANGED_HASTE_PERCENT" hasteRating="$STAT_RANGED_HASTE_RATING" value="0.00"/>
+        <power base="$STAT_ATTACK_POWER" effective="$STAT_ATTACK_POWER" increasedDps="$STAT_ATTACK_POWER_DPS" petAttack="-1.00" petSpell="-1.00"/>
+        <hitRating increasedHitPercent="$STAT_HIT_INCREASE_PERCENT" penetration="$STAT_HIT_PENETRATION" reducedArmorPercent="$STAT_HIT_DECREASE_ARMOR_PERCENT" value="$STAT_HIT_RATING"/>
+        <critChance percent="$STAT_RANGED_CRIT_PERCENT" plusPercent="$STAT_RANGED_CRIT_POS_PERCENT" rating="$STAT_RANGED_CRIT_RATING"/>
+      </ranged>
+      <spell>
+        <bonusDamage>
+          <arcane value="$STAT_BONUSDMG_ARCANE"/>
+          <fire value="$STAT_BONUSDMG_FIRE"/>
+          <frost value="$STAT_BONUSDMG_FROST"/>
+          <holy value="$STAT_BONUSDMG_HOLY"/>
+          <nature value="$STAT_BONUSDMG_NATURE"/>
+          <shadow value="$STAT_BONUSDMG_SHADOW"/>
+          <petBonus attack="-1" damage="-1" fromType="0"/>
+        </bonusDamage>
+        <bonusHealing value="$STAT_HEALBONUS"/>
+        <hitRating increasedHitPercent="$STAT_HIT_INCREASE_PERCENT" penetration="$STAT_HIT_PENETRATION" reducedResist="$STAT_HIT_DECREASE_RESIST" value="$STAT_HIT_RATING"/>
+        <critChance rating="$STAT_SPELL_CRIT_RATING">
+          <arcane percent="$STAT_CRIT_ARCANE_PERCENT"/>
+          <fire percent="$STAT_CRIT_FIRE_PERCENT"/>
+          <frost percent="$STAT_CRIT_FROST_PERCENT"/>
+          <holy percent="$STAT_CRIT_HOLY_PERCENT"/>
+          <nature percent="$STAT_CRIT_NATURE_PERCENT"/>
+          <shadow percent="$STAT_CRIT_SHADOW_PERCENT"/>
+        </critChance>
+        <penetration value="$STAT_SPELL_PENETRATION"/>
+        <manaRegen casting="$STAT_POWER_REGEN_CASTING" notCasting="$STAT_POWER_REGEN_NOTCASTING"/>
+        <hasteRating hastePercent="$STAT_HASTE_PERCENT" hasteRating="$STAT_HASTE_RATING"/>
+      </spell>
+      <defenses>
+        <armor base="$STAT_ARMOR" effective="$STAT_ARMOR" percent="$STAT_ARMOR_PERCENT" petBonus="-1"/>
+        <defense decreasePercent="$STAT_DEFENSE_DECREASE_HIT" increasePercent="$STAT_DEFENSE_INCREASE_BLOCK" plusDefense="$STAT_DEFENSE_RATING_ITEMBONI" rating="$STAT_DEFENSE_RATING" value="$STAT_DEFENSE_RATING"/>
+        <dodge increasePercent="0.00" percent="$STAT_DODGE_PERCENT" rating="$STAT_DODGE"/>
+        <parry increasePercent="0.00" percent="$STAT_PARRY_PERCENT" rating="$STAT_PARRY"/>
+        <block increasePercent="0.00" percent="$STAT_BLOCK_PERCENT" rating="$STAT_BLOCK"/>
+        <resilience damagePercent="$STAT_RESILIENCE_PERCENT" hitPercent="0.00" value="$STAT_RESILIENCE"/>
+      </defenses>
+      <items>
+		$ITEMS
+	  </items>
+      <glyphs>
+		$GLYPHS
+      </glyphs>
+    </characterTab>
+    <summary>
+      <c earned="$ACHIEVEMENTSNUM" points="$ACHIEVEMENTPOINTS" total="$ACHIEVEMENTSNUMTOTAL" totalPoints="$ACHIEVEMENTPOINTSTOTAL"/>
+      <category id="92" name="$NAMECAT92">
+        <c earned="$ACHIEVEMENTSNUM92" earnedPoints="$ACHIEVEMENTPOINTS92" total="$ACHIEVEMENTSNUMTOTAL92" totalPoints="$ACHIEVEMENTPOINTSTOTAL92"/>
+      </category>
+      <category id="96" name="$NAMECAT96">
+        <c earned="$ACHIEVEMENTSNUM96" earnedPoints="$ACHIEVEMENTPOINTS96" total="$ACHIEVEMENTSNUMTOTAL96" totalPoints="$ACHIEVEMENTPOINTSTOTAL96"/>
+      </category>
+      <category id="97" name="$NAMECAT97">
+        <c earned="$ACHIEVEMENTSNUM97" earnedPoints="$ACHIEVEMENTPOINTS97" total="$ACHIEVEMENTSNUMTOTAL97" totalPoints="$ACHIEVEMENTPOINTSTOTAL97"/>
+      </category>
+      <category id="95" name="$NAMECAT95">
+        <c earned="$ACHIEVEMENTSNUM95" earnedPoints="$ACHIEVEMENTPOINTS95" total="$ACHIEVEMENTSNUMTOTAL95" totalPoints="$ACHIEVEMENTPOINTSTOTAL95"/>
+      </category>
+      <category id="168" name="$NAMECAT168">
+        <c earned="$ACHIEVEMENTSNUM168" earnedPoints="$ACHIEVEMENTPOINTS168" total="$ACHIEVEMENTSNUMTOTAL168" totalPoints="$ACHIEVEMENTPOINTSTOTAL168"/>
+      </category>
+      <category id="169" name="$NAMECAT169">
+        <c earned="$ACHIEVEMENTSNUM169" earnedPoints="$ACHIEVEMENTPOINTS169" total="$ACHIEVEMENTSNUMTOTAL169" totalPoints="$ACHIEVEMENTPOINTSTOTAL169"/>
+      </category>
+      <category id="201" name="$NAMECAT201">
+        <c earned="$ACHIEVEMENTSNUM201" earnedPoints="$ACHIEVEMENTPOINTS201" total="$ACHIEVEMENTSNUMTOTAL201" totalPoints="$ACHIEVEMENTPOINTSTOTAL201"/>
+      </category>
+      <category id="155" name="$NAMECAT155">
+        <c earned="$ACHIEVEMENTSNUM155" earnedPoints="$ACHIEVEMENTPOINTS155" total="$ACHIEVEMENTSNUMTOTAL155" totalPoints="$ACHIEVEMENTPOINTSTOTAL155"/>
+      </category>
+      <category id="81" name="$NAMECAT81">
+        <c earned="$ACHIEVEMENTSNUM81"/>
+      </category>
+    </summary>
+  </characterInfo>
+</page>

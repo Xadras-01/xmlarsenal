@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><tabs>
+	<tab href="/character-sheet.xml" id="character">캐릭터
+		<subTab href="/character-sheet.xml" id="profile">캐릭터 창</subTab>
+		<subTab href="/character-talents.xml" id="talents">특성과 문양</subTab>	
+		<subTab href="/character-reputation.xml" id="reputation">평판</subTab>
+		<subTab href="/vault/character-calendar.xml" id="calendar" login="true">달력</subTab>
+		<subTab href="/character-achievements.xml" id="achievements">업적</subTab>
+		<subTab href="/character-statistics.xml" id="statistics">통계</subTab>
+		<subTab href="/character-arenateams.xml" id="arena">투기장 팀</subTab>	
+	</tab>
+	<tab href="/guild-info.xml" id="guild">길드
+		<subTab href="/guild-info.xml" id="guildRoster">길드 명단</subTab>
+		<subTab href="/guild-stats.xml" id="guildStats">길드 통계</subTab>
+		<subTab href="/vault/guild-bank-contents.xml" id="guildBankContents" login="true">은행 보관물</subTab>
+		<subTab href="/vault/guild-bank-log.xml" id="guildBankLog" login="true">이용 내역</subTab>	
+	</tab>
+</tabs>

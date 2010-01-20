@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/guild/roster.xsl"?><page globalSearch="1" lang="$LANGUAGE" requestUrl="/guild-info.xml">
+  <tabInfo subTab="guildRoster" tab="guild" tabGroup="$TABGROUP" tabUrl="$TABURL"/>
+  <guildInfo>
+    <guildHeader battleGroup="$REALMPOOL" faction="$FACTIONID" members="$MEMBERCOUNT" name="$GUILDNAME" nameUrl="$GUILDNAMEURL" realm="$REALM" realmUrl="$REALMURL" url="$GUILDURL">
+      <emblem emblemBackground="$EMBLEMBG" emblemBorderColor="$EMBLEMBORDERCOL" emblemBorderStyle="$EMBLEMBORDERSTYLE" emblemIconColor="$EMBLEMICONCOL" emblemIconStyle="$EMBLEMICONSTYLE"/>
+    </guildHeader>
+    <guild>
+      <members memberCount="$MEMBERCOUNT">
+		$MEMBER
+      </members>
+    </guild>
+  </guildInfo>
+</page>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="투기장 래더">
+	<faqlist>
+		<faq question="투기장 계산기가 무엇인가요?">
+			투기장 계산기에는 세 가지 기능이 있습니다. 점수 계산기는 입력한 승점을 그 주에 해당하는 점수로 변환합니다. 승점 계산기는 입력한 목표와 현재 누적 점수를 고려하여 해당 목표를 달성하기까지 앞으로 필요한 평균 승점을 나타내는 표를 생성합니다. 시간 계산기도 입력한 점수 목표와 현재 점수를 사용하지만, 입력한 평균 승점을 바탕으로 해당 목표에 도달하기까지 필요한 시간을 산출합니다.
+		</faq>
+		<faq question="우리 팀 승점은 어떻게 계산되나요?">
+			새로 만든 팀은 1,500 점에서 시작하며 그 후의 승패에 따라 이 점수가 바뀝니다. 팀이 한 번 이길 때마다 승점이 올라가며, 질 때마다 승점이 내려갑니다. 다른 팀의 승점과 자신이 속한 팀의 승점을 비교한 것에 따라 승점의 변동치가 달라집니다. 참고로 예를 들면, 자신이 속해 있는 팀의 승점과 비슷한 승점을 가진 팀과 대전하면 순수하게 16의 승점이 가감됩니다.
+		</faq>
+		<faq question="우리 팀 승점이 어떻게 제 투기장 점수로 계산되나요 ?">
+			주말마다 여러분이 속한 팀의 승점으로 해당 주에 투기장 점수를 얼마나 얻게 될 것인지 산출합니다. 투기장 점수를 받으려면 각 팀은 일주일 동안 10회 이상의 전투를 치러야 하며, 속한 팀원은 한 주에 그 팀이 치른 전투의 30% 이상을 참가해야 해당하는 주의 점수를 받을 수 있습니다. 정해진 한 주 동안 받게 되는 점수는 자신이 속한 모든 팀의 점수가 합산된 것이 아니라 한 팀만의 점수임을 유념해주시기 바랍니다. 어느 팀에 속해있더라도 승점과 유형을 고려했을 때 가장 높은 팀의 점수를 그 주의 투기장 점수로 받게 됩니다. 2대2 팀과 3대3 팀은 같은 팀 승점이라 하더라도 5대5팀에 비해 적은 점수를 받게 됩니다.
+		</faq>
+		<faq question="투기장 점수로 무엇을 구매할 수 있고, 한 번에 몇 점까지 모아놓을 수 있나요?">
+			투기장 점수는 투기장 보상품을 구매하는 통화로 사용할 수 있습니다. 최대 5천 점까지 모을 수 있으며 시간이 지나도 사라지지 않습니다.
+		</faq>
+		<faq question="0.999점은 1점과 같나요?">
+			그렇습니다. 
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="투기장 토너먼트 정보" url="/arena-tournament.xml"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="투기장 시스템 개요" type="external" url="http://www.worldofwarcraft.co.kr/guide/arena/"/>
+		<relatedlink name="투기장 심층 분석" type="external" url="http://www.worldofwarcraft.co.kr/news/world/article/arena.html"/>
+		<relatedlink name="투기장 무기 보상 아이템" type="external" url="http://www.worldofwarcraft.co.kr/guide/arena/rewards-arena-weapons.html"/>
+		<relatedlink name="투기장 직업별 방어구 보상 아이템" type="external" url="http://www.worldofwarcraft.co.kr/guide/arena/rewards-arena-class-armor.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="F.A.Q.s" url="/faq-armory.xml"/>
+		<relatedlink name="알려진 문제들" url="Javascript:openIssues()"/>	
+		<relatedlink name="전투정보실 오류 신고" type="report" url="mailto:bugreport@blizzard.co.kr"/>
+	</relatedlinks>
+</relatedinfo>

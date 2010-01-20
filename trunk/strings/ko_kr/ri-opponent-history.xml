@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="상대 전적 페이지">
+	<faqlist>
+		
+		<faq question="상대 전적 페이지에는 어떤 기능이 있나요?">
+상대 전적 페이지에는 투기장 전 시즌에 걸쳐 해당 팀이 상대한 모든 팀의 기록이 있습니다. 기록을 남긴다는 목적 외에, 특정 직업 구성을 상대로 한 팀의 전투 실적을 확인하는 데 유용하게 쓸 수 있습니다. 이 페이지 안에 담긴 정보와 기능은 다음과 같습니다.
+<ul>
+<li>1시즌이 시작되었을 때부터 두 번 이상 경기를 치른 모든 상대팀의 정보가 표시됩니다.</li>
+<li>검색 조건을 사용하여 상세 검색을 할 수 있습니다.</li>
+<li>각 항은 팀 명, 서버, 치른 경기(기본값), 승/패, 승률, 순 승률 변화 별로 정렬할 수 있습니다.</li>
+<li>상대팀 명단을 표시하려면 팀 이름을 클릭하거나, 경기 전적에서 해당 팀 이름을 검색하시기 바랍니다.</li>
+</ul>
+		</faq>
+		
+		<faq question="어떤 팀이 직업 구성을 어떻게 했는지 정확히 알아보려면 어떻게 해야 하나요?">
+정확한 상대팀 명단을 확인하려면 경기 전적에서 해당 팀 이름으로 걸러낸 다음 바로가기를 누르면 개별 경기 기록이 나타납니다. 팀 이름을 클릭하면 팀 정보에 현재 팀 명단이 표시되는데, 꼭 해당 팀을 상대했던 명단이나 특정 직업 구성이 나타나는 것은 아닙니다.
+		</faq>				
+		
+		<faq question="상대했던 팀을 확인하려면 왜 최소한 두 경기를 치러야 하나요?">
+		최소 두 경기라는 조건이 있기 때문에 상대 전적에서 대다수를 차지하는 자료인 단 한 번 상대했던 팀을 걸러낼 수 있습니다. 중요하지 않은 이러한 통계치를 제거함으로써 좀 더 정확하고 믿을 만한 결과 자료를 낼 수 있습니다.
+		</faq>
+
+		<faq question="“승부 거래”를 해서 팀 승률을 인위적으로 올린다고 의심이 가는 팀이 있는데, 신고해야 하나요?">
+투기장 기록을 확인해보신 다음, 승부 거래 행위가 분명하다면 게임 안에서 GM에게 신고하시기 바랍니다.
+		</faq>	
+		
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="투기장 토너먼트 정보" url="/arena-tournament.xml"/>
+		<relatedlink name="투기장 명예의 전당" url="/hof/one/index.xml"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="투기장 시스템 개요" type="external" url="http://www.worldofwarcraft.com/pvp/arena/index.xml"/>
+		<relatedlink name="투기장 심층 분석" type="external" url="http://www.worldofwarcraft.com/insider/11/arena.xml"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="F.A.Q" url="/faq-armory.xml"/>
+		<relatedlink name="알려진 문제들" url="http://forums.worldofwarcraft.com/thread.html?topicId=1777873353&amp;sid=1"/>		
+		<relatedlink name="전투정보실 오류 신고" type="report" url="mailto:wowguide@blizzard.com?subject=WoW Armory Error&amp;body=Error on page: REPLACEURL%0A%0AType your error report here:%0A%0A%0A%0A%0A%0A---------------%0ARead the error reporting guidelines before submitting your email%0Ahttp://www.worldofwarcraft.com/info/faq/guide.html%0APlease use this email to report guide errors only. Any problems with the game or your account should be reported here: http://www.blizzard.com/support/wow/?id=aww01730p"/>
+	</relatedlinks>
+</relatedinfo>

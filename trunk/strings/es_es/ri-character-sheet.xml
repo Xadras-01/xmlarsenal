@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Hoja de personaje">
+	<faqlist>
+		<faq question="¿Para qué es la opción &quot;Buscar una mejora&quot; en los objetos del perfil de personaje?">
+			Al pasar el puntero del ratón sobre un objeto, este se transformará en un botón. Al hacer clic en este botón irás a la página con las posibles mejoras para ese objeto, y para ese personaje en particular. Estas mejoras recomendadas tienen en cuenta la clase del personaje, sus estadísticas, y la calidad general de su equipo. De esta forma, puedes buscar mejoras para los objetos de tu personaje.
+			<p/>
+			Así puedes ver las actualizaciones que puedes hacer en tu equipo y en otros personajes de World of Warcraft. Esta función también puede ser útil para aquellos personahes con varios equipos diferentes ya que puedes encontrar mejoras para todos ellos.
+			<p/>
+			Lee más en nuestra sección de <a href="faq-item-info-recommended.xml;">preguntas frecuentes</a>.
+		</faq>
+		<faq question="¿Por qué no aparece mi hoja de personaje?">
+			Solamente disponemos de datos de los personajes de reinos europeos, pues esta es la versión europea de la Armería. Para cambiar a una región diferente, como Estados Unidos, tienes que dirigirte a su sitio web regional de World of Warcraft website y acceder a la Armería desde ahí. Por otra parte, los personajes tienen que haber estado activos recientemente para que su perfil aparezca en la Armería. Además, tu personaje tiene que haber llegado al menos al nivel 10 para aparecer en los perfiles.
+		</faq>
+		<faq question="¿Por qué no aparece mi personaje de nivel bajo?">
+			Los personajes deben ser por lo menos de nivel 10 para aparecer en la Armería y tener un perfil de personaje en la página.
+		</faq>
+		<faq question="¿Dónde puedo ver los iconos de la Arenas?">
+			Puedes ver todos los iconos disponibles en <a href="legend-achievements.xml" target="_blank">esta página</a>.
+		</faq>
+		<faq question="¿Por qué no se muestra mi total de muertes con honor?">
+			Para que se muestre el total de muertes con honor conseguidas, debes haber logrado un mínimo de 1337 muertes.
+		</faq>
+		<faq question="¿Por que no aparece mi munición en la hoja del personaje?">
+			Esta característica podría añadirse en el futuro. 
+		</faq>
+		<faq question="¿Por qué es erróneo el retrato de mi personaje que se muestra?">
+			La Armería no muestra una imagen real de tu personaje en el juego. Se trata de una imagen que se genera de forma automática para todos los personajes con la misma combinación de raza, clase y sexo.
+		</faq>
+		<faq question="¿Qué títulos pueden ganar los personajes?">
+			Para ver una lista completa de títulos, visita nuestra página <a href="http://www.wow-europe.com/es/info/basics/titles.html">Títulos de personajes</a>.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="Búsqueda de personajes" url="/character-search.xml"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Guía de atributos del personaje" type="external" url="http://www.wow-europe.com/es/info/basics/characters.html"/>
+		<relatedlink name="Razas" type="external" url="http://www.wow-europe.com/es/info/races/index.html"/>
+		<relatedlink name="Clases" type="external" url="http://www.wow-europe.com/es/info/classes/index.html"/>
+		<relatedlink name="Profesiones" type="external" url="http://www.wow-europe.com/es/info/professions/index.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Preguntas frecuentes" url="/faq-armory.xml"/>
+		<relatedlink name="Problemas conocidos" type="external" url="http://forums.wow-europe.com/thread.html?topicId=1016251969&amp;sid=4"/>
+		<relatedlink name="Informa de un error" type="report" url="http://forums.wow-europe.com/board.html?forumId=11088&amp;sid=1"/>
+		<relatedlink name="Informa de un problema de traducción" type="translation" url="http://forums.wow-europe.com/board.html?forumId=11200&amp;sid=4"/>
+	</relatedlinks>
+</relatedinfo>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><tabs id="releases">
+	<tab class="select0" key="armory.dungeontab.wrath" link="/dungeons.xml" pageId="2"/>
+	<tab class="select0" key="armory.dungeontab.tbc" link="/dungeons1.xml" pageId="1"/>
+	<tab class="select0" key="armory.dungeontab.classic" link="/dungeons0.xml" pageId="0"/>
+</tabs>

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?><page globalSearch="1" lang="ko_kr" requestUrl="/talent-tree.xml">
+  <talentTrees>
+    <tree bgImage="RogueCombat" icon="ability_backstab" key="Combat" name="전투" order="1">
+      <talent column="0" icon="ability_gouge" key="203" name="후려치기 연마" tier="0">
+        <rank description="후려치기의 지속시간이 0.5초만큼 증가합니다." lvl="1"/>
+        <rank description="후려치기의 지속시간이 1초만큼 증가합니다." lvl="2"/>
+        <rank description="후려치기의 지속시간이 1.5초만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_ritualofsacrifice" key="201" name="사악한 일격 연마" tier="0">
+        <rank description="사악한 일격에 소모되는 기력이 3만큼 감소합니다." lvl="1"/>
+        <rank description="사악한 일격에 소모되는 기력이 5만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_dualwield" key="221" name="쌍수 무기 전문화" tier="0">
+        <rank description="보조 무기의 공격력이 10%만큼 증가합니다." lvl="1"/>
+        <rank description="보조 무기의 공격력이 20%만큼 증가합니다." lvl="2"/>
+        <rank description="보조 무기의 공격력이 30%만큼 증가합니다." lvl="3"/>
+        <rank description="보조 무기의 공격력이 40%만큼 증가합니다." lvl="4"/>
+        <rank description="보조 무기의 공격력이 50%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_slicedice" key="1827" name="난도질 연마" tier="1">
+        <rank description="난도질의 지속시간이 25%만큼 증가합니다." lvl="1"/>
+        <rank description="난도질의 지속시간이 50%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_parry" key="187" name="재빠른 손놀림" tier="1">
+        <rank description="무기 막기 확률이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="무기 막기 확률이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="무기 막기 확률이 6%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="ability_marksmanship" key="181" name="정밀함" tier="1">
+        <rank description="독 공격과 무기의 적중률이 1%만큼 증가합니다." lvl="1"/>
+        <rank description="독 공격과 무기의 적중률이 2%만큼 증가합니다." lvl="2"/>
+        <rank description="독 공격과 무기의 적중률이 3%만큼 증가합니다." lvl="3"/>
+        <rank description="독 공격과 무기의 적중률이 4%만큼 증가합니다." lvl="4"/>
+        <rank description="독 공격과 무기의 적중률이 5%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_shadowward" key="204" name="지구력" tier="2">
+        <rank description="전력 질주와 회피의 재사용 대기시간이 30초만큼 단축되고 전체 체력이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="전력 질주와 회피의 재사용 대기시간이 60초만큼 단축되고 전체 체력이 4%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_challange" key="301" name="반격" requires="187" tier="2">
+        <rank description="이 효과는 적의 공격을 무기로 막아낸 후에 활성화됩니다. 다음 공격은 무기 공격력의 150%에 해당하는 피해를 입히고 30초 동안 대상의 근접 공격 속도를 20%만큼 감소시킵니다. 1의 연계 점수가 주어집니다." lvl="1"/>
+        <spell castTime="0" cooldown="6000" maxRange="5">
+          <power cost="10" type="energy"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="inv_weapon_shortblade_05" key="182" name="백병전" requires="221" tier="2">
+        <rank description="단검과 장착 무기로 치명타를 적중시킬 확률이 1%만큼 증가합니다." lvl="1"/>
+        <rank description="단검과 장착 무기로 치명타를 적중시킬 확률이 2%만큼 증가합니다." lvl="2"/>
+        <rank description="단검과 장착 무기로 치명타를 적중시킬 확률이 3%만큼 증가합니다." lvl="3"/>
+        <rank description="단검과 장착 무기로 치명타를 적중시킬 확률이 4%만큼 증가합니다." lvl="4"/>
+        <rank description="단검과 장착 무기로 치명타를 적중시킬 확률이 5%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_kick" key="206" name="발차기 연마" tier="3">
+        <rank description="발차기에 적중한 적을 50%의 확률로 2초 동안 침묵하도록 만듭니다." lvl="1"/>
+        <rank description="발차기에 적중한 적을 100%의 확률로 2초 동안 침묵하도록 만듭니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_sprint" key="222" name="전력 질주 연마" tier="3">
+        <rank description="전력 질주 사용 시 50%의 확률로 모든 이동 방해 효과에서 벗어납니다." lvl="1"/>
+        <rank description="전력 질주 사용 시 100%의 확률로 모든 이동 방해 효과에서 벗어납니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_nature_invisibilty" key="186" name="번개같은 반사 신경" tier="3">
+        <rank description="회피율이 2%만큼 증가하고 근접 가속이 4%만큼 증가합니다." lvl="1"/>
+        <rank description="회피율이 4%만큼 증가하고 근접 가속이 7%만큼 증가합니다." lvl="2"/>
+        <rank description="회피율이 6%만큼 증가하고 근접 가속이 10%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="ability_racial_avatar" key="1122" name="공격성" tier="3">
+        <rank description="사악한 일격과 기습 및 절개의 공격력이 3%만큼 증가합니다." lvl="1"/>
+        <rank description="사악한 일격과 기습 및 절개의 공격력이 6%만큼 증가합니다." lvl="2"/>
+        <rank description="사악한 일격과 기습 및 절개의 공격력이 9%만큼 증가합니다." lvl="3"/>
+        <rank description="사악한 일격과 기습 및 절개의 공격력이 12%만큼 증가합니다." lvl="4"/>
+        <rank description="사악한 일격과 기습 및 절개의 공격력이 15%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="inv_mace_01" key="184" name="둔기류 전문화" tier="4">
+        <rank description="둔기로 공격 시 상대 방어도를 최대 3%만큼 무시합니다." lvl="1"/>
+        <rank description="둔기로 공격 시 상대 방어도를 최대 6%만큼 무시합니다." lvl="2"/>
+        <rank description="둔기로 공격 시 상대 방어도를 최대 9%만큼 무시합니다." lvl="3"/>
+        <rank description="둔기로 공격 시 상대 방어도를 최대 12%만큼 무시합니다." lvl="4"/>
+        <rank description="둔기로 공격 시 상대 방어도를 최대 15%만큼 무시합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_punishingblow" key="223" name="폭풍의 칼날" tier="4">
+        <rank description="공격 속도가 20%만큼 증가합니다. 추가로 공격 시 주위의 적 하나를 추가로 공격합니다. 15초 동안 지속됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="120000">
+          <power cost="25" type="energy"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="inv_sword_27" key="242" name="자르고 베기" tier="4">
+        <rank description="검 또는 도끼로 적을 적중시켰을 때 1%의 확률로 같은 대상에게 추가 공격을 가할 수 있습니다." lvl="1"/>
+        <rank description="검 또는 도끼로 적을 적중시켰을 때 2%의 확률로 같은 대상에게 추가 공격을 가할 수 있습니다." lvl="2"/>
+        <rank description="검 또는 도끼로 적을 적중시켰을 때 3%의 확률로 같은 대상에게 추가 공격을 가할 수 있습니다." lvl="3"/>
+        <rank description="검 또는 도끼로 적을 적중시켰을 때 4%의 확률로 같은 대상에게 추가 공격을 가할 수 있습니다." lvl="4"/>
+        <rank description="검 또는 도끼로 적을 적중시켰을 때 5%의 확률로 같은 대상에게 추가 공격을 가할 수 있습니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_holy_blessingofstrength" key="1703" name="무기 전문가" requires="223" tier="5">
+        <rank description="숙련이 5만큼 증가합니다." lvl="1"/>
+        <rank description="숙련이 10만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_bladetwisting" key="1706" name="칼날 비틀기" tier="5">
+        <rank description="사악한 일격과 기습의 공격력이 5%만큼 증가하고, 근접 공격으로 피해를 입혔을 때 10%의 확률로 4초 동안 대상을 멍해지게 만듭니다." lvl="1"/>
+        <rank description="사악한 일격과 기습의 공격력이 10%만큼 증가하고, 근접 공격으로 피해를 입혔을 때 10%의 확률로 8초 동안 대상을 멍해지게 만듭니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_warrior_revenge" key="1705" name="활력" tier="6">
+        <rank description="기력의 회복 속도가 8%만큼 증가합니다." lvl="1"/>
+        <rank description="기력의 회복 속도가 16%만큼 증가합니다." lvl="2"/>
+        <rank description="기력의 회복 속도가 25%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_shadowworddominate" key="205" name="아드레날린 촉진" tier="6">
+        <rank description="15초 동안 기력의 회복 속도가 100%만큼 증가됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_nervesofsteel" key="1707" name="강철 신경" tier="6">
+        <rank description="기절 및 공포 효과에 걸려 있는 동안 받는 피해가 15%만큼 감소합니다." lvl="1"/>
+        <rank description="기절 및 공포 효과에 걸려 있는 동안 받는 피해가 30%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_throwingspecialization" key="2072" name="투척술 전문화" tier="7">
+        <rank description="투척과 죽음의 투척의 사정거리가 2미터만큼 증가하고 죽음의 투척과 칼날 부채 사용 시 50%의 확률로 3초 동안 대상의 주문 시전을 방해합니다." lvl="1"/>
+        <rank description="투척과 죽음의 투척의 사정거리가 4미터만큼 증가하고 죽음의 투척과 칼날 부채 사용 시 100%의 확률로 3초 동안 대상의 주문 시전을 방해합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="inv_weapon_shortblade_38" key="1825" name="전투 능력" tier="7">
+        <rank description="보조 무기로 공격을 적중시켰을 경우 20%의 확률로 3의 기력이 회복됩니다." lvl="1"/>
+        <rank description="보조 무기로 공격을 적중시켰을 경우 20%의 확률로 6의 기력이 회복됩니다." lvl="2"/>
+        <rank description="보조 무기로 공격을 적중시켰을 경우 20%의 확률로 9의 기력이 회복됩니다." lvl="3"/>
+        <rank description="보조 무기로 공격을 적중시켰을 경우 20%의 확률로 12의 기력이 회복됩니다." lvl="4"/>
+        <rank description="보조 무기로 공격을 적중시켰을 경우 20%의 확률로 15의 기력이 회복됩니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_unfairadvantage" key="2073" name="부당 이득" tier="8">
+        <rank description="공격을 회피할 때마다 부당 이득 효과를 얻어 역으로 주무기 공격력의 50%만큼의 피해를 입힙니다. 이 효과는 매초마다 최대 1번씩만 발동됩니다." lvl="1"/>
+        <rank description="공격을 회피할 때마다 부당 이득 효과를 얻어 역으로 주무기 공격력의 100%만큼의 피해를 입힙니다. 이 효과는 매초마다 최대 1번씩만 발동됩니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_surpriseattack" key="1709" name="급습" requires="205" tier="8">
+        <rank description="상대방이 자신의 마무리 일격을 회피할 수 없게 되며 사악한 일격, 기습, 독칼, 과다출혈, 후려치기의 공격력이 10%만큼 증가합니다." lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_creature_disease_03" key="2074" name="야만적인 전투" tier="8">
+        <rank description="전체 전투력이 2%만큼 증가하고 자신의 독이 걸린 대상에 대한 모든 물리 공격력이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="전체 전투력이 4%만큼 증가하고 자신의 독이 걸린 대상에 대한 모든 물리 공격력이 4%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_preyontheweak" key="2075" name="약한 먹잇감" tier="9">
+        <rank description="대상의 백분율 생명력이 자신보다 낮을 때 치명타 피해가 4%만큼 증가합니다." lvl="1"/>
+        <rank description="대상의 백분율 생명력이 자신보다 낮을 때 치명타 피해가 8%만큼 증가합니다." lvl="2"/>
+        <rank description="대상의 백분율 생명력이 자신보다 낮을 때 치명타 피해가 12%만큼 증가합니다." lvl="3"/>
+        <rank description="대상의 백분율 생명력이 자신보다 낮을 때 치명타 피해가 16%만큼 증가합니다." lvl="4"/>
+        <rank description="대상의 백분율 생명력이 자신보다 낮을 때 치명타 피해가 20%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_murderspree" key="2076" name="광기의 학살자" tier="10">
+        <rank description="적의 그림자 사이로 숨어 들어 10미터 이내의 다른 적에게 다가가 총 5번까지 매 0.5초마다 쌍수로 적을 공격합니다. 효과가 지속되는 동안 모든 공격력이 20%만큼 증가합니다. 같은 대상을 여러 번 공격할 수 있습니다. 투명 상태의 적이나 은신 상태의 적은 공격할 수 없습니다." lvl="1"/>
+        <spell castTime="0" cooldown="120000" maxRange="10"/>
+      </talent>
+    </tree>
+    <tree bgImage="RogueSubtlety" icon="ability_stealth" key="Subtlety" name="잠행" order="2">
+      <talent column="0" icon="ability_warrior_decisivestrike" key="2244" name="가혹한 일격" tier="0">
+        <rank description="연계 점수 당 4%의 확률로 마무리 일격 사용 후 25의 기력을 회복합니다." lvl="1"/>
+        <rank description="연계 점수 당 8%의 확률로 마무리 일격 사용 후 25의 기력을 회복합니다." lvl="2"/>
+        <rank description="연계 점수 당 12%의 확률로 마무리 일격 사용 후 25의 기력을 회복합니다." lvl="3"/>
+        <rank description="연계 점수 당 16%의 확률로 마무리 일격 사용 후 25의 기력을 회복합니다." lvl="4"/>
+        <rank description="연계 점수 당 20%의 확률로 마무리 일격 사용 후 25의 기력을 회복합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_charm" key="241" name="속임수의 대가" tier="0">
+        <rank description="은신 상태에서 적이 자신을 발견할 확률이 감소합니다." lvl="1"/>
+        <rank description="은신 상태에서 적이 자신을 발견할 확률이 감소합니다. 1 레벨 속임수의 대가보다 효과가 좋습니다." lvl="2"/>
+        <rank description="은신 상태에서 적이 자신을 발견할 확률이 감소합니다. 2 레벨 속임수의 대가보다 효과가 좋습니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_warrior_warcry" key="261" name="기회 포착" tier="0">
+        <rank description="기습과 절단, 목 조르기, 매복의 공격력이 10%만큼 증가합니다." lvl="1"/>
+        <rank description="기습과 절단, 목 조르기, 매복의 공격력이 20%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_feint" key="1700" name="손재주" tier="1">
+        <rank description="근접 및 원거리 치명타에 적중 당할 확률이 1%만큼 감소하고 교란으로 감소되는 위협 수준이 10%만큼 증가합니다." lvl="1"/>
+        <rank description="근접 및 원거리 치명타에 적중 당할 확률이 2%만큼 감소하고 교란으로 감소되는 위협 수준이 20%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_sap" key="262" name="비열한 속임수" tier="1">
+        <rank description="기절시키기와 실명의 사정거리가 2미터만큼 증가하고 기절시키기와 실명에 소비되는 기력이 25%만큼 감소합니다." lvl="1"/>
+        <rank description="기절시키기와 실명의 사정거리가 5미터만큼 증가하고 기절시키기와 실명에 소비되는 기력이 50%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_stealth" key="244" name="위장술" tier="1">
+        <rank description="은신 상태의 이동 속도가 5%만큼 증가하고 은신의 재사용 대기시간이 2초만큼 단축됩니다." lvl="1"/>
+        <rank description="은신 상태의 이동 속도가 10%만큼 증가하고 은신의 재사용 대기시간이 4초만큼 단축됩니다." lvl="2"/>
+        <rank description="은신 상태의 이동 속도가 15%만큼 증가하고 은신의 재사용 대기시간이 6초만큼 단축됩니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_magic_lesserinvisibilty" key="247" name="약삭빠름" tier="2">
+        <rank description="소멸과 실명의 재사용 대기시간이 30초만큼 감소하고 그림자 망토의 재사용 대기시간이 15초만큼 감소합니다." lvl="1"/>
+        <rank description="소멸과 실명의 재사용 대기시간이 60초만큼 감소하고 그림자 망토의 재사용 대기시간이 30초만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_curse" key="303" name="그림자 일격" tier="2">
+        <rank description="적을 공격하여 무기 공격력의 125%에 해당하는 피해를 입히고 7초 동안 자신의 회피 확률을 15%만큼 증가시킵니다. 1의 연계 점수가 주어집니다." lvl="1"/>
+        <spell castTime="0" cooldown="20000" maxRange="5">
+          <power cost="40" type="energy"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="inv_sword_17" key="1123" name="톱니 칼날" tier="2">
+        <rank description="공격 시 대상의 방어도가 0만큼 무시되며 파열의 피해가 10%만큼 증가합니다. 무시되는 방어도는 자신의 레벨에 따라 증가합니다." lvl="1"/>
+        <rank description="공격 시 대상의 방어도가 0만큼 무시되며 파열의 피해가 20%만큼 증가합니다. 무시되는 방어도는 자신의 레벨에 따라 증가합니다." lvl="2"/>
+        <rank description="공격 시 대상의 방어도가 0만큼 무시되며 파열의 피해가 30%만큼 증가합니다. 무시되는 방어도는 자신의 레벨에 따라 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_nature_mirrorimage" key="246" name="사전 준비" tier="3">
+        <rank description="적의 공격을 회피하거나 주문을 완전히 저항했을 때 33%의 확률로 대상에 대한 연계 점수 1점이 추가됩니다. 이 효과는 1초마다 1번씩만 발동됩니다." lvl="1"/>
+        <rank description="적의 공격을 회피하거나 주문을 완전히 저항했을 때 66%의 확률로 대상에 대한 연계 점수 1점이 추가됩니다. 이 효과는 1초마다 1번씩만 발동됩니다." lvl="2"/>
+        <rank description="적의 공격을 회피하거나 주문을 완전히 저항했을 때 100%의 확률로 대상에 대한 연계 점수 1점이 추가됩니다. 이 효과는 1초마다 1번씩만 발동됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_fumble" key="245" name="선제 공격" tier="3">
+        <rank description="매복, 목조르기, 비열한 습격 사용 시 33%의 확률로 대상에 대한 연계 점수 1점이 추가됩니다." lvl="1"/>
+        <rank description="매복, 목조르기, 비열한 습격 사용 시 66%의 확률로 대상에 대한 연계 점수 1점이 추가됩니다." lvl="2"/>
+        <rank description="매복, 목조르기, 비열한 습격 사용 시 100%의 확률로 대상에 대한 연계 점수 1점이 추가됩니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_ambush" key="263" name="매복 연마" tier="3">
+        <rank description="매복으로 치명타를 성공시킬 확률이 25%만큼 증가합니다." lvl="1"/>
+        <rank description="매복으로 치명타를 성공시킬 확률이 50%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_ambush" key="1701" name="감지력 향상" tier="4">
+        <rank description="은신 감지 능력이 증가하고 주문 및 원거리 공격에 적중 당할 확률이 2%만큼 감소합니다." lvl="1"/>
+        <rank description="은신 감지 능력이 증가하고 주문 및 원거리 공격에 적중 당할 확률이 4%만큼 감소합니다. 1 레벨보다 효과가 좋습니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_antishadow" key="284" name="마음가짐" tier="4">
+        <rank description="활성화되면 회피, 전력 질주, 소멸, 냉혈, 그림자 밟기의 재사용 대기시간이 초기화됩니다" lvl="1"/>
+        <spell castTime="0" cooldown="600000"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_summonsuccubus" key="265" name="비열한 행위" tier="4">
+        <rank description="비열한 습격과 목조르기에 소비되는 기력이 10만큼 감소합니다. 추가로, 대상의 생명력이 35% 미만일 경우 특수 기술로 10%의 추가 피해를 줍니다." lvl="1"/>
+        <rank description="비열한 습격과 목조르기에 소비되는 기력이 20만큼 감소합니다. 추가로, 대상의 생명력이 35% 미만일 경우 특수 기술로 20%의 추가 피해를 줍니다." lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_lifedrain" key="681" name="과다출혈" requires="1123" tier="4">
+        <rank description="적에게 즉시 일격을 가하여 무기 공격력의 110%만큼 피해를 입히고 과다출혈을 일으킵니다. 이후에 입히는 모든 물리 공격의 피해가 최대 13만큼 증가합니다. 15초 동안 10회 유효합니다. 1의 연계 점수가 주어집니다." lvl="1"/>
+        <spell castTime="0" maxRange="5">
+          <power cost="35" type="energy"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="ability_rogue_masterofsubtlety" key="1713" name="잠행의 대가" tier="5">
+        <rank description="은신 중에 가한 공격과 은신이 풀린 후 6초 동안에 가한 공격은 4%의 추가 피해를 입힙니다." lvl="1"/>
+        <rank description="은신 중에 가한 공격과 은신이 풀린 후 6초 동안에 가한 공격은 7%의 추가 피해를 입힙니다." lvl="2"/>
+        <rank description="은신 중에 가한 공격과 은신이 풀린 후 6초 동안에 가한 공격은 10%의 추가 피해를 입힙니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="inv_weapon_crossbow_11" key="1702" name="적개심" tier="5">
+        <rank description="전투력이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="전투력이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="전투력이 6%만큼 증가합니다." lvl="3"/>
+        <rank description="전투력이 8%만큼 증가합니다." lvl="4"/>
+        <rank description="전투력이 10%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_envelopingshadows" key="1711" name="장막의 그림자" tier="6">
+        <rank description="광역 공격으로 입는 피해가 10%만큼 감소합니다." lvl="1"/>
+        <rank description="광역 공격으로 입는 피해가 20%만큼 감소합니다." lvl="2"/>
+        <rank description="광역 공격으로 입는 피해가 30%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_possession" key="381" name="사전계획" requires="284" tier="6">
+        <rank description="대상에 대한 연계 점수 2점이 추가됩니다. 20초 내에 연계 점수를 추가하거나 추가된 연계 점수를 사용하지 않으면 연계 점수가 사라집니다." lvl="1"/>
+        <spell castTime="0" cooldown="20000" maxRange="30"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_cheatdeath" key="1722" name="구사일생" tier="6">
+        <rank description="자신을 죽음에 이르도록 만들 수 있는 공격을 받았을 때 33%의 확률로 전체 생명력의 10%에 해당하는 생명력을 남기고 살아납니다. 또한 3초 동안 받는 모든 피해가 탄력도를 기반으로 최대 90%만큼 감소됩니다. 이 효과는 1분에 1번씩만 발동됩니다." lvl="1"/>
+        <rank description="자신을 죽음에 이르도록 만들 수 있는 공격을 받았을 때 66%의 확률로 전체 생명력의 10%에 해당하는 생명력을 남기고 살아납니다. 또한 3초 동안 받는 모든 피해가 탄력도를 기반으로 최대 90%만큼 감소됩니다. 이 효과는 1분에 1번씩만 발동됩니다." lvl="2"/>
+        <rank description="자신을 죽음에 이르도록 만들 수 있는 공격을 받았을 때 100%의 확률로 전체 생명력의 10%에 해당하는 생명력을 남기고 살아납니다. 또한 3초 동안 받는 모든 피해가 탄력도를 기반으로 최대 90%만큼 감소됩니다. 이 효과는 1분에 1번씩만 발동됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_sinistercalling" key="1712" name="사악한 충동" requires="381" tier="7">
+        <rank description="총 민첩성이 3%만큼 증가합니다. 기습과 과다출혈로 증가하는 백분율 피해가 추가로 2%만큼 증가합니다." lvl="1"/>
+        <rank description="총 민첩성이 6%만큼 증가합니다. 기습과 과다출혈로 증가하는 백분율 피해가 추가로 4%만큼 증가합니다." lvl="2"/>
+        <rank description="총 민첩성이 9%만큼 증가합니다. 기습과 과다출혈로 증가하는 백분율 피해가 추가로 6%만큼 증가합니다." lvl="3"/>
+        <rank description="총 민첩성이 12%만큼 증가합니다. 기습과 과다출혈로 증가하는 백분율 피해가 추가로 8%만큼 증가합니다." lvl="4"/>
+        <rank description="총 민첩성이 15%만큼 증가합니다. 기습과 과다출혈로 증가하는 백분율 피해가 추가로 10%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_waylay" key="2077" name="습격" tier="7">
+        <rank description="매복이 치명타로 적중하면 50%의 확률로 8초 동안 대상의 근접 및 원거리 공격 속도를 20%만큼, 이동 속도를 70%만큼 감소시킵니다." lvl="1"/>
+        <rank description="매복이 치명타로 적중하면 100%의 확률로 8초 동안 대상의 근접 및 원거리 공격 속도를 20%만큼, 이동 속도를 70%만큼 감소시킵니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_honoramongstthieves" key="2078" name="도둑의 명예" tier="8">
+        <rank description="파티원이 치명타 피해를 입히거나 치유 주문으로 극대화 효과를 발휘하면 33%의 확률로 현재 대상에 연계 점수가 추가됩니다. 이 효과는 1초에 1번씩만 발동됩니다." lvl="1"/>
+        <rank description="파티원이 치명타 피해를 입히거나 치유 주문으로 극대화 효과를 발휘하면 66%의 확률로 현재 대상에 연계 점수가 추가됩니다. 이 효과는 1초에 1번씩만 발동됩니다." lvl="2"/>
+        <rank description="파티원이 치명타 피해를 입히거나 치유 주문으로 극대화 효과를 발휘하면 100%의 확률로 현재 대상에 연계 점수가 추가됩니다. 이 효과는 1초에 1번씩만 발동됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_shadowstep" key="1714" name="그림자 밟기" tier="8">
+        <rank description="그림자 사이로 숨어 들어 적의 배후에서 나타납니다. 3초 동안 이동 속도가  70%만큼 증가합니다. 다음 기술의 공격력이 20%만큼 증가하고 생성되는 위협 수준이 50%만큼 감소합니다. 10초 동안 지속됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="30000" maxRange="25">
+          <power cost="10" type="energy"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_rogue_wrongfullyaccused" key="2079" name="부정한 책략" tier="8">
+        <rank description="속임수 거래와 혼란의 재사용 대기시간이 5초만큼 감소하고 마음가짐의 재사용 대기시간이 2.5분만큼 감소합니다." lvl="1"/>
+        <rank description="속임수 거래와 혼란의 재사용 대기시간이 10초만큼 감소하고 마음가짐의 재사용 대기시간이 5분만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_slaughterfromtheshadows" key="2080" name="어둠의 학살자" tier="9">
+        <rank description="기습과 매복에 소모되는 기력이 3만큼 감소하고 과다출혈에 소모되는 기력이 1만큼 감소합니다." lvl="1"/>
+        <rank description="기습과 매복에 소모되는 기력이 6만큼 감소하고 과다출혈에 소모되는 기력이 2만큼 감소합니다." lvl="2"/>
+        <rank description="기습과 매복에 소모되는 기력이 9만큼 감소하고 과다출혈에 소모되는 기력이 3만큼 감소합니다." lvl="3"/>
+        <rank description="기습과 매복에 소모되는 기력이 12만큼 감소하고 과다출혈에 소모되는 기력이 4만큼 감소합니다." lvl="4"/>
+        <rank description="기습과 매복에 소모되는 기력이 15만큼 감소하고 과다출혈에 소모되는 기력이 5만큼 감소합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_shadowdance" key="2081" name="어둠의 춤" tier="10">
+        <rank description="6초 동안 어둠 속으로 숨어들어 은신 여부와 관계없이 기절시키기, 목조르기, 매복, 비열한 습격, 사전계획, 훔치기, 함정 해제 능력을 사용할 수 있습니다." lvl="1"/>
+        <spell castTime="0" cooldown="60000"/>
+      </talent>
+    </tree>
+    <tree bgImage="RogueAssassination" icon="ability_rogue_eviscerate" key="Assassination" name="암살" order="0">
+      <talent column="0" icon="ability_rogue_eviscerate" key="276" name="절개 연마" tier="0">
+        <rank description="절개의 공격력이 7%만큼 증가합니다." lvl="1"/>
+        <rank description="절개의 공격력이 14%만큼 증가합니다." lvl="2"/>
+        <rank description="절개의 공격력이 20%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_fiegndead" key="272" name="냉혹함" tier="0">
+        <rank description="자신이 결정타를 가하여 적을 처치한 후 경험치나 명예 점수를 받으면 다음 사악한 일격, 과다출혈, 기습, 절단, 매복, 그림자 일격의 치명타 적중률이 20%만큼 증가합니다. 20초 동안 지속됩니다." lvl="1"/>
+        <rank description="자신이 결정타를 가하여 적을 처치한 후 경험치나 명예 점수를 받으면 다음 사악한 일격, 과다출혈, 기습, 절단, 매복, 그림자 일격의 치명타 적중률이 40%만큼 증가합니다. 20초 동안 지속됩니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_racial_bloodrage" key="270" name="원한" tier="0">
+        <rank description="치명타 적중률이 1%만큼 증가합니다." lvl="1"/>
+        <rank description="치명타 적중률이 2%만큼 증가합니다." lvl="2"/>
+        <rank description="치명타 적중률이 3%만큼 증가합니다." lvl="3"/>
+        <rank description="치명타 적중률이 4%만큼 증가합니다." lvl="4"/>
+        <rank description="치명타 적중률이 5%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_druid_disembowel" key="273" name="무정함" tier="1">
+        <rank description="20%의 확률로 근접 마무리 일격 사용 후 대상에 대한 연계 점수 1점이 추가됩니다." lvl="1"/>
+        <rank description="40%의 확률로 근접 마무리 일격 사용 후 대상에 대한 연계 점수 1점이 추가됩니다." lvl="2"/>
+        <rank description="60%의 확률로 근접 마무리 일격 사용 후 대상에 대한 연계 점수 1점이 추가됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_bloodsplatter" key="2068" name="흥건한 피" tier="1">
+        <rank description="목조르기와 파열로 입히는 피해가 15%만큼 증가합니다." lvl="1"/>
+        <rank description="목조르기와 파열로 입히는 피해가 30%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="3" icon="ability_backstab" key="277" name="상처 꿰뚫기" tier="1">
+        <rank description="기습으로 치명타를 적중시킬 확률이 10%만큼 증가하고 절단으로 치명타를 적중시킬 확률이 5%만큼 증가합니다." lvl="1"/>
+        <rank description="기습으로 치명타를 적중시킬 확률이 20%만큼 증가하고 절단으로 치명타를 적중시킬 확률이 10%만큼 증가합니다." lvl="2"/>
+        <rank description="기습으로 치명타를 적중시킬 확률이 30%만큼 증가하고 절단으로 치명타를 적중시킬 확률이 15%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_nature_earthbindtotem" key="382" name="강한 체력" tier="2">
+        <rank description="기력 최대치를 10만큼 증가시킵니다." lvl="1"/>
+      </talent>
+      <talent column="1" icon="ability_warrior_riposte" key="278" name="약점 노출 연마" tier="2">
+        <rank description="약점 노출에 소비되는 기력이 5만큼 감소합니다." lvl="1"/>
+        <rank description="약점 노출에 소비되는 기력이 10만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_criticalstrike" key="269" name="치명상" requires="270" tier="2">
+        <rank description="은신이 필요치 않은 기술 중 연계 점수가 주어지는 기술이 치명타로 적중할 경우 보너스 피해가 6%만큼 증가합니다." lvl="1"/>
+        <rank description="은신이 필요치 않은 기술 중 연계 점수가 주어지는 기술이 치명타로 적중할 경우 보너스 피해가 12%만큼 증가합니다." lvl="2"/>
+        <rank description="은신이 필요치 않은 기술 중 연계 점수가 주어지는 기술이 치명타로 적중할 경우 보너스 피해가 18%만큼 증가합니다." lvl="3"/>
+        <rank description="은신이 필요치 않은 기술 중 연계 점수가 주어지는 기술이 치명타로 적중할 경우 보너스 피해가 24%만큼 증가합니다." lvl="4"/>
+        <rank description="은신이 필요치 않은 기술 중 연계 점수가 주어지는 기술이 치명타로 적중할 경우 보너스 피해가 30%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_feigndeath" key="682" name="치명적인 독" tier="3">
+        <rank description="독과 독살로 인한 피해가 7%만큼 증가하고 자신의 지속적인 피해를 주는 독이 주문이나 효과에 의해 해제될 확률이 10%만큼 감소합니다." lvl="1"/>
+        <rank description="독과 독살로 인한 피해가 14%만큼 증가하고 자신의 지속적인 피해를 주는 독이 주문이나 효과에 의해 해제될 확률이 20%만큼 감소합니다." lvl="2"/>
+        <rank description="독과 독살로 인한 피해가 20%만큼 증가하고 자신의 지속적인 피해를 주는 독이 주문이나 효과에 의해 해제될 확률이 30%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_poisons" key="268" name="독 연구" tier="3">
+        <rank description="맹독을 대상에 감염시킬 확률이 2%만큼 증가하고 순간 효과 독을 대상에 감염시킬 확률이 10%만큼 증가합니다." lvl="1"/>
+        <rank description="맹독을 대상에 감염시킬 확률이 4%만큼 증가하고 순간 효과 독을 대상에 감염시킬 확률이 20%만큼 증가합니다." lvl="2"/>
+        <rank description="맹독을 대상에 감염시킬 확률이 6%만큼 증가하고 순간 효과 독을 대상에 감염시킬 확률이 30%만큼 증가합니다." lvl="3"/>
+        <rank description="맹독을 대상에 감염시킬 확률이 8%만큼 증가하고 순간 효과 독을 대상에 감염시킬 확률이 40%만큼 증가합니다." lvl="4"/>
+        <rank description="맹독을 대상에 감염시킬 확률이 10%만큼 증가하고 순간 효과 독을 대상에 감염시킬 확률이 50%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_fleetfooted" key="1721" name="쾌속" tier="4">
+        <rank description="모든 이동 방해 효과의 지속시간이 15%만큼 감소하고 이동 속도가 8%만큼 증가합니다. 다른 이동 속도 증가 효과와 중복 적용되지 않습니다." lvl="1"/>
+        <rank description="모든 이동 방해 효과의 지속시간이 30%만큼 감소하고 이동 속도가 15%만큼 증가합니다. 다른 이동 속도 증가 효과와 중복 적용되지 않습니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_ice_lament" key="280" name="냉혈" tier="4">
+        <rank description="활성화되면 다음 공격 기술의 치명타 적중률이 100%만큼 증가합니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_kidneyshot" key="279" name="급소 가격 연마" tier="4">
+        <rank description="급소 가격에 걸린 대상은 받는 모든 피해가 3%만큼 증가합니다." lvl="1"/>
+        <rank description="급소 가격에 걸린 대상은 받는 모든 피해가 6%만큼 증가합니다." lvl="2"/>
+        <rank description="급소 가격에 걸린 대상은 받는 모든 피해가 9%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="ability_rogue_quickrecovery" key="1762" name="신속한 회복력" tier="4">
+        <rank description="자신을 대상으로 하는 모든 치유 효과가 10%만큼 증가합니다. 추가로, 마무리 일격이 빗나갔을 때 소비한 기력의 40%를 돌려받습니다." lvl="1"/>
+        <rank description="자신을 대상으로 하는 모든 치유 효과가 20%만큼 증가합니다. 추가로, 마무리 일격이 빗나갔을 때 소비한 기력의 80%를 돌려받습니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_chilltouch" key="283" name="운명의 낙인" requires="280" tier="5">
+        <rank description="연계 점수가 주어지는 기술로 적에게 치명타 공격을 적중시킬 경우 20%의 확률로 연계 점수가 추가됩니다." lvl="1"/>
+        <rank description="연계 점수가 주어지는 기술로 적에게 치명타 공격을 적중시킬 경우 40%의 확률로 연계 점수가 추가됩니다." lvl="2"/>
+        <rank description="연계 점수가 주어지는 기술로 적에게 치명타 공격을 적중시킬 경우 60%의 확률로 연계 점수가 추가됩니다." lvl="3"/>
+        <rank description="연계 점수가 주어지는 기술로 적에게 치명타 공격을 적중시킬 경우 80%의 확률로 연계 점수가 추가됩니다." lvl="4"/>
+        <rank description="연계 점수가 주어지는 기술로 적에게 치명타 공격을 적중시킬 경우 100%의 확률로 연계 점수가 추가됩니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_deathscream" key="274" name="학살" tier="5">
+        <rank description="인간형과 거인, 야수, 용족에게 입히는 모든 피해가 2%만큼 증가합니다." lvl="1"/>
+        <rank description="인간형과 거인, 야수, 용족에게 입히는 모든 피해가 4%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_deadlybrew" key="2065" name="맹독 조합" tier="6">
+        <rank description="순간 효과 독, 상처 감염 독, 정신 마비 독으로 대상을 감염시킬 때 50%의 확률로 신경 마비 독을 추가로 감염시킵니다." lvl="1"/>
+        <rank description="순간 효과 독, 상처 감염 독, 정신 마비 독으로 대상을 감염시킬 때 100%의 확률로 신경 마비 독을 추가로 감염시킵니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_hunter_rapidkilling" key="281" name="과잉 살상" tier="6">
+        <rank description="은신 도중 혹은 은신이 풀리고 나서 20초 동안, 30%의 기력을 추가로 회복합니다." lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_deadenednerves" key="1723" name="무감각한 신경" tier="6">
+        <rank description="받는 모든 피해가 2%만큼 감소합니다." lvl="1"/>
+        <rank description="받는 모든 피해가 4%만큼 감소합니다." lvl="2"/>
+        <rank description="받는 모든 피해가 6%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_rogue_focusedattacks" key="2069" name="집중 공격" tier="7">
+        <rank description="근접 치명타를 적중시키면 33%의 확률로 2의 기력을 회복합니다." lvl="1"/>
+        <rank description="근접 치명타를 적중시키면 66%의 확률로 2의 기력을 회복합니다." lvl="2"/>
+        <rank description="근접 치명타를 적중시키면 100%의 확률로 2의 기력을 회복합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_rogue_findweakness" key="1718" name="약점 포착" tier="7">
+        <rank description="공격 기술의 공격력이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="공격 기술의 공격력이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="공격 기술의 공격력이 6%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_creature_poison_06" key="1715" name="독의 대가" tier="8">
+        <rank description="자신의 독에 걸린 대상이 치명타 공격에 적중 당할 확률이 1%만큼 증가하고, 자신에게 걸린 모든 독 효과의 지속시간이 17%만큼 감소하며, 독살로 맹독을 감염시킬 확률이 추가로 15%만큼 증가합니다." lvl="1"/>
+        <rank description="자신의 독에 걸린 대상이 치명타 공격에 적중 당할 확률이 2%만큼 증가하고, 자신에게 걸린 모든 독 효과의 지속시간이 34%만큼 감소하며, 독살로 맹독을 감염시킬 확률이 추가로 30%만큼 증가합니다." lvl="2"/>
+        <rank description="자신의 독에 걸린 대상이 치명타 공격에 적중 당할 확률이 3%만큼 증가하고, 자신에게 걸린 모든 독 효과의 지속시간이 50%만큼 감소하며, 독살로 맹독을 감염시킬 확률이 추가로 45%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_shadowstrikes" key="1719" name="절단" requires="281" tier="8">
+        <rank description="양쪽 손에 장착한 무기로 적을 즉시 공격하여 각 무기마다 44의 추가 피해를 입힙니다. 독에 걸린 대상을 가격할 시 공격력이 20%만큼 증가합니다. 연계 점수 2점이 주어집니다." lvl="1"/>
+        <spell castTime="0" maxRange="5">
+          <power cost="60" type="energy"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_rogue_turnthetables" key="2066" name="전세 역전" tier="8">
+        <rank description="파티원이나 공격대원이 공격을 방어하거나 회피하거나 무기로 막으면, 8초 동안 연계 점수가 주어지는 모든 기술의 치명타 적중률이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="파티원이나 공격대원이 공격을 방어하거나 회피하거나 무기로 막으면, 8초 동안 연계 점수가 주어지는 모든 기술의 치명타 적중률이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="파티원이나 공격대원이 공격을 방어하거나 회피하거나 무기로 막으면, 8초 동안 연계 점수가 주어지는 모든 기술의 치명타 적중률이 6%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_cuttothechase" key="2070" name="신속한 결말" tier="9">
+        <rank description="절개와 독살 공격 시 20%의 확률로 난도질의 지속시간이 연계 점수 5점의 지속시간으로 갱신됩니다." lvl="1"/>
+        <rank description="절개와 독살 공격 시 40%의 확률로 난도질의 지속시간이 연계 점수 5점의 지속시간으로 갱신됩니다." lvl="2"/>
+        <rank description="절개와 독살 공격 시 60%의 확률로 난도질의 지속시간이 연계 점수 5점의 지속시간으로 갱신됩니다." lvl="3"/>
+        <rank description="절개와 독살 공격 시 80%의 확률로 난도질의 지속시간이 연계 점수 5점의 지속시간으로 갱신됩니다." lvl="4"/>
+        <rank description="절개와 독살 공격 시 100%의 확률로 난도질의 지속시간이 연계 점수 5점의 지속시간으로 갱신됩니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_hungerforblood" key="2071" name="피의 갈망" tier="10">
+        <rank description="스스로 분노하여 모든 공격력을 15%만큼 증가시킵니다. 대상에 출혈 효과가 걸려 있어야 합니다. 1분 동안 지속됩니다." lvl="1"/>
+        <spell castTime="0" maxRange="30">
+          <power cost="15" type="energy"/>
+        </spell>
+      </talent>
+    </tree>
+  </talentTrees>
+</page>

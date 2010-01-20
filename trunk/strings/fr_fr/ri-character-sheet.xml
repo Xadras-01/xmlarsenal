@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Feuille de personnage">
+	<faqlist>
+		<faq question="Que fait la fonction « Trouver mieux » sur les objets d’une fiche de personnage ?">
+			Si vous passez votre souris sur un objet d’une feuille de personnage, vous verrez apparaître une petite flèche qui se transforme en bouton. Si vous cliquez sur ce bouton « Trouver mieux », vous serez dirigé vers une page de résultats de recherche d’objets. Sur cette page, les objets affichés sont ceux qui sont considérés comme « meilleurs » pour ce personnage en particulier.
+			<p/>
+			Ces améliorations recommandées prennent en compte la classe de personnage, les caractéristiques et la qualité générale de l’équipement. De cette façon, vous pourrez rechercher quelle amélioration votre personnage ou n’importe quel autre personnage de World of Warcraft peut désirer. Cette fonctionnalité est aussi là pour faciliter les choix des personnages qui ont plusieurs ensembles différents d’équipement suivant les circonstances, leur permettant de trouver les améliorations pour chaque ensemble.
+			<p/>
+			Plus de détails sont disponibles sur notre F.A.Q. <a href="faq-item-info-recommended.xml;">Trouver mieux</a>.
+		</faq>
+		<faq question="Pourquoi mon personnage n'apparaît-il pas ?">
+			Seuls les personnages européens sont répertoriés sur la région Europe de l'Armurerie. Pour changer de région (USA, Corée, etc...) utilisez le menu déroulant de changement de région. Vous devez aussi jouer régulièrement votre personnage pour continuer à le voir apparaître dans l'Armurerie. Enfin, un personnage doit être au moins de niveau 10 pour que sa fiche de personnage soit disponible.
+		</faq>
+		<faq question="Pourquoi ne puis-je trouver mon personnage de bas niveau ?">
+			Les personnages doivent être au moins de niveau 10 pour apparaitre dans l'Armurerie, de même que pour avoir leurs profiles et être affichés dans la page des résultats lors d'une recherche par nom de personnage.
+		</faq>
+		<faq question="Où puis-je voir et que représentent toutes les icônes d'arène ?">
+			Vous pouvez voir sur <a href="legend-achievements.xml" target="_blank">ce lien</a> la liste des icônes qui peuvent apparaître sur votre fiche d'arène en fonction de votre classsement.
+		</faq>
+		<faq question="Pourquoi est-ce que le total de mes victoires honorables à vie n'est pas affiché ?">
+			Pour voir le total des victoires honorables que votre personnage a acquises depuis le début de sa carrière, il faut que ce total soit au moins de 1337.
+		</faq>
+		<faq question="Pourquoi l'emplacement pour les munitions n'apparaît-il pas sur la feuille de personnage ?">
+			Cette fonctionnalité serait ajoutée dans l'avenir.
+		</faq>
+		<faq question="Pourquoi mon portrait est-il faux ?">
+			L'Armurerie ne montre pas l'image courante en jeu de votre personnage en haut à gauche de votre fiche. Cette image est un avatar générique pour tous les personnages de même race, classe et genre.
+		</faq>
+		<faq question="Quels sont les différents titres que les joueurs peuvent gagner ?">
+			Pour consulter la liste complète des titres, veuillez visiter notre <a href="http://www.wow-europe.com/fr/info/basics/titles.html">page des titres de personnage</a>.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="Recherche de personnage" url="/character-search.xml"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Guide des caractéristiques des personnages" type="external" url="http://www.wow-europe.com/fr/info/basics/characters.html"/>
+		<relatedlink name="Races" type="external" url="http://www.wow-europe.com/fr/info/races/index.html"/>
+		<relatedlink name="Classes" type="external" url="http://www.wow-europe.com/fr/info/classes/index.html"/>
+		<relatedlink name="Métiers" type="external" url="http://www.wow-europe.com/fr/info/professions/index.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="F.A.Q." url="/faq-armory.xml"/>
+		<relatedlink name="Problèmes connus" type="external" url="http://forums.wow-europe.com/thread.html?topicId=1016252442&amp;sid=2"/>
+		<relatedlink name="Signaler une erreur technique" type="report" url="http://forums.wow-europe.com/board.html?forumId=11088&amp;sid=1"/>
+		<relatedlink name="Signaler une erreur de traduction" type="translation" url="http://forums.wow-europe.com/board.html?forumId=11213&amp;sid=2"/>
+	</relatedlinks>
+</relatedinfo>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/arena/team-info.xsl"?><page globalSearch="1" lang="$LANGUAGE" requestQuery="r=$REALMURL&amp;ts=$TEAMSIZE&amp;t=$NAMEURL&amp;select=$NAMEURL" requestUrl="/team-info.xml">
+	<teamInfo>
+		<arenaTeam battleGroup="$REALMPOOL" created="1250726400000" faction="$FACTION" factionId="$FACTIONID" gamesPlayed="$PLAYED" gamesWon="$WON" lastSeasonRanking="0" name="$NAME" ranking="$RANKING" rating="$RATING" realm="$REALM" realmUrl="b=$REALMPOOLURL&amp;r=$REALMPOOL&amp;ts=$TEAMSIZE&amp;t=$NAMEURL&amp;ff=realm&amp;fv=$REALMPOOLURL&amp;select=$NAMEURL" relevance="0" season="0" seasonGamesPlayed="$SEASONPLAYED" seasonGamesWon="$SEASONWON" size="$MEMBERCOUNT" teamSize="$TEAMSIZE" teamUrl="r=$REALMURL&amp;ts=$TEAMSIZE&amp;t=$NAMEURL&amp;select=$NAMEURL" teamUrlEscape="r=$REALMURL&amp;ts=$TEAMSIZE&amp;t=$NAMEURL&amp;select=$NAMEURL" url="r=$REALMURL&amp;ts=$TEAMSIZE&amp;t=$NAMEURL&amp;select=$NAMEURL">
+			<emblem background="$EMBLEMBG" borderColor="$EMBLEMBORDERCOL" borderStyle="$EMBLEMBORDERSTYLE" iconColor="$EMBLEMICONCOL" iconStyle="$EMBLEMICONSTYLE"/>
+			<members>
+				$MEMBER
+			</members>
+		</arenaTeam>
+	</teamInfo>
+	<season end="today" id="7" start="1251763200000"/>
+</page>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><pvpVendors type="a">
+
+<pvpVendor key="wintergrasp">
+	<npc id="30488"/>
+	<npc id="30489"/>
+	<npc id="32294"/>
+</pvpVendor>
+
+<pvpVendor key="arena6">
+	<npc id="33921"/>
+</pvpVendor>
+
+<pvpVendor key="arena5">
+	<npc id="32354"/>
+	<npc id="32355"/>
+	<npc id="32356"/>
+	<npc id="31863"/>
+	<npc id="31864"/>
+	<npc id="31865"/>
+	<npc id="32359"/>
+	<npc id="32360"/>
+	<npc id="32362"/>
+</pvpVendor>
+
+<pvpVendor key="arena4">
+	<npc id="26352"/>
+</pvpVendor>
+
+<pvpVendor key="honor">
+	<npc id="34076"/>
+	<npc id="34073"/>
+	<npc id="34082"/>
+	<npc id="12785"/>
+	<npc id="12781"/>
+	<npc id="12783"/>
+	<npc id="32379"/>
+	<npc id="12784"/>
+
+</pvpVendor>
+
+<pvpVendor key="ab">
+	<npc id="15127"/>
+</pvpVendor>
+
+<pvpVendor key="av">
+	<npc id="13217"/>
+</pvpVendor>
+
+<pvpVendor key="wsg">
+	<npc id="14753"/>
+</pvpVendor>
+
+<pvpVendor key="halaa">
+	<npc id="18822"/>
+</pvpVendor>
+
+<pvpVendor key="honorhold">
+	<npc id="18266"/>
+</pvpVendor>
+
+<pvpVendor key="terrokar">
+	<npc id="19773"/>
+</pvpVendor>
+
+<pvpVendor key="zangarmarsh">
+	<npc id="18581"/>
+</pvpVendor>
+
+</pvpVendors>

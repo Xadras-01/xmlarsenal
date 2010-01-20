@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updates>	
+	<update date="notice">
+		<entry key="notice" title="About this updates-page">
+			This updates-page will probably be updated only irregularly and will only be available in English. If you want the most up-to-date news please visit the 
+			XMLArsenal website or sourceforge project site. Thanks.
+		</entry>
+	</update>
+	<update date="10th of October, 2009">
+		<entry key="achievements" title="Achievements fully implemented">
+			The arsenal's achievement-display now works correctly with
+			<ul>
+				<li>"Feats of Strength"</li>
+				<li>all subcategories</li>
+				<li></li>
+				<li>Der Spielerkalender wurde aktualisiert und zeigt nun auch neue Optionen für Gildenereignisse innerhalb des Spieles an.</li>
+			</ul>
+		</entry>
+	</update>
+	<update date="8th of October, 2009">
+		<entry key="firstnews" title="First News Entry">
+			<p>The first news ever :)</p>
+			<p>What's working until now:</p>
+			<ul>
+				<li>full character-sheet.xml (but some stats-values)</li>
+				<li>searching for characters, guilds and arenateams</li>
+				<li>character-talents.xml including glyphs and dualspec</li>
+				<li>character-reputation.xml</li>
+				<li>character-achievements.xml (only overview)</li>
+				<li>guild-info.xml and guild-stats.xml</li>
+				<li>Arenateam team-info.xml (will there ever be something else? no emu seems to save stats for the other pages...)</li>
+			</ul>
+		</entry>
+	</update>
+</updates>

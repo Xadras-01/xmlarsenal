@@ -1,0 +1,39 @@
+##
+ # .htaccess
+ # 
+ # This file provides mapping from xml to php for all front-end sites of XMLArsenal
+ #
+ # @author Amras Taralom <amras-taralom@streber24.de>
+ # @version 1.0, last modified 2009/11/26
+ # @package XMLArsenal
+ # @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License version 3 (GPLv3)
+ #
+##
+
+
+# set index.xml as start document and prevent browsing
+DirectoryIndex index.xml index.php index.html index.htm
+Options -Indexes
+
+# put rw-engine to action
+RewriteEngine On
+
+# catch the language selector and login whereveryou are...
+RewriteCond %{QUERY_STRING} ^locale=
+RewriteRule /* languageselect.php?query=%{QUERY_STRING}
+RewriteCond %{QUERY_STRING} login=1
+RewriteRule /* login.php?query=%{QUERY_STRING}
+RewriteCond %{QUERY_STRING} logout=1
+RewriteRule /* logout.php?query=%{QUERY_STRING}
+
+# rules for the xml/php translation
+# but ONLY for main dir, not for other dirs
+RewriteCond %{REQUEST_URI} !^(\/strings\/)
+RewriteCond %{REQUEST_URI} !^(\/data\/)
+RewriteCond %{REQUEST_URI} !^(\/layout\/)
+RewriteRule ^(.*).xml \/$1.php?%{QUERY_STRING}
+
+#error handeling
+ErrorDocument 401 /error.php
+ErrorDocument 403 /error.php
+ErrorDocument 404 /error.php

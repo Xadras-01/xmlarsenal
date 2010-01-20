@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/character-select.xsl"?><page globalSearch="1" lang="$LANGUAGE" requestUrl="/vault/character-select.xml">
+  <accounts>
+    <account active="1" characters="$NUMCHARS" selected="$SELECTED" username="$USERNAME"/>
+  </accounts>
+  <characters>
+	$CHARACTERS
+  </characters>
+</page>

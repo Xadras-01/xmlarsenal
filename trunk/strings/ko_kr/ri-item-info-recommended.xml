@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="추천 아이템 찾기">
+	<faqlist>
+		<faq question="추천 아이템 항목은 어떻게 정해지나요?">
+			캐릭터의 아이템이 조회되면 전투정보실에서는 먼저 해당 캐릭터가 장착한 모든 장비를 검사하고, 더 나은 아이템을 추천하기 위해 아이템의 전체적인 평균이 될 수 있는 기준점을 설정합니다. 기준점은 아이템의 레벨과 희소성, 기타 여러 가지 사항들에 의해 정해지며 이 과정 동안은 캐릭터의 직업과 특성은 고려하지 않습니다. 그리고 추천 아이템 항목은 지금까지 가장 향상된 능력치를 기록해(예를 들어 주문 공격력, 전투력, 체력), 이 ‘선호되는 능력치’를 높여 주는 아이템을 추천하는 경향이 있습니다.
+		</faq>
+		<faq question="추천 아이템 찾기 기능을 가장 잘 사용하려면 어떻게 하나요?">
+			이 기능을 최대한 활용하는 법은 다음과 같습니다. 캐릭터 장비에 변경된 내용은 게임에서 나와야만 캐릭터 정보에 반영되는 점을 기억하시기 바랍니다.
+		<ul>
+			<li>
+          <strong>추천 아이템 목록이 필요한 해당 장비 세트를 게임 유형에 맞춰 착용하십시오.</strong> 예를 들어 공격대에 특화된 장비의 추천 아이템을 보고 싶다면, 공격대 장비를 완전히 갖춘 채로 게임에서 나오십시오. PvP에 장비를 향상시키고 싶으면, PvP 장비를 완전히 장착하면 됩니다.</li>
+			<li>
+          <strong>장비 세트별로 이 기능을 사용하십시오.</strong>많은 직업이 혼자서 플레이할 때, 공격대에 참여할 때, PvP를 할 때 등등 각기 다른 목적에 따라 다양한 장비 세트를 가지고 다닙니다. 게임에서 나오기 전에 해당 세트로 갈아입기만 하면 쉽게 각각의 세트에 맞는 추천 아이템을 찾을 수 있습니다. 이런 절차로 동시에 여러 세트를 가지고 있어도, 추천 아이템 목록이 한쪽으로 치우쳐서 나오지 않게 됩니다.</li>
+			<li>
+          <strong>전투정보실에서 추천 아이템을 산정하는 데 어떤 점이 반영되고, 어떤 점이 반영되지 않는지 염두에 두십시오.</strong> 추천 아이템은 주로 캐릭터의 능력치와 전체적인 장비의 수준을 고려하게 됩니다. 전투정보실은 캐릭터의 직업을 착용할 수 없는 방어구나 무기류를 걸러내는 용도로만 사용합니다. 특성은 전혀 고려되지 않습니다. </li>
+			<li>
+          <strong>아이템의 등급과 획득가능성에 따라 달라집니다.</strong>추천 목록을 만드는 데 있어, 전투정보실은 먼저 해당 캐릭터가 현재 장착하고 있는 장비를 전부 확인하고 아이템 수준의 전체적인 기준값 평균을 내어 해당 캐릭터에 대한 추천 목록을 만듭니다. 이러한 기준값은 주로 아이템의 등급과 획득가능성으로 산정됩니다. 검투사 세트같이 획득하기 어려운 고레벨의 아이템을 하나만 착용하고 있어도 추천 아이템 목록이 확연히 달라집니다.</li>
+		</ul>
+		</faq>
+		<faq question="추천 아이템 항목은 어떻게 정렬되나요?">
+			다른 모든 아이템 검색과 마찬가지로 관련성에 따라 정렬됩니다. 추천 아이템 항목의 경우, 아이템의 관련성이란 전투정보실에서 해당 캐릭터에게 특정한 아이템이 얼마나 좋다고 여기느냐를 뜻합니다. 그러므로 목록에서 위쪽에 있는 아이템일수록 해당 캐릭터에게 더 이상적인 아이템이라고 볼 수 있습니다.
+		</faq>
+		<faq question="추천 아이템 항목은 외부의 강화 효과나 약화 효과에 영향을 받나요?">
+			네, 여러분의 능력치에 영향을 미치는 모든 강화 효과나 약화 효과가 추천 목록에도 영향을 미칩니다. 이런 현상은 캐릭터가 최고 레벨의 인내와 같은 강력한 강화 효과를 지니고 있을 때 특히 두드러집니다. 최선의 결과를 위해 가능한 한 적은 강화 효과나 약화 효과를 지니고 추천 아이템을 검색하십시오.
+		</faq>
+		<faq question="장비를 바꾸고 접속을 종료해 다른 세트의 장비에 대한 추천 아이템을 검색할 수 있나요?">
+			 네, 그런 경우에 쓰이도록 만들어진 기능입니다.
+		</faq>												
+		<faq question="왜 저의 추천 아이템 목록에 적 진영의 퀘스트 보상 아이템이 있나요?">
+			현재 전투 정보실에는 추천 아이템 목록에서 적 진영의 퀘스트 보상 아이템을 걸러내는 기능이 없습니다. 이 기능은 차후에 추가될 예정입니다.
+		</faq>
+		<faq question="특정한 아이템의 추천 아이템을 검색했는데 왜 목록에 그 아이템이 나타나나요?">
+			어떤 아이템이 자기 자신의 추천 아이템 목록에 나타나는 것은 해당 아이템이 어느 정도의 위치에 있느냐를 나타내기 위해서입니다. 다시 말해 해당 아이템이 추천 아이템 목록에서 위에 나타날수록, 전투정보실이 그 아이템을 소유자에게 적합하다고 판단한다고 볼 수 있습니다. 이런 비교는 지금 가진 아이템이 추천되는 모든 아이템에 얼마나 필적하는지를 판단하는 데 유용할 수 있습니다.
+		</faq>
+		<faq question="어떤 특정한 아이템이 추천 아이템 항목에 있기를 기대했는데 없어요. 왜 그런가요?">
+			특정한 아이템이 추천 아이템 항목에 없는 데는 여러 가지 이유가 있을 수 있습니다. 아이템을 착용하기 위한 요구 레벨이 너무 높거나, 아이템 자체의 레벨이 여러분이 착용한 아이템에 비해 너무 높을 수도 있습니다. 해당 아이템이 다른 추천 아이템들과 비슷한 능력치를 가지고 있으나, 실제로 어떤 ‘선호되는 능력치’를 향상시켜 주지 못하는 경우에도 이런 현상이 벌어집니다.
+		</faq>
+		<faq question="무작위 부여 마법이 붙은 아이템(예를 들어 '독수리의')도 추천되나요?">
+			네, 무작위 부여 마법이 붙은 아이템도 검색됩니다. 그러나 마법이 부여되지 않은 상태로 보입니다. 이 아이템들 중 어느 것이든 클릭하면 아이템 자세히 보기 창에서 해당 아이템에 부여될 수 있는 모든 강화 효과를 볼 수 있습니다. 이 아이템들은 실제 가치보다 낮게 평가받아 목록에서 아래에 나타날 수 있다는 점을 명심하십시오.
+		</faq>
+
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="무용의 문장 보상" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofheroism&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="용맹의 문장 보상" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofvalor&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="계승 아이템" url="/search.xml?fl[source]=all&amp;fl[type]=all&amp;fl[usbleBy]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[rrt]=hm&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="일반 및 공격대 던전" url="/dungeons.xml"/>
+		<relatedlink name="평판 보상 아이템" url="/factions.xml"/>
+		<relatedlink name="PvP 보상 아이템" url="/pvprewards.xml"/>		
+		<relatedlink type="hr"/>
+		<relatedlink name="70 레벨 전투 숙련도" type="external" url="http://www.worldofwarcraft.co.kr/community/forum/view.do?bseq=20219&amp;currpage=&amp;perpage=&amp;sortmask=&amp;ascdesc=&amp;hfilter=&amp;pseq=185600"/>				
+		<relatedlink name="아이템 기본정보" type="external" url="http://www.worldofwarcraft.co.kr/info/basics/items/basics.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="F.A.Q." url="/faq-armory.xml"/>		
+		<relatedlink name="알려진 문제들" type="external" url="Javascript:openIssues()"/>	
+		<relatedlink name="전투정보실 오류 신고" type="report" url="mailto:bugreport@blizzard.co.kr"/>
+	</relatedlinks>
+</relatedinfo>

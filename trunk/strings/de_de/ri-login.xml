@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Anmeldung im Arsenal">
+	<faqlist>
+		<faq question="Welchen Account soll ich für die Anmeldung im Arsenal benutzen?">
+			Benutzt die Daten eures World of Warcraft-Accounts für die Anmeldung im Arsenal.
+		</faq>	
+		<faq question="Warum soll ich mich mit meinem World of Warcraft-Account im Arsenal anmelden?">
+			Bestimmte Bereiche des Arsenals erfordern aufgrund der enthaltenen Funktionen und Daten eine Anmeldung mit euren World of Warcraft-Accountdaten. Momentan sind dies die Seiten des Gildenbanksystems und des Spielerkalenders. Zusätzliche geschützte Bereiche könnten auch in Zukunft hinzugefügt werden.
+		</faq>
+		<faq question="Gibt es weitere Features, die nach einer Anmeldung zur Verfügung stehen?">
+			Die Möglichkeit, Charakterprofile für einen schnellen Zugriff mit Hilfe des Features "Profil merken" speichern zu können, wurde neu überarbeitet. Ihr könnt jetzt mehrere Charakterprofile von Charakteren des Accounts, mit welchem ihr euch angemeldet habt, speichern. Nach eurer Anmeldung erscheint automatisch das Charakterprofil, für welches hinsichtlich des Arsenals die höchste Relevanz besteht, im oberen rechten Bereich des Arsenals. Im Auswahlmenü werden bereits mehrere Charaktere erscheinen und ihr könnt weitere Charaktere des Accounts sehen, indem ihr die entsprechende Option in diesem Menü auswählt.
+		</faq>	
+		<faq question="Ich sorge mich um die Sicherheit meiner Accountdaten, ist diese Anmeldung wirklich sicher?">
+			Stellt sicher, dass wowarmory.com im Ursprungspfad der URL dieser Seite enthalten ist. Der Anmeldevorgang leitet euch automatisch zu unserem sicheren Anmeldeserver unter einer URL von Blizzzard Entertainment, wie blizzard.com, weiter.
+		</faq>		
+		<faq question="Wieso kann ich mich im Arsenal nicht anmelden?">
+			Falls ihr Schwierigkeiten habt, euch im Arsenal anzumelden, könnte dies an dem Speicher für Cookies eures Browsers liegen. Die Einstellungen eures Browsers müssen so konfiguriert sein, dass die Cookies des Arsenals für die entsprechende Anmeldefunktion gespeichert werden können.
+		</faq>		
+		<faq question="Wie lange hält eine Sitzung nach der Anmeldung an?">
+			Nachdem ihr euch angemeldet habt, solltet ihr etwa 2 Wochen auf durch Anmeldung geschützte Features wie die Gildenbank und den Kalender Zugriff haben.
+		</faq>
+		<faq question="Melde ich mich durch eine Anmeldung im Arsenal gleichzeitig bei der Accountverwaltung an?">
+			Nein.
+		</faq>
+		<faq question="Wie beende ich meine aktuelle Sitzung?">
+			Wenn ihr euch im Arsenal abmelden möchtet, klickt einfach auf die Option "Abmelden", welche rechts oben im Fenster angezeigt wird. Das einfache Schließen eines Fensters, unter welchem das Arsenal aufgerufen wurde, führt nicht mehr zu einer Abmeldung, lediglich das Löschen der Cookies in eurem Browser. Des Weiteren endet eure Sitzung nach etwa 2 Wochen automatisch.  
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="Belohnungen: Emblem des Heldentums" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofheroism&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Belohnungen: Emblem der Ehre" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofvalor&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Gegenstände: Erbstücke" url="/search.xml?fl[source]=all&amp;fl[type]=all&amp;fl[usbleBy]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[rrt]=hm&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>						
+		<relatedlink type="hr"/>
+		<relatedlink name="Dungeons und Schlachtzugdungeons" url="/dungeons.xml"/>
+		<relatedlink name="Belohnungen für Ruf" url="/factions.xml"/>
+		<relatedlink name="Belohnungen für PvP" url="/pvprewards.xml"/>		
+		<relatedlink type="hr"/>
+		<relatedlink name="Arenaturnier" url="/arena-tournament.xml"/>		
+		<relatedlink type="hr"/>		
+		<relatedlink name="Häufig gestellte Fragen" url="/faq-armory.xml"/>		
+		<relatedlink name="Fehler melden" type="report" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+		<relatedlink name="Übersetzungsfehler melden" type="translation" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+	</relatedlinks>
+</relatedinfo>

@@ -1,0 +1,2850 @@
+<?xml version="1.0" encoding="UTF-8"?><strs>
+	<!--
+		FIXME frequently updated content should not reside in this primarily static file
+		Move news and firsts to a more appropriate file, and delete this comment.
+	-->
+	<news title="">
+		<str>
+      <em>11월<span>25일</span>
+      </em>
+      <div>
+        <h2>리치왕의 분노<a class="nclose" href="javascript:;" onclick="fnews_close(this)">[닫기]</a>
+        </h2>전투정보실에 리치 왕의 분노 관련 정보가 업데이트 되었습니다.</div>
+    </str>
+		<str>
+      <em>11월<span>25일</span>
+      </em>
+      <div>
+        <h2>새로운 개인 달력<a class="nclose" href="javascript:;" onclick="fnews_close(this)">[close]</a>
+        </h2>새로운 모습과 업적, 개인 달력을 포함하여 전투정보실에 어떤 변화가 생겼는지 <a href="http://www.wowarmory.com/updates.xml">업데이트 페이지</a>에서 확인해보세요!</div>
+    </str>
+	</news>
+	<firsts>
+		<str>
+      <p>날짜///업적 내용///업적 달성자</p>
+    </str>
+		<str>
+      <p>날짜///업적 내용///업적 달성자</p>
+    </str>
+		<str>
+      <p>날짜///업적 내용///업적 달성자</p>
+    </str>
+		<str>
+      <p>날짜///업적 내용///업적 달성자</p>
+    </str>
+		<str>
+      <p>날짜///업적 내용///업적 달성자</p>
+    </str>
+	</firsts>
+
+	<str id="armory.item-tooltip.armor">방어도</str>
+	<str id="armory.item-tooltip.dps">초당 공격력</str>
+	<str id="armory.item-tooltip.block">방어</str>
+	<str id="armory.arena-ladder-data.page">쪽</str>
+	<str id="armory.arena-ladder-data.results2"> 의 </str>
+
+	<str id="armory.search.oneResult">에 대한 검색 결과 1개</str>
+	<str id="armory.search.Found"/>
+	<str id="armory.search.resultsFor">에 대한 검색 결과</str>
+	<str id="armory.search.resultsFor2">개</str>
+
+	<str id="armory.item-tooltip.increase-endWord">만큼 증가합니다.</str>
+	<str id="armory.item-tooltip.increase-endWordForPercentage">%만큼 증가합니다.</str>
+	<str id="armory.general.dateseparate">/</str>
+
+
+	<cfg id="date.format">
+    <param2/>-<param3/>-<param1/>
+  </cfg> <!-- 1:year, 2:month, 3:day -->
+	<cfg id="date.time.format">
+    <param2/>-<param3/>-<param1/> <param4/>
+  </cfg> <!-- 1:year, 2:month, 3:day, 4:time -->
+	<cfg id="date.format.leadingZero">1</cfg> <!-- 1:true, other:false -->
+	<cfg id="date.time.format.24hrs">0</cfg> <!-- use 24 hr time display, 1:true, other:false -->
+	<cfg id="date.time.format.am">AM</cfg>
+	<cfg id="date.time.format.pm">PM</cfg>
+
+<!--string ordering-->
+
+<!--kr ordering-->
+
+	<!--string ordering character sheet level/race/class/ -->
+
+	<order id="armory.order.date">
+		<str select="datainsert1"/>
+		<str id="armory.general.dateseparate"/>
+		<str select="datainsert2"/>
+		<str id="armory.general.dateseparate"/>
+		<str select="datainsert3"/>
+	</order>
+
+	<order id="armory.order.character-string">
+		<str select="datainsert2" space="yes"/>
+		<str select="datainsert1" space="yes"/>
+		<str select="datainsert3" space="yes"/>
+		<str select="datainsert4" space="yes"/>
+	</order>
+
+	<!--string ordering search results -->
+	<order id="armory.order.search-results-string">
+		<str id="armory.search.openQuote"/>
+		<str format="bold" select="datainsert2"/>
+		<str id="armory.search.closeQuote" space="yes"/>
+		<str id="armory.search.resultsFor" space="yes"/>
+		<str select="datainsert1"/>
+		<str id="armory.search.resultsFor2"/>
+	</order>
+
+	<!--string ordering one search result -->
+	<order id="armory.order.one-search-result-string">
+		<str id="armory.search.openQuote"/>
+		<str format="bold" select="datainsert1"/>
+		<str id="armory.search.closeQuote" space="yes"/>
+		<str id="armory.search.oneResult"/>
+	</order>
+
+	<!-- string ordering results inputtype paging -->
+	<order id="armory.order.results-Inputpaging-string">
+		<str format="bold" select="datainsert1"/>
+		<str id="armory.arena-ladder-data.page" space="yes"/>
+		<str id="armory.arena-ladder-data.results2" space="yes"/>
+		<str select="ResultsInputPaging"/>
+		<str id="armory.arena-ladder-data.page" space="yes"/>
+	</order>
+
+	<order id="armory.order.guild.members">
+		<str select="datainsert2" space="yes"/>
+		<str select="datainsert1"/>
+	</order>
+
+	<order id="armory.order.item-tooltip-random-suffix">
+		<str select="datainsert2"/>
+		<str select="datainsert1"/>
+	</order>
+
+	<!-- Loc - item-tooltip-dps-string -->
+	<order id="armory.order.item-tooltip-dps-string">
+		<str id="armory.item-tooltip.dps" space="yes"/>
+		<str select="datainsert1"/>
+	</order>
+
+	<!-- Loc - item-tooltip-damage-string -->
+	<order id="armory.order.item-tooltip-damage-string">
+		<str select="datainsert1" space="yes"/>
+		<str select="itemTooltipMin-Max"/>
+	</order>
+
+	<!-- Loc - item-tooltip-armor-string -->
+	<order id="armory.order.item-tooltip-armor-string">
+		<str id="armory.item-tooltip.armor" space="yes"/>
+		<str select="datainsert1"/>
+	</order>
+
+	<!-- Loc - item-tooltip-blockvalue-string -->
+	<order id="armory.order.item-tooltip-blockvalue-string">
+		<str select="datainsert1" space="yes"/>
+		<str id="armory.item-tooltip.block"/>
+	</order>
+
+  	<!-- Loc - item-tooltip-StatModifiers-string -->
+	<order id="armory.order.item-tooltip-statmodifiers-string">
+		<str select="datainsert1" space="yes"/>
+		<str select="itemTooltipStatModifiers"/>
+	</order>
+
+	<!-- Loc - item-tooltip-resistances-string -->
+	<order id="armory.order.item-tooltip-resistances-string">
+		<str select="datainsert1" space="yes"/>
+		<str select="itemTooltipResistancesValue"/>
+	</order>
+
+	<!-- Loc - item-tooltip-miniSkillRequired-string -->
+	<order id="armory.order.item-tooltip-miniSkillRequired-string">
+		<str id="armory.item-tooltip.requires"/>
+		<str select="datainsert1" space="yes"/>
+		<str id="armory.item-tooltip.parenthesisOpen"/>
+		<str select="datainsert2"/>
+		<str id="armory.item-tooltip.parenthesisClose"/>
+	</order>
+
+	<!-- Loc - item-tooltip-requiredAbility-string -->
+	<order id="armory.order.item-tooltip-requiredAbility-string">
+		<str id="armory.item-tooltip.requires" space="yes"/>
+		<str select="datainsert1"/>
+	</order>
+
+	<!-- Loc - item-tooltip-requiredPersonalArenaRating -->
+	<order id="armory.order.item-tooltip-requiredPersonalArenaRating">
+		<str id="armory.item-tooltip.requires.personalarena" space="yes"/>
+		<str select="datainsert1" space="yes"/>
+		<str id="armory.item-tooltip.requires.personalarena2"/>
+	</order>
+
+	<!-- Loc - item-tooltip-ratingStats-string -->
+	<order id="armory.order.item-tooltip-ratingStats-string">
+		<str select="datainsert1" space="yes"/>
+		<str select="datainsert2"/>
+		<str id="armory.item-tooltip.increase-endWord"/>
+		<!--str id="armory.labels.period"/-->
+	</order>
+<!--done-->
+
+	<!-- Loc - armory.select-team-type.label-string -->
+	<order id="armory.select-team-type.label-string">
+		<str select="selectTeamType"/>
+	</order>
+	<!-- Loc - armory.labels.item-results-for-string -->
+	<order id="armory.labels.item-results-for-string">
+		<str id="armory.search.openQuote"/>
+		<str format="bold" select="datainsert1"/>
+		<str id="armory.search.closeQuote" space="yes"/>
+		<str id="armory.labels.item-results-for"/>
+	</order>
+
+<!--/end kr ordering-->
+
+    <!-- strings used in every page -->
+
+	<str id="armory.labels.zh_cn">简体中文</str>
+	<str id="armory.labels.region.zh_cn">中国大陆</str>
+
+	<str id="armory.labels.zh_tw">繁體中文</str>
+	<str id="armory.labels.region.zh_tw">台灣、香港與澳門</str>
+
+	<str id="armory.maintenance.text">전투정보실 페이지는 현재 점검 중입니다. 나중에 다시 확인해 주십시오.</str>
+
+	<str id="armory.item-tooltip.requires">요구 사항: </str>
+	<str id="armory.item-tooltip.requires.personalarena">개인 투기장 점수 </str>
+	<str id="armory.item-tooltip.requires.personalarena2">점이 필요합니다.</str>
+
+	<region>
+		<str id="US" name="Americas" url="http://www.wowarmory.com"/>
+		<str id="EU" name="Europe" url="http://eu.wowarmory.com"/>
+		<str id="KR" name="Korea" url="http://kr.wowarmory.com"/>
+		<str id="CN" name="China" url="http://cn.wowarmory.com"/>
+		<str id="TW" name="Taiwan" url="http://tw.wowarmory.com"/>
+	</region>
+	<common>
+		<str id="the-wow-armory">월드 오브 워크래프트 전투정보실</str>
+		<str id="meta-description">전투정보실은 월드 오브 워크래프트와 관련된 모든 정보를 광범위하게 검색할 수 있는 자료입니다. 이 정보는 실제 서버에서 바로 수집되어 실시간으로 갱신되며 사용자에게 편리한 인터페이스로 나타납니다. 전투정보실은 실제 게임 서버에서 데이터를 수집하기 때문에 현존하는 캐릭터나 투기장 팀, 길드, 아이템, 던전, 공격대, 우두머리 몬스터, 평판 보상까지 월드 오브 워크래프트에 대한 가장 빠르고 포괄적인 자료라 할 수 있습니다.</str>
+		<str id="the-armory">전투정보실</str>
+		<str id="search-armory">전투정보실 검색</str>
+		<str id="error.selectCategory">범주를 선택하십시오.</str>
+		<str id="error.twoChars">검색어는 2자 이상 입력하셔야 합니다.</str>
+		<str id="related-info.header.related-links">관련 링크</str>
+		<str id="related-info.header.armorynew">최근 소식</str>
+		<str id="related-info.header.updates">새소식</str>
+		<str id="related-info.header.faq">FAQ</str>
+		<str id="related-info.header.noflash">참고: 어도비 플래시 플레이어 8 이상 필요</str>
+		<str id="related-info.noflash">현재 어도비 플래시 플레이어를 사용하지 않으시거나 8 버전이 아닌 구 버전을 사용하고 계십니다. 이 사이트의 모든 기능을 원활히 사용하시려면 플래시 플레이어 8 이상이 필요합니다. 최신 버전의 플래시 플레이어를 설치하시려면 위 버튼을 클릭하시기 바랍니다.</str>
+
+		<str id="labels.regioncolon">지역:</str>
+		<str id="labels.selectregioncolon">지역 선택:</str>
+
+		<str id="region.US">Americas</str>
+		<str id="region.EU">Europe</str>
+		<str id="region.KR">한국</str>
+		<str id="region.CN">中国大陆</str>
+		<str id="region.TW">台灣、香港與澳門</str>
+
+		<str id="labels.usoceanic">Americas</str>
+		<str id="labels.europe">Europe</str>
+		<str id="labels.korea">한국</str>
+		<str id="en_us">English (US)</str>
+		<str id="en_gb">English (EU)</str>
+		<str id="de_de">Deutsch</str>
+		<str id="fr_fr">Français</str>
+		<str id="es_es">Español (EU)</str>
+		<str id="es_mx">Español (LA)</str>
+		<str id="ko_kr">한국어</str>
+		<str id="ru_ru">Русский</str>
+		<str id="zh_cn">简体中文</str>
+		<str id="zh_tw">繁體中文</str>
+
+		<str id="search.relevance">정확도</str>
+		<str id="items.relevance.percent">% 정확도</str>
+
+		<str id="labels.languagecolon">언어:</str>
+		<str id="labels.selectlanguagecolon">언어 선택:</str>
+
+		<str id="menu.armory">전투정보실</str>
+		<str id="menu.arenateams">투기장 팀</str>
+		<str id="menu.characters">캐릭터</str>
+		<str id="menu.guilds">길드</str>
+		<str id="menu.items">아이템</str>
+		<str id="menu.arena">투기장</str>
+		<str id="menu.profiles">정보</str>
+		<str id="menu.searches">검색</str>
+
+		<str id="url.wow">http://www.worldofwarcraft.co.kr</str>
+		<str id="url.blizzard">http://www.blizzard.co.kr</str>
+		<str id="url.armory">http://kr.wowarmory.com</str>
+
+		<str id="url.signup">http://www.worldofwarcraft.co.kr/member/step1.do</str>
+		<str id="url.loginsupport">http://www.worldofwarcraft.co.kr/member/passSearch.do</str>
+		<str id="url.loginsupport.id">http://www.worldofwarcraft.co.kr/member/idSearch.do</str>
+		<str id="url.privacy">http://www.blizzard.co.kr/privacy.shtml</str>
+		<str id="url.legalfaq">http://www.blizzard.co.kr/legalfaq.shtml</str>
+
+		<str id="report-translation">여기를 클릭하면 전투정보실에서 유럽 번역 토론장으로 이동합니다.</str>
+		<str id="external-link">이 링크를 클릭하면 전투정보실 페이지를 벗어납니다.</str>
+
+		<str id="report-error">전투정보실과 관련된 모든 버그는 &lt;b&gt;bugreport@blizzard.co.kr&lt;/b&gt;로 보내주시기 바랍니다. <br/>오류 신고는 버그 수정을 위한 수신 전용이며 별도의 회신은 이루어지지 않습니다.</str>
+
+		<str id="labels.site">월드 오브 워크래프트</str>
+
+		<str id="pin.searchforandpin">캐릭터 정보를 고정하려면 캐릭터를 검색하십시오.</str>
+		<str id="pin.enabledual">이중 아이템 도움말 활성화</str>
+		<str id="pin.dualdesc">이중 아이템 툴팁이 활성화되면, 아이템에 마우스 커서를 가져다 대면&lt;br/&gt; 주 캐릭터의 해당 가방 칸에 있는 아이템의 두 번째 툴팁이 표시됩니다.</str>
+		<str id="pin.unpin">캐릭터 고정 해제</str>
+
+		<str id="labels.privacy">개인정보 취급방침</str>
+		<str id="labels.copyright">©2009 Blizzard Entertainment, Inc. All rights reserved.</str>
+		<str id="labels.proprietary">전투정보실은 Blizzard Entertainment, Inc의 소유입니다. 전투정보실의 정보는 비영리적인 목적을 위해서만 사용할 수 있습니다. </str>
+
+		<str id="searchBox.search-the-armory">전투정보실 검색</str>
+
+		<str id="guild-search.label.enter-guild-name">길드 이름 입력</str>
+		<str id="character-search.label.enter-character-name">캐릭터 이름 입력</str>
+		<str id="character-search.label.enter-team-name">팀 이름 입력</str>
+
+		<str id="armory.none">없음</str>
+		<str id="user.select.character">캐릭터 선택</str>
+		<str id="user.bookmark.character">이 캐릭터를 책갈피에 등록</str>
+		<str id="user.bookmark.logintobookmark">이 캐릭터를 책갈피에 등록</str>
+		<str id="user.bookmark.tooltip">책갈피에는 캐릭터를 30개까지 등록할 수 있습니다.</str>
+		<str id="user.bookmark.maxedtooltip">책갈피에는 캐릭터를 30개까지 등록할 수 있습니다. 책갈피를 확인하시려면 화면 오른쪽 위의 로그인 정보창에 있는 옵션 메뉴를 이용하세요.</str>
+		<str id="user.change.character">나의 캐릭터</str>
+		<str id="user.change.bookmarks">나의 책갈피</str>
+		<str id="user.no.character">선택한 캐릭터 없음</str>
+		<str id="user.manage.chars">캐릭터 설정</str>
+		<str id="user.manage.settings">설정</str>
+		<str id="loading">불러오는 중...</str>
+	</common>
+
+	<character>
+		<str id="charLevelStr">레벨<param1/> <param2/> <param3/>
+    </str>
+    <!-- i.e. Level 80(param1) Dranei(param2) Paladin(param3)-->
+		<str id="character-name">캐릭터 이름</str>
+		<str id="character.health">생명력:</str>
+		<str id="character.rage">분노:</str>
+		<str id="character.energy">기력:</str>
+		<str id="character.mana">마나:</str>
+		<str id="character.runicpower">룬 마력:</str>
+		<str id="character-profile">캐릭터 정보</str>
+		<str id="character-profiles">캐릭터 정보</str>
+ 		<str id="character-level">레벨</str>
+ 		<str id="character-level-sheet">레벨</str>
+		<str id="noteten">알림: 10레벨 이하의 캐릭터는 나타나지 않습니다.</str>
+		<str id="character.tip.primary">주 캐릭터입니다.</str>
+		<str id="character.tip.secondary">이 캐릭터는 두 번째 캐릭터로 설정되어 있습니다. 주 캐릭터로 변경하시려면 여기를 클릭하세요.</str>
+	</character>
+	<character-select>
+		<str id="makePrimary">주 캐릭터로 설정</str>
+		<str id="removeFromEasyAccess">간편 메뉴에서 캐릭터 삭제</str>
+		<str id="selectedCharacters">선택한 캐릭터</str>
+		<str id="inactiveLicense">알림: 해당 계정은 정지된 상태입니다.</str>
+		<str id="availableSlot">캐릭터 추가 가능</str>
+		<str id="easyAccessLimit">간편 메뉴에 캐릭터를 추가할 수 없습니다. 새로운 캐릭터를 등록하려면 추가된 캐릭터 하나를 삭제하세요.</str>
+		<str id="addToEasyAccess">간편 메뉴에 캐릭터 추가</str>
+		<str id="noCharsAvailable">이 계정에는 선택할 수 있는 캐릭터가 없습니다. 해당 계정에 있는 캐릭터가 모두 선택된 상태일 수도 있습니다.</str>
+		<str id="charSelection">캐릭터 선택</str>
+		<str>
+      <h1>캐릭터 선택</h1>
+		<p>이 기능으로 계정에 있는 캐릭터 세 개를 선택하여 쉽게 확인하도록 지정해놓을 수 있습니다. 지정할 수 있는 캐릭터가 세 개 이상 있다면, 다른 캐릭터를 지정하기 전에 캐릭터 세 개 중 하나를 선택 해제해야 합니다.</p>
+		<p>
+        <strong>알림: </strong>선택한 캐릭터 중 하나가 새로운 일정에 초대되면 선택된 캐릭터 모두에게 해당 내용이 전달됩니다.</p>
+    </str>
+	</character-select>
+
+	<dungeons>
+		<str id="dungeonsandraids">일반 및 공격대 던전</str>
+		<str id="bosses">우두머리</str>
+
+		<str id="difficulty.title">난이도:</str>
+		<str id="difficulty.all">일반 및 영웅</str>
+		<str id="difficulty.normal">일반</str>
+		<str id="difficulty.normalonly">일반만</str>
+		<str id="difficulty.heroic">영웅</str>
+		<str id="difficulty.heroiconly">영웅만</str>
+	</dungeons>
+
+    <guild>
+		<str id="guild">길드</str>
+		<str id="guild-rank-strOrder">등급 <param1/>
+    </str>
+    <!-- string order, ex: Rank 1 -->
+		<str id="guild-leader">길드장</str>
+		<str id="guild-profile">길드 정보</str>
+		<str id="guild-profiles">길드 정보</str>
+		<str id="members">구성원</str>
+		<str id="totalmembers">총 인원</str>
+		<str id="member">구성원</str>
+		<str id="guildrank">길드 등급</str>
+		<str id="guild-rank">등급 </str>
+		<str id="guild-leader">길드장</str>
+		<str id="noteten">알림: 10레벨 이하의 캐릭터는 나타나지 않습니다.</str>
+		<str id="toomany">알림: 길드원이 너무 많습니다. 상위 레벨 길드원만 목록에 표시됩니다.</str>
+		<str id="searchroster">길드 명단 검색</str>
+	</guild>
+
+<!--general strings-->
+    <general>
+		<str id="noresultsfound">검색 결과가 없습니다.</str>
+		<str id="race">종족</str>
+		<str id="class">직업</str>
+		<str id="sort">정렬</str>
+		<str id="colon">:</str>
+		<str id="exclamation"/>
+		<str id="rank">순위</str>
+
+		<str id="armory.character.lastModified">마지막 업데이트:</str>
+		<str id="armory.labels.na">-</str>
+		<str id="playervsenvironment">일반(PvE)</str>
+		<str id="playervsplayer">전쟁 (PvP)</str>
+
+		<str id="race-class">종족/직업</str>
+
+		<str id="percentagecolon">검색 결과 비율: </str>
+		<str id="totalgamescolon">이번 시즌 총 경기 수: </str>
+		<str id="totalopponentscolon">총 상대 팀 수: </str>
+
+	</general>
+
+	<str id="armory.url.battlegroups">http://www.worldofwarcraft.co.kr/guide/battleground/battlegroups.html</str>
+	<str id="armory.url.blizzard">http://www.blizzard.co.kr</str>
+	<str id="armory.url.wow">http://www.worldofwarcraft.co.kr</str>
+	<str id="armory.url.armory">http://kr.wowarmory.com</str>
+	<str id="armory.url.talents">http://www.worldofwarcraft.co.kr/info/basics/classes</str>
+	<str id="armory.path.talents">/shared/global/talents</str>
+	<str id="armory.path.talents.seasonone">/shared/global/talents/season1</str>
+	<str id="armory.talents.langDir">/kr</str>
+	<str id="armory.url.forums.wow">http://forums.worldofwarcraft.com/board.html</str>
+	<str id="armory.mark.colon">:</str>
+
+    <!-- strings used in a lot of pages -->
+	<semicommon>
+		<str id="realm">서버</str>
+		<str id="faction">진영</str>
+		<str id="horde">호드</str>
+		<str id="alliance">얼라이언스</str>
+		<str id="factionrewards">평판 보상 아이템</str>
+		<str id="alliancerewards">얼라이언스 보상 아이템</str>
+		<str id="horderewards">호드 보상 아이템</str>
+	</semicommon>
+
+	<arena>
+		<str id="arena-teams">투기장 팀</str>
+		<str id="select-battlegroup">전투군 선택</str>
+		<str id="select-team-type">팀 유형 선택</str>
+		<str id="battlegroup">전투군</str>
+		<str id="arena">투기장</str>
+		<str id="arena-ladders">투기장 래더</str>
+		<str id="team-profiles">팀 정보</str>
+		<str id="arena-reports">투기장 기록</str>
+		<str id="team-profile">팀 정보</str>
+		<str id="match-history">경기 전적</str>
+		<str id="match-report">경기 기록</str>
+		<str id="opponent">상대팀 명</str>
+		<str id="ratingchange">평점 변동</str>
+		<str id="newrating">새로운 평점</str>
+		<str id="date">날짜</str>
+		<str id="through"> ~ </str>
+		<str id="current"> 현재 </str>
+		<str id="resultsPerPage">페이지 당 결과 표시</str>
+		<str id="to"> ~ </str>
+		<str id="time">시간</str>
+		<str id="findMatch">해당 경기를 그래프로 표시</str>
+		<str id="goToMatchReport">경기 보고서로 가기</str>
+		<str id="deletedTeam">삭제된 팀입니다.</str>
+		<str id="opponent-history">상대 전적</str>
+		<str id="totalgames">치른 경기</str>
+		<str id="totalgames">총 경기 수</str>
+		<str id="wins">승</str>
+		<str id="wins.short">승</str>
+		<str id="losses">패</str>
+		<str id="losses.short">패</str>
+
+		<str id="winp">승률</str>
+		<str id="avgchange">경기 당 평균 변동</str>
+		<str id="overallchange">전체 평점 변동</str>
+		<str id="overallchange.tooltip">순 승률 변화</str>
+
+		<str id="seasonbefore">시즌 </str>
+		<str id="seasonafter"/>
+
+		<str id="realmcolon">서버:</str>
+		<str id="battlegroupcolon">전투군:</str>
+		<str id="killingblows">결정타</str>
+		<str id="killingblows.short">결정타</str>
+
+		<str id="dmgin">해당 경기에서 받은 피해량</str>
+		<str id="dmgin.short">받은 피해량</str>		
+		<str id="dmgout">해당 경기에서 입힌 피해량</str>
+		<str id="dmgout.short">입힌 피해량</str>		
+		<str id="healout">해당 경기 치유량</str>
+		<str id="healout.short">치유량</str>		
+		<str id="healin">해당 경기에서 받은 치유량</str>
+		<str id="healin.short">받은 치유량</str>
+		<str id="lastweek">지난 주</str>
+		<str id="team-name">팀 이름</str>
+		<str id="error.nodata">이 페이지에는 정보가 없습니다.</str>
+		<str id="team-type">팀 유형</str>
+		<str id="team-members">팀 구성원 </str>
+		<str id="teammembers">팀원</str>
+		<str id="viewmatchhistory">해당 팀과 치른 경기 전적 보기</str>
+
+		<legend>
+			<str id="arenaladder.title">투기장 문장 아이콘</str>
+			<str id="arena.title">투기장 문장 아이콘</str>
+			<str id="arena">이 특별 투기장 아이콘은 자신이 속한 팀의 업적을 나타냅니다. 투기장에서 팀의 순위가 오를 수록 아이콘은 더욱 빛이날 것입니다.</str>
+			<str id="arena.uranked">순위 없음</str>
+			<str id="arena.top1000">상위 1000위 이내</str>
+			<str id="arena.top500">상위 500위 이내</str>
+			<str id="arena.top100">상위 100위 이내</str>
+			<str id="arena.top10">상위 10위 이내</str>
+			<str id="arena.rank1">전체 1위</str>
+		</legend>
+
+		<arenaLadderData>
+			<str id="armory.arena-ladder-data.header.arena.tournament">아레나 토너먼트 투기장 래더 결과</str>
+			<str id="armory.arena-ladder-data.header.2v2">2v2 투기장 래더 결과</str>
+			<str id="armory.arena-ladder-data.header.3v3">3v3 투기장 래더 결과</str>
+			<str id="armory.arena-ladder-data.header.5v5">5v5 투기장 래더 결과</str>
+			<str id="armory.arena-ladder-data.tab.2v2">2v2 투기장 팀</str>
+			<str id="armory.arena-ladder-data.tab.3v3">3v3 투기장 팀</str>
+			<str id="armory.arena-ladder-data.tab.5v5">5v5 투기장 팀</str>
+			<str id="armory.arena-ladder-data.results1">개의 검색 결과</str>
+			<str id="armory.arena-ladder-data.results2">중</str>
+			<str id="armory.arena-ladder-data.all-results">총</str>
+			<str id="armory.arena-ladder-data.all-realms">모든 서버</str>
+			<str id="armory.arena-ladder-data.1st"/>
+			<str id="armory.arena-ladder-data.st"/>
+			<str id="armory.arena-ladder-data.nd"/>
+			<str id="armory.arena-ladder-data.rd"/>
+			<str id="armory.arena-ladder-data.th"/>
+		</arenaLadderData>
+	</arena>
+
+	<arenaReport>
+		<str id="reportHeader">
+      <param1/>v<param1/>투기장 경기 보고서</str>
+		<str id="viewTeamHistory">경기 보고서로 가기</str>
+		<str id="viewTeamProfile">팀 정보 페이지 보기</str>
+		<str id="gameInfo.map">지도:</str>
+		<str id="gameInfo.matchLength">소요시간:</str>
+		<str id="gameInfo.startTime">경기 시작 시간:</str>	
+		<str id="filter.all">모두</str>
+		<str id="filter.ratingBetween">평점 범위</str>
+		<str id="filter.ratingChange">평점 변화</str>
+		<str id="filter.dateRange">기간</str>
+		<str id="graph.season">시즌 </str>
+		<str id="graph.graph"> 그래프</str>
+		<str id="changeseason">시즌 변경:</str>
+		<str id="seasonfirst">시즌 </str>
+		<str id="seasonsecond"/>
+		<str id="ratingcolon">승률:</str>
+		<str id="datecolon">날짜:</str>
+		<str id="opponentcolon">상대:</str>
+		<str id="gamesdisplayed">현재 표시된 경기:</str>
+		<str id="netchange.selection.short">선택한 경기의 승률</str>
+		<str id="netchange.selection">선택한 경기의 순 승률 변화:</str>
+		<str id="of">/</str>
+		<str id="averagechange">
+      <param-html1/>/경기 평균</str>
+		<str id="nogames">선택한 시즌에는 해당 팀 경기가 없습니다.</str>
+		<str id="versus">대</str>
+		<str id="versuspt1"/>
+		<str id="versuspt2"> 투기장 </str>
+		<str id="defeats">패</str>
+		<str id="match-report">경기 기록</str>
+		<str id="matchhistorygraphfor">경기 전적 그래프</str>
+		<str id="matchhistoryfilters">경기 전적 필터</str>
+		<str id="opponenthistoryfiltersfor">상대 전적 검색 범주</str>
+		<str id="matchstatistics">경기 통계</str>
+
+		<str id="clearmatchhighlight">경기 요약 초기화</str>
+		<str id="viewrecentgames">최근 경기 보기</str>
+		<str id="viewcompleteseason">시즌 전체 보기</str>
+
+		<str id="matchlength">경기 소요시간: </str>
+		<str id="minutes"> 분 </str>
+		<str id="seconds"> 초</str>
+		<str id="matchstart">경기 시작 시간: </str>
+	</arenaReport>
+
+    <unsorted>
+		<str id="armory.labels.character-name">캐릭터 이름</str>
+		<str id="armory.labels.team-profiles">팀 정보</str>
+		<str id="armory.labels.guild">길드</str>
+		<str id="armory.labels.guilds">길드</str>
+		<str id="armory.labels.characters">캐릭터</str>
+		<str id="armory.labels.guild-profile">길드 정보</str>
+		<str id="armory.labels.guild-profiles">길드 정보</str>
+		<str id="armory.labels.realm">서버</str>
+		<str id="armory.labels.realmcolon">서버:</str>
+		<str id="armory.labels.battlegroupcolon">전투군:</str>
+		<str id="armory.labels.noresultsfound">검색 결과가 없습니다.</str>
+		<str id="armory.labels.faction">진영</str>
+		<str id="armory.labels.horde">호드</str>
+		<str id="armory.labels.alliance">얼라이언스</str>
+		<str id="armory.labels.race">종족</str>
+		<str id="armory.labels.class">직업</str>
+		<str id="armory.labels.race-class">종족/직업</str>
+		<str id="armory.labels.sort">정렬</str>
+		<str id="armory.labels.lastweek">지난 주</str>
+		<str id="armory.labels.rank">순위</str>
+		<str id="armory.labels.ranks">순위</str>
+		<str id="armory.labels.team-rank">팀 순위</str>
+		<str id="armory.labels.team-name">팀 이름</str>
+		<str id="armory.labels.team-type">팀 유형</str>
+		<str id="armory.labels.team-members">팀 구성원 </str>
+		<str id="armory.labels.members">구성원</str>
+		<str id="armory.labels.guildrank">길드 순위</str>
+		<str id="armory.labels.guild-rank">순위 </str>
+		<str id="armory.labels.guild-leader">길드장</str>
+		<str id="armory.labels.unique-members">고유 구성원</str>
+
+		<str id="armory.labels.item-results">아이템 검색 결과</str>
+		<str id="armory.labels.search">검색</str>
+		<str id="armory.labels.browse">살펴보기</str>
+		<str id="armory.labels.arena-stats">투기장 팀 통계</str>
+		<str id="armory.labels.search-results">검색 결과</str>
+		<str id="armory.labels.advanced-filter">고급 검색 범위</str>
+		<str id="armory.labels.wow">월드 오브 워크래프트</str>
+		<str id="armory.labels.copyright">©2008 Blizzard Entertainment, Inc. All rights reserved.</str>
+		<str id="armory.labels.external-link">이 링크를 클릭하면 전투정보실 페이지를 벗어납니다.</str>
+		<str id="armory.labels.report-error">전투정보실과 관련된 모든 버그는 &lt;b&gt;bugreport@blizzard.co.kr&lt;/b&gt;로 보내주시기 바랍니다.</str>
+		<str id="armory.labels.report-translation">여기를 클릭하면 전투정보실에서 유럽 번역 토론장으로 이동합니다.</str>
+		<str id="armory.labels.the-armory">전투정보실</str>
+		<str id="armory.labels.wow-the-armory">월드 오브 워크래프트: 전투정보실</str>
+		<str id="armory.labels.armory">전투정보실</str>
+		<str id="armory.labels.arena">투기장</str>
+		<str id="armory.labels.search-armory">전투정보실 검색</str>
+		<str id="armory.labels.home">홈</str>
+		<str id="armory.labels.item">아이템</str>
+		<str id="armory.labels.items">아이템</str>
+		<str id="armory.labels.item-lookup">아이템 검색</str>
+		<str id="armory.labels.type">유형</str>
+		<str id="armory.labels.item-level">아이템 레벨</str>
+		<str id="armory.labels.req-level">최소 요구 레벨</str>
+		<str id="armory.labels.sell-price">판매 가격</str>
+		<str id="armory.labels.slot">장착 위치</str>
+		<str id="armory.labels.rarity">품질</str>
+		<str id="armory.labels.na">-</str>
+		<str id="armory.labels.notapplicable">해당 없음</str>
+		<str id="armory.labels.arenaTournament">투기장 토너먼트</str>
+		<str id="armory.labels.comingsoon">준비 중</str>
+		<str id="armory.labels.period">.</str>
+
+		<str id="armory.arenatab.2v2-arena-ladder">2v2 투기장 래더</str>
+		<str id="armory.arenatab.3v3-arena-ladder">3v3 투기장 래더</str>
+		<str id="armory.arenatab.5v5-arena-ladder">5v5 투기장 래더</str>
+		<str id="armory.arenatab.hof">명예의 전당</str>
+		<str id="armory.arenatab.arenaTournament">투기장 토너먼트</str>
+		<str id="armory.arenatab.calc">투기장 계산기</str>
+
+		<str id="armory.arenatab.teamprofile">팀 정보</str>
+		<str id="armory.arenatab.matchhistory">경기 전적</str>
+		<str id="armory.arenatab.opponenthistory">상대 전적</str>
+
+		<str id="armory.dungeontab.wrath">리치왕의 분노</str>
+		<str id="armory.dungeontab.tbc">불타는 성전</str>
+		<str id="armory.dungeontab.classic">오리지널 월드 오브 워크래프트</str>
+
+		<str id="wotlk">리치왕의 분노</str>
+		<str id="bc">불타는 성전</str>
+		<str id="classic">오리지널 월드 오브 워크래프트</str>
+
+		<str id="armory.labels.wins">승리</str>
+		<str id="armory.labels.winpercentage">승률</str>
+		<str id="armory.labels.losses">패배</str>
+		<str id="armory.labels.played">플레이 횟수</str>
+		<str id="armory.labels.twoteamstats">2v2 팀 정보</str>
+		<str id="armory.labels.threeteamstats">3v3 팀 정보</str>
+		<str id="armory.labels.fiveteamstats">5v5 팀 정보</str>
+		<str id="armory.labels.teamrating">팀 평점</str>
+		<str id="armory.labels.personalrating">개인 점수</str>
+		<str id="armory.labels.personalrating.short">개인 점수</str>
+		<str id="armory.labels.personalratingcolon">개인 점수: </str>
+		<str id="armory.labels.rating">평점</str>
+		<str id="armory.labels.ratingcolon">평점: </str>
+		<str id="armory.labels.realm-name">서버 이름</str>
+		<str id="armory.labels.date-joined">참여 날짜</str>
+		<str id="armory.labels.level">레벨</str>
+		<str id="armory.labels.games">경기</str>
+		<str id="armory.labels.win-loss">승 - 패</str>
+		<str id="armory.labels.games-won">승리한 경기 수</str>
+		<str id="armory.labels.thisweek">이번 주</str>
+		<str id="armory.labels.season">시즌</str>
+		<str id="armory.labels.qualifier">자격</str>
+		<str id="armory.labels.games-woncolon">승리한 경기 수:</str>
+		<str id="armory.labels.noteam">투기장 팀 없음</str>
+		<str id="armory.labels.games-played">참여한 경기 수</str>
+		<str id="armory.labels.last-played">최근 경기</str>
+		<str id="armory.labels.team-results">팀 검색 결과</str>
+		<str id="armory.labels.char-results">캐릭터 검색 결과</str>
+		<str id="armory.labels.guild-results">길드 검색 결과</str>
+		<str id="armory.labels.item-results-for">에 대한 아이템 검색 결과</str>
+		<str id="armory.labels.back-to-results">검색 결과로</str>
+		<str id="armory.search.over-one-thousand">너무 많은 항목이 검색되어서, 1,000 개의 결과만 나타납니다. 검색 범위를 좁힐 수 있도록 작은 따옴표를 사용하여 검색해 보십시오. (예 : '그림자')</str>
+		<str id="armory.labels.stats">상태</str>
+
+		<str id="armory.labels.copyUrl">이 페이지로 바로 연결하려면 아래 URL을 클릭하여 복사하십시오:</str>
+		<str id="armory.labels.copyThisUrl">URL 복사</str>
+		<str id="armory.labels.pinThisProfile">캐릭터 정보 고정</str>
+
+		<str id="armory.labels.2v2">2v2</str>
+		<str id="armory.labels.3v3">3v3</str>
+		<str id="armory.labels.5v5">5v5</str>
+		<str id="armory.labels.all">모두</str>
+
+		<str id="armory.labels.whatsthis">이것은 무엇인가요?</str>
+
+		<str id="armory.labels.gender">성별</str>
+		<str id="armory.labels.both">모두</str>
+		<str id="armory.labels.gender.0">남자</str>
+		<str id="armory.labels.gender.1">여자</str>
+		<str id="armory.labels.faction.0">얼라이언스</str>
+		<str id="armory.labels.faction.1">호드</str>
+
+		<str id="armory.labels.header.profile">정보</str>
+		<str id="armory.labels.header.reputation">평판</str>
+		<str id="armory.labels.header.pvp">전적</str>
+		<str id="armory.labels.header.skills">숙련</str>
+		<str id="armory.labels.header.talents">특성</str>
+		<str id="armory.labels.header.arenateams">투기장 팀</str>
+		<str id="armory.labels.header.arena">투기장</str>
+		<str id="armory.labels.header.guild">길드</str>
+		<str id="armory.labels.header.banklog">이용 내역</str>
+		<str id="armory.labels.header.bankcontents">은행 보관물</str>
+		<str id="armory.labels.header.guild-stats">길드 통계</str>
+		<str id="armory.labels.header.guild-stats-filters">길드 통계 필터</str>
+		<str id="armory.labels.header.guild-roster">길드 명단</str>
+		<str id="armory.labels.header.guild-roster-for">길드 목록</str>
+		<str id="armory.labels.header.calendar">개인 일정</str>
+
+		<str id="armory.var.level">@레벨</str>
+
+		<str id="armory.labels.morereputation">상세 평판 정보</str>
+		<str id="armory.labels.morepvp">상세 전적 정보</str>
+		<str id="armory.labels.morearenateams">상세 투기장 팀 정보</str>
+		<str id="armory.labels.exaltedwith">확고한 동맹:</str>
+		<str id="armory.labels.notranked">등급 없음</str>
+		<str id="armory.labels.rankcolon">등급:</str>
+		<str id="armory.labels.standing">순위</str>
+		<str id="armory.labels.standingcolon">순위:</str>
+		<str id="armory.labels.teamnamecolon">팀 이름:</str>
+
+		<str id="armory.labels.hks">총 승수: </str>
+
+		<str id="armory.labels.2v2arena">2v2 투기장</str>
+		<str id="armory.labels.3v3arena">3v3 투기장</str>
+		<str id="armory.labels.5v5arena">5v5 투기장</str>
+
+<!--tabs-->
+		<str id="armory.tabs.characterSheet">캐릭터 창</str>
+		<str id="armory.tabs.profile">캐릭터 창</str>
+		<str id="armory.tabs.talents_and_glyphs">특성과 문양</str>
+		<str id="armory.tabs.reputation">평판</str>
+		<str id="armory.tabs.calendar">달력</str>
+		<str id="armory.tabs.skills">숙련</str>
+		<str id="armory.tabs.talents">특성</str>
+		<str id="armory.tabs.arenateams">투기장 팀</str>
+		<str id="armory.tabs.achievements">업적</str>
+		<str id="armory.tabs.statistics">통계</str>
+		<str id="armory.tabs.characters">캐릭터</str>
+		<str id="armory.tabs.guild">길드</str>
+		<str id="armory.tabs.guilds">길드</str>
+		<str id="armory.tabs.items">아이템</str>
+		<str id="armory.tabs.creatures">몬스터</str>
+		<str id="armory.tabs.spells">주문</str>
+		<str id="armory.tabs.dungeons">일반 및 공격대 던전</str>
+		<str id="armory.tabs.bosses">우두머리</str>
+		<str id="armory.tabs.factions">평판</str>
+		<str id="armory.tabs.talentcalc">특성 계산기</str>
+		<str id="armory.tabs.pettalentcalc">야수 특성 계산기</str>
+		<str id="armory.tabs.disableTab">전투정보실에서는 미사용 캐릭터 관련 항목을 선택할 수 없습니다.</str>
+
+		<str id="armory.tabs.class.1">전사</str>
+		<str id="armory.tabs.class.2">성기사</str>
+		<str id="armory.tabs.class.3">사냥꾼</str>
+		<str id="armory.tabs.class.4">도적</str>
+		<str id="armory.tabs.class.5">사제</str>
+		<str id="armory.tabs.class.6">죽음의 기사</str>
+		<str id="armory.tabs.class.7">주술사</str>
+		<str id="armory.tabs.class.8">마법사</str>
+		<str id="armory.tabs.class.9">흑마법사</str>
+		<str id="armory.tabs.class.11">드루이드</str>
+		
+		<str id="armory.tabs.pet.cunning">교활</str>
+		<str id="armory.tabs.pet.tenacity">끈기</str>
+		<str id="armory.tabs.pet.ferocity">야성</str>
+		
+		<str id="armory.tabs.wotlk">리치왕의 분노</str>
+ 		<str id="armory.tabs.bc">불타는 성전</str>
+		<str id="armory.tabs.classic">오리지널</str>
+
+		<str id="armory.tabs.character.guild.mouseover">이 탭을 클릭하면 길드 페이지로 이동합니다.</str>
+		<str id="armory.tabs.character.arenateams.mouseover">이 탭을 클릭하면 아레나 토너먼트 페이지로 이동합니다.</str>
+		<str id="armory.tabs.arenatournament.mouseover">이 탭을 클릭하면 투기장 토너먼트 페이지로 이동합니다.</str>
+		<str id="armory.tabs.hof.mouseover">이 탭을 클릭하면 명예의 전당 페이지로 이동합니다.</str>
+		<str id="armory.arenatournament.tabs.ladder.mouseover">예선 래더 보기</str>
+
+		<!-- menu navigation strings not found in other places -->
+		<str id="armory.menu.itemCollections">아이템 수집 목록</str>
+		<str id="armory.menu.heirloomItems">계승 아이템</str>
+		<str id="armory.menu.tokens">화폐</str>
+		<str id="armory.menu.badgeofjustice">정의의 휘장</str>
+		<str id="armory.menu.emblemofheroism">무용의 문장</str>
+		<str id="armory.menu.emblemofvalor">용맹의 문장</str>
+		<str id="armory.menu.emblemofconquest">정복의 문장</str>
+		<str id="armory.menu.pvpRewards">명예 시스템 보상 아이템</str>
+		<str id="armory.menu.arenaRewards">투기장 보상 아이템</str>
+		<str id="armory.menu.season6">시즌 6</str>
+		<str id="armory.menu.season5">시즌 5</str>
+		<str id="armory.menu.season4">시즌 4</str>
+		<str id="armory.menu.minor">하급</str>
+		<str id="armory.menu.major">상급</str>
+		<str id="armory.menu.companions">애완동물</str>
+		<str id="armory.menu.adv-item-search">고급 아이템 검색</str>	
+		<str id="armory.menu.battlegroups">전투군</str>
+		<str id="armory.menu.info">정보</str>
+		<str id="armory.menu.achievementFirsts">업적 순위</str>
+		<str id="armory.menu.updates">전투정보실 업데이트</str>
+		<str id="armory.menu.faqs">자주 묻는 질문 및 답</str>
+		<str id="armory.menu.tools">도구</str>
+		<str id="armory.menu.searchPlugin">브라우저 검색 플러그인</str>	
+<!--character profile header-->
+		<str id="armory.icon.realm">서버</str>
+		<str id="armory.icon.battleGroup">전투군</str>
+		<str id="armory.forum.link.realm">이 링크를 클릭하면 서버 현황 페이지로 이동합니다.</str>
+		<str id="armory.forum.link.battleGroup">이 링크를 클릭하면 통합 전장 시스템 페이지로 이동합니다.</str>
+		<str id="armory.forum.link.arena">이 링크를 클릭하면 투기장 토론장으로 이동합니다.</str>
+
+<!--arena-tournament.xsl tabs-->
+		<str id="armory.arenatournament.tabs.news">최근소식</str>
+		<str id="armory.arenatournament.tabs.info">대회정보</str>
+		<str id="armory.arenatournament.tabs.faq">F.A.Q.</str>
+		<str id="armory.arenatournament.tabs.rules">대회규정</str>
+		<str id="armory.arenatournament.tabs.venues">대회장소</str>
+		<str id="armory.arenatournament.tabs.prizes">상금</str>
+		<str id="armory.arenatournament.tabs.partners">후원사</str>
+		<str id="armory.arenatournament.tabs.brackets">대진표</str>
+		<str id="armory.arenatournament.tabs.ladder">래더</str>
+		<str id="armory.arenatournament.header.news">최근소식</str>
+
+<!--battlegroups.xsl-->
+		<str id="armory.select-battlegroup.label.select-realm">또는 서버 선택:</str>
+		<str id="armory.select-battlegroup.label.coliseum">콜로세움</str>
+		<str id="armory.select-battlegroup.label.battlegroup-search">자신의 서버가 어느 <b>전투군 소속</b>인지 모르시나요?</str>
+		<str id="armory.select-battlegroup.label.enter-realm-name">서버 이름 입력</str>
+		<str id="armory.select-battlegroup.link.view-realms">자신의 전투군 소속 모든 서버 보기</str>
+		<str id="armory.select-battlegroup.link.battlegroupPage">http://www.worldofwarcraft.co.kr/guide/battleground/battlegroups.html</str>
+
+<!--select-team-type.xsl-->
+		<str id="armory.select-team-type.label.2v2team">2v2 팀</str>
+		<str id="armory.select-team-type.label.3v3team">3v3 팀</str>
+		<str id="armory.select-team-type.label.5v5team">5v5 팀</str>
+
+<!--character-info.xsl-->
+		<str id="armory.character-info.header.character-profile">캐릭터 정보</str>
+		<str id="armory.character-info.label.member-of">구성원</str>
+		<str id="armory.character-info.label.total-guild-members">전체 길드원:</str>
+		<str id="armory.character-info.label.2v2team">2v2 투기장 팀</str>
+		<str id="armory.character-info.label.3v3team">3v3 투기장 팀</str>
+		<str id="armory.character-info.label.5v5team">5v5 투기장 팀</str>
+		<str id="armory.character-info.teamPossessive">의 </str>
+		<str id="armory.character-info.characterPossessive">의 </str>
+		<str id="armory.character-info.statsBefore"/>
+		<str id="armory.character-info.statsAfter">정보:</str>
+
+<!--team-info.xsl-->
+		<str id="armory.team-info.2v2">2v2</str>
+		<str id="armory.team-info.3v3">3v3</str>
+		<str id="armory.team-info.5v5">5v5</str>
+		<str id="armory.team-info.titleBefore"/>
+		<str id="armory.team-info.titleAfter"> 투기장 팀 통계</str>
+		<str id="armory.team-info.team-rating">팀 평점</str>
+
+<!--character-search.xsl-->
+		<str id="armory.character-search.header.character-search">캐릭터 검색</str>
+		<str id="armory.character-search.label.search-for-character">캐릭터 정보 검색</str>
+
+		<str id="armory.character-search.label.team-profile">팀 정보</str>
+		<str id="armory.team-search.team-search">팀 검색</str>
+
+<!--guild-search.xsl-->
+		<str id="armory.guild-search.header.guild-search">길드 검색</str>
+		<str id="armory.guild-search.label.search-for-guild">길드 정보 검색</str>
+
+<!--guild-search.xsl-->
+		<str id="armory.item-search.header.item-search">아이템 검색</str>
+		<str id="armory.item-search.label.search-for-item">아이템 검색</str>
+		<str id="armory.item-search.label.enter-item-name">아이템 이름 입력</str>
+
+<!--team-search.xsl-->
+		<str id="armory.team-search.title">팀 정보 검색</str>
+
+<!--mini-search-templates.xsl-->
+		<str id="armory.mini-search.label.arena-ladder.2v2">2v2 투기장 래더 순위</str>
+		<str id="armory.mini-search.label.arena-ladder.3v3">3v3 투기장 래더 순위</str>
+		<str id="armory.mini-search.label.arena-ladder.5v5">5v5 투기장 래더 순위</str>
+		<str id="armory.mini-search.label.arena-ladder.expand">투기장 래더 목록 펼치기</str>
+		<str id="armory.mini-search.label.arena-ladder.collapse">투기장 래더 목록 감추기</str>
+		<str id="armory.mini-search.label.search.expand">검색 결과 펼치기</str>
+		<str id="armory.mini-search.label.search.collapse">검색 결과 감추기</str>
+		<str id="armory.mini-search.label.character.expand">캐릭터 목록 펼치기</str>
+		<str id="armory.mini-search.label.character.collapse">캐릭터 목록 감추기</str>
+		<str id="armory.mini-search.label.character.default">기본 설정으로 초기화</str>
+		<str id="armory.mini-search.label.guild.expand">길드 목록 펼치기</str>
+		<str id="armory.mini-search.label.guild.collapse">길드 목록 감추기</str>
+		<str id="armory.mini-search.label.items.expand">아이템 목록 펼치기</str>
+		<str id="armory.mini-search.label.items.collapse">아이템 목록 감추기</str>
+		<str id="armory.mini-search.label.maxlength">8</str>
+		<str id="armory.mini-search.label.maxlength.arena">12</str>
+
+<!--character-sheet-Base Stats-->
+		<str id="armory.character.refreshheader">갱신 대기 중인 캐릭터 데이터</str>
+
+		<str id="armory.character-sheet.ttip.loading">로딩 중...</str>
+
+<!--talents-->
+		<str id="talents.meleeRange">근접 거리</str>
+		<str id="talents.rangedSpell">유효거리<param1/> 미터</str>
+    <!-- string order, ie 20 yd range -->
+		<str id="talents.cooldown.min">
+      <param1/> 분 후 재사용 가능</str>
+    <!-- string order, ie - 3 min cooldown -->
+		<str id="talents.cooldown.sec">
+      <param1/> 초 후 재사용 가능</str>
+    <!-- string order, ie - 12 sec cooldown -->
+		<str id="talents.casttime.instant-cast">즉시 시전</str>
+		<str id="talents.casttime.instant">즉시</str>
+		<str id="talents.casttime.channeled">정신 집중</str>
+		<str id="talents.casttime.non-instant">시전 시간<param1/>초</str>
+    <!-- string order, ie - 1.5 sec cast -->
+		<str id="talents.spelltype.mana-percent">기본 마나의<param1/>%에 해당하는 마나</str>
+    <!-- string order, ie - 17% of base mana -->
+		<str id="talents.spelltype.mana">
+      <param1/> 마나</str>
+		<str id="talents.spelltype.energy">
+      <param1/> 기력</str>
+		<str id="talents.spelltype.rage">
+      <param1/> 분노</str>
+		<str id="talents.spelltype.runic">
+      <param1/> 룬 마력</str>
+		<str id="talents.spelltype.blood">
+      <param1/> 혈기</str>
+		<str id="talents.spelltype.unholy">
+      <param1/> 부정</str>
+		<str id="talents.spelltype.frost">
+      <param1/> 냉기</str>
+		<str id="notApplicable">해당 없음</str>
+		<str id="notApplicable.tooltip">이 캐릭터는 이중 특성 전문화 능력을 가지고 있지 않습니다.</str>
+		<str id="emptyGlyph">빈 자리</str>
+		<str id="activeSpecTxt">사용 중</str>
+		<str id="unused">미사용</str>
+		<str id="talents.reqTalents.single">{1} {0}포인트 필요</str> <!-- ie: Requires 1 point in Amplify Curse. -->
+		<str id="talents.reqTalents.plural">{1} {0}포인트 필요</str> <!-- ie: Requires 5 points in Contagion. -->
+		<str id="talents.reqTalentTree">{1} 특성 합계 {0}포인트 필요</str> <!-- ie: Requires 25 points in Holy Talents. -->
+		<str id="talents.rankStrOrder">{0}/{1} 등급</str>
+    <!-- ie: Rank 1/5 -->
+		<str id="talents.reset">초기화</str>
+		<str id="talents.resetAll">전부 초기화</str>
+		<str id="talents.linkToBuild">링크 주소 만들기</str>
+		<str id="talents.linkToBuild.tooltip">링크를 클릭하신 후 주소를 복사해 사용하세요.</str>
+		<str id="talents.pointsSpent">사용한 포인트</str>
+		<str id="talents.pointsLeft">남은 포인트</str>
+		<str id="talents.reqLevel">최소 레벨</str>
+		<str id="talents.nextRank">다음 등급</str>
+		<str id="armory.talents.export.click">여기를 클릭하시면 현재 특성 정보를 특성 계산기에서 보실 수 있습니다.</str>
+		<str id="armory.talents.export.exportbuild">특성 내보내기</str>
+		<str id="talents.print">인쇄</str>
+		<str id="talents.printable.classTalents">{0} 특성</str>
+		<str id="talents.printable.minReqLevel">최소 요구 레벨: {0}</str>
+		<str id="talents.printable.reqTalentPts">필요한 특성 포인트: {0}</str>
+		<str id="talents.printable.treeTalents">{0} 특성</str>
+		<str id="talents.printable.ptsPerTree">{0} 포인트</str>
+		<str id="talents.printable.dontWastePaper">인쇄할 내용이 없습니다. 종이를 낭비하지 마세요!</str>
+
+		<str id="armory.dungeons.badgeofjustice">정의의 휘장 (영웅 던전 징표)</str>
+
+<!--item-info.xsl-->
+		<str id="armory.creature.classification.1">정예</str>
+		<str id="armory.creature.classification.2">희귀 정예</str>
+		<str id="armory.creature.classification.3">우두머리</str>
+		<str id="armory.creature.classification.4">희귀</str>
+
+<!--search-data-items.xsl-->
+		<str id="armory.search-data-items.relatedfactions">관련된 평판 세력: </str>
+		<str id="armory.search-data-items.relateddungeons">관련된 던전: </str>
+		<str id="armory.search-data-items.toomany">검색 결과가 너무 많습니다. 검색 범위를 지정해 보십시오.</str>
+
+<!--error2.xsl-->
+		<str id="armory.labels.errormessage">오류가 발생했습니다.</str>
+		<str id="armory.labels.returntoprevious">전투정보실로 돌아가기</str>
+		<str id="armory.labels.returntomain">WorldofWarcraft.co.kr로 돌아가기</str>
+		<str id="armory.labels.error.nosearchresult">검색 결과가 없습니다.</str>
+		<str id="armory.labels.error.filenotfound">파일이 없습니다.</str>
+		<str id="armory.labels.error.serverbusy">사용자가 많습니다. 잠시 후에 다시 확인해 주세요.</str>
+
+<!--error/Section.xsl-->
+		<str id="armory.labels.errorencountered">오류 발생</str>
+		<str id="armory.labels.erroroccured">오류 발생</str>
+		<str id="armory.labels.accessdenied">접근 거부</str>
+		<str id="armory.labels.nocharacter">존재하지 않는 캐릭터이거나 캐릭터 이전, 유료 캐릭터명 변경 서비스 이용으로 인해 일시적으로 검색이 되지 않는 캐릭터입니다. 캐릭터 이름을 바르게 입력하셨는지 확인하시기 바랍니다. 삭제된 캐릭터는 전투정보실에서 검색할 수 없습니다.</str>
+		<str id="armory.labels.noguild">존재하지 않는 길드입니다. 길드 이름을 바르게 입력하셨는지 확인하시기 바랍니다. 해체된 길드는 전투정보실에서 검색할 수 없습니다.</str>
+		<str id="armory.labels.protectedcontent">현재 로그인된 계정은 이 페이지의 내용을 볼 수 없습니다. 전투정보실 로그인 및 로그인 후 볼 수 있는 내용에 대해서는 <a href="/faq-login.xml">전투정보실 로그인 자주묻는 질문과 답변</a>을 참고하세요.</str>
+
+<!--dungeons.xsl-->
+		<str id="armory.dungeons.bc">불타는 성전 던전과 공격대</str>
+		<str id="armory.dungeons.classic">오리지널 던전과 공격대</str>
+		<str id="armory.dungeons.dungeon">던전</str>
+		<str id="armory.dungeons">던전과 공격대</str>
+		<str id="armory.dungeons.partysize.before"/>
+		<str id="armory.dungeons.partysize.after">-인용 공격대</str>
+		<str id="armory.dungeons.seealsocolon">추가 확인 사항: </str>
+		<str id="armory.dungeons.viewbosses">우두머리 보기</str>
+		<str id="armory.dungeons.notecolon">참조:</str>
+		<str id="armory.dungeons.notesparse">전투정보실에서는 게임상에서 '발견된' 아이템(실제로 한 번 이상 획득된 적이 있는 아이템)만 검색됩니다. 그 결과 일부 우두머리급 몬스터에게서 얻을 수 있는 아이템 목록(특히 새로운 공격대 우두머리급 몬스터)은 완성되지 않아 빠진 부분이 있기도 합니다. 이러한 아이템 목록은 시간이 지나면서 해당 몬스터에게서 아이템을 획득함에 따라 점차 채워집니다.</str>
+
+<!--factions.xsl-->
+		<str id="armory.factions.bc">불타는 성전 평판 세력</str>
+		<str id="armory.factions.classic">오리지널 평판 세력</str>
+		<str id="armory.factions">평판</str>
+
+<!-- faq -->
+		<str id="armory.faq.label">F.A.Q.</str>
+		<str id="armory.faq.index">F.A.Q.</str>
+		<str id="armory.faq.general">일반</str>
+		<str id="armory.faq.achievements">업적</str>
+		<str id="armory.faq.arenacalculator">투기장 계산기</str>
+		<str id="armory.faq.arenaladder">투기장 래더</str>
+		<str id="armory.faq.calendar">개인 달력</str>
+		<str id="armory.faq.characterprofiles">캐릭터 정보</str>
+		<str id="armory.faq.guildprofiles">길드 정보</str>
+		<str id="armory.faq.items">아이템</str>
+		<str id="armory.faq.matchhistory">경기 전적</str>  
+  		<str id="armory.faq.matchreports">경기 보고서</str> 
+		<str id="armory.faq.opponenthistory">상대 전적</str>  
+		<str id="armory.faq.recommended">추천 아이템</str>
+		<str id="armory.faq.team">팀 정보</str>
+		<str id="armory.faq.login">전투정보실 로그인</str>
+
+		<str id="armory.labels.honorpoints">명예 점수</str>
+		<str id="armory.labels.arenapoints">투기장 점수</str>
+
+		<str id="armory.items.relevance.percent">% 정확도</str>
+
+		<str id="armory.labels.factionrewards">평판 보상</str>
+		<str id="armory.labels.pvprewards">PvP 보상 아이템</str>
+		<str id="armory.labels.alliancerewards">얼라이언스 보상 아이템</str>
+		<str id="armory.labels.horderewards">호드 보상 아이템</str>
+
+<!-- updates -->
+		<str id="armory.labels.updates">업데이트</str>
+		<str id="armory.updates.learnmore">자세히 보기</str>
+
+		<str id="armory.updates.armoryupdates">전투정보실 업데이트</str>
+		<str id="armory.updates.cache">**이 페이지에 추가된 최신 내용을 보려면 웹 브라우저의 캐시를 지우셔야 할 수도 있습니다.**</str>
+		<str id="armory.labels.close">닫기</str>
+		<str id="armory.labels.open">열기</str>
+		<str id="armory.labels.top">top</str>
+
+		<str id="armory.search.relevance">정확도</str>
+		<str id="armory.search.label.keywords">검색어: </str>
+		<str id="armory.search.label.category">분류: </str>
+		<str id="armory.search.openQuote">"</str>
+		<str id="armory.search.closeQuote">"</str>
+		<str id="armory.search.normalSpace"> </str>
+		<str id="armory.search.label.noSearchResults">검색 결과 없음</str>
+		<str id="armory.search.label.noSearchResultsText">검색어에 대한 검색 결과가 없습니다. 다음을 참고하여 검색어가 올바른지 확인하시고 다시 검색해 보시기 바랍니다:</str>
+		<str id="armory.search.label.search.categories">현재는 캐릭터, 투기장 팀, 길드만 검색 가능합니다. 아이템과 같은 다른 범주는 차후에 추가될 예정입니다.</str>
+		<str id="armory.search.label.search.name">검색하고자 하는 캐릭터나 투기장 팀, 길드의 이름을 입력하시기 바랍니다.</str>
+		<str id="armory.search.label.search.return">전투정보실로 돌아가기</str>
+	</unsorted>
+
+	<deleted>
+		<str id="armory.search.noresultsTitle">검색 결과</str>
+		<str id="armory.search.keywords">검색어</str>
+		<str id="armory.search.category">분류</str>
+		<str id="armory.search.noresultsBefore">검색어 -</str>
+		<str id="armory.search.noresultsAfter">-에 대한 검색 결과가 없습니다.</str>
+		<str id="armory.search.type">유형</str>
+		<str id="armory.search.requiredLevel">요구 레벨</str>
+		<str id="armory.search.relevance">정확도</str>
+		<str id="armory.search.label.keywords">검색어: </str>
+		<str id="armory.search.label.category">분류: </str>
+		<str id="armory.search.oneResult">에 대한 검색 결과 1개</str>
+		<str id="armory.search.resultsFor">에 대한 검색 결과</str>
+		<str id="armory.search.openQuote">"</str>
+		<str id="armory.search.closeQuote">"</str>
+		<str id="armory.search.label.noSearchResults">검색 결과 없음</str>
+		<str id="armory.search.label.noSearchResultsText">검색어에 대한 검색 결과가 없습니다. 다음을 참고하여 검색어가 올바른지 확인하시고 다시 검색해 보시기 바랍니다:</str>
+	</deleted>
+
+	<itemsSearch>
+		<str id="armory.search.weaponStats">무기 성능</str>
+		<str id="armory.search.dps">공격력</str>
+		<str id="armory.search.minDamage">최소 공격력</str>
+		<str id="armory.search.maxDamage">최대 공격력</str>
+		<str id="armory.search.speed">속도</str>
+
+		<str id="armory.search.baseStats">기본 능력치 보너스</str>
+		<str id="armory.search.strength">힘</str>
+		<str id="armory.search.agility">민첩성</str>
+		<str id="armory.search.stamina">체력</str>
+		<str id="armory.search.intellect">지능</str>
+		<str id="armory.search.spirit">정신력</str>
+
+		<str id="armory.search.physical">물리 공격 보너스</str>
+		<str id="armory.search.attackPower">전투력</str>
+		<str id="armory.search.feralAttackPower">야성 전투력</str>
+		<str id="armory.search.critRating">치명타 적중도</str>
+		<str id="armory.search.hitRating">적중도</str>
+		<str id="armory.search.hasteRating">가속도</str>
+		<str id="armory.search.ignoreArmor">방어구 관통</str>
+		<str id="armory.search.expertiseRating">숙련도</str>
+
+		<str id="armory.search.spell">주문 보너스</str>
+		<str id="armory.search.spellHealing">치유량</str>
+		<str id="armory.search.spellDamage">주문 공격력</str>
+		<str id="armory.search.spellPower">주문력</str>
+		<str id="armory.search.spellCritRating">주문 극대화 적중도</str>
+		<str id="armory.search.spellHitRating">주문 적중도</str>
+		<str id="armory.search.spellPenetration">관통력</str>
+		<str id="armory.search.spellManaRegen">마나 회복량</str>
+		<str id="armory.search.spellHasteRating">주문 가속도</str>
+		<str id="armory.search.spellDamageArcane">비전 피해</str>
+		<str id="armory.search.spellDamageHoly">신성 피해</str>
+		<str id="armory.search.spellDamageShadow">암흑 피해</str>
+		<str id="armory.search.spellDamageNature">자연 피해</str>
+		<str id="armory.search.spellDamageFrost">냉기 피해</str>
+		<str id="armory.search.spellDamageFire">화염 피해</str>
+
+		<str id="armory.search.defense">방어 보너스</str>
+		<str id="armory.search.armor">방어도</str>
+		<str id="armory.search.blockRating">방패 막기 숙련도</str>
+		<str id="armory.search.blockValue">피해 방어량</str>
+		<str id="armory.search.defenseRating">방어 숙련도</str>
+		<str id="armory.search.dodgeRating">회피 숙련도</str>
+		<str id="armory.search.parryRating">무기 막기 숙련도</str>
+		<str id="armory.search.resilience">탄력도</str>
+		<str id="armory.search.healthRegen">생명력 회복량</str>
+
+		<str id="armory.search.resistances">저항력 보너스</str>
+		<str id="armory.search.resistArcane">비전 저항</str>
+		<str id="armory.search.resistShadow">암흑 저항</str>
+		<str id="armory.search.resistNature">자연 저항</str>
+		<str id="armory.search.resistFrost">냉기 저항</str>
+		<str id="armory.search.resistFire">화염 저항</str>
+
+		<str id="armory.search.general">일반</str>
+		<str id="armory.search.itemLevel">아이템 레벨</str>
+		<str id="armory.search.bindsPickedUp">획득 시 귀속</str>
+		<str id="armory.search.bindsEquip">착용 시 귀속</str>
+		<str id="armory.search.bindsWhenUsed">사용 시 귀속</str>
+		<str id="armory.search.requiresProfession">요구 기술</str>
+		<str id="armory.search.unique">고유 아이템</str>
+		<str id="armory.search.uniqueEquipped">고유 장착 아이템</str>
+		<str id="armory.search.hasSpellEffect">주문 효과</str>
+	</itemsSearch>
+
+	<itemsSpellEffect>
+		<str id="armory.item-search.spelleffect.resist">저항할 확률</str>
+		<str id="armory.item-search.spelleffect.interrupt">주문 방해 저항</str>
+		<str id="armory.item-search.spelleffect.proc">발동 효과</str>
+		<str id="armory.item-search.spelleffect.dispel">무효화 효과</str>
+		<str id="armory.item-search.spelleffect.cooldown">재사용 대기시간 감소</str>
+		<str id="armory.item-search.spelleffect.casttime">시전 시간 감소</str>
+		<str id="armory.item-search.spelleffect.spellcost">시전 요구사항 감소</str>
+		<str id="armory.item-search.spelleffect.duration">지속시간 증가</str>
+		<str id="armory.item-search.spelleffect.range">사정거리 증가</str>
+		<str id="armory.item-search.spelleffect.threat">위협 수준 감소</str>
+		<str id="armory.item-search.spelleffect.group">단체 강화 마법</str>
+		<str id="armory.item-search.spelleffect.summon">소환</str>
+		<str id="armory.item-search.spelleffect.pvprewards">PvP 보상 아이템:</str>
+	</itemsSpellEffect>
+
+	<releases>
+		<str id="armory.releases.wotlk">리치왕의 분노</str>
+ 		<str id="armory.releases.bc">불타는 성전</str>
+		<str id="armory.releases.classic">오리지널</str>
+	</releases>
+
+	<professions>
+		<str id="armory.item-search.leatherworking">가죽세공</str>
+		<str id="armory.item-search.tailoring">재봉술</str>
+		<str id="armory.item-search.engineering">기계공학</str>
+		<str id="armory.item-search.blacksmithing">대장기술</str>
+		<str id="armory.item-search.cooking">요리</str>
+		<str id="armory.item-search.alchemy">연금술</str>
+		<str id="armory.item-search.firstaid">응급치료</str>
+		<str id="armory.item-search.enchanting">마법부여</str>
+		<str id="armory.item-search.fishing">낚시</str>
+		<str id="armory.item-search.jewelcrafting">보석세공</str>
+	</professions>
+
+	<itemsOptions>
+		<str id="armory.item-search.usableby">주 사용 직업:</str>
+		<str id="armory.item-search.allclasses">모든 직업</str>
+		<str id="armory.item-search.faction">평판:</str>
+		<str id="armory.item-search.allpvprewardsdash">모든 PvP 보상 아이템 - </str>
+		<str id="armory.item-search.allfactions">모든 평판</str>
+		<str id="armory.item-search.levelrangeone"> (레벨 </str>
+		<str id="armory.item-search.levelrangetwo"> 공격대</str>
+		<str id="armory.item-search.levelrangethree">)</str>
+		<str id="armory.item-search.dropsfrom">획득 장소:</str>
+		<str id="armory.item-search.alldungeons">모든 던전</str>
+		<str id="armory.item-search.allbosses">모든 우두머리</str>
+		<str id="armory.item-search.recommanded">추천 아이템 - </str>
+
+		<str id="armory.item-search.newsearch">검색</str>
+		<str id="armory.item-search.resetform">초기화</str>
+
+		<str id="armory.item-search.itemname">아이템 이름:</str>
+
+		<str id="armory.item-search.seealso">추가 확인 사항</str>
+
+		<str id="armory.item-search.enchP">영구적 마법 부여</str>
+		<str id="armory.item-search.enchT">일시적 마법 부여</str>
+
+		<str id="armory.item-search.allitemsadvanced">모든 아이템 - 고급 검색</str>
+
+		<str id="armory.item-search.allpvpsources">PvP</str>
+		<str id="armory.item-search.pvpsource">명예 : </str>
+		<str id="armory.item-search.select.pvpsource">--세부 항목을 선택하세요--</str>
+		<str id="armory.item-search.select.allfactions">모든 평판 세력</str>
+		<str id="armory.item-search.select.dungeon">--던전 선택--</str>
+		<str id="armory.item-search.select.bojr">정의의 휘장 보상</str>
+		<str id="armory.item-search.select.eovr">용맹의 문장 보상</str>
+		<str id="armory.item-search.select.eohr">무용의 문장 보상</str>
+		<str id="armory.item-search.select.eocr">정복의 문장 보상</str>
+
+		<str id="armory.item-search.recipes">제조법:</str>
+		<str id="armory.item-search.allrecipes">모든 제조법</str>
+		<str id="armory.item-search.books">책</str>
+
+		<str id="armory.item-search.itemlevel">아이템 레벨:</str>
+		<str id="armory.item-search.requiredlevel">최소 요구 레벨:</str>
+
+		<str id="armory.item-search.showadvanced">고급 검색 조건 표시</str>
+		<str id="armory.item-search.advancedfilters">고급 검색 범위</str>
+		<str id="armory.item-search.addfilter">검색 범위 추가</str>
+		<str id="armory.item-search.showitemfilters">아이템 검색 범위 표시</str>
+
+		<str id="armory.item-search.matchall">모든 검색 범위</str>
+		<str id="armory.item-search.matchone">한 개 이상의 검색 범위</str>
+		<str id="armory.item-search.predefinedfilters">사전 지정 검색 범위</str>
+		<str id="armory.item-search.matchalltip">이 조건으로는 고급 검색 범위 모두에 해당되는 아이템이 검색됩니다.&lt;br /&gt;예: 힘과 체력 능력치 둘 다 가진 아이템 표시</str>
+		<str id="armory.item-search.matchonetip">이 조건으로는 고급 검색 범위 중 하나라도 해당되는 아이템이 검색됩니다.&lt;br /&gt;예: 힘 능력치를 가졌거나 체력 능력치를 가진 아이템 표시</str>
+
+		<str id="armory.item-search.selectclass">직업을 선택하여 사전 지정 검색 범위 지정</str>
+
+		<str id="armory.item-search.slot">장착 위치:</str>
+
+		<str id="armory.item-search.requiredskilllevel">필요 숙련 기술:</str>
+		<str id="armory.item-search.complex.weapons">무기</str>
+		<str id="armory.item-search.complex.armor">방어구</str>
+
+		<str id="armory.search.paging"> <param-html1/> /<param-html2/>
+    </str>
+    <!-- for paging, param1-html is the page # box -->
+		<str id="armory.search.showing"> <param-html1/>개 결과 중<param-html2/>
+    </str>
+    <!-- example: showing 0 of 0 results -->
+	</itemsOptions>
+
+	<items>
+		<str id="armory.item-search.selectfilter">--검색 범주--</str>
+		<str id="armory.item-search.boss">우두머리: </str>
+		<str id="armory.item-search.bossesone">모두 </str>
+		<str id="armory.item-search.bossestwo"> 우두머리</str>
+		<str id="armory.item-search.showitemfilters">아이템 검색 조건 보이기</str>
+
+		<str id="armory.items.hover.desiredby">이 검색 조건을 아이템 유형이나 장착 부위 검색 조건과 함께 사용하면 각 직업이 가장 많이 찾는 아이템 목록을 장착 부위별로 볼 수 있습니다.</str>
+
+		<sources>
+			<general>
+				<str id="armory.item-search.source">획득처:</str>
+				<str id="armory.item-search.allsources">모두</str>
+				<str id="armory.item-search.dungeondrops">던전</str>
+				<str id="armory.item-search.dungeonraiddrops">일반 및 공격대 던전</str>
+				<str id="armory.item-search.reputationrewards">평판 보상 아이템</str>
+				<str id="armory.item-search.questrewards">퀘스트 보상 아이템</str>
+				<str id="armory.item-search.pvprewardsa">PvP 보상 아이템 - 얼라이언스</str>
+				<str id="armory.item-search.pvprewardsh">PvP 보상 아이템 - 호드</str>
+			</general>
+			<dungeons>
+				<str id="armory.item-search.alldungeonraid">모든 던전</str>
+				<str id="armory.item-search.dungeononly">일반 던전</str>
+				<str id="armory.item-search.raidonly">공격대 던전</str>
+			</dungeons>
+		</sources>
+		<types>
+			<str id="armory.item-search.itemtype">아이템 유형:</str>
+			<str id="armory.item-search.allitems">모든 아이템</str>
+			<str id="armory.item-search.weapons">무기</str>
+			<str id="armory.item-search.armor">방어구</str>
+			<str id="armory.item-search.gems">보석</str>
+			<str id="armory.item-search.containers">가방</str>
+			<str id="armory.item-search.consumables">소비 용품</str>
+			<str id="armory.item-search.tradegoods">직업 용품</str>
+			<str id="armory.item-search.projectiles">투사체</str>
+			<str id="armory.item-search.quivers">화살통</str>
+			<str id="armory.item-search.recipes">제조법</str>
+			<str id="armory.item-search.reagents">재료</str>
+			<str id="armory.item-search.miscellaneous">기타</str>
+			<str id="armory.item-search.enchp">마법부여 - 영구적</str>
+			<str id="armory.item-search.encht">마법부여 - 일시적</str>
+			<str id="armory.item-search.enchantments">마법부여</str>
+			<str id="armory.item-search.mounts">탈것</str>
+			<str id="armory.item-search.smallpets">애완동물</str>
+			<str id="armory.item-search.glyphs">문양</str>
+			<str id="armory.item-search.keys">열쇠</str>
+		</types>
+    	<gems>
+			<str id="armory.item-search.gemtype">보석 유형:</str>
+			<str id="armory.item-search.allgemtypes">모든 보석 유형</str>
+			<str id="armory.item-search.blue">푸른색 보석</str>
+			<str id="armory.item-search.red">붉은색 보석</str>
+			<str id="armory.item-search.yellow">노란색 보석</str>
+			<str id="armory.item-search.meta">얼개 보석</str>
+			<str id="armory.item-search.green">녹색 보석</str>
+			<str id="armory.item-search.orange">주황색 보석</str>
+			<str id="armory.item-search.purple">보라색 보석</str>
+			<str id="armory.item-search.prismatic">다색 보석</str>
+		</gems>
+		<tradeGoods>		
+			<str id="reagents">재료</str>
+			<str id="recipes">제조법</str>
+			<str id="enchantments">마법부여</str>
+		</tradeGoods>
+		<quiverTypes>
+			<str id="armory.item-search.quiver.type">유형:</str>
+			<str id="armory.item-search.quiver.all">모든 화살통</str>
+			<str id="armory.item-search.quiver.quiver">화살통</str>
+			<str id="armory.item-search.quiver.ammo">탄환 주머니</str>
+		</quiverTypes>
+		<projectileTypes>
+			<str id="armory.item-search.projectiles.type">유형:</str>
+			<str id="armory.item-search.projectiles.all">모든 투사체</str>
+			<str id="armory.item-search.projectiles.arrow">화살</str>
+			<str id="armory.item-search.projectiles.bullet">탄환</str>
+		</projectileTypes>
+		<weaponSlots>
+			<str id="armory.item-search.weapons.allslots">모든 장착 위치</str>
+			<str id="armory.item-search.weapons.main">주장비</str>
+			<str id="armory.item-search.weapons.off">보조장비</str>
+			<str id="armory.item-search.weapons.both">한손 장비</str>
+			<str id="armory.item-search.weapons.two">양손 장비</str>
+			<str id="armory.item-search.weapons.ranged">원거리 장비</str>
+		</weaponSlots>
+		<weaponTypes>
+			<str id="armory.item-search.weapontype">무기 유형:</str>
+			<str id="armory.item-search.allweapontypes">모든 무기 유형</str>
+			<str id="armory.item-search.oneaxes">한손 도끼류</str>
+			<str id="armory.item-search.twoaxes">양손 도끼류</str>
+			<str id="armory.item-search.bows">활류</str>
+			<str id="armory.item-search.guns">총기류</str>
+			<str id="armory.item-search.onemaces">한손 둔기류</str>
+			<str id="armory.item-search.twomaces">양손 둔기류</str>
+			<str id="armory.item-search.polearms">장창류</str>
+			<str id="armory.item-search.oneswords">한손 도검류</str>
+			<str id="armory.item-search.twoswords">양손 도검류</str>
+			<str id="armory.item-search.staves">지팡이류</str>
+			<str id="armory.item-search.fist">장착 무기류</str>
+			<str id="armory.item-search.misc">기타</str>
+			<str id="armory.item-search.daggers">단검류</str>
+			<str id="armory.item-search.thrown">투척 무기류</str>
+			<str id="armory.item-search.crossbows">석궁류</str>
+			<str id="armory.item-search.wands">마법봉류</str>
+			<str id="armory.item-search.fishingpole">낚싯대</str>
+		</weaponTypes>
+		<bags>
+			<str id="armory.item-search.bags.bagtype">가방 유형:</str>
+			<str id="armory.item-search.bags.allbags">모든 가방</str>
+			<str id="armory.item-search.bags.bag">가방</str>
+			<str id="armory.item-search.bags.soul">영혼의 가방</str>
+			<str id="armory.item-search.bags.herb">약초 가방</str>
+			<str id="armory.item-search.bags.enchanting">마법부여 가방</str>
+			<str id="armory.item-search.bags.engineering">기계공학 가방</str>
+			<str id="armory.item-search.bags.gem">보석 가방</str>
+			<str id="armory.item-search.bags.mining">채광 가방</str>
+			<str id="armory.item-search.bags.leatherworking">가죽세공 가방</str>
+			<str id="armory.item-search.bags.inscription">주문각인 가방</str>
+		</bags>
+		<armorType>
+			<str id="armory.item-search.armor.armortype">방어구 유형:</str>
+			<str id="armory.item-search.armor.allarmortypes">모든 방어구 유형</str>
+			<str id="armory.item-search.armor.cloth">천</str>
+			<str id="armory.item-search.armor.leather">가죽</str>
+			<str id="armory.item-search.armor.mail">사슬</str>
+			<str id="armory.item-search.armor.plate">판금</str>
+			<str id="armory.item-search.armor.shield">방패</str>
+			<str id="armory.item-search.armor.idol">우상</str>
+			<str id="armory.item-search.armor.libram">성서</str>
+			<str id="armory.item-search.armor.totem">토템</str>
+			<str id="armory.item-search.armor.sigil">인장</str>
+			<str id="armory.item-search.armor.misc">기타</str>
+		</armorType>
+    	<rarity>
+			<str id="armory.item-search.rarity">품질:</str>
+			<str id="armory.item-search.all">모두</str>
+			<str id="armory.item-search.poor">하급</str>
+			<str id="armory.item-search.common">일반</str>
+			<str id="armory.item-search.uncommon">고급</str>
+			<str id="armory.item-search.rare">희귀</str>
+			<str id="armory.item-search.epic">영웅</str>
+			<str id="armory.item-search.legendary">전설</str>
+			<str id="armory.item-search.heirloom">계승</str>
+		</rarity>
+		<slots>
+			<str id="allslots">모든 장착 위치</str>
+			<str id="head">머리</str>
+			<str id="neck">목</str>
+			<str id="shoulders">어깨</str>
+			<str id="back">등</str>
+			<str id="chest">가슴</str>
+			<str id="shirt">속옷</str>
+			<str id="wrists">손목</str>
+			<str id="hands">손</str>
+			<str id="waist">허리</str>
+			<str id="legs">다리</str>
+			<str id="feet">발</str>
+			<str id="finger">손가락</str>
+			<str id="trinket">장신구</str>
+			<str id="shield">방패</str>
+			<str id="offhandfrill">장식용 보조장비</str>
+			<str id="main">주장비</str>
+			<str id="off">보조장비</str>
+			<str id="both">한손 장비</str>
+			<str id="two">양손 장비</str>
+			<str id="ranged">원거리 장비</str>
+			<str id="tabard">휘장</str>
+			<str id="weapon">무기</str>
+		</slots>
+	</items>
+
+	<itemsPredefined>
+		<str id="armory.predefined.druid.tank">드루이드(방어형)</str>
+		<str id="armory.predefined.druid.melee">드루이드(근접 공격형)</str>
+		<str id="armory.predefined.druid.caster">드루이드(주문 공격형)</str>
+		<str id="armory.predefined.druid.healer">드루이드(치유형)</str>
+
+		<str id="armory.predefined.hunter.ranged">사냥꾼</str>
+
+		<str id="armory.predefined.mage.caster">마법사</str>
+
+		<str id="armory.predefined.paladin.tank">성기사(방어형)</str>
+		<str id="armory.predefined.paladin.melee">성기사(근접 공격형)</str>
+		<str id="armory.predefined.paladin.caster">성기사(주문 공격형)</str>
+		<str id="armory.predefined.paladin.healer">성기사(치유형)</str>
+
+		<str id="armory.predefined.priest.caster">사제(주문 공격형)</str>
+		<str id="armory.predefined.priest.healer">사제(치유형)</str>
+
+		<str id="armory.predefined.rogue.melee">도적</str>
+
+		<str id="armory.predefined.shaman.melee">주술사(근접 공격형)</str>
+		<str id="armory.predefined.shaman.caster">주술사(주문 공격형)</str>
+		<str id="armory.predefined.shaman.healer">주술사(치유형)</str>
+
+		<str id="armory.predefined.warlock.caster">흑마법사</str>
+
+		<str id="armory.predefined.warrior.tank">전사(방어형)</str>
+		<str id="armory.predefined.warrior.melee">전사(근접 공격형)</str>
+  </itemsPredefined>
+
+<!-- Please do not localize the faction names and icons -->
+	<factions>
+		<str id="factions">평판 세력</str>
+		<str id="faction">평판</str>
+		<str id="side">진영</str>
+		<str id="factions.other">제 3 세력</str>
+
+		<str id="factions.learnmore">해당 진영에 대해 자세히 살펴보시려면 여기를 클릭하십시오.</str>
+
+		<str id="armory.character-reputation.name.darnassus">Darnassus</str>
+		<str id="armory.character-reputation.icon.darnassus">web-Spell_Arcane_TeleportDarnassus</str>
+		<str id="armory.character-reputation.url.darnassus">http://www.worldofwarcraft.co.kr/info/basics/races/nightelves.html</str>
+
+		<str id="armory.character-reputation.name.gnomereganexiles">Gnomeregan Exiles</str>
+		<str id="armory.character-reputation.icon.gnomereganexiles">Spell_Arcane_PortalIronForge</str>
+		<str id="armory.character-reputation.url.gnomereganexiles">http://www.worldofwarcraft.co.kr/info/basics/races/gnomes.html</str>
+
+		<str id="armory.character-reputation.name.ironforge">Ironforge</str>
+		<str id="armory.character-reputation.icon.ironforge">web-Spell_Arcane_TeleportIronForge</str>
+		<str id="armory.character-reputation.url.ironforge">http://www.worldofwarcraft.co.kr/info/basics/races/dwarves.html</str>
+
+		<str id="armory.character-reputation.name.stormwind">Stormwind</str>
+		<str id="armory.character-reputation.icon.stormwind">web-Spell_Arcane_TeleportStormWind</str>
+		<str id="armory.character-reputation.url.stormwind">http://www.worldofwarcraft.co.kr/info/basics/races/humans.html</str>
+
+		<str id="armory.character-reputation.name.exodar">Exodar</str>
+		<str id="armory.character-reputation.icon.exodar">Spell_Arcane_TeleportExodar</str>
+		<str id="armory.character-reputation.url.exodar">http://www.worldofwarcraft.co.kr/info/basics/races/draenei.html</str>
+
+		<str id="armory.character-reputation.name.darkspeartrolls">Darkspear Trolls</str>
+		<str id="armory.character-reputation.icon.darkspeartrolls">Spell_Arcane_PortalOrgrimmar</str>
+		<str id="armory.character-reputation.url.darkspeartrolls">http://www.worldofwarcraft.co.kr/info/basics/races/trolls.html</str>
+
+		<str id="armory.character-reputation.name.orgrimmar">Orgrimmar</str>
+		<str id="armory.character-reputation.icon.orgrimmar">web-Spell_Arcane_TeleportOrgrimmar</str>
+		<str id="armory.character-reputation.url.orgrimmar">http://www.worldofwarcraft.co.kr/info/basics/races/orcs.html</str>
+
+		<str id="armory.character-reputation.name.thunderbluff">Thunder Bluff</str>
+		<str id="armory.character-reputation.icon.thunderbluff">web-Spell_Arcane_TeleportThunderBluff</str>
+		<str id="armory.character-reputation.url.thunderbluff">http://www.worldofwarcraft.co.kr/info/basics/races/tauren.html</str>
+
+		<str id="armory.character-reputation.name.undercity">Undercity</str>
+		<str id="armory.character-reputation.icon.undercity">web-Spell_Arcane_TeleportUnderCity</str>
+		<str id="armory.character-reputation.url.undercity">http://www.worldofwarcraft.co.kr/info/basics/races/undead.html</str>
+
+		<str id="armory.character-reputation.name.silvermooncity">Silvermoon City</str>
+		<str id="armory.character-reputation.icon.silvermooncity">Spell_Arcane_TeleportSilvermoon</str>
+		<str id="armory.character-reputation.url.silvermooncity">http://www.worldofwarcraft.co.kr/info/basics/races/bloodelves.html</str>
+
+		<str id="armory.character-reputation.name.theleagueofarathor">The League of Arathor</str>
+		<str id="armory.character-reputation.icon.theleagueofarathor">INV_Shirt_GuildTabard_01</str>
+		<str id="armory.character-reputation.url.theleagueofarathor">http://www.worldofwarcraft.co.kr/guide/battleground/arathi/</str>
+
+		<str id="armory.character-reputation.name.silverwingsentinels">Silverwing Sentinels</str>
+		<str id="armory.character-reputation.icon.silverwingsentinels">INV_Shirt_GuildTabard_01</str>
+		<str id="armory.character-reputation.url.silverwingsentinels">http://www.worldofwarcraft.co.kr/guide/battleground/warsong/</str>
+
+		<str id="armory.character-reputation.name.stormpikeguard">Stormpike Guard</str>
+		<str id="armory.character-reputation.icon.stormpikeguard">INV_Shirt_GuildTabard_01</str>
+		<str id="armory.character-reputation.url.stormpikeguard">http://www.worldofwarcraft.co.kr/guide/battleground/alterac/</str>
+
+		<str id="armory.character-reputation.name.frostwolfclan">Frostwolf Clan</str>
+		<str id="armory.character-reputation.icon.frostwolfclan">INV_Jewelry_FrostwolfTrinket_01</str>
+		<str id="armory.character-reputation.url.frostwolfclan">http://www.worldofwarcraft.co.kr/guide/battleground/alterac/</str>
+
+		<str id="armory.item-info.world">World</str>
+
+		<str id="armory.character-reputation.name.thedefilers">The Defilers</str>
+		<str id="armory.character-reputation.icon.thedefilers">INV_Shirt_GuildTabard_01</str>
+		<str id="armory.character-reputation.url.thedefilers">http://www.worldofwarcraft.co.kr/guide/battleground/arathi/</str>
+
+		<str id="armory.character-reputation.name.warsongoutriders">Warsong Outriders</str>
+		<str id="armory.character-reputation.icon.warsongoutriders">INV_Shirt_GuildTabard_01</str>
+		<str id="armory.character-reputation.url.warsongoutriders">http://www.worldofwarcraft.co.kr/guide/battleground/warsong/</str>
+
+		<str id="armory.character-reputation.name.ashtonguedeathsworn">Ashtongue Deathsworn</str>
+		<str id="armory.character-reputation.icon.ashtonguedeathsworn"/>
+
+		<str id="armory.character-reputation.name.kurenai">Kurenai</str>
+		<str id="armory.character-reputation.icon.kurenai">Spell_Holy_PersuitofJustice</str>
+		<str id="armory.character-reputation.url.kurenai">http://www.worldofwarcraft.co.kr/info/basics/factions/nagrand.html</str>
+
+		<str id="armory.character-reputation.name.themag'har">The Mag'har</str>
+		<str id="armory.character-reputation.icon.themag'har">Racial_Orc_BerserkerStrength</str>
+		<str id="armory.character-reputation.url.themag'har">http://www.worldofwarcraft.co.kr/info/basics/factions/nagrand.html</str>
+		<str id="armory.character-reputation.url.maghar">http://www.worldofwarcraft.co.kr/info/basics/factions/nagrand.html</str>
+
+		<str id="armory.character-reputation.name.netherwing">Netherwing</str>
+		<str id="armory.character-reputation.icon.netherwing">Spell_Arcane_Arcane03</str>
+		<str id="armory.character-reputation.url.netherwing">http://www.worldofwarcraft.co.kr/info/basics/factions/netherwing-tip.html</str>
+
+		<str id="armory.character-reputation.name.ogri'la">Ogri'la</str>
+		<str id="armory.character-reputation.url.ogri'la">http://kr.wowarmory.com/search.xml?fl[source]=reputation&amp;fl[faction]=1038&amp;searchType=items</str>
+
+		<str id="armory.character-reputation.name.sha'tariskyguard">Sha'tari Skyguard</str>
+		<str id="armory.character-reputation.url.sha'tariskyguard">http://kr.wowarmory.com/search.xml?fl[source]=reputation&amp;fl[faction]=1031&amp;searchType=items</str>
+
+		<str id="armory.character-reputation.name.cenarionexpedition">Cenarion Expedition</str>
+		<str id="armory.character-reputation.icon.cenarionexpedition">Spell_Nature_NatureGuardian</str>
+		<str id="armory.character-reputation.url.cenarionexpedition">http://www.worldofwarcraft.co.kr/info/basics/factions/cenarion_expedition.html</str>
+
+		<str id="armory.character-reputation.name.honorhold">Honor Hold</str>
+		<str id="armory.character-reputation.icon.honorhold">INV_Misc_Token_HonorHold</str>
+		<str id="armory.character-reputation.url.honorhold">http://www.worldofwarcraft.co.kr/info/basics/factions/hellfire.html</str>
+
+		<str id="armory.character-reputation.name.sporeggar">Sporeggar</str>
+		<str id="armory.character-reputation.icon.sporeggar">INV_Mushroom_11</str>
+		<str id="armory.character-reputation.url.sporeggar">http://www.worldofwarcraft.co.kr/info/basics/factions/sporeggar.html</str>
+
+		<str id="armory.character-reputation.name.theconsortium">The Consortium</str>
+		<str id="armory.character-reputation.icon.theconsortium">INV_Misc_Bandage_Netherweave</str>
+		<str id="armory.character-reputation.url.theconsortium">http://www.worldofwarcraft.co.kr/info/basics/factions/consortium.html</str>
+
+		<str id="armory.character-reputation.name.thrallmar">Thrallmar</str>
+		<str id="armory.character-reputation.icon.thrallmar">INV_Misc_Token_Thrallmar</str>
+		<str id="armory.character-reputation.url.thrallmar">http://www.worldofwarcraft.co.kr/info/basics/factions/hellfire.html</str>
+
+		<str id="armory.character-reputation.name.lowercity">Lower City</str>
+		<str id="armory.character-reputation.icon.lowercity"/>
+		<str id="armory.character-reputation.url.lowercity">http://www.worldofwarcraft.co.kr/info/basics/factions/shattrath.html</str>
+
+		<str id="armory.character-reputation.name.thealdor">The Aldor</str>
+		<str id="armory.character-reputation.icon.thealdor">INV_Shield_30</str>
+		<str id="armory.character-reputation.url.thealdor">http://www.worldofwarcraft.co.kr/info/basics/factions/shattrath.html</str>
+
+		<str id="armory.character-reputation.name.thescryers">The Scryers</str>
+		<str id="armory.character-reputation.icon.thescryers">INV_Shield_31</str>
+		<str id="armory.character-reputation.url.thescryers">http://www.worldofwarcraft.co.kr/info/basics/factions/shattrath.html</str>
+
+		<str id="armory.character-reputation.name.thesha'tar">The Sha'tar</str>
+		<str id="armory.character-reputation.icon.thesha'tar">INV_Shield_33</str>
+		<str id="armory.character-reputation.url.thesha'tar">http://www.worldofwarcraft.co.kr/info/basics/factions/shattrath.html</str>
+
+		<str id="armory.character-reputation.name.bootybay">Booty Bay</str>
+		<str id="armory.character-reputation.icon.bootybay">Ability_Spy</str>
+		<str id="armory.character-reputation.url.bootybay">http://www.worldofwarcraft.co.kr/info/basics/factions/other-tip.html</str>
+
+		<str id="armory.character-reputation.name.everlook">Everlook</str>
+		<str id="armory.character-reputation.icon.everlook">Spell_Frost_ArcticWinds</str>
+		<str id="armory.character-reputation.url.everlook">http://www.worldofwarcraft.co.kr/info/basics/factions/other-tip.html</str>
+
+		<str id="armory.character-reputation.name.gadgetzan">Gadgetzan</str>
+		<str id="armory.character-reputation.icon.gadgetzan">INV_Misc_Gear_07</str>
+		<str id="armory.character-reputation.url.gadgetzan">http://www.worldofwarcraft.co.kr/info/basics/factions/other-tip.html</str>
+
+		<str id="armory.character-reputation.name.ratchet">Ratchet</str>
+		<str id="armory.character-reputation.icon.ratchet">INV_Weapon_Rifle_16</str>
+		<str id="armory.character-reputation.url.ratchet">http://www.worldofwarcraft.co.kr/info/basics/factions/other-tip.html</str>
+
+		<str id="armory.character-reputation.name.argentdawn">Argent Dawn</str>
+		<str id="armory.character-reputation.icon.argentdawn">INV_Misc_Token_ArgentDawn</str>
+		<str id="armory.character-reputation.url.argentdawn">http://www.worldofwarcraft.co.kr/info/basics/factions/argent.html</str>
+
+		<str id="armory.character-reputation.name.bloodsailbuccaneers">Bloodsail Buccaneers</str>
+		<str id="armory.character-reputation.icon.bloodsailbuccaneers">INV_Helmet_66</str>
+		<str id="armory.character-reputation.url.bloodsailbuccaneers">http://www.worldofwarcraft.co.kr/info/basics/factions/other-tip.html</str>
+
+		<str id="armory.character-reputation.name.broodofnozdormu">Brood of Nozdormu</str>
+		<str id="armory.character-reputation.icon.broodofnozdormu">INV_Misc_Head_Dragon_Bronze</str>
+		<str id="armory.character-reputation.url.broodofnozdormu">http://www.worldofwarcraft.co.kr/info/basics/factions/broodofnozdormu.html</str>
+
+		<str id="armory.character-reputation.name.cenarioncircle">Cenarion Circle</str>
+		<str id="armory.character-reputation.icon.cenarioncircle"/>
+		<str id="armory.character-reputation.url.cenarioncircle">http://www.worldofwarcraft.co.kr/info/basics/factions/cenarion.html</str>
+
+		<str id="armory.character-reputation.name.darkmoonfaire">Darkmoon Faire</str>
+		<str id="armory.character-reputation.icon.darkmoonfaire">INV_Misc_Ticket_Tarot_Stack_01</str>
+		<str id="armory.character-reputation.url.darkmoonfaire">http://www.worldofwarcraft.co.kr/info/basics/factions/darkmoon.html</str>
+
+		<str id="armory.character-reputation.name.gelkisclancentaur">Gelkis Clan Centaur</str>
+		<str id="armory.character-reputation.icon.gelkisclancentaur">INV_Misc_Head_Centaur_01</str>
+
+		<str id="armory.character-reputation.name.hydraxianwaterlords">Hydraxian Waterlords</str>
+		<str id="armory.character-reputation.icon.hydraxianwaterlords">Spell_Frost_SummonWaterElemental</str>
+		<str id="armory.character-reputation.url.hydraxianwaterlords">http://www.worldofwarcraft.co.kr/info/basics/factions/other-tip.html</str>
+
+		<str id="armory.character-reputation.name.keepersoftime">Keepers of Time</str>
+		<str id="armory.character-reputation.icon.keepersoftime">INV_Misc_PocketWatch_01</str>
+		<str id="armory.character-reputation.url.keepersoftime">http://www.worldofwarcraft.com/info/basics/factions/keepers/keepers.xml</str>
+
+		<str id="armory.character-reputation.name.magramclancentaur">Magram Clan Centaur</str>
+		<str id="armory.character-reputation.icon.magramclancentaur">INV_Misc_Head_Centaur_01</str>
+
+		<str id="armory.character-reputation.name.ravenholdt">Ravenholdt</str>
+		<str id="armory.character-reputation.icon.ravenholdt">Ability_Rogue_MasterOfSubtlety</str>
+
+		<str id="armory.character-reputation.name.thescaleofthesands">The Scale of the Sands</str>
+		<str id="armory.character-reputation.icon.thescaleofthesands">INV_Qiraj_JewelBlessed</str>
+		<str id="armory.character-reputation.url.thescaleofthesands">http://www.worldofwarcraft.co.kr/info/basics/factions/scale-of-sands-rewards.html</str>
+		<str id="armory.character-reputation.url.scaleofthesands">http://www.worldofwarcraft.co.kr/info/basics/factions/scale-of-sands-rewards.html</str>
+
+		<str id="armory.character-reputation.name.shendralar">Shendralar</str>
+		<str id="armory.character-reputation.icon.shendralar">INV_Offhand_Draenei_A_01</str>
+
+		<str id="armory.character-reputation.name.thoriumbrotherhood">Thorium Brotherhood</str>
+		<str id="armory.character-reputation.icon.thoriumbrotherhood">INV_Ore_Thorium_02</str>
+		<str id="armory.character-reputation.url.thoriumbrotherhood">http://www.worldofwarcraft.co.kr/info/basics/factions/thorium.html</str>
+
+		<str id="armory.character-reputation.name.timbermawhold">Timbermaw Hold</str>
+		<str id="armory.character-reputation.icon.timbermawhold">INV_Misc_MonsterClaw_04</str>
+		<str id="armory.character-reputation.url.timbermawhold">http://www.worldofwarcraft.co.kr/info/basics/factions/timbermaw.html</str>
+
+		<str id="armory.character-reputation.name.tranquillien">Tranquillien</str>
+		<str id="armory.character-reputation.icon.tranquillien">Spell_Shadow_DarkSummoning</str>
+
+		<str id="armory.character-reputation.name.wintersabertrainers">Wintersaber Trainers</str>
+		<str id="armory.character-reputation.icon.wintersabertrainers">Ability_Mount_WhiteTiger</str>
+		<str id="armory.character-reputation.url.wintersabertrainers">http://www.worldofwarcraft.co.kr/info/basics/factions/other-tip.html</str>
+
+		<str id="armory.character-reputation.name.thevioleteye">The Violet Eye</str>
+		<str id="armory.character-reputation.icon.thevioleteye">INV_Jewelcrafting_Nightseye_01</str>
+		<str id="armory.character-reputation.url.thevioleteye">http://www.worldofwarcraft.co.kr/info/basics/factions/violeteye.html</str>
+
+		<str id="armory.character-reputation.name.zandalartribe">Zandalar Tribe</str>
+		<str id="armory.character-reputation.icon.zandalartribe">INV_Bijou_Gold</str>
+		<str id="armory.character-reputation.url.zandalartribe">http://www.worldofwarcraft.co.kr/info/basics/factions/zandalar.html</str>
+
+		<str id="armory.character-reputation.url.shatteredsunoffensive">/search.xml?fl[source]=reputation&amp;fl[faction]=1077&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.ashtonguedeathsworn">/search.xml?fl[source]=reputation&amp;fl[faction]=1012&amp;searchType=items</str>
+
+		<!-- WOTLK REPS -->
+		<!-- horde -->
+		<!--
+		<str id="armory.character-reputation.url.thehandofvengeance">/search.xml?fl[source]=reputation&amp;fl[faction]=10650&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.thesunreavers">/search.xml?fl[source]=reputation&amp;fl[faction]=1124&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.thetaunka">/search.xml?fl[source]=reputation&amp;fl[faction]=1064&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.warsongoffensive">/search.xml?fl[source]=reputation&amp;fl[faction]=1085&amp;searchType=items</str>
+		-->
+
+		<!-- alliance -->
+		<!--
+		<str id="armory.character-reputation.url.explorersleague">/search.xml?fl[source]=reputation&amp;fl[faction]=1068&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.thefrostborn">/search.xml?fl[source]=reputation&amp;fl[faction]=1126&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.thesilvercovenant">/search.xml?fl[source]=reputation&amp;fl[faction]=1094&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.valianceexpedition">/search.xml?fl[source]=reputation&amp;fl[faction]=1050&amp;searchType=items</str>
+		-->
+
+		<!-- both factions -->
+		<str id="armory.character-reputation.url.argentcrusade">/search.xml?fl[source]=reputation&amp;fl[faction]=1106&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.kirintor">/search.xml?fl[source]=reputation&amp;fl[faction]=1090&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.knightsoftheebonblade">/search.xml?fl[source]=reputation&amp;fl[faction]=1098&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.thekalu'ak">/search.xml?fl[source]=reputation&amp;fl[faction]=1073&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.thewyrmrestaccord">/search.xml?fl[source]=reputation&amp;fl[faction]=1091&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.frenzyhearttribe">/search.xml?fl[source]=reputation&amp;fl[faction]=1104&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.theoracles">/search.xml?fl[source]=reputation&amp;fl[faction]=1105&amp;searchType=items</str>
+		<str id="armory.character-reputation.url.thesonsofhodir">/search.xml?fl[source]=reputation&amp;fl[faction]=1119&amp;searchType=items</str>
+		
+		<str id="armory.character-reputation.group.grouped">기본 보기</str>
+		<str id="armory.character-reputation.group.ungrouped">목록 보기</str>
+		<str id="armory.character-reputation.sort.faction">진영으로 정렬</str>
+		<str id="armory.character-reputation.sort.reputation">평판으로 정렬</str>
+		<str id="armory.character-reputation.noreputation">이 캐릭터는 어떤 진영에서도 평판을 얻지 못했습니다.</str>
+	</factions>
+
+<!--item-tooltip.xsl-->
+	<itemTooltip>
+		<str id="armory.item-tooltip.conjured">제작 아이템</str>
+		<str id="armory.item-tooltip.binds-pickup">획득 시 귀속</str>
+		<str id="armory.item-tooltip.binds-equipped">착용 시 귀속</str>
+		<str id="armory.item-tooltip.binds-used">사용 시 귀속</str>
+		<str id="armory.item-tooltip.quest-item">퀘스트 아이템</str>
+		<str id="armory.item-tooltip.unique">고유 아이템</str>
+		<str id="armory.item-tooltip.unique-equipped">고유 장착 아이템</str>
+		<str id="armory.item-tooltip.begins-quest">퀘스트 시작 아이템</str>
+		<str id="armory.item-tooltip.slot">장착 위치</str>
+		<str id="armory.item-tooltip.projectile">투사체</str>
+
+		<str id="armory.item-tooltip.non-equip">비장착 아이템</str>
+		<str id="armory.item-tooltip.one-hand">한손 장비</str>
+		<str id="armory.item-tooltip.two-hand">양손 장비</str>
+		<str id="armory.item-tooltip.held-off-hand">보조장비</str>
+		<str id="armory.item-tooltip.thrown">투척무기</str>
+		<str id="armory.item-tooltip.bag-type">가방</str>
+		<str id="armory.item-tooltip.quiver-type">화살통</str>
+
+		<str id="armory.item-tooltip.adds">추가</str>
+		<str id="armory.item-tooltip.dps">초당 공격력</str>
+		<str id="armory.item-tooltip.speed">속도</str>
+		<str id="armory.item-tooltip.damage">공격력</str>
+		<str id="armory.item-tooltip.holy-damage">신성 피해</str>
+		<str id="armory.item-tooltip.fire-damage">화염 피해</str>
+		<str id="armory.item-tooltip.nature-damage">자연 피해</str>
+		<str id="armory.item-tooltip.frost-damage">냉기 피해</str>
+		<str id="armory.item-tooltip.shadow-damage">암흑 피해</str>
+		<str id="armory.item-tooltip.arcane-damage">비전 피해</str>
+
+		<str id="armory.item-tooltip.armor">방어도</str>
+		<str id="armory.item-tooltip.block">의 피해 방어</str>
+		<str id="armory.item-tooltip.strength">힘</str>
+		<str id="armory.item-tooltip.agility">민첩성</str>
+		<str id="armory.item-tooltip.stamina">체력</str>
+		<str id="armory.item-tooltip.intellect">지능</str>
+		<str id="armory.item-tooltip.spirit">정신력</str>
+		<str id="armory.item-tooltip.fire-resistance">화염 저항력</str>
+		<str id="armory.item-tooltip.nature-resistance">자연 저항력</str>
+		<str id="armory.item-tooltip.frost-resistance">냉기 저항력</str>
+		<str id="armory.item-tooltip.shadow-resistance">암흑 저항력</str>
+		<str id="armory.item-tooltip.arcane-resistance">비전 저항력</str>
+		<str id="armory.item-tooltip.socket-bonus">보석 장착 보너스:</str>
+
+		<str id="armory.item-tooltip.meta-socket">얼개 보석 홈</str>
+		<str id="armory.item-tooltip.red-socket">붉은색 보석 홈</str>
+		<str id="armory.item-tooltip.yellow-socket">노란색 보석 홈</str>
+		<str id="armory.item-tooltip.blue-socket">푸른색 보석 홈</str>
+
+		<str id="armory.item-tooltip.random-enchant">무작위 부여마법</str>
+		<str id="armory.item-tooltip.durability">내구도</str>
+
+		<str id="armory.item-tooltip.races">종족</str>
+		<str id="armory.item-tooltip.classes">직업</str>
+		<str id="armory.item-tooltip.requires-level">최소 요구 레벨</str>
+		<str id="armory.item-tooltip.requires">요구 사항:</str>
+
+		<str id="armory.item-tooltip.requires.personalarena">님의 개인 투기장 평점이 필요합니다.</str>
+		<str id="armory.item-tooltip.parenthesisOpen">(</str>
+		<str id="armory.item-tooltip.parenthesisClose">)</str>
+
+<!--reputation status 0= male 1= female no number= neutral-->
+		<str id="armory.item-tooltip.hated">매우 적대적</str>
+		<str id="armory.item-tooltip.hostile">적대적</str>
+		<str id="armory.item-tooltip.unfriendly">약간 적대적</str>
+		<str id="armory.item-tooltip.neutral">중립적</str>
+		<str id="armory.item-tooltip.friendly">약간 우호적</str>
+		<str id="armory.item-tooltip.honored">우호적</str>
+		<str id="armory.item-tooltip.revered">매우 우호적</str>
+		<str id="armory.item-tooltip.exalted">확고한 동맹</str>
+
+		<str id="armory.item-tooltip.hated.0">매우 적대적</str>
+		<str id="armory.item-tooltip.hostile.0">적대적</str>
+		<str id="armory.item-tooltip.unfriendly.0">약간 적대적</str>
+		<str id="armory.item-tooltip.neutral.0">중립적</str>
+		<str id="armory.item-tooltip.friendly.0">약간 우호적</str>
+		<str id="armory.item-tooltip.honored.0">우호적</str>
+		<str id="armory.item-tooltip.revered.0">매우 우호적</str>
+		<str id="armory.item-tooltip.exalted.0">확고한 동맹</str>
+
+		<str id="armory.item-tooltip.hated.1">매우 적대적</str>
+		<str id="armory.item-tooltip.hostile.1">적대적</str>
+		<str id="armory.item-tooltip.unfriendly.1">약간 적대적</str>
+		<str id="armory.item-tooltip.neutral.1">중립적</str>
+		<str id="armory.item-tooltip.friendly.1">약간 우호적</str>
+		<str id="armory.item-tooltip.honored.1">우호적</str>
+		<str id="armory.item-tooltip.revered.1">매우 우호적</str>
+		<str id="armory.item-tooltip.exalted.1">확고한 동맹</str>
+
+		<str id="armory.item-tooltip.increase-defense">착용 효과: 방어 숙련도가</str>
+		<str id="armory.item-tooltip.increase-dodge">착용 효과: 회피 숙련도가</str>
+		<str id="armory.item-tooltip.bonusParryRating">착용 효과: 무기 막기 숙련도가</str>
+		<str id="armory.item-tooltip.bonusBlockRating">착용 효과: 방패 막기 숙련도가</str>
+		<str id="armory.item-tooltip.bonusHitMeleeRating">착용 효과: 근접 적중도가</str>
+		<str id="armory.item-tooltip.bonusHitRangedRating">착용 효과: 원거리 적중도가</str>
+		<str id="armory.item-tooltip.improve-spell">착용 효과: 주문 적중도가</str>
+		<str id="armory.item-tooltip.bonusCritMeleeRating">착용 효과: 근접 치명타 적중도가</str>
+		<str id="armory.item-tooltip.bonusCritRangedRating">착용 효과: 원거리 치명타 적중도가</str>
+		<str id="armory.item-tooltip.improve-spell-crit">착용 효과: 주문 극대화 적중도가</str>
+		<str id="armory.item-tooltip.bonusHitTakenMeleeRating">착용 효과: 근접 공격력이</str>
+		<str id="armory.item-tooltip.bonusHitTakenRangedRating">착용 효과: 원거리 공격력이</str>
+		<str id="armory.item-tooltip.bonusHitTakenSpellRating">착용 효과: 주문 공격력이</str>
+		<str id="armory.item-tooltip.bonusCritTakenMeleeRating">착용 효과: 근접 치명타 적중도가</str>
+		<str id="armory.item-tooltip.bonusCritTakenRangedRating">착용 효과: 원거리 치명타 적중도가</str>
+		<str id="armory.item-tooltip.bonusCritTakenSpellRating">착용 효과: 주문 극대화 적중도가</str>
+		<str id="armory.item-tooltip.bonusHasteMeleeRating">착용 효과: 근접 공격 가속도가</str>
+		<str id="armory.item-tooltip.bonusHasteRangedRating">착용 효과: 원거리 공격 가속도가</str>
+		<str id="armory.item-tooltip.bonusHasteSpellRating">착용 효과: 주문 공격 가속도가</str>
+		<str id="armory.item-tooltip.improve-hit-rating">착용 효과: 적중도가</str>
+		<str id="armory.item-tooltip.improve-crit-strike">착용 효과: 치명타 적중도가</str>
+		<str id="armory.item-tooltip.bonusHitTakenRating">착용 효과: 공격 회피 숙련도가</str>
+		<str id="armory.item-tooltip.bonusCritTakenRating">착용 효과: 치명타 적중도가</str>
+		<str id="armory.item-tooltip.improve-resilience">착용 효과: 탄력도가</str>
+		<str id="armory.item-tooltip.bonusHasteRating">착용 효과: 공격 가속도가</str>
+		<str id="armory.item-tooltip.bonusSpellPower">착용 효과: 주문력이</str>
+
+		<!-- new in 3.02 -->
+		<str id="armory.item-tooltip.bonusAttackPower">착용 효과: 전투력이 </str>
+		<str id="armory.item-tooltip.bonusExpertiseRating">착용 효과: 숙련도가 </str>
+		<str id="armory.item-tooltip.bonusRangedAttackPower">착용 효과: 원거리 전투력이 </str>
+		<str id="armory.item-tooltip.bonusFeralAttackPower">착용 효과: 야성 전투력이 </str>
+		<str id="armory.item-tooltip.bonusManaRegen">착용 효과: 마나 회복량이 </str>
+		<str id="armory.item-tooltip.bonusArmorPenetration">착용 효과: 방어구 관통력이 </str>
+
+		<str id="armory.item-tooltip.requiredLevelMin">요구 레벨</str>
+		<str id="armory.item-tooltip.requiredLevelMax">-</str>
+
+		<str id="armory.item-tooltip.charges">회 사용 가능</str>
+		<str id="armory.item-tooltip.use">사용 효과</str>
+		<str id="armory.item-tooltip.equip">착용 효과</str>
+		<str id="armory.item-tooltip.chance-on-hit">발동 효과</str>
+		<str id="armory.item-tooltip.set">세트 효과</str>
+
+		<str id="armory.item-tooltip.majorglyph">주 문양</str>
+		<str id="armory.item-tooltip.minorglyph">보조 문양</str>
+	</itemTooltip>
+
+	<itemSlot>
+		<str id="armory.itemslot.slot.head">머리</str>
+		<str id="armory.itemslot.slot.neck">목</str>
+		<str id="armory.itemslot.slot.shoulders">어깨</str>
+		<str id="armory.itemslot.slot.back">등</str>
+		<str id="armory.itemslot.slot.chest">가슴</str>
+		<str id="armory.itemslot.slot.shirt">속옷</str>
+		<str id="armory.itemslot.slot.tabard">휘장</str>
+		<str id="armory.itemslot.slot.wrist">손목</str>
+		<str id="armory.itemslot.slot.hands">손</str>
+		<str id="armory.itemslot.slot.hand">손</str>
+		<str id="armory.itemslot.slot.waist">허리</str>
+		<str id="armory.itemslot.slot.legs">다리</str>
+		<str id="armory.itemslot.slot.feet">발</str>
+		<str id="armory.itemslot.slot.finger">손가락</str>
+		<str id="armory.itemslot.slot.trinket">장신구</str>
+		<str id="armory.itemslot.slot.mainHand">주장비</str>
+		<str id="armory.itemslot.slot.offHand">보조장비</str>
+		<str id="armory.itemslot.slot.ranged">원거리 장비</str>
+		<str id="armory.itemslot.slot.relic">성물</str>
+		<str id="armory.itemslot.slot.ammo">탄약</str>
+	</itemSlot>
+
+	<spellType>
+		<str id="armory.spell-type.fire">화염</str>
+		<str id="armory.spell-type.arcane">비전</str>
+		<str id="armory.spell-type.holy">신성</str>
+		<str id="armory.spell-type.shadow">암흑</str>
+		<str id="armory.spell-type.nature">자연</str>
+		<str id="armory.spell-type.frost">냉기</str>
+	</spellType>
+
+<!--item types - DO NOT CHANGE THE IDS-->
+	<itemType>
+		<str id="armory.item-type.Two-Handed Axes">양손 도끼</str>
+		<str id="armory.item-type.One-Handed Axes">한손 도끼</str>
+		<str id="armory.item-type.Bows">활</str>
+		<str id="armory.item-type.Bucklers">버클러</str>
+		<str id="armory.item-type.Crossbows">석궁</str>
+		<str id="armory.item-type.Daggers">단검</str>
+		<str id="armory.item-type.One-Handed Exotics">한손 특수 무기</str>
+		<str id="armory.item-type.Two-Handed Exotics">양손 특수 무기</str>
+		<str id="armory.item-type.Fist Weapons">장착 무기</str>
+		<str id="armory.item-type.Guns">총</str>
+		<str id="armory.item-type.Idols">우상</str>
+		<str id="armory.item-type.Librams">성서</str>
+		<str id="armory.item-type.One-Handed Maces">한손 둔기</str>
+		<str id="armory.item-type.Two-Handed Maces">양손 둔기</str>
+		<str id="armory.item-type.Polearms">장창</str>
+		<str id="armory.item-type.Shields">방패</str>
+		<str id="armory.item-type.Spears">창</str>
+		<str id="armory.item-type.Staves">지팡이</str>
+		<str id="armory.item-type.Two-Handed Swords">양손 검</str>
+		<str id="armory.item-type.One-Handed Swords">한손 검</str>
+		<str id="armory.item-type.Totems">토템</str>
+		<str id="armory.item-type.Sigils">인장</str>
+		<str id="armory.item-type.Wands">마법봉</str>
+	</itemType>
+
+	<talents>
+		<str id="url.talents">http://www.worldofwarcraft.co.kr/info/basics/classes</str>
+		<str id="path.talents">/shared/global/talents</str>
+		<str id="talents.langDir">/kr</str>
+
+		<str id="armory.class6.talents.tree.one">혈기</str>
+		<str id="armory.class6.talents.tree.two">냉기</str>
+		<str id="armory.class6.talents.tree.three">부정</str>
+
+		<str id="armory.class11.talents.tree.one">조화</str>
+		<str id="armory.class11.talents.tree.two">야성</str>
+		<str id="armory.class11.talents.tree.three">회복</str>
+
+		<str id="armory.class3.talents.tree.one">야수</str>
+		<str id="armory.class3.talents.tree.two">사격</str>
+		<str id="armory.class3.talents.tree.three">생존</str>
+
+		<str id="armory.class8.talents.tree.one">비전</str>
+		<str id="armory.class8.talents.tree.two">화염</str>
+		<str id="armory.class8.talents.tree.three">냉기</str>
+
+		<str id="armory.class2.talents.tree.one">신성</str>
+		<str id="armory.class2.talents.tree.two">보호</str>
+		<str id="armory.class2.talents.tree.three">징벌</str>
+
+		<str id="armory.class5.talents.tree.one">수양</str>
+		<str id="armory.class5.talents.tree.two">신성</str>
+		<str id="armory.class5.talents.tree.three">암흑</str>
+
+		<str id="armory.class4.talents.tree.one">암살</str>
+		<str id="armory.class4.talents.tree.two">전투</str>
+		<str id="armory.class4.talents.tree.three">잠행</str>
+
+		<str id="armory.class7.talents.tree.one">정기</str>
+		<str id="armory.class7.talents.tree.two">고양</str>
+		<str id="armory.class7.talents.tree.three">복원</str>
+
+		<str id="armory.class9.talents.tree.one">고통</str>
+		<str id="armory.class9.talents.tree.two">악마</str>
+		<str id="armory.class9.talents.tree.three">파괴</str>
+
+		<str id="armory.class1.talents.tree.one">무기</str>
+		<str id="armory.class1.talents.tree.two">분노</str>
+		<str id="armory.class1.talents.tree.three">방어</str>
+	</talents>
+
+<!--item-info -->
+	<itemInfo>
+		<str id="currentlyEquipped">현재 착용중인 장비</str>
+		<str id="armory.item-info.drop-rate.0">획득 불가</str>
+		<str id="armory.item-info.drop-rate.1">매우 낮음 (1% - 2%)</str>
+		<str id="armory.item-info.drop-rate.2">낮음 (3% - 14%)</str>
+		<str id="armory.item-info.drop-rate.3">보통 (15% - 24%)</str>
+		<str id="armory.item-info.drop-rate.4">높음 (25% - 50%)</str>
+		<str id="armory.item-info.drop-rate.5">항상 (51% - 99%)</str>
+		<str id="armory.item-info.drop-rate.6">정확도 (100%)</str>
+
+		<str id="armory.item-info.label.name">이름</str>
+		<str id="armory.item-info.label.location">지역</str>
+		<str id="armory.item-info.label.drop">획득률</str>
+		<str id="armory.item-info.label.level">레벨</str>
+		<str id="armory.item-info.label.reagents">재료</str>
+		<str id="armory.item-info.label.cost">가격</str>
+		<str id="armory.item-info.label.count">수량</str>
+		<str id="armory.item-info.label.title">호칭</str>
+		<str id="armory.item-info.label.reqlevel">최소 요구 레벨</str>
+		<str id="armory.item-info.label.type">유형</str>
+		<str id="armory.item-info.label.enchantment">마법부여</str>
+		<str id="armory.item-info.label.effects">효과</str>
+
+		<str id="armory.item-info.title.dropped">획득 장소</str>
+		<str id="armory.item-info.title.pickpocketed">훔치기 대상 </str>
+		<str id="armory.item-info.title.skinned">무두질 대상</str>
+		<str id="armory.item-info.title.gathered">약초 채집 대상</str>
+		<str id="armory.item-info.title.mined">채광 대상</str>
+		<str id="armory.item-info.title.starts">시작 퀘스트</str>
+		<str id="armory.item-info.title.provided">퀘스트 수행 아이템</str>
+		<str id="armory.item-info.title.objective">퀘스트 수집 아이템</str>
+		<str id="armory.item-info.title.reward">퀘스트 보상 아이템</str>
+
+		<str id="armory.item-info.randomenchants">무작위 마법부여:</str>
+		<str id="armory.item-info.itemlevel">아이템 레벨:</str>
+		<str id="armory.item-info.dropsfrom">획득 가능 몬스터:</str>
+		<str id="armory.item-info.contained">획득 가능 출처:</str>
+		<str id="armory.item-info.bought">가격:</str>
+		<str id="armory.item-info.sells">판매 가격:</str>
+		<str id="armory.item-info.disenchantable">마력 추출: </str>
+		<str id="armory.item-info.heroic"> (영웅)</str>
+		<str id="armory.item-info.soldby">구입 가능</str>
+		<str id="armory.item-info.reqregeants">필요 재료</str>
+		<str id="armory.item-info.plans">제작 가능 아이템</str>
+		<str id="armory.item-info.regeantsfor">제작 재료</str>
+		<str id="armory.item-info.currency">구입 가능 아이템</str>
+		<str id="armory.item-info.disinto">마력 추출 결과</str>
+		<str id="armory.item-info.randomwdrop">49-66레벨의 &lt;strong&gt;인간형&lt;/strong&gt;과 &lt;strong&gt;야수형&lt;/strong&gt;에게서 획득 가능합니다.</str>
+
+		<str id="armory.item-info.disenchant.tooltip.before">마력 추출을 위한 필요 마법부여 숙련도 (&lt;strong&gt;</str>
+		<str id="armory.item-info.disenchant.tooltip.after">&lt;/strong&gt;) 마력 추출을 위한 마법부여</str>
+		<str id="item.fact">아이템 정보</str>
+	</itemInfo>
+
+<!-- Character races & classes 0= male 1= female no number= neutral-->
+	<races>
+		<str id="armory.races.race.3">드워프</str>
+		<str id="armory.races.race.3.0">드워프</str>
+		<str id="armory.races.race.3.1">드워프</str>
+		<str id="armory.races.race.1">인간</str>
+		<str id="armory.races.race.1.0">인간</str>
+		<str id="armory.races.race.1.1">인간</str>
+		<str id="armory.races.race.4">나이트 엘프</str>
+		<str id="armory.races.race.4.0">나이트 엘프</str>
+		<str id="armory.races.race.4.1">나이트 엘프</str>
+		<str id="armory.races.race.7">노움</str>
+		<str id="armory.races.race.7.0">노움</str>
+		<str id="armory.races.race.7.1">노움</str>
+		<str id="armory.races.race.11">드레나이</str>
+		<str id="armory.races.race.11.0">드레나이</str>
+		<str id="armory.races.race.11.1">드레나이</str>
+		<str id="armory.races.race.2">오크</str>
+		<str id="armory.races.race.2.0">오크</str>
+		<str id="armory.races.race.2.1">오크</str>
+		<str id="armory.races.race.5">언데드</str>
+		<str id="armory.races.race.5.0">언데드</str>
+		<str id="armory.races.race.5.1">언데드</str>
+		<str id="armory.races.race.10">블러드 엘프</str>
+		<str id="armory.races.race.10.0">블러드 엘프</str>
+		<str id="armory.races.race.10.1">블러드 엘프</str>
+		<str id="armory.races.race.6">타우렌</str>
+		<str id="armory.races.race.6.0">타우렌</str>
+		<str id="armory.races.race.6.1">타우렌</str>
+		<str id="armory.races.race.8">트롤</str>
+		<str id="armory.races.race.8.0">트롤</str>
+		<str id="armory.races.race.8.1">트롤</str>
+	</races>
+
+	<classes>
+		<str id="armory.classes.class.1">전사</str>
+		<str id="armory.classes.class.1.0">전사</str>
+		<str id="armory.classes.class.1.1">전사</str>
+		<str id="armory.classes.class.11">드루이드</str>
+		<str id="armory.classes.class.11.0">드루이드</str>
+		<str id="armory.classes.class.11.1">드루이드</str>
+		<str id="armory.classes.class.2">성기사</str>
+		<str id="armory.classes.class.2.0">성기사</str>
+		<str id="armory.classes.class.2.1">성기사</str>
+		<str id="armory.classes.class.5">사제</str>
+		<str id="armory.classes.class.5.0">사제</str>
+		<str id="armory.classes.class.5.1">사제</str>
+		<str id="armory.classes.class.4">도적</str>
+		<str id="armory.classes.class.4.0">도적</str>
+		<str id="armory.classes.class.4.1">도적</str>
+		<str id="armory.classes.class.9">흑마법사</str>
+		<str id="armory.classes.class.9.0">흑마법사</str>
+		<str id="armory.classes.class.9.1">흑마법사</str>
+		<str id="armory.classes.class.7">주술사</str>
+		<str id="armory.classes.class.7.0">주술사</str>
+		<str id="armory.classes.class.7.1">주술사</str>
+		<str id="armory.classes.class.3">사냥꾼</str>
+		<str id="armory.classes.class.3.0">사냥꾼</str>
+		<str id="armory.classes.class.3.1">사냥꾼</str>
+		<str id="armory.classes.class.8">마법사</str>
+		<str id="armory.classes.class.8.0">마법사</str>
+		<str id="armory.classes.class.8.1">마법사</str>
+		<str id="armory.classes.class.6">죽음의 기사</str>
+		<str id="armory.classes.class.6.0">죽음의 기사</str>
+		<str id="armory.classes.class.6.1">죽음의 기사</str>
+
+		<str id="item-filter.anytype">모든 유형</str>
+		<str id="item-filter.tank">방어형</str>
+		<str id="item-filter.meleedps">근접 공격형</str>
+		<str id="item-filter.casterdps">주문 공격형</str>
+		<str id="item-filter.healer">치유형</str>
+
+		<str id="items.warlocks.damage">+ 피해 증가만</str>
+		<str id="items.warlocks.damagecrit">+ 피해 증가 및 치명타</str>
+
+		<role>
+			<str id="armory.item-search.tank">방어형</str>
+			<str id="armory.item-search.physicaldps">물리 공격형</str>
+			<str id="armory.item-search.casterdps">주문 공격형</str>
+			<str id="armory.item-search.healer">치유형</str>
+		</role>
+	</classes>
+
+	<guildStats>
+		<str id="armory.guild-stats.minlvl">최소 레벨</str>
+		<str id="armory.guild-stats.maxlvl">최고 레벨</str>
+		<str id="armory.guild-stats.matching">조건을 만족하는 캐릭터 수</str>
+		<str id="armory.guild-stats.totalChars">총 길드원 수</str>
+		<str id="armory.guild-stats.number"> 레벨 플레이어 수</str>
+		<str id="armory.guild-stats.numberAfter"/>
+		<str id="armory.guild-stats.percentage"> 레벨 플레이어 비율</str>
+		<str id="armory.guild-stats.percentageAfter"/>
+		<str id="armory.guild-stats.race.breakdown">종족 구성</str>
+		<str id="armory.guild-stats.class.breakdown">직업 구성</str>
+		<str id="armory.guild-stats.level.breakdown">레벨 구성</str>
+	</guildStats>
+
+	<itemsSearchColumns>
+		<str id="armory.hover.questReward">퀘스트 보상 아이템</str>
+		<str id="armory.hover.requiredLevel">최소 요구 레벨:</str>
+		<str id="armory.hover.dungeon">던전:</str>
+		<str id="armory.hover.heroic">(영웅)</str>
+		<str id="armory.hover.droprate">획득률:</str>
+		<str id="armory.hover.boss">우두머리:</str>
+		<str id="armory.hover.bossdrop">우두머리</str>
+
+		<str id="armory.searchColumn.speed">속도</str>
+		<str id="armory.searchColumn.dps">공격력</str>
+
+		<str id="armory.searchColumn.type">유형</str>
+		<str id="armory.searchColumn.requiredLevel">최소 요구 레벨</str>
+		<str id="armory.searchColumn.itemLevel">아이템 레벨</str>
+
+		<str id="armory.searchColumn.source">획득처</str>
+
+		<str id="armory.searchColumn.sourceType.questReward">퀘스트 보상 아이템</str>
+		<str id="armory.searchColumn.sourceType.none"> - </str>
+		<str id="armory.searchColumn.sourceType.creatureDrop">획득</str>
+		<str id="armory.searchColumn.sourceType.gameObjectDrop">금고</str>
+		<str id="armory.searchColumn.sourceType.factionReward">평판 보상 아이템</str>
+		<str id="armory.searchColumn.sourceType.pvpReward">PvP 보상 아이템</str>
+		<str id="armory.searchColumn.sourceType.vendorPvP">PvP 보상 아이템</str>
+		<str id="armory.searchColumn.sourceType.vendor">상인</str>
+		<str id="armory.searchColumn.sourceType.pickPocket">훔치기</str>
+		<str id="armory.searchColumn.sourceType.creatureSkin">가죽세공</str>
+		<str id="armory.searchColumn.sourceType.creatureMine">채광</str>
+		<str id="armory.searchColumn.sourceType.creatureHerb">약초채집</str>
+		<str id="armory.searchColumn.sourceType.startsQuest">퀘스트 아이템</str>
+		<str id="armory.searchColumn.sourceType.providedQuest">퀘스트 아이템</str>
+		<str id="armory.searchColumn.sourceType.objQuest">퀘스트 아이템</str>
+
+		<str id="armory.searchColumn.sourceType.createdBySpell">제작</str>
+		<str id="armory.searchColumn.sourceType.reagentSpell">재료</str>
+		<str id="armory.searchColumn.sourceType.createdByPlans">제작</str>
+		<str id="armory.searchColumn.sourceType.currency">구입 가능 아이템</str>
+
+		<str id="armory.searchColumn.sourceType.planForItem">제작 가능 아이템</str>
+		<str id="armory.searchColumn.sourceType.worldDrop">일반 아이템</str>
+
+		<str id="armory.searchColumn.inventoryType">장착 위치</str>
+
+		<str id="armory.searchColumn.requiredSkill">요구 사항</str>
+
+		<str id="armory.searchColumn.containerSlots">가방 칸</str>
+
+		<str id="armory.searchColumn.slot.1">머리</str>
+		<str id="armory.searchColumn.slot.2">목</str>
+		<str id="armory.searchColumn.slot.3">어깨</str>
+		<str id="armory.searchColumn.slot.16">등</str>
+		<str id="armory.searchColumn.slot.5">가슴</str>
+		<str id="armory.searchColumn.slot.20">가슴</str>
+		<str id="armory.searchColumn.slot.4">셔츠</str>
+		<str id="armory.searchColumn.slot.18">휘장</str>
+		<str id="armory.searchColumn.slot.9">손목</str>
+		<str id="armory.searchColumn.slot.10">손</str>
+		<str id="armory.searchColumn.slot.6">허리</str>
+		<str id="armory.searchColumn.slot.7">다리</str>
+		<str id="armory.searchColumn.slot.8">발</str>
+		<str id="armory.searchColumn.slot.11">손가락</str>
+		<str id="armory.searchColumn.slot.12">장신구</str>
+		<str id="armory.searchColumn.slot.14">방패</str>
+		<str id="armory.searchColumn.slot.15">주장비</str>
+		<str id="armory.searchColumn.slot.23">보조 장비</str>
+		<str id="armory.searchColumn.slot.17">원거리 장비</str>
+		<str id="armory.searchColumn.slot.28">성물</str>
+
+		<str id="armory.searchColumn.weaponStats">무기 성능</str>
+		<str id="armory.searchColumn.dps">공격력</str>
+		<str id="armory.searchColumn.minDamage">최소 공격력</str>
+		<str id="armory.searchColumn.maxDamage">최대 공격력</str>
+		<str id="armory.searchColumn.speed">속도</str>
+
+		<str id="armory.searchColumn.baseStats">기본 능력치 보너스</str>
+		<str id="armory.searchColumn.strength">힘</str>
+		<str id="armory.searchColumn.agility">민첩성</str>
+		<str id="armory.searchColumn.stamina">체력</str>
+		<str id="armory.searchColumn.intellect">지능</str>
+		<str id="armory.searchColumn.spirit">정신력</str>
+
+		<str id="armory.searchColumn.physical">물리 공격 보너스</str>
+		<str id="armory.searchColumn.attackPower">전투력</str>
+		<str id="armory.searchColumn.feralAttackPower">야성 전투력</str>
+		<str id="armory.searchColumn.critRating">치명타 적중도</str>
+		<str id="armory.searchColumn.hitRating">적중도</str>
+		<str id="armory.searchColumn.hasteRating">가속도</str>
+		<str id="armory.searchColumn.expertiseRating">숙련도</str>
+
+		<str id="armory.searchColumn.spell">주문 보너스</str>
+		<str id="armory.searchColumn.spellHealing">치유량</str>
+		<str id="armory.searchColumn.spellPower">주문 공격력</str>
+		<str id="armory.searchColumn.spellCritRating">주문 극대화 적중도</str>
+		<str id="armory.searchColumn.spellHitRating">주문 적중도</str>
+		<str id="armory.searchColumn.spellPenetration">관통력</str>
+		<str id="armory.searchColumn.spellManaRegen">마나 회복량</str>
+		<str id="armory.searchColumn.spellHasteRating">주문 가속도</str>
+		<str id="armory.searchColumn.spellDamageArcane">비전 피해</str>
+		<str id="armory.searchColumn.spellDamageHoly">신성 피해</str>
+		<str id="armory.searchColumn.spellDamageShadow">암흑 피해</str>
+		<str id="armory.searchColumn.spellDamageNature">자연 피해</str>
+		<str id="armory.searchColumn.spellDamageFrost">냉기 피해</str>
+		<str id="armory.searchColumn.spellDamageFire">화염 피해</str>
+
+		<str id="armory.searchColumn.defense">방어 보너스</str>
+		<str id="armory.searchColumn.armor">방어도</str>
+		<str id="armory.searchColumn.blockRating">방패 막기 숙련도</str>
+		<str id="armory.searchColumn.blockValue">피해 방어량</str>
+		<str id="armory.searchColumn.defenseRating">방어 숙련도</str>
+		<str id="armory.searchColumn.dodgeRating">회피 숙련도</str>
+		<str id="armory.searchColumn.parryRating">무기 막기 숙련도</str>
+		<str id="armory.searchColumn.resilience">탄력도</str>
+		<str id="armory.searchColumn.healthRegen">생명력 회복량</str>
+
+	<str id="armory.searchColumn.resistances">저항력 보너스</str>
+		<str id="armory.searchColumn.resistArcane">비전 저항</str>
+		<str id="armory.searchColumn.resistShadow">암흑 저항</str>
+		<str id="armory.searchColumn.resistNature">자연 저항</str>
+		<str id="armory.searchColumn.resistFrost">냉기 저항</str>
+		<str id="armory.searchColumn.resistFire">화염 저항</str>
+
+		<str id="armory.searchColumn.general">일반</str>
+		<str id="armory.searchColumn.bindsPickedUp">획득 시 귀속</str>
+		<str id="armory.searchColumn.bindsEquip">착용 시 귀속</str>
+		<str id="armory.searchColumn.bindsWhenUsed">사용 시 귀속</str>
+		<str id="armory.searchColumn.requiresProfession">요구 기술</str>
+		<str id="armory.searchColumn.unique">고유 아이템</str>
+		<str id="armory.searchColumn.uniqueEquipped">고유 장착 아이템</str>
+		<str id="armory.searchColumn.hasSpellEffect">주문 효과</str>
+
+		<str id="armory.searchColumn.relevance">정확도</str>
+	</itemsSearchColumns>
+
+	<guildBank>
+		<str id="emptyLogs">은행 기록에 최근 사용한 내용이 없습니다.</str>
+		<str id="col.origin">O</str>
+		<str id="col.origin.tooltip">원래 위치</str>
+		<str id="col.action">A</str>
+		<str id="col.action.tooltip">변경 내용</str>
+		<str id="col.destination">D</str>
+		<str id="col.destination.tooltip">변경된 위치</str>
+		<str id="col.item">아이템</str>
+		<str id="subtype">세부 유형</str>
+		<str id="type">유형</str>
+		<str id="resetfilters">필터 초기화</str>
+		<str id="runfilters">필터하기</str>
+		<str id="charnamec">캐릭터 이름: </str>
+		<str id="guildrankc">길드 등급: </str>
+		<str id="origin">이동 전: </str>
+		<str id="ttype">거래 유형: </str>
+		<str id="allbags">모든 보관함</str>
+		<str id="destination">이동 후: </str>
+		<str id="itemname">아이템 이름: </str>
+		<str id="itemquality">아이템 등급: </str>
+		<str id="itemtype">아이템 종류: </str>
+		<str id="itemcost">아이템 가격: </str>
+		<str id="itemsubtype">아이템 하위분류: </str>
+		<str id="date">날짜: </str>
+		<str id="bag">가방: </str>
+		<str id="bagnoc">가방 </str>
+		<str id="bagnospaceone">보관함</str>
+		<str id="bagnospacetwo"/>
+		<str id="resultsover">검색 결과가 너무 많습니다. 검색하려는 기간을 줄여서 시도해 주세요.</str>
+		<str id="bagnocafter"/>
+		<str id="resultsfound">검색 결과: </str>
+		<str id="transactionsfound">거래 검색 결과</str>
+		<str id="notetime">참고: 날짜 및 시간은 거주 국가에 따릅니다.</str>
+		<str id="nopermission">보기 권한이 없습니다.</str>
+		<str id="none">--없음--</str>
+		<str id="alltypes">모든 아이템 종류</str>
+		<str id="bankcontents">은행 보관물</str>
+		<str id="banklog">이용 내역</str>
+		<str id="banklogresults">이용 내역 결과</str>
+		<str id="characterfilters">캐릭터 필터</str>
+		<str id="itemfilters">아이템 필터</str>
+		<str id="datefilter">날짜 필터</str>
+		<str id="transactionfilters">거래 필터</str>
+		<str id="all">모두</str>
+		<str id="transaction.1">보관한 아이템</str>
+		<str id="transaction.2">꺼낸 아이템</str>
+		<str id="transaction.3">이동한 아이템</str>
+		<str id="transaction.4">입금한 돈</str>
+		<str id="transaction.5">출금한 돈</str>
+		<str id="transaction.6">수리비</str>
+		<str id="transaction.7">이동한 아이템</str>
+		<str id="transaction.8">출금한 돈</str>
+		<str id="transaction.9">길드 은행 칸 구매</str>		
+		<str id="deposititem">아이템 보관</str>
+		<str id="withdrawitem">아이템 꺼내기</str>
+		<str id="depositmoney">입금</str>
+		<str id="withdrawmoney">출금</str>
+		<str id="buytab">구매한 길드 은행 칸</str>
+		<str id="repair">수리</str>
+		<str id="moveitem">아이템 이동</str>
+		<str id="banktabselect">은행 보관함</str>
+		<str id="goldinbank">보관된 골드</str>
+		<str id="contentsof">보관된 곳</str>
+		<str id="bankcontentsfilters">은행 보관물 검색 조건</str>
+		<str id="refreshtab">이 페이지를 새로 고칩니다.</str>
+		<str id="noaccess">이 길드 은행 보관함에 접속하실 수 없습니다. 월드 오브 워크래프트 계정에 이 길드에 가입된 캐릭터가 있으며, 그 캐릭터가 길드 은행에 접속할 수 있는 길드 등급인지 확인해 주세요. 몇몇 길드 은행은 오랫동안 이용되지 않아 일시 정지되었을 수도 있습니다.</str>
+		<str id="guildmsgotd">오늘의 길드 메시지:</str>
+		<str id="guildmsginfo">길드 정보:</str>
+		<str id="showguildinfo">길드 정보 보이기</str>
+		<str id="hideguildinfo">길드 정보 감추기</str>
+		<str id="name">이름:</str>
+		<str id="level">레벨:</str>
+		<str id="race">종족:</str>
+		<str id="gender">성별:</str>
+		<str id="class">직업:</str>
+		<str id="rank">순위:</str>
+		<str id="both">모두</str>
+		<str id="male">남자</str>
+		<str id="female">여자</str>
+		<str id="allranks">모든 등급</str>
+		<str id="daytitle">일</str>
+		<str id="monthtitle">월</str>
+		<str id="yeartitle">년</str>
+		<str id="timetitle">시간</str>
+		<str id="from">발신인:</str>
+		<str id="to">수신인:</str>
+		<str id="search">검색</str>
+		<str id="datesearch">날짜 검색</str>
+		<str id="guildrosterfilters">길드 목록 검색 조건</str>
+		<str id="guildlogincharacter">이 페이지를 보시려면, 접속해야 하며 동시에 해당 길드에 가입한 캐릭터가 있어야 합니다.</str>
+		<str id="guildloginpermission">이 페이지를 볼 수 있는 권한이 없습니다.</str>
+		<str id="error.notabaccess">길드 은행 보관함에 접속할 수 없습니다.</str>
+		<str id="error.loginrequired">접속해주세요.</str>
+		<str id="error.accessdenied">접속하실 수 없습니다.</str>
+		<str id="error.notmember">길드 은행을 확인하시려면, 귀하의 계정에 있는 캐릭터가 해당 길드에 가입되어 있어야 합니다.</str>
+		<str id="error.gologin">길드 은행은 전투정보실에 접속해야만 보실 수 있는 보안 영역입니다. 길드 은행을 확인하시려면 해당 길드에 가입한 캐릭터가 있는 월드 오브 워크래프트 계정으로 접속하셔야 합니다.</str>
+		<str id="error.loginarmory">전투정보실에 접속해주세요.</str>
+		<str id="set">분류</str>
+		<str id="nextset">다음 분류</str>
+		<str id="previousset">이전 분류</str>
+		<str id="currentset">거래 분류</str>
+		<str id="totalresults">총 결과:</str>
+		<str id="information">정보:</str>
+		<str id="firstgroup">1</str>
+		<str id="note">알림:</str>
+		<str id="in">위치</str>
+		<str id="abouttransactions">거래 분류 안내:</str>
+		<str id="notetransactions1">각 거래 유형별로 1천 건 이상의 거래 내용이 저장되어 있습니다.</str>
+		<str id="notetransactions2">가장 최근에 한 거래 유형이 가장 첫 화면에 나타납니다.</str>
+		<str id="notetransactions3">검색이나 정렬은 현재 보고계신 </str>
+		<str id="notetransactions4">검색 결과 위에 있는 화살표를 클릭하시면 다른 분류 검색 결과로 넘어갈 수 있습니다.</str>
+		<str id="notetransactions5">길드 은행 접속 권한에 따라, 분류 별로 기록된 거래를 모두 열람하지 못할 수도 있습니다.</str>
+		<str id="noaccess">길드 은행 보관함에 접속할 수 없습니다.</str>
+		<str id="errortitle">찾으시는 정보는 현재 이용할 수 없습니다.</str>
+		<str id="errorcontent">찾으시는 정보는 현재 이용할 수 없습니다. 잠시 후 다시 시도해 주세요.</str>
+	</guildBank>
+
+	<login>
+		<str id="armory.login.loginrequired">로그인 필요</str>
+		<str id="armory.login.access">로그인해야 이 기능을 사용할 수 있습니다.</str>
+		<str id="armory.login.accountname">계정명</str>
+		<str id="armory.login.password">비밀번호</str>
+		<str id="armory.login.noaccount">계정이 없으신가요?그렇다면 여기를 클릭하십시오</str>
+		<str id="armory.login.forgotpassword">비밀번호를 잃어버리셨나요?</str>
+		<str id="armory.login.forgotpassword.tooltip">비밀번호를 잃어버리셨나요?&lt;br/&gt;그렇다면 여기를 클릭하십시오.</str>
+		<str id="armory.login.forgotid">아이디를 잃어 버리셨나요?</str>
+		<str id="armory.login.welcome">환영합니다:  </str>
+		<str id="armory.login.logged">환영합니다!</str>
+		<str id="armory.login.mustlogin">사용 중인 캐릭터로 로그인하셔야 이 기능을 사용하실 수 있습니다.</str>
+		<str id="armory.login.nochars">생성된 캐릭터가 없습니다.</str>
+		<str id="armory.login.loginbtn">로그인</str>
+		<str id="armory.login.login">로그인</str>
+		<str id="armory.login.cancel">취소</str>
+		<str id="armory.login.logout">접속 종료</str>
+		<str id="armory.login.close">닫기</str>
+		<str id="armory.login.help">도움말</str>
+		<str id="armory.login.mustlog">전투정보실에 있는 보안 영역을 보려면 월드 오브 워크래프트 계정으로 접속하셔야 합니다.</str>
+		<str id="armory.login.error">죄송합니다. 입력하신 계정이나 비밀번호가 맞지 않습니다. 다시 시도해주세요.</str>
+		<str id="armory.login.invites">초대 요청: </str>
+		<str id="armory.login.invitations">초대</str>
+		<str id="armory.login.invites.youhave">새로운 일정: </str>
+		<str id="armory.login.invites.pending">응답하지 않은 초대가 있습니다.</str>
+		<str id="armory.login.calendar.pending">응답하지 않은 일정 초대</str>
+		<str id="armory.login.achievements">업적 점수</str>
+		<str id="armory.login.bookmark.remove">책갈피 삭제</str>
+		<str id="armory.login.bookmark.nobookmark">등록하신 책갈피가 없습니다.</str>
+		<str id="armory.login.bookmark.nobookmark.desc">책갈피에 추가하시려면, 캐릭터 정보를 검색한 다음 '이 캐릭터를 책갈피에 등록'을 눌러주세요.</str>
+	</login>
+
+	<pvpSource>
+		<str id="armory.pvprewards.wintergrasp">겨울손아귀</str>
+		<str id="armory.pvprewards.arena6">여섯번째 시즌 투기장 보상 아이템</str>		
+		<str id="armory.pvprewards.arena5">다섯번째 시즌 투기장 보상 아이템</str>
+		<str id="armory.pvprewards.arena4">네번째 시즌 투기장 보상 아이템</str>
+		<str id="armory.pvprewards.arena3">세번째 시즌 투기장 보상 아이템</str>
+		<str id="armory.pvprewards.arena2">두번째 시즌 투기장 보상 아이템</str>
+		<str id="armory.pvprewards.arena1">첫번째 시즌 투기장 보상 아이템</str>
+		<str id="armory.pvprewards.honor4">네번째 시즌 명예 보상 아이템</str>
+		<str id="armory.pvprewards.honor3">세번째 시즌 명예 보상 아이템</str>
+		<str id="armory.pvprewards.honor2">두번째 시즌 명예 보상 아이템</str>
+		<str id="armory.pvprewards.honor1">첫번째 시즌 명예 보상 아이템</str>
+		<str id="armory.pvprewards.honor">명예 보상 아이템</str>
+		<str id="armory.pvprewards.av">알터랙 계곡</str>
+		<str id="armory.pvprewards.ab">아라시 분지</str>
+		<str id="armory.pvprewards.wsg">전쟁노래협곡</str>
+		<str id="armory.pvprewards.halaa">할라아</str>
+		<str id="armory.pvprewards.honorhold">명예의 요새</str>
+		<str id="armory.pvprewards.thrallmar">스랄마</str>
+		<str id="armory.pvprewards.terrokar">테로카르 숲</str>
+		<str id="armory.pvprewards.zangarmarsh">장가르 습지대</str>
+	</pvpSource>
+
+    <characterSheet>
+		<str id="armory.character.refresh">갱신 대기 중인 캐릭터 데이터</str>
+		<str id="armory.character.talent-specialization">특성 전문화:</str>
+		<str id="armory.character.resistances">저항:</str>
+		<str id="armory.character.professions-primary">전문 기술:</str>
+
+		<str id="armory.character-sheet.base-stats.display">기본 능력치</str>
+		<str id="armory.character-sheet.melee.display">근접</str>
+		<str id="armory.character-sheet.ranged.display">원거리</str>
+		<str id="armory.character-sheet.spell.display">주문</str>
+		<str id="armory.character-sheet.defenses.display">방어</str>
+
+		<str id="armory.character-sheet.prompt.levelTen">캐릭터 정보에서는 10레벨 이상의 플레이어만 볼 수 있습니다.</str>
+		<str id="armory.character-sheet.currentLevel">현재 레벨</str>
+
+		<str id="armory.character-sheet.findupgrade">추천 아이템 찾기</str>
+	</characterSheet>
+
+	<arenaCalc>
+		<str id="twohand">양손 장비</str>
+		<str id="crossbow">활</str>
+		<str id="mainhand">주장비</str>
+		<str id="onehand">한손 장비</str>
+		<str id="offhand">보조 장비</str>
+		<str id="shield">방패</str>
+		<str id="head">머리</str>
+		<str id="chest">가슴</str>
+		<str id="legs">다리</str>
+		<str id="shoulder">어깨</str>
+		<str id="hands">손</str>
+		<str id="offhandfrill">보조 장비</str>
+		<str id="thrown">투척 무기</str>
+		<str id="wand">마법봉</str>
+		<str id="idol">우상</str>
+		<str id="totem">토템</str>
+		<str id="sigil">인장</str>
+		<str id="libram">성물</str>
+		<str id="title">투기장 계산기</str>
+		<str id="selectCalc">계산할 내용을 선택하세요:</str>
+		<str id="calc.arenaPoints">투기장 점수 계산기</str>
+		<str id="calc.arenaPoints.question">이번 주에 얻을 투기장 점수는 몇 점인가요?</str>
+		<str id="calc.rating">승점 계산기</str>
+		<str id="calc.rating.question">원하는 투기장 보상품을 얻으려면 평균 승점이 얼마나 돼야 하나요?</str>
+		<str id="calc.time">시간 계산기</str>
+		<str id="calc.time.question">언제 원하는 투기장 보상품을 얻게 될까요?</str>
+		<str id="intro">
+      <p>투기장에 참가하는 모든 팀은 팀 승점을 가집니다. 이 승점은 여러분이 속한 팀이 투기장 시스템에서 어떤 성적을 내고 있는지를 나타내는데, 승점이 높을수록 더 좋은 성적을 내고 있음을 의미합니다. 팀이 한 번 이길 때마다 승점이 올라가며, 질 때마다 승점이 내려갑니다. 다른 팀의 승점과 자신이 속한 팀의 승점을 비교한 것에 따라 승점의 변동치가 달라집니다. 참고로 예를 들면, 자신이 속해 있는 팀의 승점과 비슷한 승점을 가진 팀과 대전하면 순수하게 16의 승점이 가감됩니다.</p>
+      <p>주말마다 여러분이 속한 팀의 승점으로 해당 주에 투기장 점수를 얼마나 얻게 될 것인지 산출합니다. 투기장 점수를 받으려면 각 팀은 일주일 동안 10회 이상의 전투를 치러야 하며, 속한 팀원은 한 주에 그 팀이 치른 전투의 30% 이상을 참가해야 해당하는 주의 점수를 받을 수 있습니다. 정해진 한 주 동안 받게 되는 점수는 자신이 속한 모든 팀의 점수가 합산된 것이 아니라 한 팀만의 점수임을 유념해주시기 바랍니다. 어느 팀에 속해있더라도 승점과 유형을 고려했을 때 가장 높은 팀의 점수를 그 주의 투기장 점수로 받게 됩니다. 2대2 팀과 3대3 팀은 같은 팀 승점이라 하더라도 5대5팀에 비해 적은 점수를 받게 됩니다.</p>
+      <p>투기장 점수는 투기장 보상품을 구매하는 통화로 사용할 수 있습니다. 최대 5천 점까지 모을 수 있으며 시간이 지나도 사라지지 않습니다. 투기장 계산기는 승점을 이용하여 투기장 점수를 몇 점이나 얻게 되는지와 다음 투기장 보상품을 얻기까지 시간이 얼마나 걸릴지 알아보는데 도움이 될 것입니다.</p>
+    </str>
+		<str id="title.about">투기장 승점과 점수는 어떻게 계산되나</str>
+		<str id="penalty.title">투기장 점수 적용</str>
+		<str id="penalty.two">2대2 팀은 같은 승점을 가진 5대5 팀 점수의 <strong>76%</strong>를 받습니다.</str>
+		<str id="penalty.three">3대3 팀은 같은 승점을 가진 5대5 팀 점수의 <strong>88%</strong>를 받습니다.</str>
+		<str id="title.formulae">투기장 점수 계산 공식</str>
+		<str id="formula.ifrating">
+      <span class="ratingcolor">승점</span>
+    </str>
+		<str id="decimal">.</str>
+		<str id="formula.one">승점&lt;=1500일 때, 투기장 점수=0.22*승점+14</str>
+		<str id="formula.two">승점&gt;1500일 때, 투기장 점수=1511.26/(1+1639.28*2.71828<sup>-0.00412*승점</sup>)</str>
+		<str id="title.itemCosts">아이템 가격</str>
+		<str id="title.arenaRewardCosts">투기장 보상 아이템 가격</str>
+		<str id="ninerepeating1"/>
+		<str id="ninerepeating2"/>
+
+		<str id="items.6">시즌 6 아이템</str>
+		<str id="items.5">시즌 5 아이템</str>
+		<str id="items.4">시즌 4 아이템</str>
+		<str id="items.3">시즌 3 아이템</str>
+		<str id="items.2">시즌 2 아이템</str>
+		<str id="items.1">시즌 1 아이템</str>
+
+		<str id="arenapoints">투기장 점수</str>
+		<str id="points">점수</str>
+
+		<str id="rating">승점</str>
+		<str id="ratingColon">승점:</str>
+		<str id="averageRatingColon">평균 승점:</str>
+		<str id="pointsNeededColon">필요 점수:</str>
+		<str id="itemCostColon">아이템 가격:</str>
+		<str id="itemCost">아이템 가격</str>
+		<str id="haveArenaPointsColon">현재 투기장 점수:</str>
+
+		<str id="avgtwo">2v2 평균 승점</str>
+		<str id="avgthree">3v3 평균 승점</str>
+		<str id="avgfive">5v5 평균 승점</str>
+		<str id="referenceSheet">참고 자료:</str>
+
+		<str id="pinnedProfile">고정 캐릭터</str>
+		<str id="noPinnedProfile">고정된 캐릭터가 없습니다.</str>
+		<str id="noPinnedProfile.explanation">
+      <i>원하는 캐릭터를 고정하시면</i> 계산기의 일부 항목은 자동으로 산출됩니다. <a href="character-search.xml">여기</a>를 클릭하셔서 캐릭터 정보를 찾아보세요.</str>
+
+		<str id="disclaimer.stats">투기장 관련 상황은 새로운 정보로 실시간 갱신되지 않습니다.<br/>획득 점수는 속한 팀 점수 중 한 가지만 반영합니다. [<a href="/faq-arena-calculator.xml#anchorgetArenaPoints" target="_blank">관련 내용 더 보기</a>]</str>
+
+		<str id="twoVcolon">2v2:</str>
+		<str id="threeVcolon">3v3:</str>
+		<str id="fiveVcolon">5v5:</str>
+
+		<str id="numWeeks">시간</str>
+
+		<str id="week0">1주</str>
+
+		<str id="week1">2주:</str>
+		<str id="week2">3주:</str>
+		<str id="week3">4주:</str>
+		<str id="week4">5주:</str>
+		<str id="week5">6주:</str>
+		<str id="week6">7주:</str>
+		<str id="week7">8주:</str>
+		<str id="week8">9주:</str>
+		<str id="week9">10주:</str>
+		<str id="week10">11주:</str>
+		<str id="week11">12주:</str>
+		<str id="week12">13주:</str>
+
+		<str id="weapons">무기</str>
+		<str id="armor">방어구</str>
+
+		<str id="or">또는</str>
+		<str id="impossible">산정 불가</str>
+		<str id="colon">:</str>
+		<str id="honorone">투기장 보상 아이템은 <param1/>시즌 아이템부터 명예 점수와 전장 명예 훈장으로 사실 수 있습니다.</str>
+		<str id="honortwo">아래 링크에서 <param1/>시즌 보상 아이템 전체 목록을 확인하실 수 있습니다.</str>
+		<str id="seasononelink">시즌<param1/> 투기장 보상 아이템</str>
+	</arenaCalc>
+
+	<searchPlugin>
+		<str id="searchengine">검색엔진</str>
+		<str id="title">브라우저 검색 플러그인</str>
+		<str id="maintitle">더욱 편리해진 검색</str>
+		<str id="subtitle">여러분의 브라우저에 월드 오브 워크래프트 전투정보실 검색창을 더해 어느 페이지에서든 전투정보실을 검색하세요!</str>
+		<str id="installnow">지금 설치</str>
+		<str id="operaplugintitle">월드 오브 워크래프트 전투정보실</str>
+		<str id="instructionsforopera">Opera용 도움말:</str>
+		<str id="instructionsforopera1">
+      <strong>지금 설치</strong> 단추를 클릭하세요.</str>
+		<str id="instructionsforopera2">팝업 대화창에서 <strong>예</strong>를 클릭하세요.</str>
+		<str id="instructionsforopera3">"WoW 전투정보실" 상자를 <strong>화면 설정 → 단추 → 내 단추</strong> 에서 여러분의 브라우저로 드래그하세요.</str>
+		<str id="instructionsforopera4">또는</str>
+		<str id="instructionsforopera5">전투정보실을 Opera의 기본 검색 엔진 리스트에 추가하기:</str>
+		<str id="instructionsforopera6">
+      <strong>도구 → 환경설정 → 검색</strong>을 클릭하세요.</str>
+		<str id="instructionsforopera7">
+      <strong>추가 단추</strong>를 클릭하세요.</str>
+		<str id="instructionsforopera8">아래의 정보를 입력하신 후  <strong>확인</strong>단추를 클릭하세요.</str>
+		<str id="instructionsforopera9">
+      <b>이름:</b> 월드 오브 워크래프트 전투정보실<br/>
+      <b>키워드:</b> wow<br/>
+      <b>주소:</b> http://kr.wowarmory.com/search.xml?searchQuery=%s&amp;searchType=all</str>
+		<str id="instructionsforopera10">검색 엔진 리스트에서 “월드 오브 워크래프트 전투정보실”을 선택하실 수 있습니다.</str>
+	</searchPlugin>
+
+	<archives>
+	  <str id="archives.title">전투정보실 명예의 전당</str>
+	  <str id="archives.arena.seasonone">투기장 명예의 전당: 첫 번째 시즌</str>
+	</archives>
+
+	<months>
+		<str id="month1">1월</str>
+		<str id="month2">2월</str>
+		<str id="month3">3월</str>
+		<str id="month4">4월</str>
+		<str id="month5">5월</str>
+		<str id="month6">6월</str>
+		<str id="month7">7월</str>
+		<str id="month8">8월</str>
+		<str id="month9">9월</str>
+		<str id="month10">10월</str>
+		<str id="month11">11월</str>
+		<str id="month12">12월</str>
+	</months>
+
+	<monthsAbb>
+		<str id="month1">1월</str>
+		<str id="month2">2월</str>
+		<str id="month3">3월</str>
+		<str id="month4">4월</str>
+		<str id="month5">5월</str>
+		<str id="month6">6월</str>
+		<str id="month7">7월</str>
+		<str id="month8">8월</str>
+		<str id="month9">9월</str>
+		<str id="month10">10월</str>
+		<str id="month11">11월</str>
+		<str id="month12">12월</str>
+	</monthsAbb>
+
+	<weekdays>
+		<str id="day1">일요일</str>
+		<str id="day2">월요일</str>
+		<str id="day3">화요일</str>
+		<str id="day4">수요일</str>
+		<str id="day5">목요일</str>
+		<str id="day6">금요일</str>
+		<str id="day7">토요일</str>
+	</weekdays>
+
+	<time>
+		<str id="time0">12:00 AM</str>
+		<str id="time1">1:00 AM</str>
+		<str id="time2">2:00 AM</str>
+		<str id="time3">3:00 AM</str>
+		<str id="time4">4:00 AM</str>
+		<str id="time5">5:00 AM</str>
+		<str id="time6">6:00 AM</str>
+		<str id="time7">7:00 AM</str>
+		<str id="time8">8:00 AM</str>
+		<str id="time9">9:00 AM</str>
+		<str id="time10">10:00 AM</str>
+		<str id="time11">11:00 AM</str>
+		<str id="time12">12:00 PM</str>
+		<str id="time13">1:00 PM</str>
+		<str id="time14">2:00 PM</str>
+		<str id="time15">3:00 PM</str>
+		<str id="time16">4:00 PM</str>
+		<str id="time17">5:00 PM</str>
+		<str id="time18">6:00 PM</str>
+		<str id="time19">7:00 PM</str>
+		<str id="time20">8:00 PM</str>
+		<str id="time21">9:00 PM</str>
+		<str id="time22">10:00 PM</str>
+		<str id="time23">11:00 PM</str>
+		<str id="time24">11:59 PM</str>
+	</time>
+
+	<redirect>
+		<str id="redirecting">연결 중입니다...</str>
+		<str id="notredirectone">10초 후에도 다른 페이지로 이동하지 않을 경우 </str>
+		<str id="notredirecttwo">여기</str>
+		<str id="notredirectthree">를 클릭하세요.</str>
+	</redirect>
+
+	<serverBusy>
+		<str id="refreshpage">새로고침</str>
+		<str id="content">현재 전투정보실 이용량이 너무 많아 응답 시간이 늦어질 수 있습니다. 몇 분 후에 전투정보실을 새로 고침하시기 바랍니다. 불편을 끼쳐드려 죄송합니다.</str>
+		<str id="title">전투정보실 서버 이용량이 많습니다.</str>
+	</serverBusy>
+
+	<propass>
+		<str id="forum.link.mouseover">이 링크를 클릭하면 아레나 토너먼트 토론장으로 이동합니다.</str>
+		<str id="forum.link">http://www.worldofwarcraft.co.kr/community/forum/index.do?bseq=549172</str>
+		<str id="teamstats">투기장 토너먼트 팀 통계</str>
+		<str id="pvpinfo">개인 명예 시스템 정보:</str>
+		<str id="personalrating">개인 평점: </str>
+		<str id="winrecord">승리 기록: </str>
+		<str id="winpercentage">승률: </str>
+		<str id="coliseums">콜로세움: </str>
+		<str id="usoceanic">북미 &amp; 대서양</str>
+		<str id="europe">유럽</str>
+		<str id="korea">한국</str>
+		<str id="taiwan">대만, 홍콩 및 마카오</str>
+
+		<str id="winloseone"/>
+		<str id="winlosetwo"> 승 - </str>
+		<str id="winlosethree"> 패</str>
+		<str id="winpercentageone">승률</str>
+		<str id="winpercentagetwo">%</str>
+
+		<str id="teaminfo">투기장 팀 정보</str>
+		<str id="arena">아레나</str>
+		<str id="tournament">토너먼트</str>
+		<str id="rating">평점: </str>
+	</propass>
+
+	<esrb>
+		<str id="ratingsurl">http://www.grb.or.kr/InformPds/Legalforms.aspx?pageNum=3</str>
+		<str id="privacyurl">http://www.blizzard.co.kr/privacy.shtml</str>
+	</esrb>
+
+	<calendar>
+		<str id="noscript">달력을 실행하려면 JavaScript가 활성화되어야 합니다.</str>
+		<str id="eventList">일정 목록</str>
+		<str id="viewEvent">일정 보기</str>
+		<str id="viewAnnouncement">공지 사항 보기</str>
+		<str id="filters">필터</str>
+		<str id="timesettings">시간 설정</str>
+		<str id="locked">(잠김)</str>
+		<str id="accept">수락</str>
+		<str id="decline">거절</str>
+		<str id="remove">제거</str>
+		<str id="signup">회원 가입</str>
+		<str id="spam">스팸 신고</str>
+		<str id="player">플레이어</str>
+		<str id="class">직업</str>
+		<str id="status">상태</str>
+		<str id="complaint">불만 제기</str>
+		<str id="complaintlong">신고하신 불편 사항이 등록되었습니다.</str>
+		<str id="ok">확인</str>
+		<str id="desc">설명</str>
+		<str id="close">닫기</str>
+		<str id="closelong">창 닫기</str>
+		<str id="att">참가자</str>
+		<str id="attt">전체 참가자</str>
+		<str id="details">세부 내용</str>
+		<str id="loading">불러오는 중…</str>
+		<str id="eventoverflow">해당 날짜에 5개 이상의 일정이 있습니다. 모든 일정을 보시려면 날짜 오른쪽의 화살표를 클릭하세요.</str>
+		<str id="moreinfo">
+      <a>일정 자세히 보기</a>
+    </str>
+		<str id="creator">이 일정은 자신이 만들었거나 관리하는 일정입니다</str>
+		<error id="accessdenied">
+      <div class="guilderrortitle">접근 거부</div>현재 로그인된 계정은 이 페이지의 내용을 볼 수 없습니다. 전투정보실 로그인 및 로그인 후 볼 수 있는 내용에 대해서는 <a href="/faq-login.xml">전투정보실 로그인 자주묻는 질문과 답변</a>을 참고하세요.</error>
+		<time>
+			<str id="info">시간 정보</str>
+			<str id="realm">서버 시간:</str>
+			<str id="local">지역 시간:</str>
+			<str id="hour24">24시간으로 표시</str>
+			<str id="useLocal">지역 시간 사용</str>
+		</time>
+		<dynamic>
+			<str id="eventOwner">내 일정</str>
+			<str id="invitedBy">{0}에게 초대받음</str>
+			<str id="announcementOwner">내 공지 사항</str>
+			<str id="createdBy">{0}에 의해 생성됨</str>
+			<str id="attendees">수락/확인한 참가자: {0}</str>
+			<str id="eventStarts">{0} 시작</str>
+			<str id="eventEnds">{0} 종료</str>
+			<str id="eventResets">{0} 초기화</str>
+			<str id="eventResetsDescription">{0} 초기화: {1}</str>
+			<str id="eventUnlocks">{0} 재입장</str>
+			<str id="eventUnlocksDescription">입장하셨던 {0} 던전은 {1}에 다시 입장 하실 수 있습니다.</str>
+			<str id="error">오류</str>
+			<str id="errorDescription">일부 달력 정보를 불러오지 못했습니다.\n\잠시 후에 다시 시도해 주세요.</str>
+		</dynamic>
+		<event-type>
+			<str>전장 주간</str>
+			<str>다크문 축제</str>
+			<str>묶인 공격대 던전</str>
+			<str>공격대 정보 초기화</str>
+			<str>주간 축제</str>
+		</event-type>
+		<player-event-type>
+			<str>공격대</str>
+			<str>던전</str>
+			<str>PvP</str>
+			<str>모임</str>
+			<str>기타</str>
+		</player-event-type>
+		<event-status>
+			<str>초대</str>
+			<str>수락</str>
+			<str>거절</str>
+			<str>승인</str>
+			<str>제외</str>
+			<str>대기</str>
+			<str>가입</str>
+		</event-status>
+		<format> <!-- JavaScript -->
+			<str id="firstDayOfWeek">0</str> <!-- 0-6, 0 = Sunday, 1 = Monday, … -->
+			<str id="use24HourFormat">false</str>
+			<str id="dateFormat">return date.getFullYear() + '년 ' + CALENDAR_STRINGS.months[date.getMonth()] + ' ' + date.getDate() + '일 ' + CALENDAR_STRINGS.days[date.getDay()];</str> <!-- order of day/month/number/year -->
+			<str id="time12HourFormat">return displayHour + ':' + padLeft(date.getMinutes().toString(), 2, '0') + (hours &gt;= 12 ? ' PM' : ' AM');</str>
+		</format>
+		<links base="/"> <!-- prefixed by url.wow -->
+			<event id="Fireworks">news/world/article/newyear.html</event>
+			<event id="LoveInTheAir">news/world/article/loveisintheair.html</event>
+			<event id="HarvestFestival">news/world/article/harvestfestival.html</event>
+			<event id="LunarFestival">news/world/article/luna.html</event>
+			<event id="WinterVeil">news/world/article/wintervei.html</event>
+			<event id="DarkmoonFaireElwynn">info/basics/factions/darkmoon.html</event>
+			<event id="DarkmoonFaireMulgore">info/basics/factions/darkmoon.html</event>
+			<event id="DarkmoonFaireTerokkar">info/basics/factions/darkmoon.html</event>
+			<event id="HallowsEnd">news/world/article/news_20051018.html</event>
+			<event id="Olymics">news/world/article/spritofcompetition.html</event>
+			<event id="PiratesDay"/>
+      <!-- need to check-->
+			<event id="Brewfest">news/world/article/brewfest.html</event>
+			<event id="Midsummer">news/world/article/midsummer.html</event>
+			<event id="FishingExtravaganza">news/world/underdev/fishing.html</event>
+		</links>
+	</calendar>
+	<achievements>
+		<str id="points">점수</str>
+		<str id="progress">전체 진행</str>
+		<str id="recent">최근 업적</str>
+		<str id="achievements.summary">요약</str>
+		<str id="realmfirst">서버 최초!</str>
+		<str id="achievementfirst">업적 순위:</str>
+		<str id="achievementfirsts">업적 순위</str>
+		<str id="serverfirsts.realmnav.myrealms">내 서버</str>
+		<str id="serverfirsts.realmnav.viewing">현재 서버</str>
+		<str id="serverfirsts.realmnav.otherrealms">다른 서버</str>
+		<str id="serverfirsts.realmnav.otherregions">다른 지역</str>
+		<str id="error">오류가 발생했습니다.</str>
+		<str id="error.noData">'<param1/>' 서버를 찾을 수 없습니다.</str>
+		<str id="error.unknown">다시 검색해 보시기 바랍니다.</str>
+		<str id="achv.by"/>
+		<str id="achv.and"/>
+		<str id="achv.solo">개인</str>
+		<str id="achv.earned">획득</str>
+		<str id="achv.on">: </str>
+		<str id="compare.achievements">비교할 캐릭터 추가</str>
+		<str id="compare.achievements.button">비교</str>
+		<str id="compare.max">
+      <param1/>개 캐릭터를 동시에 비교할 수 있습니다. 현재 설정된 캐릭터 1개를 제거하셔야 다른 캐릭터를 추가할 수 있습니다.</str>
+		<str id="stats.latest">최근 업데이트된 통계</str>
+		<str id="stats.latest.compare">
+      <param1/>의 최근 업데이트된 통계</str>
+		<err id="notfound">"<param1/>" 캐릭터는 "<param2/>" 서버에 존재하지 않습니다.</err>
+		<str id="totalcompleted">총 완료:</str>
+		<str id="solo">개인</str>
+		<str id="date.format">{
+			withinHour: "{0} 분 전",
+			withinHourSingular: "{0} 분 전",
+			withinDay: "{0} 시간 전",
+			withinDaySingular: "{0} 시간 전",
+			today: "오늘 , {0}",
+			yesterday: "어제",
+			date: "yyyy-M-d"
+		}</str>
+	</achievements>
+	
+	<mobileArmoryPage>
+		<str id="download.btn">다운로드 받기</str>
+		<str id="intro">공격대 일정을 확인하고, 명예 시스템 보상 방어구를 훑어보거나 바쁘게 새로운 특성을 찍어보고 싶지 않으셨나요? iPhone™과 iPod touch®용 새로운 월드 오브 워크래프트 모바일 전투정보실 프로그램을 통해 무선 인터넷에 접속할 수 있는 곳이라면 어디에서나 공식 전투정보실을 이용할 수 있습니다. 모바일 전투정보실은 전투정보실 웹사이트에서 이용할 수 있는 동일한 기능 대부분을 다음과 같이 지원합니다:</str>
+		<str id="outro">월드 오브 워크래프트 모바일 전투정보실은 Apple App Store에서 무료로 다운로드하실 수 있습니다. </str>
+		<str id="feature.search">월드 오브 워크래프트의 모든 캐릭터, 아이템, 길드, 투기장 팀을 보거나 검색할 수 있습니다. </str>
+		<str id="feature.import">캐릭터, 길드, 투기장 팀 정보를 가져올 수 있습니다. </str>
+		<str id="feature.calendar">게임 내 이벤트 달력을 확인할 수 있습니다.</str>
+		<str id="feature.achievments">업적 점수 순위표를 확인할 수 있습니다.</str>
+		<str id="feature.talents">완전한 기능을 갖춘 특성 계산기를 사용하여 특성 전문화를 계획할 수 있습니다. </str>
+		<str id="feature.more">이외에도 더 많은 기능이 준비되어 있습니다.</str>
+		<str id="movie.name">iphone_armory_ko-kr</str>
+	</mobileArmoryPage>
+	
+	<mobileArmoryInterstitial>
+		<str id="continue">전투정보실로 이동하기 </str>
+		<str id="download">iTunes에서 다운로드 받으세요!</str>
+		<str id="intro">iPhone™과 iPod touch®에서 전투정보실을 이용할 수 있습니다. 월드 오브 워크래프트 모바일 전투정보실은 iTunes® App Store에서 무료로 다운로드 받을 수 있습니다.</str>
+	</mobileArmoryInterstitial>
+</strs>

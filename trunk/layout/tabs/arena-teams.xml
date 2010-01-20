@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><tabs id="arena-teams">
+  	<tab class="select0" key="armory.arenatab.teamprofile" link="team-info.xml" pageId="teamprofile"/>
+  	<!-- <tab class="select0" key="armory.arenatab.matchhistory" link="arena-team-game-chart.xml" pageId="matchhistory">
+  		<exclude regionId="CN"/>
+  	</tab>
+  	<tab class="select0" key="armory.arenatab.opponenthistory" link="arena-team-report-opposing-teams.xml" pageId="opponenthistory">
+  		<exclude regionId="CN"/>
+  	</tab> -->
+</tabs>

@@ -1,0 +1,6 @@
+<talentGroup $ACTIVE group="$TALENTGROUP" icon="$TALENTGROUPICON" prim="$TALENTGROUPNAME">
+	<talentSpec treeOne="$TREEONE" treeThree="$TREETHREE" treeTwo="$TREETWO" value="$TALENTTREEVALUES"/>
+	<glyphs>
+		$GLYPHS
+	</glyphs>
+</talentGroup>

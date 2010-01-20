@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="아이템 정보">
+	<faqlist>
+		<faq question="게임 상의 모든 아이템을 전투정보실에서 검색할 수 있나요?">
+			게임 상에서 “발견되었던”(한번이라도 플레이어가 습득한) 아이템만 검색됩니다. 그 결과 일부 우두머리 몬스터들(특히 새로운 공격대 우두머리 몬스터들)이 떨어뜨리는 아이템의 목록은 아직 완성되지 않아 빈약하게 보일 수 있습니다. 이 목록들은 시간이 지나 플레이어들이 새로운 아이템을 획득하면서 차차 채워질 것입니다.
+		</faq>
+		<faq question="&quot;주 사용 직업&quot; 검색 범위란 무엇인가요?">
+			"주 사용 직업" 검색 범위를 통해 각 직업이 가장 선호하는 능력치를 가진 아이템을 검색할 수 있습니다. "주 사용 직업" 검색 범위는 해당 메뉴에서 아이템 유형을 선택할 때 나타납니다. 각 직업마다 해당 직업에 맞는 고유의 검색 범위가 있으며, 어떤 직업은 캐릭터 특성에 따라 추가로 검색 범위를 지정할 수 있습니다.
+			<p/>
+			아이템 유형을 선택한 후에 검색하고자 하는 장착 위치를 선택하십시오. 이 검색 범위는 특정한 아이템 유형과 장착 위치를 선택했을 때 가장 적합한 결과를 나타냅니다. 명시된 <strong>아이템 유형과 장착 위치, 주 사용 직업의 검색 범위만</strong>으로 검색을 진행하면 해당 직업이 검색할만한 아이템을 검토하여 그 결과를 보여줍니다. 이런 방식으로, 각 직업이 장착 위치별로 가장 많이 찾는 아이템의 <strong>"기본 목록"</strong>을 보실 수 있습니다. 
+		</faq>
+
+		<faq question="&quot;아이템 레벨&quot;이란 무엇인가요?">
+			아이템 레벨은 해당 아이템의 가치를 나타내는 일반적인 척도입니다. 아이템 레벨과 그 희소성은 아이템의 점수를 결정하며 이 점수에 의해 해당 아이템에 능력치가 부여됩니다. 같은 레벨의 희귀와 영웅급 아이템은 두 아이템 사이에 기대되는 능력치의 차이만큼 영웅급 아이템이 더 높은 점수를 가지고 있습니다. 아이템 레벨을 단순히 그 아이템을 착용하려면 요구되는 최소 요구 레벨과 혼동하지 마십시오. 
+		</faq>
+		<faq question="&quot;모든 범위/일부 범위에 해당&quot; 조건은 어떤 식으로 사용할 수 있나요?">
+			이것은 고급 무기 검색 범위 아래에 있는 기능으로, 검색할 때 어떤 고급 범위를 사용해야 할 지 결정해 줍니다. “모든 검색 범위에 해당” 기능을 선택하면 선택한 모든 검색 범위에 맞는 아이템만 보여질 것입니다. “한 가지 이상의 검색 범위에 해당”을 선택하면 고급 범위 중에 한 가지라도 해당하는 아이템이 전부 검색됩니다. 이 조건은 2개 이상의 범위를 선택했을 때만 나타납니다.
+		</faq>
+		<faq question="아이템 품질이라는 검색 범위를 사용했을 때, 선택한 것과 다른 품질을 가진 아이템이 나타나는 이유는 무엇인가요?">
+			아이템 품질 검색 범위는 게임 안의 경매장에 있는 품질 검색과 같은 이치로 작동하는 것으로, 다시 말하면, 선택한 것보다 높은 품질의 아이템도 결과에 나타납니다. 그래서, 고급 아이템을 검색하면 희귀나 영웅급 아이템 또한 결과로 산출됩니다. 하지만, 경매장처럼 이러한 포함 관계는 오직 한 방향으로만 적용되어서, 영웅 등급의 아이템을 검색했을 때는 희귀나 고급 아이템이 나타나지 않습니다.
+		</faq>
+		<faq question="캐릭터 정보의 &quot;추천 아이템 찾기&quot; 항목은 어떤 기능을 하나요?">
+			캐릭터 정보에 있는 아이템에 마우스를 올려놓으면 작은 화살표가 표시되면서 "추천 아이템 찾기" 단추로 바뀝니다. 이 단추를 누르면 아이템 검색 결과 페이지로 이동합니다. 이 페이지에서는 특정 캐릭터가 현재 소유한 아이템보다 더 나은 것으로 간주하는 아이템의 목록이 표시됩니다.
+			<p/>
+			추천 아이템은 캐릭터의 직업, 능력치, 전체적인 장비 수준을 고려하여 검색됩니다. 이 기능을 통해 본인의 캐릭터에 대해서뿐만 아니라 월드 오브 워크래프트에 있는 모든 캐릭터에 대해서 추천 아이템을 찾아볼 수 있습니다. 이 기능은 여러 가지 장비 세트를 착용하고 있는 캐릭터가 각 장비 세트에 대한 추천 아이템을 찾을 때 도움이 되도록 만들어졌습니다. 추천 아이템 기능은 능력치에 영향을 미치는 강화 효과를 받지 않은 캐릭터에 사용했을 때 가장 정확한 결과를 보여 줍니다.
+			<p/>
+			<a href="faq-item-info-recommended.xml">추천 아이템 찾기 F.A.Q.</a>.
+		</faq>
+		<faq question="특정 전문 기술과 관련된 아이템을 검색할 수 있나요?">
+			전문 기술은 사용할 수 있는 검색 범위가 아닙니다. 하지만, 개별적인 제작 아이템과 제조법은 검색할 수 있습니다.
+		</faq>
+		<faq question="퀘스트 보상 아이템도 검색할 수 있나요?">
+			퀘스트 보상 아이템은 전투정보실에서 다른 범주로 분류되어 “기본” 검색 범위 아래에서 선택할 수 있습니다. 이 경우에는 퀘스트의 이름이나 레벨에 따라 퀘스트 보상 아이템을 검색할 수는 없습니다.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="무용의 문장 보상" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofheroism&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="용맹의 문장 보상" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofvalor&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="계승 아이템" url="/search.xml?fl[source]=all&amp;fl[type]=all&amp;fl[usbleBy]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[rrt]=hm&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="일반 및 공격대 던전" url="/dungeons.xml"/>
+		<relatedlink name="평판 보상 아이템" url="/factions.xml"/>
+		<relatedlink name="PvP 보상 아이템" url="/pvprewards.xml"/>		
+		<relatedlink type="hr"/>
+		<relatedlink name="70 레벨 전투 숙련도" type="external" url="http://www.worldofwarcraft.co.kr/community/forum/view.do?bseq=20219&amp;currpage=&amp;perpage=&amp;sortmask=&amp;ascdesc=&amp;hfilter=&amp;pseq=185600"/>				
+		<relatedlink name="아이템 기본정보" type="external" url="http://www.worldofwarcraft.co.kr/info/basics/items/basics.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="F.A.Q." url="/faq-armory.xml"/>		
+		<relatedlink name="알려진 문제들" type="external" url="Javascript:openIssues()"/>	
+		<relatedlink name="전투정보실 오류 신고" type="report" url="mailto:bugreport@blizzard.co.kr"/>
+	</relatedlinks>
+</relatedinfo>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/tools/talent-calculator.xsl"?><page globalSearch="1" lang="ko_kr" requestUrl="/talent-calc.xml">
+  <talents classId="$CLASSID" name="$CLASS" tal="$TAL" />
+  <talentTabs>
+    <talentTab classId="2" name="성기사" url="c=%EC%84%B1%EA%B8%B0%EC%82%AC"/>
+    <talentTab classId="4" name="도적" url="c=%EB%8F%84%EC%A0%81"/>
+    <talentTab classId="9" name="흑마법사" url="c=%ED%9D%91%EB%A7%88%EB%B2%95%EC%82%AC"/>
+    <talentTab classId="8" name="마법사" url="c=%EB%A7%88%EB%B2%95%EC%82%AC"/>
+    <talentTab classId="6" name="죽음의 기사" url="c=%EC%A3%BD%EC%9D%8C%EC%9D%98+%EA%B8%B0%EC%82%AC"/>
+    <talentTab classId="11" name="드루이드" url="c=%EB%93%9C%EB%A3%A8%EC%9D%B4%EB%93%9C"/>
+    <talentTab classId="1" name="전사" url="c=%EC%A0%84%EC%82%AC"/>
+    <talentTab classId="3" name="사냥꾼" url="c=%EC%82%AC%EB%83%A5%EA%BE%BC"/>
+    <talentTab classId="7" name="주술사" url="c=%EC%A3%BC%EC%88%A0%EC%82%AC"/>
+    <talentTab classId="5" name="사제" url="c=%EC%82%AC%EC%A0%9C"/>
+  </talentTabs>
+</page>

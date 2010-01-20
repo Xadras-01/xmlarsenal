@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Hoja de personaje">
+	<faqlist>
+		<faq question="¿Para qué sirve la opción &quot;Buscar mejora&quot; que aparece en los objetos de un perfil de personaje?">
+			Si colocas el puntero de tu ratón sobre cualquier objeto en un perfil de personaje, aparecerá una pequeña flecha que se convertirá en un botón llamado "Buscar mejora". Hacer clic en éste te conducirá a la página de resultados de búsqueda de objetos, donde aparecerá una lista de mejoras posibles para el objeto y el personaje específicos.
+			<p/>
+			La lista de mejoras recomendadas tomará en cuenta la clase del personaje, sus estadísticas y la calidad de su armamento. Podrás llevar a cabo búsquedas personalizadas con el fin de encontrar mejoras para cualquier personaje, y objeto, en World of Warcraft; lo que también será útil para aquellos personajes que posean múltiples conjuntos de armamento.
+			<p/>
+			Consulta nuestra <a href="/faq-item-info-recommended.xml">sección de preguntas frecuentes sobre la búsqueda de mejoras</a> para más información.
+		</faq>		
+		<faq question="¿Por qué no aparece mi hoja de personaje?">
+			Aquí sólo aparecerán los personajes de los reinos de Estados Unidos, ya que esta es la versión estadounidense de la Armería. Para acceder a una región distinta, tal como Europa, dirígete a su sitio web y entra desde ahí. Ten en cuenta que un personaje debe haber estado activo recientemente, y ser de nivel 10 o superior, para que su perfil aparezca en la Armería.
+		</faq>		
+		<faq question="¿Por qué no puedo encontrar a mi personaje de nivel bajo?">
+			Para que un personaje tenga un perfil, y aparezca en las páginas de resultados de búsqueda de la Armería, deberá ser al menos de nivel 10.
+		</faq>		
+		<faq question="¿Dónde puedo ver los íconos de la Arena?">
+			<a href="legend-achievements.xml" target="_blank">Aquí</a> puedes ver todos los íconos que se obtienen por medio de la arena.
+		</faq>
+		<faq question="¿Por qué no aparece el total de muertes honorables que ha causado mi personaje?">
+			Tu personaje deberá haber causado al menos 1337 muertes honorables para que aparezca el total en la Armería.
+		</faq>		
+		<faq question="¿Por qué no aparece mi ranura de munición en la hoja de personaje?">
+			Es posible que esto sea agregado en el futuro.
+		</faq>				
+		<faq question="¿Por qué el retrato de mi personaje en el perfil no concuerda con el retrato en el juego?">
+			La Armería genera automáticamente la imagen que aparece en la parte superior izquierda del perfil de personaje según su nivel, raza, clase y género.
+		</faq>				
+		<faq question="¿Cuáles son los títulos que pueden obtener los personajes?">
+			Para ver la lista completa, visita nuestra <a href="http://www.worldofwarcraft.com/na/info/basics/titles.html">página de títulos de personaje</a>.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="Búsqueda de personajes" url="/character-search.xml"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Guía de atributos del personaje" type="external" url="http://www.worldofwarcraft.com/na/info/basics/characters.xml"/>
+		<relatedlink name="Razas" type="external" url="http://www.worldofwarcraft.com/na/info/races/bloodelves.xml"/>
+		<relatedlink name="Clases" type="external" url="http://www.worldofwarcraft.com/na/info/classes/index.xml"/>
+		<relatedlink name="Profesiones" type="external" url="http://www.worldofwarcraft.com/info/professions/index.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Preguntas frecuentes" url="/faq-armory.xml"/>		
+		<relatedlink name="Problemas conocidos" type="external" url="http://forums.worldofwarcraft.com/thread.html?topicId=6440987228&amp;sid=2"/>
+		<relatedlink name="Reporta errores en la página" type="report" url="mailto:wowarmory@blizzard.com?subject=Error en la Armería de WoW&amp;body=Escribe tu reporte de error a continuación. Navegador: REPLACEBROWSER. Error en la página: REPLACEURL"/>
+		<relatedlink name="Reporta problemas de traducción" type="translation" url="http://forums.worldofwarcraft.com/board.html?forumId=20002&amp;sid=2"/>
+	</relatedlinks>
+</relatedinfo>

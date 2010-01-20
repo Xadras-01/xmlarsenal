@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<title>XMLArsenal - Anmeldung</title>
+			
+			<meta http-equiv="imagetoolbar" content="false"/>
+			
+			<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"/>
+			<link rel="stylesheet" type="text/css" media="screen, projection" href="/login/common/master.css"/>
+			<link rel="stylesheet" type="text/css" media="screen, projection" href="/login/common/EU.css"/>
+			<link rel="stylesheet" type="text/css" media="screen, projection" href="/login/common/de-de.css"/>
+			<script type="text/javascript" src="/login/common/common.js"/>
+			<script type="text/javascript" src="/login/common/jquery.js"/>
+			<script type="text/javascript">
+				var $j = jQuery.noConflict();
+				var processingStr = "In Bearbeitung";
+			</script>			
+		</head>
+		<body class="de-de">
+
+	<div class="page loginView">
+	
+
+	<div class="">
+
+		<form id="loginForm" class="submitForm" name="loginForm" autocomplete="off" method="post" action="/login.xml" onsubmit="login.disableButton('submit', this); return true;">
+	
+			<div class="formRow accountName">
+				<label class="formLabel" for="accountName" style="margin-bottom: 1px;">Accountname</label>
+	            <input type="text" id="accountName" name="accountName" maxlength="320" tabindex="1" class="text"/>
+				<script type="text/javascript">
+					document.getElementById('accountName').focus();
+				</script>
+			</div>
+			
+			<div class="formRow password">
+				<label class="formLabel" for="password">Passwort</label>
+	            <input type="password" id="password" name="password" maxlength="16" tabindex="2" autocomplete="off" class="text"/>
+	        </div>
+		    
+			<p><label class="formLabel" for="error" style="color:red;">Der Benutzername oder das Passwort sind falsch. Bitte versuchen Sie es erneut.</label></p>
+		    
+	        <input type="submit" class="hiddenSubmit"/>
+	                
+			<a class="submit" href="javascript:;" onclick="Form.submit(this)" tabindex="3">Anmeldung</a>
+			
+			<div class="signUp">
+				<!-- <p>Haben Sie das <a href="https://eu.battle.net/account/support/login-support.xml">Passwort</a> für Ihren Account vergessen?</p>
+				<p>Haben Sie noch keinen Account? <a href="https://eu.battle.net/account/creation/tos.xml?ref=http%3A%2F%2Feu.wowarmory.com%2Findex.xml">Jetzt anmelden</a>!</p> -->
+			</div>	 	
+		</form>	
+	</div>
+		
+		<div class="selectLocale">
+			<!--<p>Um diese Seite in einer anderen Sprache anzuzeigen, klicken Sie bitte auf</p>
+			
+				<a href="javascript:selectLanguage('de_de');">Deutsch</a>
+				|			
+				<a href="javascript:selectLanguage('en_us');">English (US)</a>
+				|			
+				<a href="javascript:selectLanguage('en_gb');">English (EU)</a>
+				|			
+				<a href="javascript:selectLanguage('es_mx');">Español (AL)</a>
+				|			
+				<a href="javascript:selectLanguage('es_es');">Español (EU)</a>
+				|			
+				<a href="javascript:selectLanguage('fr_fr');">Français</a>
+				|			
+				<a href="javascript:selectLanguage('ru_ru');">Русский</a>
+				|			
+				<a href="javascript:selectLanguage('ko_kr');">한국어</a> -->
+							
+				
+		</div>
+		
+		<div class="legal">
+		<!--
+			<p>Aus Sicherheitsgründen empfehlen wir Ihnen nach Zugriff auf passwortgeschützte Dienste Ihren Web-Browser zu schließen! Sichere Webseiten von Blizzard Entertainment, die eine Anmeldung mit Ihrem Namen sowie Passwort benötigen, enthalten in der jeweiligen URL unter anderem worldofwarcraft.com, wow-europe.com, blizzard.com oder battle.net.</p>
+			
+			<div class="legalLinks">			
+				<a href="http://eu.blizzard.com/de-de/company/about/privacy.html" onclick="window.open(this.href);return false;">Online-Persönlichkeitsrecht-Grundsätze</a> |
+				<a href="http://eu.blizzard.com/de-de/company/about/termsofuse.html" onclick="window.open(this.href);return false;">Nutzungsbestimungen</a> |
+				<a href="http://eu.blizzard.com/support/index.xml?locale=de_DE">Kundensupport</a><br/>
+				<a href="http://eu.blizzard.com/de-de/company/about/legal-faq.html" onclick="window.open(this.href);return false;">2009 Blizzard Entertainment, Inc. Alle Rechte vorbehalten.</a>		
+			</div>
+			-->
+		</div>
+	</div>
+
+		</body>
+	</html>

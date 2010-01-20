@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Talente">
+	<faqlist>
+		<faq question="Welche Informationen bietet die Seite &quot;Talente&quot;?">
+			Die Implementierung der dualen Talentverteilung in World of Warcraft wird auch im Arsenal ersichtlich sein. Sofern ein Charakter die duale Talentverteilung besitzt, könnt ihr über zwei Register in der oberen rechten Ecke der Talentbäume zwischen beiden Spezialisierungen wechseln. Zusätzlich wird, abhängig von der angewählten Spezialisierung das dazugehörige Set an benutzten Glyphen angezeigt.
+		</faq>
+			<faq question="Wie werden die Talentverteilungen benannt?">
+			Die Talentverteilungen werden automatisch nach dem dominierenden Talentbaum der Spezialisierung benannt (der Baum mit den meisten investierten Punkten).			
+			Dabei werden Verteilungen, die gleichmäßig auf mehrere Bäume angelegt sind, als "Hybrid" bezeichnet, sowie als "nicht vergeben", wenn noch keine Punkte dort investiert wurden.
+		</faq>
+		<faq question="Kann ich die Talente auf dieser Seite verändern?">
+			Da es sich hier um den aktuellen Talentbaum eines Charakters handelt, ist ein Verändern der Daten nicht möglich. Ihr könnt allerdings auf den bereitgestellten Link klicken, um zu unseren Talentrechnern zu gelangen, in denen ihr den Talentbaum jeder Klasse euren Wünschen entsprechend verändern könnt.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="Charaktersuche" url="/character-search.xml"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Game Guide &gt; Talente" type="external" url="http://www.wow-europe.com/de/info/basics/talents/index.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Häufig gestellte Fragen" url="/faq-armory.xml"/>		
+		<relatedlink name="Bekannte Probleme" type="external" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+		<relatedlink name="Fehler melden" type="report" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+		<relatedlink name="Übersetzungsfehler melden" type="translation" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+	</relatedlinks>
+</relatedinfo>
