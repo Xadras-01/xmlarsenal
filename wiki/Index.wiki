@@ -39,13 +39,13 @@ Use the Issue-Tracker or email me: amras-taralom`[at]`streber24.de
  * [About What is XMLArsenal?]
  * [Prerequisites]
  * [Installation]
- * [Config] and [Grabber-Config configuration of DataGrabbers]
- * [SQL-Structure SQL of the arsenal database]
+ * [Config] and [GrabberConfig configuration of DataGrabbers]
+ * [SQLStructure SQL of the arsenal database]
 
 
 = For advanced users / developers =
 
- * [DB-Structure Database Structure]
+ * [DBStructure Database Structure]
  * [Customization Customizing serveral things]
  * [arsenaldata.sqlite3]
  * [PHPDBC PHP DBC-Parser]
