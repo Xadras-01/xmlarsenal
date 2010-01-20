@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><classes>
+	<class id="7" key="shaman"/>
+	<class id="3" key="hunter"/>
+	<class id="6" key="deathknight"/>
+	<class id="9" key="warlock"/>
+	<class id="11" key="druid"/>
+	<class id="1" key="warrior"/>
+	<class id="8" key="mage"/>
+	<class id="2" key="paladin"/>
+	<class id="5" key="priest"/>
+	<class id="4" key="rogue"/>
+</classes>

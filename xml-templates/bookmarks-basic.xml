@@ -1,0 +1,5 @@
+<page globalSearch="1" lang="$LANGUAGE" requestUrl="/vault/bookmarks.xml">
+	<characters count="$NUMBOOKMARKS" max="20">
+		$CHARACTERS
+	</characters>
+</page>

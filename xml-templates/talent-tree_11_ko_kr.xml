@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?><page globalSearch="1" lang="ko_kr" requestUrl="/talent-tree.xml">
+  <talentTrees>
+    <tree bgImage="DruidBalance" icon="spell_nature_starfall" key="Balance" name="조화" order="0">
+      <talent column="1" icon="spell_nature_abolishmagic" key="762" name="별빛 천벌" tier="0">
+        <rank description="천벌과 별빛 섬광 주문의 시전 시간이 0.1초만큼 감소됩니다." lvl="1"/>
+        <rank description="천벌과 별빛 섬광 주문의 시전 시간이 0.2초만큼 감소됩니다." lvl="2"/>
+        <rank description="천벌과 별빛 섬광 주문의 시전 시간이 0.3초만큼 감소됩니다." lvl="3"/>
+        <rank description="천벌과 별빛 섬광 주문의 시전 시간이 0.4초만큼 감소됩니다." lvl="4"/>
+        <rank description="천벌과 별빛 섬광 주문의 시전 시간이 0.5초만큼 감소됩니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_arcane_arcane03" key="2238" name="발생력" tier="0">
+        <rank description="자신의 주기적인 효과로 인한 피해와 치유 효과가 1%만큼 증가합니다." lvl="1"/>
+        <rank description="자신의 주기적인 효과로 인한 피해와 치유 효과가 2%만큼 증가합니다." lvl="2"/>
+        <rank description="자신의 주기적인 효과로 인한 피해와 치유 효과가 3%만큼 증가합니다." lvl="3"/>
+        <rank description="자신의 주기적인 효과로 인한 피해와 치유 효과가 4%만큼 증가합니다." lvl="4"/>
+        <rank description="자신의 주기적인 효과로 인한 피해와 치유 효과가 5%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_sentinal" key="783" name="달빛" tier="1">
+        <rank description="달빛 섬광과 별빛 섬광, 별똥별, 천벌, 치유의 손길, 육성, 재생, 회복 주문에 소비되는 마나가 3%만큼 감소합니다." lvl="1"/>
+        <rank description="달빛 섬광과 별빛 섬광, 별똥별, 천벌, 치유의 손길, 육성, 재생, 회복 주문에 소비되는 마나가 6%만큼 감소합니다." lvl="2"/>
+        <rank description="달빛 섬광과 별빛 섬광, 별똥별, 천벌, 치유의 손길, 육성, 재생, 회복 주문에 소비되는 마나가 9%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_staff_01" key="1822" name="자연의 군주" tier="1">
+        <rank description="천벌과 별빛 섬광, 별똥별, 육성, 치유의 손길 주문이 극대화 효과를 발휘할 확률이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="천벌과 별빛 섬광, 별똥별, 육성, 치유의 손길 주문이 극대화 효과를 발휘할 확률이 4%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_nature_starfall" key="763" name="달빛 섬광 연마" tier="1">
+        <rank description="달빛 섬광의 공격력과 치명타 적중률이 5%만큼 증가합니다." lvl="1"/>
+        <rank description="달빛 섬광의 공격력과 치명타 적중률이 10%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_nature_thorns" key="782" name="가시나무" tier="2">
+        <rank description="가시와 휘감는 뿌리로 입히는 피해가 25%만큼, 나무정령이 입히는 피해가 5%만큼 증가합니다. 추가로 나무 껍질을 시전한 상태에서 나무정령이 피해를 입히거나 자신이 공격을 받으면 5%의 확률로 3초 동안 대상을 멍한 상태로 만듭니다." lvl="1"/>
+        <rank description="가시와 휘감는 뿌리로 입히는 피해가 50%만큼, 나무정령이 입히는 피해가 10%만큼 증가합니다. 추가로 나무 껍질을 시전한 상태에서 나무정령이 피해를 입히거나 자신이 공격을 받으면 10%의 확률로 3초 동안 대상을 멍한 상태로 만듭니다." lvl="2"/>
+        <rank description="가시와 휘감는 뿌리로 입히는 피해가 75%만큼, 나무정령이 입히는 피해가 15%만큼 증가합니다. 추가로 나무 껍질을 시전한 상태에서 나무정령이 피해를 입히거나 자신이 공격을 받으면 15%의 확률로 3초 동안 대상을 멍한 상태로 만듭니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_naturesblessing" key="789" name="자연의 은혜" requires="1822" tier="2">
+        <rank description="주문이 극대화 효과를 발휘하면 33%의 확률로 자연의 은혜 효과를 받아 3초 동안 주문 시전 속도가 20%만큼 증가합니다." lvl="1"/>
+        <rank description="주문이 극대화 효과를 발휘하면 66%의 확률로 자연의 은혜 효과를 받아 3초 동안 주문 시전 속도가 20%만큼 증가합니다." lvl="2"/>
+        <rank description="주문이 극대화 효과를 발휘하면 100%의 확률로 자연의 은혜 효과를 받아 3초 동안 주문 시전 속도가 20%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_nature_natureguardian" key="2240" name="자연의 광채" requires="1822" tier="2">
+        <rank description="달빛 섬광과 회복 주문의 지속시간이 3초만큼, 재생 주문의 지속시간이 6초만큼, 곤충 떼와 피어나는 생명 주문의 지속시간이 2초만큼 증가합니다." lvl="1"/>
+      </talent>
+      <talent column="3" icon="spell_nature_naturetouchgrow" key="764" name="자연의 테두리" tier="2">
+        <rank description="조화 계열 주문과 요정의 불꽃 (야성)의 사정거리가 10%만큼 증가하고 조화 주문의 위협 수준이 15%만큼 감소합니다." lvl="1"/>
+        <rank description="조화 계열 주문과 요정의 불꽃 (야성)의 사정거리가 20%만큼 증가하고 조화 주문의 위협 수준이 30%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_purge" key="792" name="복수" tier="3">
+        <rank description="별빛 섬광, 별똥별, 달빛 섬광, 천벌 주문이 치명타로 적중할 경우 보너스 피해가 20%만큼 증가합니다." lvl="1"/>
+        <rank description="별빛 섬광, 별똥별, 달빛 섬광, 천벌 주문이 치명타로 적중할 경우 보너스 피해가 40%만큼 증가합니다." lvl="2"/>
+        <rank description="별빛 섬광, 별똥별, 달빛 섬광, 천벌 주문이 치명타로 적중할 경우 보너스 피해가 60%만큼 증가합니다." lvl="3"/>
+        <rank description="별빛 섬광, 별똥별, 달빛 섬광, 천벌 주문이 치명타로 적중할 경우 보너스 피해가 80%만큼 증가합니다." lvl="4"/>
+        <rank description="별빛 섬광, 별똥별, 달빛 섬광, 천벌 주문이 치명타로 적중할 경우 보너스 피해가 100%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_arcane_starfire" key="784" name="하늘의 정신 집중" tier="3">
+        <rank description="별빛 섬광, 겨울잠, 허리케인 주문 시전 시 피해로 인한 시전 밀림 효과가 23%만큼 감소하고 전체 주문 가속이 1%만큼 증가합니다." lvl="1"/>
+        <rank description="별빛 섬광, 겨울잠, 허리케인 주문 시전 시 피해로 인한 시전 밀림 효과가 46%만큼 감소하고 전체 주문 가속이 2%만큼 증가합니다." lvl="2"/>
+        <rank description="별빛 섬광, 겨울잠, 허리케인 주문 시전 시 피해로 인한 시전 밀림 효과가 70%만큼 감소하고 전체 주문 가속이 3%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_druid_lunarguidance" key="1782" name="달의 인도" tier="4">
+        <rank description="주문력이 전체 지능의 4%만큼 증가합니다." lvl="1"/>
+        <rank description="주문력이 전체 지능의 8%만큼 증가합니다." lvl="2"/>
+        <rank description="주문력이 전체 지능의 12%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_insectswarm" key="788" name="곤충 떼" tier="4">
+        <rank description="적이 곤충 떼에게 둘러싸여 적중률이 3%만큼 감소되고 12초에 걸쳐 총 144의 자연 피해를 입습니다." lvl="1"/>
+        <spell castTime="0" maxRange="30">
+          <power cost="9" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_nature_insectswarm" key="2239" name="곤충 떼 연마" requires="788" tier="4">
+        <rank description="자신의 곤충 떼 효과가 걸려 있는 대상 공격 시 천벌 주문의 공격력이 1%만큼 증가하고 자신의 달빛 섬광 효과가 걸려 있는 대상 공격 시 별빛 섬광 주문의 극대화 적중도가 1%만큼 증가합니다." lvl="1"/>
+        <rank description="자신의 곤충 떼 효과가 걸려 있는 대상 공격 시 천벌 주문의 공격력이 2%만큼 증가하고 자신의 달빛 섬광 효과가 걸려 있는 대상 공격 시 별빛 섬광 주문의 극대화 적중도가 2%만큼 증가합니다." lvl="2"/>
+        <rank description="자신의 곤충 떼 효과가 걸려 있는 대상 공격 시 천벌 주문의 공격력이 3%만큼 증가하고 자신의 달빛 섬광 효과가 걸려 있는 대상 공격 시 별빛 섬광 주문의 극대화 적중도가 3%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_druid_dreamstate" key="1784" name="꿈결" tier="5">
+        <rank description="시전 중에도 매 5초마다 지능의 4%에 해당하는 마나를 회복합니다." lvl="1"/>
+        <rank description="시전 중에도 매 5초마다 지능의 7%에 해당하는 마나를 회복합니다." lvl="2"/>
+        <rank description="시전 중에도 매 5초마다 지능의 10%에 해당하는 마나를 회복합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_moonglow" key="790" name="달의 분노" tier="5">
+        <rank description="별빛 섬광과 달빛 섬광, 천벌 주문의 공격력이 3%만큼 증가합니다." lvl="1"/>
+        <rank description="별빛 섬광과 달빛 섬광, 천벌 주문의 공격력이 6%만큼 증가합니다." lvl="2"/>
+        <rank description="별빛 섬광과 달빛 섬광, 천벌 주문의 공격력이 10%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_druid_balanceofpower" key="1783" name="힘의 균형" tier="5">
+        <rank description="모든 주문의 적중률이 증가하고 모든 주문으로부터 받는 피해가 3%만큼 감소합니다." lvl="1"/>
+        <rank description="모든 주문의 적중률이 증가하고 모든 주문으로부터 받는 피해가 6%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_forceofnature" key="793" name="달빛야수 변신" tier="6">
+        <rank description="달빛야수의 모습으로 변신합니다. 아이템에 의한 방어도가 370%만큼 증가합니다. 또한 45미터 반경의 모든 파티원 혹은 공격대원의 주문 극대화 확률이 5%만큼 증가합니다. 달빛야수로 변신 중인 동안 단일 대상에게 주문이 극대화 효과를 발휘하면 즉시 전체 마나의 2%에 해당하는 마나를 회복합니다. 조화 계열 주문과 저주 해제만 사용할 수 있습니다. &lt;br/&gt;&lt;br/&gt;변신을 하면 변이와 이동 방해 효과에서 벗어날 수 있습니다." lvl="1"/>
+        <spell castTime="0">
+          <power cost="13" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_druid_improvedmoonkinform" key="1912" name="달빛야수 변신 연마" requires="793" tier="6">
+        <rank description="정신력의 10%만큼 주문력이 증가하고 달빛야수 오라를 받은 대상의 가속이 1%만큼 증가합니다." lvl="1"/>
+        <rank description="정신력의 20%만큼 주문력이 증가하고 달빛야수 오라를 받은 대상의 가속이 2%만큼 증가합니다." lvl="2"/>
+        <rank description="정신력의 30%만큼 주문력이 증가하고 달빛야수 오라를 받은 대상의 가속이 3%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_nature_faeriefire" key="1785" name="요정의 불꽃 연마" tier="6">
+        <rank description="요정의 불꽃이 걸린 대상이 주문 공격에 적중 당할 확률이 1%만큼 증가하고, 요정의 불꽃에 걸려 있는 대상 공격 시 자신의 공격 주문이 극대화 효과를 발휘할 확률이 1%만큼 증가합니다." lvl="1"/>
+        <rank description="요정의 불꽃이 걸린 대상이 주문 공격에 적중 당할 확률이 2%만큼 증가하고, 요정의 불꽃에 걸려 있는 대상 공격 시 자신의 공격 주문이 극대화 효과를 발휘할 확률이 2%만큼 증가합니다." lvl="2"/>
+        <rank description="요정의 불꽃이 걸린 대상이 주문 공격에 적중 당할 확률이 3%만큼 증가하고, 요정의 불꽃에 걸려 있는 대상 공격 시 자신의 공격 주문이 극대화 효과를 발휘할 확률이 3%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_druid_owlkinfrenzy" key="1913" name="올빼미야수의 광기" requires="793" tier="7">
+        <rank description="달빛야수 변신 상태에서 공격을 받으면 5%의 확률로 광기에 빠져 공격력이 10%만큼 증가하고 조화 주문을 시전할 때 시전 밀림 효과에 면역이 되며 매 2초마다 기본 마나의 2%만큼을 회복합니다. 10초 동안 지속됩니다." lvl="1"/>
+        <rank description="달빛야수 변신 상태에서 공격을 받으면 10%의 확률로 광기에 빠져 공격력이 10%만큼 증가하고 조화 주문을 시전할 때 시전 밀림 효과에 면역이 되며 매 2초마다 기본 마나의 2%만큼을 회복합니다. 10초 동안 지속됩니다." lvl="2"/>
+        <rank description="달빛야수 변신 상태에서 공격을 받으면 15%의 확률로 광기에 빠져 공격력이 10%만큼 증가하고 조화 주문을 시전할 때 시전 밀림 효과에 면역이 되며 매 2초마다 기본 마나의 2%만큼을 회복합니다. 10초 동안 지속됩니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_druid_twilightswrath" key="1786" name="세나리우스의 천벌" tier="7">
+        <rank description="별빛 섬광 사용 시 4%만큼, 천벌 사용 시 2%만큼 주문 공격력 증가 효과를 추가로 받습니다." lvl="1"/>
+        <rank description="별빛 섬광 사용 시 8%만큼, 천벌 사용 시 4%만큼 주문 공격력 증가 효과를 추가로 받습니다." lvl="2"/>
+        <rank description="별빛 섬광 사용 시 12%만큼, 천벌 사용 시 6%만큼 주문 공격력 증가 효과를 추가로 받습니다." lvl="3"/>
+        <rank description="별빛 섬광 사용 시 16%만큼, 천벌 사용 시 8%만큼 주문 공격력 증가 효과를 추가로 받습니다." lvl="4"/>
+        <rank description="별빛 섬광 사용 시 20%만큼, 천벌 사용 시 10%만큼 주문 공격력 증가 효과를 추가로 받습니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_druid_eclipse" key="1924" name="월식" tier="8">
+        <rank description="별빛 섬광이 극대화 효과를 발휘했을 때 33%의 확률로 천벌의 피해가 30%만큼 증가합니다. 천벌이 극대화 효과를 발휘했을 때 20%의 확률로 별빛 섬광의 극대화 적중률이 30%만큼 증가합니다. 각 효과는 15초 동안 지속되고 30초의 재사용 대기시간을 별도로 가집니다. 두 효과는 동시에 나타날 수 없습니다." lvl="1"/>
+        <rank description="별빛 섬광이 극대화 효과를 발휘했을 때 66%의 확률로 천벌의 피해가 30%만큼 증가합니다. 천벌이 극대화 효과를 발휘했을 때 40%의 확률로 별빛 섬광의 극대화 적중률이 30%만큼 증가합니다. 각 효과는 15초 동안 지속되고 30초의 재사용 대기시간을 별도로 가집니다. 두 효과는 동시에 나타날 수 없습니다." lvl="2"/>
+        <rank description="별빛 섬광이 극대화 효과를 발휘했을 때 100%의 확률로 천벌의 피해가 30%만큼 증가합니다. 천벌이 극대화 효과를 발휘했을 때 60%의 확률로 별빛 섬광의 극대화 적중률이 30%만큼 증가합니다. 각 효과는 15초 동안 지속되고 30초의 재사용 대기시간을 별도로 가집니다. 두 효과는 동시에 나타날 수 없습니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_druid_typhoon" key="1923" name="태풍" requires="793" tier="8">
+        <rank description="맹렬한 태풍을 불러내어 접촉하는 적 대상에게 400의 자연 피해를 입히고 멀리 밀쳐낸 후 3초 동안 멍해지게 만듭니다." lvl="1"/>
+        <spell castTime="0" cooldown="20000" maxRange="30">
+          <power cost="36" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_druid_forceofnature" key="1787" name="자연의 군대" tier="8">
+        <rank description="나무정령 3마리를 소환하여 전투를 돕도록 만듭니다. 30초 동안 지속됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000" maxRange="30">
+          <power cost="12" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="3" icon="ability_druid_galewinds" key="1925" name="강풍" tier="8">
+        <rank description="허리케인과 태풍의 공격력이 15%만큼 증가하고 회오리바람의 사정 거리가 2미터만큼 증가합니다." lvl="1"/>
+        <rank description="허리케인과 태풍의 공격력이 30%만큼 증가하고 회오리바람의 사정 거리가 4미터만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_druid_earthandsky" key="1928" name="대지와 달" tier="9">
+        <rank description="천벌과 별빛 섬광 사용 시 100%의 확률로 대상에게 대지와 달 효과를 일으킵니다. 효과에 걸린 대상은 12초 동안 받는 마법 피해가 4%만큼 증가하고 주문력이 1%만큼 증가합니다." lvl="1"/>
+        <rank description="천벌과 별빛 섬광 사용 시 100%의 확률로 대상에게 대지와 달 효과를 일으킵니다. 효과에 걸린 대상은 12초 동안 받는 마법 피해가 9%만큼 증가하고 주문력이 2%만큼 증가합니다." lvl="2"/>
+        <rank description="천벌과 별빛 섬광 사용 시 100%의 확률로 대상에게 대지와 달 효과를 일으킵니다. 효과에 걸린 대상은 12초 동안 받는 마법 피해가 13%만큼 증가하고 주문력이 3%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_druid_starfall" key="1926" name="별똥별" tier="10">
+        <rank description="하늘에서 질풍과 같은 별똥별을 불러내어 시전자 주위 30미터 이내의 모든 대상에게 떨어뜨립니다. 별똥별은 각각 111~129의 비전 피해를 입히고 추가로 대상으로부터 주변 5미터 이내에 있는 다른 모든 적들에게 20의 피해를 입힙니다. 최대 20개의 별똥별을 소환합니다. 10초 동안 지속됩니다. 동물 형태로 변신을 하거나 탈것에 오르면 효과가 취소됩니다. 제어 불가 효과에 걸리면 별똥별 효과가 중지됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="90000">
+          <power cost="39" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="DruidFeralCombat" icon="ability_racial_bearform" key="FeralCombat" name="야성" order="1">
+      <talent column="1" icon="ability_hunter_pet_hyena" key="796" name="야수의 본성" tier="0">
+        <rank description="후려치기. 휘둘러치기, 할퀴기, 갈퀴 발톱, 짓이기기 기술에 소모되는 기력 또는 분노가 1만큼 감소합니다." lvl="1"/>
+        <rank description="후려치기. 휘둘러치기, 할퀴기, 갈퀴 발톱, 짓이기기 기술에 소모되는 기력 또는 분노가 2만큼 감소합니다." lvl="2"/>
+        <rank description="후려치기. 휘둘러치기, 할퀴기, 갈퀴 발톱, 짓이기기 기술에 소모되는 기력 또는 분노가 3만큼 감소합니다." lvl="3"/>
+        <rank description="후려치기. 휘둘러치기, 할퀴기, 갈퀴 발톱, 짓이기기 기술에 소모되는 기력 또는 분노가 4만큼 감소합니다." lvl="4"/>
+        <rank description="후려치기. 휘둘러치기, 할퀴기, 갈퀴 발톱, 짓이기기 기술에 소모되는 기력 또는 분노가 5만큼 감소합니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_druid_demoralizingroar" key="795" name="야생의 공격성" tier="0">
+        <rank description="위협의 포효로 감소되는 전투력이 8%만큼 증가하고 흉포한 이빨의 피해가 3%만큼 증가합니다." lvl="1"/>
+        <rank description="위협의 포효로 감소되는 전투력이 16%만큼 증가하고 흉포한 이빨의 피해가 6%만큼 증가합니다." lvl="2"/>
+        <rank description="위협의 포효로 감소되는 전투력이 24%만큼 증가하고 흉포한 이빨의 피해가 9%만큼 증가합니다." lvl="3"/>
+        <rank description="위협의 포효로 감소되는 전투력이 32%만큼 증가하고 흉포한 이빨의 피해가 12%만큼 증가합니다." lvl="4"/>
+        <rank description="위협의 포효로 감소되는 전투력이 40%만큼 증가하고 흉포한 이빨의 피해가 15%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="ability_ambush" key="799" name="야생의 본능" tier="1">
+        <rank description="휘둘러치기로 입히는 피해가 10%만큼 증가하며 숨은 상태에서 적이 자신을 발견할 확률이 감소합니다." lvl="1"/>
+        <rank description="휘둘러치기로 입히는 피해가 20%만큼 증가하며 숨은 상태에서 적이 자신을 발견할 확률이 감소합니다." lvl="2"/>
+        <rank description="휘둘러치기로 입히는 피해가 30%만큼 증가하며 숨은 상태에서 적이 자신을 발견할 확률이 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_druid_ravage" key="805" name="맹렬한 격노" tier="1">
+        <rank description="할퀴기, 갈퀴 발톱, 짓이기기(표범), 짓이기기(곰), 후려치기의 피해가 10%만큼 증가합니다." lvl="1"/>
+        <rank description="할퀴기, 갈퀴 발톱, 짓이기기(표범), 짓이기기(곰), 후려치기의 피해가 20%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="inv_misc_pelt_bear_03" key="794" name="두꺼운 가죽" tier="1">
+        <rank description="천과 가죽 아이템에 의한 방어도가 4%만큼 증가합니다." lvl="1"/>
+        <rank description="천과 가죽 아이템에 의한 방어도가 7%만큼 증가합니다." lvl="2"/>
+        <rank description="천과 가죽 아이템에 의한 방어도가 10%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_nature_spiritwolf" key="807" name="야생의 기민함" tier="2">
+        <rank description="표범 변신의 이동 속도가 15%만큼 증가하고 표범 변신, 곰 변신, 광포한 곰 변신 상태에서의 회피율이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="표범 변신의 이동 속도가 30%만큼 증가하고 표범 변신, 곰 변신, 광포한 곰 변신 상태에서의 회피율이 4%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_druid_tigersroar" key="1162" name="생존 본능" tier="2">
+        <rank description="활성화되면 곰 변신, 표범 변신, 광포한 곰 변신 상태에서 20초 동안 최대 생명력이 30%만큼 증가합니다. 지속시간이 끝나면 임시 생명력은 사라집니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+      <talent column="2" icon="inv_misc_monsterclaw_04" key="798" name="날카로운 발톱" tier="2">
+        <rank description="곰이나 광포한 곰 또는 표범 변신의 치명타 적중률이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="곰이나 광포한 곰 또는 표범 변신의 치명타 적중률이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="곰이나 광포한 곰 또는 표범 변신의 치명타 적중률이 6%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_vampiricaura" key="802" name="죽음의 발톱" tier="3">
+        <rank description="칼날 발톱에 소비되는 기력이 9만큼 감소하고 가르기에 소비되는 분노가 1만큼 감소합니다." lvl="1"/>
+        <rank description="칼날 발톱에 소비되는 기력이 18만큼 감소하고 가르기에 소비되는 분노가 2만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_hunter_pet_cat" key="803" name="야생의 포식자" tier="3">
+        <rank description="표범과 곰, 광포한 곰 변신 기술의 근접 전투력이 레벨의 50%만큼, 착용한 무기 전투력의 7%만큼 증가합니다." lvl="1"/>
+        <rank description="표범과 곰, 광포한 곰 변신 기술의 근접 전투력이 레벨의 100%만큼, 착용한 무기 전투력의 14%만큼 증가합니다." lvl="2"/>
+        <rank description="표범과 곰, 광포한 곰 변신 기술의 근접 전투력이 레벨의 150%만큼, 착용한 무기 전투력의 20%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_racial_cannibalize" key="801" name="야수의 분노" requires="798" tier="3">
+        <rank description="곰이나 광포한 곰 변신 상태에서 치명타 공격이 적중할 경우 50%의 확률로 5의 추가 분노가 주어지고, 표범 변신 상태에서 연계 점수가 주어지는 기술이 치명타로 적중할 경우 50%의 확률로 추가 연계 점수가 주어집니다." lvl="1"/>
+        <rank description="곰이나 광포한 곰 변신 상태에서 치명타 공격이 적중할 경우 100%의 확률로 5의 추가 분노가 주어지고, 표범 변신 상태에서 연계 점수가 주어지는 기술이 치명타로 적중할 경우 100%의 확률로 추가 연계 점수가 주어집니다." lvl="2"/>
+      </talent>
+      <talent column="3" icon="ability_druid_primalprecision" key="1914" name="원시의 정밀함" requires="798" tier="3">
+        <rank description="숙련이 5만큼 증가하고 마무리 일격이 성공하지 않았을 경우 소모된 기력의 40%를 되돌려받습니다." lvl="1"/>
+        <rank description="숙련이 10만큼 증가하고 마무리 일격이 성공하지 않았을 경우 소모된 기력의 80%를 되돌려받습니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_druid_bash" key="797" name="야수의 습격" tier="4">
+        <rank description="강타와 암습의 기절 지속시간이 0.5초만큼 증가하고 강타의 재사용 대기시간이 15초만큼 감소합니다." lvl="1"/>
+        <rank description="강타와 암습의 기절 지속시간이 1초만큼 증가하고 강타의 재사용 대기시간이 30초만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_hunter_pet_bear" key="804" name="야성의 돌진" tier="4">
+        <rank description="야성의 돌진 (곰), 야성의 돌진 (표범)을 배웁니다.&lt;br/&gt;&lt;br/&gt;야성의 돌진 (곰) - 대상에게 돌진하여 이동 불가 상태로 만들고 4초 동안 주문 시전을 방해합니다. 곰 변신, 광포한 곰 변신 상태에서만 사용할 수 있습니다. 15초의 재사용 대기시간이 있습니다.&lt;br/&gt;&lt;br/&gt;야성의 돌진 (표범) - 배후에서 적을 공격하여 3초 동안 멍해지게 만듭니다. 30초의 재사용 대기시간이 있습니다." lvl="1"/>
+      </talent>
+      <talent column="3" icon="ability_druid_healinginstincts" key="1792" name="회복의 본능" tier="4">
+        <rank description="주문 치유량이 민첩성의 35%만큼 증가하고 표범 변신 상태에서 받는 치유 효과가 10%만큼 증가합니다." lvl="1"/>
+        <rank description="주문 치유량이 민첩성의 70%만큼 증가하고 표범 변신 상태에서 받는 치유 효과가 20%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_bullrush" key="2242" name="자연의 반응력" tier="5">
+        <rank description="곰 변신과 광포한 곰 변신 상태에서 회피율이 2%만큼 증가하고 매 회피 시 1의 분노를 생성합니다." lvl="1"/>
+        <rank description="곰 변신과 광포한 곰 변신 상태에서 회피율이 4%만큼 증가하고 매 회피 시 2의 분노를 생성합니다." lvl="2"/>
+        <rank description="곰 변신과 광포한 곰 변신 상태에서 회피율이 6%만큼 증가하고 매 회피 시 3의 분노를 생성합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_blessingofagility" key="808" name="야생의 정수" requires="803" tier="5">
+        <rank description="지능이 4%만큼 증가합니다. 추가로 곰이나 광포한 곰 변신 상태에서 체력이 2%만큼 증가하며 표범 변신 상태에서 전투력이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="지능이 8%만큼 증가합니다. 추가로 곰이나 광포한 곰 변신 상태에서 체력이 4%만큼 증가하며 표범 변신 상태에서 전투력이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="지능이 12%만큼 증가합니다. 추가로 곰이나 광포한 곰 변신 상태에서 체력이 6%만큼 증가하며 표범 변신 상태에서 전투력이 6%만큼 증가합니다." lvl="3"/>
+        <rank description="지능이 16%만큼 증가합니다. 추가로 곰이나 광포한 곰 변신 상태에서 체력이 8%만큼 증가하며 표범 변신 상태에서 전투력이 8%만큼 증가합니다." lvl="4"/>
+        <rank description="지능이 20%만큼 증가합니다. 추가로 곰이나 광포한 곰 변신 상태에서 체력이 10%만큼 증가하며 표범 변신 상태에서 전투력이 10%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_druid_enrage" key="1794" name="적자 생존" tier="5">
+        <rank description="모든 능력치가 2%만큼 증가하고 근접 치명타 공격에 적중 당할 확률이 2%만큼 감소하고 곰 변신과 광포한 곰 변신 상태에서 천 방어구와 가죽 방어구로 인해 향상되는 방어도가 11%만큼 증가합니다." lvl="1"/>
+        <rank description="모든 능력치가 4%만큼 증가하고 근접 치명타 공격에 적중 당할 확률이 4%만큼 감소하고 곰 변신과 광포한 곰 변신 상태에서 천 방어구와 가죽 방어구로 인해 향상되는 방어도가 22%만큼 증가합니다." lvl="2"/>
+        <rank description="모든 능력치가 6%만큼 증가하고 근접 치명타 공격에 적중 당할 확률이 6%만큼 감소하고 곰 변신과 광포한 곰 변신 상태에서 천 방어구와 가죽 방어구로 인해 향상되는 방어도가 33%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_unyeildingstamina" key="809" name="무리의 우두머리" tier="6">
+        <rank description="표범이나 곰, 광포한 곰 변신 상태에서 주위 45미터 반경 내에 있는 모든 파티원의 원거리 및 근접 치명타 적중률이 5%만큼 증가합니다." lvl="1"/>
+      </talent>
+      <talent column="2" icon="spell_nature_unyeildingstamina" key="1798" name="무리의 우두머리 연마" requires="809" tier="6">
+        <rank description="무리의 우두머리 효과를 받은 대상이 근접 혹은 원거리 공격으로 치명타를 적중시키면 전체 생명력의 2%에 해당하는 생명력을 스스로 회복합니다. 생명력 회복 효과는 6초마다 1번씩만 발동됩니다. 추가로 드루이드는 전체 마나의 4%에 해당하는 마나를 회복합니다." lvl="1"/>
+        <rank description="무리의 우두머리 효과를 받은 대상이 근접 혹은 원거리 공격으로 치명타를 적중시키면 전체 생명력의 4%에 해당하는 생명력을 스스로 회복합니다. 생명력 회복 효과는 6초마다 1번씩만 발동됩니다. 추가로 드루이드는 전체 마나의 8%에 해당하는 마나를 회복합니다." lvl="2"/>
+      </talent>
+      <talent column="3" icon="ability_druid_primaltenacity" key="1793" name="태고의 강인함" tier="6">
+        <rank description="공포 효과의 지속시간이 10%만큼 감소하고, 표범 변신 시 기절한 상태에서 받는 모든 피해가 10%만큼 감소합니다." lvl="1"/>
+        <rank description="공포 효과의 지속시간이 20%만큼 감소하고, 표범 변신 시 기절한 상태에서 받는 모든 피해가 20%만큼 감소합니다." lvl="2"/>
+        <rank description="공포 효과의 지속시간이 30%만큼 감소하고, 표범 변신 시 기절한 상태에서 받는 모든 피해가 30%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_druid_challangingroar" key="2241" name="무리의 수호자" requires="809" tier="7">
+        <rank description="곰 변신과 광포한 곰 변신 시 전투력이 2%만큼 증가하고 받는 피해가 4%만큼 감소합니다." lvl="1"/>
+        <rank description="곰 변신과 광포한 곰 변신 시 전투력이 4%만큼 증가하고 받는 피해가 8%만큼 감소합니다." lvl="2"/>
+        <rank description="곰 변신과 광포한 곰 변신 시 전투력이 6%만큼 증가하고 받는 피해가 12%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_druid_predatoryinstincts" key="1795" name="포식자의 본능" tier="7">
+        <rank description="표범 변신 시 근접 공격이 치명타로 적중했을 경우 피해가 3%만큼 증가하고 광역 공격으로 입는 피해가 10%만큼 감소합니다." lvl="1"/>
+        <rank description="표범 변신 시 근접 공격이 치명타로 적중했을 경우 피해가 7%만큼 증가하고 광역 공격으로 입는 피해가 20%만큼 감소합니다." lvl="2"/>
+        <rank description="표범 변신 시 근접 공격이 치명타로 적중했을 경우 피해가 10%만큼 증가하고 광역 공격으로 입는 피해가 30%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="ability_druid_infectedwound" key="1919" name="감염된 상처" tier="7">
+        <rank description="칼날 발톱, 후려치기, 짓이기기 공격 시 대상에게 감염된 상처를 입힙니다. 감염된 상처가 걸린 대상은 이동 속도가 8%만큼, 공격 속도가 3%만큼 감소합니다. 2번까지 중복됩니다. 12초 동안 지속됩니다." lvl="1"/>
+        <rank description="칼날 발톱, 후려치기, 짓이기기 공격 시 대상에게 감염된 상처를 입힙니다. 감염된 상처가 걸린 대상은 이동 속도가 17%만큼, 공격 속도가 7%만큼 감소합니다. 2번까지 중복됩니다. 12초 동안 지속됩니다." lvl="2"/>
+        <rank description="칼날 발톱, 후려치기, 짓이기기 공격 시 대상에게 감염된 상처를 입힙니다. 감염된 상처가 걸린 대상은 이동 속도가 25%만큼, 공격 속도가 10%만큼 감소합니다. 2번까지 중복됩니다. 12초 동안 지속됩니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_druid_kingofthejungle" key="1921" name="정글의 왕" tier="8">
+        <rank description="곰 변신, 광포한 곰 변신 상태에서 분노 사용 시 공격력이 5%만큼 증가하고 맹공격 사용 시 즉시 20의 기력을 회복합니다. 추가로 곰 변신, 표범 변신, 광포한 곰 변신에 소비되는 마나가 20%만큼 감소합니다." lvl="1"/>
+        <rank description="곰 변신, 광포한 곰 변신 상태에서 분노 사용 시 공격력이 10%만큼 증가하고 맹공격 사용 시 즉시 40의 기력을 회복합니다. 추가로 곰 변신, 표범 변신, 광포한 곰 변신에 소비되는 마나가 40%만큼 감소합니다." lvl="2"/>
+        <rank description="곰 변신, 광포한 곰 변신 상태에서 분노 사용 시 공격력이 15%만큼 증가하고 맹공격 사용 시 즉시 60의 기력을 회복합니다. 추가로 곰 변신, 표범 변신, 광포한 곰 변신에 소비되는 마나가 60%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_druid_mangle2" key="1796" name="짓이기기" requires="809" tier="8">
+        <rank description="대상을 짓이겨 피해를 입히고 12초 동안 출혈로 인한 피해가 증가되도록 만듭니다. 이 기술은 표범이나 곰, 광포한 곰 변신 상태에서만 사용할 수 있습니다." lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_druid_mangle2" key="1920" name="짓이기기 연마" requires="1796" tier="8">
+        <rank description="짓이기기(곰)의 재사용 대기시간이 0.5초만큼, 짓이기기(표범)에 소비되는 기력이 2%만큼 감소합니다." lvl="1"/>
+        <rank description="짓이기기(곰)의 재사용 대기시간이 1.0초만큼, 짓이기기(표범)에 소비되는 기력이 4%만큼 감소합니다." lvl="2"/>
+        <rank description="짓이기기(곰)의 재사용 대기시간이 1.5초만큼, 짓이기기(표범)에 소비되는 기력이 6%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_druid_primalagression" key="1918" name="상처 찢기" tier="9">
+        <rank description="출혈 피해를 입은 대상에게 후려치기와 칼날 발톱의 피해가 4%만큼, 흉포한 이빨이 치명타로 적중할 확률이 5%만큼 증가합니다." lvl="1"/>
+        <rank description="출혈 피해를 입은 대상에게 후려치기와 칼날 발톱의 피해가 8%만큼, 흉포한 이빨이 치명타로 적중할 확률이 10%만큼 증가합니다." lvl="2"/>
+        <rank description="출혈 피해를 입은 대상에게 후려치기와 칼날 발톱의 피해가 12%만큼, 흉포한 이빨이 치명타로 적중할 확률이 15%만큼 증가합니다." lvl="3"/>
+        <rank description="출혈 피해를 입은 대상에게 후려치기와 칼날 발톱의 피해가 16%만큼, 흉포한 이빨이 치명타로 적중할 확률이 20%만큼 증가합니다." lvl="4"/>
+        <rank description="출혈 피해를 입은 대상에게 후려치기와 칼날 발톱의 피해가 20%만큼, 흉포한 이빨이 치명타로 적중할 확률이 25%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_druid_rake" key="2266" name="야수의 들이받기" requires="1918" tier="9">
+        <rank description="가르기와 도려내기로 인한 주기적인 피해가 치명타로 적중할 수 있습니다." lvl="1"/>
+      </talent>
+      <talent column="1" icon="ability_druid_berserk" key="1927" name="광폭화" tier="10">
+        <rank description="활성화되면 짓이기기 (곰) 기술로 재사용 대기시간이 없이 최대 3명의 대상을 공격하고 표범 변신 상태에서 기술 사용 시 소모되는 기력이 50%만큼 감소합니다. 15초 동안 지속됩니다. 광포해진 동안에는 맹공격 능력을 사용하지 못합니다.&lt;br/&gt;&lt;br/&gt;광포화되면 즉시 공포 효과에서 벗어나고 효과가 지속되는 동안 공포에 면역이 됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+    </tree>
+    <tree bgImage="DruidRestoration" icon="spell_nature_healingtouch" key="Restoration" name="회복" order="2">
+      <talent column="0" icon="spell_nature_regeneration" key="821" name="야생의 징표 연마" tier="0">
+        <rank description="야생의 징표와 야생의 선물의 효과가 20%만큼 증가하고 자신의 모든 능력치가 1%만큼 증가합니다." lvl="1"/>
+        <rank description="야생의 징표와 야생의 선물의 효과가 40%만큼 증가하고 자신의 모든 능력치가 2%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_healingwavegreater" key="823" name="자연의 정신 집중" tier="0">
+        <rank description="치유의 손길, 천벌, 휘감는 뿌리, 회오리바람, 육성, 재생, 평온 주문 시전 시 피해로 인한 시전 밀림 효과가 23%만큼 감소합니다." lvl="1"/>
+        <rank description="치유의 손길, 천벌, 휘감는 뿌리, 회오리바람, 육성, 재생, 평온 주문 시전 시 피해로 인한 시전 밀림 효과가 46%만큼 감소합니다." lvl="2"/>
+        <rank description="치유의 손길, 천벌, 휘감는 뿌리, 회오리바람, 육성, 재생, 평온 주문 시전 시 피해로 인한 시전 밀림 효과가 70%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_blessingofstamina" key="822" name="광란" tier="0">
+        <rank description="곰이나 광포한 곰 변신 시 20%의 확률로 10의 분노가 생성되고, 표범 변신 시 최대 20의 기력이 유지되며, 달빛야수 변신 시 전체 지능이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="곰이나 광포한 곰 변신 시 40%의 확률로 10의 분노가 생성되고, 표범 변신 시 최대 40의 기력이 유지되며, 달빛야수 변신 시 전체 지능이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="곰이나 광포한 곰 변신 시 60%의 확률로 10의 분노가 생성되고, 표범 변신 시 최대 60의 기력이 유지되며, 달빛야수 변신 시 전체 지능이 6%만큼 증가합니다." lvl="3"/>
+        <rank description="곰이나 광포한 곰 변신 시 80%의 확률로 10의 분노가 생성되고, 표범 변신 시 최대 80의 기력이 유지되며, 달빛야수 변신 시 전체 지능이 8%만큼 증가합니다." lvl="4"/>
+        <rank description="곰이나 광포한 곰 변신 시 100%의 확률로 10의 분노가 생성되고, 표범 변신 시 최대 100의 기력이 유지되며, 달빛야수 변신 시 전체 지능이 10%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_healingtouch" key="824" name="자연의 탐구자" tier="1">
+        <rank description="치유의 손길의 시전 시간이 0.1초만큼 감소하고 모든 상태의 물리 공격력이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="치유의 손길의 시전 시간이 0.2초만큼 감소하고 모든 상태의 물리 공격력이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="치유의 손길의 시전 시간이 0.3초만큼 감소하고 모든 상태의 물리 공격력이 6%만큼 증가합니다." lvl="3"/>
+        <rank description="치유의 손길의 시전 시간이 0.4초만큼 감소하고 모든 상태의 물리 공격력이 8%만큼 증가합니다." lvl="4"/>
+        <rank description="치유의 손길의 시전 시간이 0.5초만큼 감소하고 모든 상태의 물리 공격력이 10%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_eyeoftheowl" key="841" name="미묘함" tier="1">
+        <rank description="회복 주문의 위협 수준이 10%만큼 감소하고 자신의 이로운 주문과 달빛 섬광, 곤충 떼 주문이 무효화될 확률이 10%만큼 감소합니다." lvl="1"/>
+        <rank description="회복 주문의 위협 수준이 20%만큼 감소하고 자신의 이로운 주문과 달빛 섬광, 곤충 떼 주문이 무효화될 확률이 20%만큼 감소합니다." lvl="2"/>
+        <rank description="회복 주문의 위협 수준이 30%만큼 감소하고 자신의 이로운 주문과 달빛 섬광, 곤충 떼 주문이 무효화될 확률이 30%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_nature_wispsplode" key="826" name="변신 본능" tier="1">
+        <rank description="모든 변신에 소비되는 마나가 10%만큼 감소합니다." lvl="1"/>
+        <rank description="모든 변신에 소비되는 마나가 20%만큼 감소합니다." lvl="2"/>
+        <rank description="모든 변신에 소비되는 마나가 30%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_frost_windwalkon" key="829" name="격렬" tier="2">
+        <rank description="시전 중에도 평소의 17%에 달하는 속도로 마나가 회복되고 분노 사용 시 즉시 4의 분노를 회복하도록 합니다." lvl="1"/>
+        <rank description="시전 중에도 평소의 33%에 달하는 속도로 마나가 회복되고 분노 사용 시 즉시 7의 분노를 회복하도록 합니다." lvl="2"/>
+        <rank description="시전 중에도 평소의 50%에 달하는 속도로 마나가 회복되고 분노 사용 시 즉시 10의 분노를 회복하도록 합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_crystalball" key="827" name="청명의 전조" tier="2">
+        <rank description="공격 주문이나 치유 주문 시전 시 혹은 자동 공격 시 일정 확률로 정신 집중 상태가 됩니다. 정신 집중 상태에서는 다음 공격 주문이나 치유 주문, 공격 기술에 소비되는 마나나 기력, 분노가 100%만큼 감소됩니다." lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_druid_mastershapeshifter" key="1915" name="변신의 대가" requires="826" tier="2">
+        <rank description="드루이드가 변신해 있는 동안 추가 효과를 받습니다.&lt;br/&gt;&lt;br/&gt;곰 변신 - 물리 공격력 2%만큼 증가&lt;br/&gt;&lt;br/&gt;표범 변신 - 치명타 적중률 2%만큼 증가&lt;br/&gt;&lt;br/&gt;달빛야수 변신 - 주문 공격력 2%만큼 증가&lt;br/&gt;&lt;br/&gt;생명의 나무 변신 - 치유 효과 2%만큼 증가" lvl="1"/>
+        <rank description="드루이드가 변신해 있는 동안 추가 효과를 받습니다.&lt;br/&gt;&lt;br/&gt;곰 변신 - 물리 공격력 4%만큼 증가&lt;br/&gt;&lt;br/&gt;표범 변신 - 치명타 적중률 4%만큼 증가&lt;br/&gt;&lt;br/&gt;달빛야수 변신 - 주문 공격력 4%만큼 증가&lt;br/&gt;&lt;br/&gt;생명의 나무 변신 - 치유 효과 4%만큼 증가" lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_elunesgrace" key="843" name="평온한 정신" tier="3">
+        <rank description="치유의 손길, 육성, 평온 주문에 소비되는 마나가 2%만큼 감소합니다." lvl="1"/>
+        <rank description="치유의 손길, 육성, 평온 주문에 소비되는 마나가 4%만큼 감소합니다." lvl="2"/>
+        <rank description="치유의 손길, 육성, 평온 주문에 소비되는 마나가 6%만큼 감소합니다." lvl="3"/>
+        <rank description="치유의 손길, 육성, 평온 주문에 소비되는 마나가 8%만큼 감소합니다." lvl="4"/>
+        <rank description="치유의 손길, 육성, 평온 주문에 소비되는 마나가 10%만큼 감소합니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_nature_rejuvenation" key="830" name="회복 연마" tier="3">
+        <rank description="회복 주문의 효과가 5%만큼 증가합니다." lvl="1"/>
+        <rank description="회복 주문의 효과가 10%만큼 증가합니다." lvl="2"/>
+        <rank description="회복 주문의 효과가 15%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_nature_ravenform" key="831" name="자연의 신속함" requires="829" tier="4">
+        <rank description="활성화되면 기본 시전 시간 10초 미만의 다음 자연계 주문은 시전 시간 없이 바로 발동됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+      <talent column="1" icon="spell_nature_protectionformnature" key="828" name="자연의 선물" tier="4">
+        <rank description="모든 치유 주문의 치유 효과가 2%만큼 증가합니다." lvl="1"/>
+        <rank description="모든 치유 주문의 치유 효과가 4%만큼 증가합니다." lvl="2"/>
+        <rank description="모든 치유 주문의 치유 효과가 6%만큼 증가합니다." lvl="3"/>
+        <rank description="모든 치유 주문의 치유 효과가 8%만큼 증가합니다." lvl="4"/>
+        <rank description="모든 치유 주문의 치유 효과가 10%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="3" icon="spell_nature_tranquility" key="842" name="평온 연마" tier="4">
+        <rank description="평온에 의한 위협 수준이 50%만큼, 평온의 재사용 대기시간이 30%만큼 감소합니다." lvl="1"/>
+        <rank description="평온에 의한 위협 수준이 100%만큼, 평온의 재사용 대기시간이 60%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_druid_empoweredtouch" key="1788" name="치유의 손길 강화" tier="5">
+        <rank description="치유의 손길 사용 시 주문 치유량 증가 효과를 20%만큼, 육성 사용 시 10%만큼 추가로 받습니다." lvl="1"/>
+        <rank description="치유의 손길 사용 시 주문 치유량 증가 효과를 40%만큼, 육성 사용 시 20%만큼 추가로 받습니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_nature_resistnature" key="825" name="자연의 관대함" requires="830" tier="5">
+        <rank description="재생과 육성 주문이 극대화 효과를 발휘할 확률이 5%만큼 증가합니다." lvl="1"/>
+        <rank description="재생과 육성 주문이 극대화 효과를 발휘할 확률이 10%만큼 증가합니다." lvl="2"/>
+        <rank description="재생과 육성 주문이 극대화 효과를 발휘할 확률이 15%만큼 증가합니다." lvl="3"/>
+        <rank description="재생과 육성 주문이 극대화 효과를 발휘할 확률이 20%만큼 증가합니다." lvl="4"/>
+        <rank description="재생과 육성 주문이 극대화 효과를 발휘할 확률이 25%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_giftofthewaterspirit" key="1797" name="강렬한 영혼" tier="6">
+        <rank description="전체 정신력이 5%만큼 증가합니다." lvl="1"/>
+        <rank description="전체 정신력이 10%만큼 증가합니다." lvl="2"/>
+        <rank description="전체 정신력이 15%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_relics_idolofrejuvenation" key="844" name="신속한 치유" requires="828" tier="6">
+        <rank description="아군 대상에게 걸린 회복 또는 재생 효과를 흡수하여 회복의 12초, 재생의 18초에 해당하는 생명력을 회복시킵니다." lvl="1"/>
+        <spell castTime="0" cooldown="15000" maxRange="40">
+          <power cost="16" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_druid_naturalperfection" key="1790" name="자연의 완전무결함" tier="6">
+        <rank description="모든 주문의 극대화 적중률이 1%만큼 증가하고 치명타 공격에 적중당했을 때 받는 모든 피해를 2%만큼 감소시켜주는 자연의 완전무결함 효과를 얻습니다. 3번까지 중복됩니다. 8초 동안 지속됩니다." lvl="1"/>
+        <rank description="모든 주문의 극대화 적중률이 2%만큼 증가하고 치명타 공격에 적중당했을 때 받는 모든 피해를 3%만큼 감소시켜주는 자연의 완전무결함 효과를 얻습니다. 3번까지 중복됩니다. 8초 동안 지속됩니다." lvl="2"/>
+        <rank description="모든 주문의 극대화 적중률이 3%만큼 증가하고 치명타 공격에 적중당했을 때 받는 모든 피해를 4%만큼 감소시켜주는 자연의 완전무결함 효과를 얻습니다. 3번까지 중복됩니다. 8초 동안 지속됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_druid_empoweredrejuvination" key="1789" name="회복 강화" tier="7">
+        <rank description="지속적인 치유 주문 사용 시 주문 치유량 증가 효과를 4%만큼 추가로 받습니다." lvl="1"/>
+        <rank description="지속적인 치유 주문 사용 시 주문 치유량 증가 효과를 8%만큼 추가로 받습니다." lvl="2"/>
+        <rank description="지속적인 치유 주문 사용 시 주문 치유량 증가 효과를 12%만큼 추가로 받습니다." lvl="3"/>
+        <rank description="지속적인 치유 주문 사용 시 주문 치유량 증가 효과를 16%만큼 추가로 받습니다." lvl="4"/>
+        <rank description="지속적인 치유 주문 사용 시 주문 치유량 증가 효과를 20%만큼 추가로 받습니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_druid_giftoftheearthmother" key="1922" name="살아있는 씨앗" tier="7">
+        <rank description="신속한 치유, 재생, 육성, 치유의 손길 주문이 극대화 효과를 발휘하면 33%의 확률로 대상에게 치유량의 30에 해당하는 생명력을 회복시키는 살아있는 씨앗을 심습니다. 살아있는 씨앗은 대상이 다음 공격을 당하면 피어납니다. 15초 동안 지속됩니다." lvl="1"/>
+        <rank description="신속한 치유, 재생, 육성, 치유의 손길 주문이 극대화 효과를 발휘하면 66%의 확률로 대상에게 치유량의 30에 해당하는 생명력을 회복시키는 살아있는 씨앗을 심습니다. 살아있는 씨앗은 대상이 다음 공격을 당하면 피어납니다. 15초 동안 지속됩니다." lvl="2"/>
+        <rank description="신속한 치유, 재생, 육성, 치유의 손길 주문이 극대화 효과를 발휘하면 100%의 확률로 대상에게 치유량의 30에 해당하는 생명력을 회복시키는 살아있는 씨앗을 심습니다. 살아있는 씨앗은 대상이 다음 공격을 당하면 피어납니다. 15초 동안 지속됩니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_druid_replenish" key="1929" name="활력" tier="8">
+        <rank description="회복과 급속 성장 주문 시전 시 5%의 확률로 매 주기마다 8의 기력, 4의 분노, 1%의 마나 혹은 16의 룬 마력을 회복시킵니다." lvl="1"/>
+        <rank description="회복과 급속 성장 주문 시전 시 10%의 확률로 매 주기마다 8의 기력, 4의 분노, 1%의 마나 혹은 16의 룬 마력을 회복시킵니다." lvl="2"/>
+        <rank description="회복과 급속 성장 주문 시전 시 15%의 확률로 매 주기마다 8의 기력, 4의 분노, 1%의 마나 혹은 16의 룬 마력을 회복시킵니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_druid_treeoflife" key="1791" name="생명의 나무" requires="1789" tier="8">
+        <rank description="지속적인 치유 주문에 소비되는 마나가 20%만큼 감소하고 생명의 나무로 변신할 수 있는 능력을 얻습니다. 생명의 나무로 변신 중일 때는 45미터 내에 있는 모든 파티원과 공격대원이 받는 치유 효과가 6%만큼 증가합니다. 회복 계열 주문과 추가로 정신 자극, 나무 껍질, 자연의 손아귀, 가시 주문만 사용할 수 있습니다.&lt;br/&gt;&lt;br/&gt;변신을 하면 변이와 이동 방해 효과에서 벗어날 수 있습니다." lvl="1"/>
+      </talent>
+      <talent column="2" icon="ability_druid_improvedtreeform" key="1930" name="생명의 나무 연마" requires="1791" tier="8">
+        <rank description="생명의 나무로 변신해 있는 동안 아이템에 의한 방어도가 67%만큼 증가하고 치유 주문의 주문력이 정신력의 5%만큼 증가합니다." lvl="1"/>
+        <rank description="생명의 나무로 변신해 있는 동안 아이템에 의한 방어도가 133%만큼 증가하고 치유 주문의 주문력이 정신력의 10%만큼 증가합니다." lvl="2"/>
+        <rank description="생명의 나무로 변신해 있는 동안 아이템에 의한 방어도가 200%만큼 증가하고 치유 주문의 주문력이 정신력의 15%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_nature_stoneclawtotem" key="2264" name="나무 껍질 연마" tier="9">
+        <rank description="나무 껍질로 감소시키는 피해가 5%만큼 증가하고 나무 껍질 효과가 무효화될 확률이 35%만큼 감소합니다. 치타 변신 상태에서 그리고 변신 중이 아닐 때 방어도가 추가로 80%만큼 증가합니다." lvl="1"/>
+        <rank description="나무 껍질로 감소시키는 피해가 10%만큼 증가하고 나무 껍질 효과가 무효화될 확률이 70%만큼 감소합니다. 치타 변신 상태에서 그리고 변신 중이 아닐 때 방어도가 추가로 160%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_druid_manatree" key="1916" name="대지모신의 선물" tier="9">
+        <rank description="회복과 피어나는 생명, 급속 성장의 기본 전역 재사용 대기시간이 4%만큼 감소합니다." lvl="1"/>
+        <rank description="회복과 피어나는 생명, 급속 성장의 기본 전역 재사용 대기시간이 8%만큼 감소합니다." lvl="2"/>
+        <rank description="회복과 피어나는 생명, 급속 성장의 기본 전역 재사용 대기시간이 12%만큼 감소합니다." lvl="3"/>
+        <rank description="회복과 피어나는 생명, 급속 성장의 기본 전역 재사용 대기시간이 16%만큼 감소합니다." lvl="4"/>
+        <rank description="회복과 피어나는 생명, 급속 성장의 기본 전역 재사용 대기시간이 20%만큼 감소합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_druid_flourish" key="1917" name="급속 성장" requires="1791" tier="10">
+        <rank description="대상으로부터 15미터 반경 내에 있는 최대 5명의 아군 파티원이나 공격대원의 생명력을 7초에 걸쳐 686만큼 회복시킵니다. 처음에는 회복 속도가 빠르지만 점차 느려집니다." lvl="1"/>
+        <spell castTime="0" cooldown="6000" maxRange="40">
+          <power cost="26" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+  </talentTrees>
+</page>

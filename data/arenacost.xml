@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><arenaItems>
+
+  <season key="7" usesArenaPoints="1">
+  
+  <weapon/>
+    <item cost="4250" key="twohand" url="#"/>  
+    <item cost="4250" key="crossbow" url="#"/>  	
+    <item cost="3000" key="mainhand" url="#"/> 
+    <item cost="3000" key="onehand" url="#"/> 
+    <item cost="1245" key="offhand" url="#"/> 
+    <item cost="1000" key="thrown" url="#"/> 
+    <item cost="1150" key="wand" url="#"/> 
+		
+    <armor/>	
+    <item cost="300" key="shield" url="#"/>
+	
+    <item cost="2150" key="head" url="#"/>	
+    <item cost="2150" key="chest" url="#"/>
+    <item cost="2150" key="legs" url="#"/>	
+    <item cost="1750" key="shoulder" url="#"/>	
+    <item cost="1300" key="hands" url="#"/>		
+
+    <item cost="1125" key="offhandfrill" url="#"/>
+
+    <item cost="1150" key="idol" url="#"/>
+    <item cost="1150" key="totem" url="#"/>	
+    <item cost="1150" key="libram" url="#"/>	
+	<end/>
+  </season>  
+
+  <season key="6" usesArenaPoints="1">
+  
+  <weapon/>
+    <item cost="3750" key="twohand" url="#"/>  
+    <item cost="3750" key="crossbow" url="#"/>  	
+    <item cost="2625 or 3150" key="mainhand" url="#"/>	
+    <item cost="2625 or 3150" key="onehand" url="#"/>
+    <item cost="1125" key="offhand" url="#"/>	
+    <item cost="1000" key="thrown" url="#"/>
+    <item cost="1000" key="wand" url="#"/>	
+		
+    <armor/>	
+    <item cost="1875" key="shield" url="#"/>
+	
+    <item cost="1875" key="head" url="#"/>	
+    <item cost="1875" key="chest" url="#"/>
+    <item cost="1875" key="legs" url="#"/>	
+    <item cost="1500" key="shoulder" url="#"/>	
+    <item cost="1125" key="hands" url="#"/>		
+
+    <item cost="1125" key="offhandfrill" url="#"/>
+
+    <item cost="1000" key="idol" url="#"/>
+    <item cost="1000" key="totem" url="#"/>	
+    <item cost="1000" key="libram" url="#"/>	
+	<end/>
+  </season>  
+
+
+  <season key="5" usesArenaPoints="1">
+  
+  <weapon/>
+    <item cost="3750" key="twohand" url="#"/>  
+    <item cost="3750" key="crossbow" url="#"/>  	
+    <item cost="2625 or 3150" key="mainhand" url="#"/>	
+    <item cost="2625 or 3150" key="onehand" url="#"/>
+    <item cost="1125" key="offhand" url="#"/>	
+    <item cost="1000" key="thrown" url="#"/>
+    <item cost="1000" key="wand" url="#"/>	
+		
+    <armor/>	
+    <item cost="1875" key="shield" url="#"/>
+	
+    <item cost="1875" key="head" url="#"/>	
+    <item cost="1875" key="chest" url="#"/>
+    <item cost="1875" key="legs" url="#"/>	
+    <item cost="1500" key="shoulder" url="#"/>	
+    <item cost="1125" key="hands" url="#"/>		
+
+    <item cost="1125" key="offhandfrill" url="#"/>
+
+    <item cost="1000" key="idol" url="#"/>
+    <item cost="1000" key="totem" url="#"/>	
+    <item cost="1000" key="libram" url="#"/>	
+	<end/>
+  </season>  
+
+
+
+  <season key="4" usesArenaPoints="1">
+    <honor/>
+  </season>  
+  
+  <season key="3">
+    <honor/>
+  </season>  
+
+
+  <season key="2">
+    <honor/>
+  </season>
+  
+</arenaItems>

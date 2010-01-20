@@ -1,0 +1,612 @@
+﻿@charset "utf-8";
+/*
+World of Warcraft Armory localization file
+(c) Blizzard Entertainment 2007. All rights reserved.
+*/
+
+img{border:0;}
+div,a,h1,h2,h3,h4,h5,h6,span,td,select,option,input,p,th,em,blockquote,li {font-family:dotum !important;font-style:normal !important}
+input{font:bold 9pt dotum !important; }
+q{font:bold 9pt/12px dotum !important; }
+select{ font:bold 9pt dotum !important; }
+i{font-style:normal !important; font-weight: bold !important}
+.bold{font-weight:bold}
+.italic{font-style:normal !important; font-weight: bold !important}
+/*.legalicon{display:none !important}
+.legalicon2{display:none !important}
+.legalicon3{display:none !important}*/
+.user-data h1, .user-data h2 {font-size:12px !important}
+
+
+
+/* bold tags used in the armory */
+/*...........................................................*/
+.item-content,.language-filter a,.rlbox a,.related-links a.noflash,.relatedlinknew a,.faq-over,.armory-news h1,.sublisting,table.data-table strong,tr.masthead td,.enchantName,.enchantNameClone,td.relevance q,.select3 li.tab-content,.pnav a.p,.pnav a.sel,.mnav a.p,.mnav a.sel,.pnav p,.mnav p,.item-icon a,.generic-name h3,.generic-name h4,.teamRank span,.arenaTeam-name h3,.arenaTeam-name h4,.arenaRealm-info a,.arenaRealm-info a:active,.arenaRealm-info a:visited,.smList,.player-name span,.team-name span,.simple-team td a,a.play-prev,a.play-prev:active,a.play-prev:visited,a.play-last,a.play-last:active,a.play-last:visited,a.play-down100,a.play-down100:active,a.play-down100:visited,a.play-up100,a.play-up100:active,a.play-up100:visited,.teamstanding-noflash,.generic-title span,a.menuLink,a.menuLink:link,a.menuLink:visited,.realm-info a,.realm-info a:active,.realm-info a:visited,.fly-horz a,.fly-horz a:active,.fly-horz a:visited,.profile-stats,.drop-stats a,.set-lang,.drop-lang a,.drop-lang a:visited,.drop-lang a:active,.drop-link a,.drop-link a:visited,.drop-link a:active,.character-stats span,.character-stats i,.health-stat p,.mana-stat p,.rage-stat p,.energy-stat p,.bar-container,.spec-wrapper span,.resists b,.resists span,.arena-ranking a,ul.badges-pvp li h4,ul.badges-pvp li em,ul.legend-arena h4,ul.badges-legend li h3,.bonus-footer p,.faction-name a,.faction-name a:active,.faction-name a:link,.faction-name span,a.rep-data,a.skill-data,.faction-level p,a.copy-link b,a.copy-link-character b,a.pin-link b,a.copy-link strong,a.pin-link strong,a.copy-link-character strong,.stats-content h3,.stats-content h4,td.nameplate span,.male em,.female em,tr.level-range td,.error-message,.error-message h3,.treeName,div.tournament_box_newsdate,div.tournament_rules_official,.slot div,.advances,.upperbracket,.lowerbracket,.item-title2,#parentPredefinedFilter u,.detail-search,.detail-search a.button-lite,.detail-search-results,.detail-search-results a.button-lite,a.button-red,a.button-red:active,a.button-red:visited,.alt-stats a,.alt-stats a:active,.alt-stats a:visited,.item-related h3,.open-filter b,.open-filter strong,.close-filter a,a.item-count,a.item-add,.insert-error,.mobName,.dungeon-content,.faction-content,.dungeon-header,.update-content h2,.update-item span,.faq-nav a,.faq-nav a:active,.faq-nav a:visited,.relatedlinknew	a,.relatedlinknew a:active,.relatedlinknew a:visited{font-weight:bold}
+.faq-nav {letter-spacing:1px !important;line-height:19px !important}
+.faq-nav a {padding-left:7px !important;padding-right:7px !important;}
+.teamstanding-noflash,.level-noflash,.arenaTeam-name h3,.arenaTeam-name h4,.generic-name h3,.generic-name h4, .ps a{font-weight:bold !important}
+/* layout */
+/*...........................................................*/
+a.logo{background:url('/images/ko_kr/wowlogo2.gif') no-repeat;width:262px;height:106px;top:0px;left:81px;position:absolute}
+a.armory-title{width:224px;height:100px;position:relative;z-index:101;top:-52px;background:url('/images/ko_kr/armory-title.gif') no-repeat bottom}
+.wowcom{background:url('/images/ko_kr/wowcom-browse.gif') no-repeat;display:block;height:57px;width:54px}
+.global-nav{position:relative;top:30px;height:57px;display:block;float:left;left:7px;background:url('/images/ko_kr/button-browse.gif') no-repeat 48px 0;width:197px;margin:0;padding:0;text-decoration:none}
+.parch-front{height:328px;width:950px;margin:0 auto;background:url('/images/theme/wrath/ko_kr/parch-front.jpg') no-repeat 0 0}
+.parch-front{height:328px;width:950px;margin:0 auto;background:url('/images/theme/wrath/ko_kr/parch-front.jpg') no-repeat 0 0}
+.front-top .logo[class]{position:relative;z-index:20;width:356px;height:79px;background:url('/images/theme/wrath/ko_kr/logo.png') no-repeat -2px 0;margin:0 auto}
+.front-top .logo {width:356px;height:79px;margin:0 auto;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/theme/wrath/ko_kr/logo.png',sizingMethod='image')}
+.int-top .logo[class]{width:209px;height:120px;margin:0 0 0 10px;background:url('/images/theme/wrath/ko_kr/logo-sm.png') no-repeat 0 0;float:left}
+.int-top .logo {width:209px;height:120px;margin:0 0 0 10px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/theme/wrath/ko_kr/logo-sm.png',sizingMethod='image');float:left}
+.int-top .logo a {width:209px;height:100px;display:block;z-index:5;position:relative}
+.tree a{font-weight:bold}
+.armory-bg{background:url('/images/ko_kr/armory-bg.jpg') no-repeat;width:563px;height:227px;margin:0 auto;position:relative;top:65px}
+.global-nav span{display:none}
+.beta{background:url('/images/ko_kr/beta.gif'); top: -46px; left: 140px;}
+.legalicon{background:url('/shared/wow-com/images/icons/esrb/teen-desc.gif') 50% 50% no-repeat;width:125px;height:70px;float:left; margin:0 10px;}
+.legalicon2{background:url('/shared/wow-com/images/icons/esrb/content-warning.gif') 0 50% no-repeat;width:147px;height:70px;float:left;}
+.legalicon3{background:url('/shared/wow-com/images/icons/esrb/ectppsvivendi.gif') 0 50% no-repeat;width:144px;height:70px;float:left;}
+body.errorpage{margin:0;background:url(/images/ko_kr/errorpage.jpg) #000 50% 0 no-repeat;padding-top:360px}
+.pin-base {display:none !important}
+#replacePinGuildName2 {line-height:15px !important;}
+.unpin-link {font-size:11px !important;}
+.footer {line-height:17px !important; }
+.footer p {line-height:17px !important;}
+/* external */
+.external a, a.external	{ color:green !important; }
+/* lines used for spedific DE FR or ES layour changes */
+/* sticky profile */
+/*...........................................................*/
+.toolBoxb h2{background:url('/images/ko_kr/title-options.gif') no-repeat}
+.pin-back h1{background:url('/images/ko_kr/title-profileselected.gif') no-repeat 50% 0}
+.at2{background:url('/images/ko_kr/pin-2v2.gif') no-repeat}
+.at3{background:url('/images/ko_kr/pin-3v3.gif') no-repeat}
+.at5{background:url('/images/ko_kr/pin-5v5.gif') no-repeat}
+.at20{background:url('/images/ko_kr/pin-2v20.gif') no-repeat}
+.at30{background:url('/images/ko_kr/pin-3v30.gif') no-repeat}
+.at50{background:url('/images/ko_kr/pin-5v50.gif') no-repeat}
+/* team categories */
+/*...........................................................*/
+.team2 a{background:url('/images/ko_kr/tt2.jpg') no-repeat 0 0;left:19px}
+.team3 a{background:url('/images/ko_kr/tt3.jpg') no-repeat 0 0;left:91px}
+.team5 a{background:url('/images/ko_kr/tt5.jpg') no-repeat 0 0;left:74px}
+.team2 a:hover,.team3 a:hover,.team5 a:hover{background-position:0 100%}
+/* Character Search / Profiles */
+/*...........................................................*/
+a.title-cn,a.title-tn,a.title-gn{display:block;width:112px;height:19px;float:right}
+a.title-cn{background:url('/images/ko_kr/title-character-name.gif') no-repeat 100% 0}
+a.title-gn{background:url('/images/ko_kr/title-guild-name.gif') no-repeat 100% 0}
+a.title-tn{background:url('/images/ko_kr/title-team-name.gif') no-repeat 100% 0}
+.header-cp,.header-tp,.header-gp,.header-gs{position:absolute}
+.header-cp{top:-31px;left:-31px;background:url('/images/ko_kr/header-cp.gif') no-repeat;width:223px;height:145px}
+.header-tp{top:-32px;left:-51px;background:url('/images/ko_kr/header-tp.gif') no-repeat;width:275px;height:146px}
+.header-gp{top:-93px;left:-59px;background:url('/images/ko_kr/header-gp.gif') no-repeat;width:258px;height:209px}
+a.scroll-search{display:block;height:54px;width:137px;background:url('/images/ko_kr/sc-search.gif') no-repeat 0 0;position:relative;left:-20px;z-index:19}
+a.scroll-search:hover{background-position:0 100%}
+#achievements .b-title{background:url('/images/ko_kr/subtitle-achievements.gif') no-repeat;top:-41px;left:-46px;width:250px;height:72px}
+#arenateams .b-title{background:url('/images/ko_kr/subtitle-arenateams.gif') no-repeat;top:-41px;left:-46px;width:250px;height:72px}
+.kids h2{background:url('/images/ko_kr/text-cp-prompt.gif') no-repeat}
+.kids .levelBar-wrapper{background:url('/images/ko_kr/levelBar-bg.gif') no-repeat}
+.character-details h4{font:bold 11px dotum !important;letter-spacing:0;text-transform:uppercase}
+.character-details h1{font-weight:normal;line-height:18px}
+.character-details h2{font-size:24px;line-height:25px}
+.character-details h3{font-size:20px;line-height:20px}
+/*.character-outer,*/.character-clone{font:normal 18px dotum !important;letter-spacing:-1px}
+.profile-banner h1{font:bold 22px dotum !important;}
+
+
+/*.profile-master li {line-height:80px !important}*/
+
+/* Guild Profiles */
+/*...........................................................*/
+.header-gs{top:32px;left:27px;background:url('/images/ko_kr/guild-stats.jpg') no-repeat;}
+.racial-stats h2, .class-stats h2, .level-stats h2{font:bold 14px/17px dotum !important}
+a.reset{display:block;width:63px;height:27px;margin-top:13px;background:url('/images/ko_kr/button-reset.gif') no-repeat 0 0}
+a.reset:hover{background-position:0 100%}
+.header-gs select{font:bold 9pt dotum !important;height:19px !important}
+.header-gs strong{font:normal 8pt dotum !important}
+.header-gs input{font:bold 8pt dotum !important;width:25px !important;height:12px !important}
+.header-gs[class] input{font:bold 8pt dotum !important;width:25px !important;height:15px !important}
+td.nameplate{font:bold 9pt/16pt dotum !important}
+.tooltipGuild{font:normal 9pt/14pt dotum !important}
+.header-gs table{width:425px !important;margin: 22px 30px 0 165px !important}
+#divReplaceOptionRace select{font:bold 9pt dotum !important;height:20px !important}
+.header-gs td .guildstats{font:bold 8pt dotum !important}
+/* Guild Bank */
+.filtertitle{font:bold 11pt dotum !important}
+
+/* talents */
+/*...........................................................*/
+.exportbutton{width:100%;text-align:center;margin-top:-30px}
+.exportbutton div{margin:0 auto;width:147px;height:48px;background:url(/images/ko_kr/button-export.gif) 0 -48px no-repeat;vertical-align:middle}
+.exportbutton a{height:100%;width:100%;outline:none;display:block;background:url(/images/ko_kr/button-export.gif) 0 0 no-repeat;cursor:pointer}
+.exportbutton a:link,.exportbutton a:hover,.exportbutton a:visited,.exportbutton a:active,.exportbutton span{font:bold 16px dotum ;color:#503512;text-decoration:none}
+.exportbutton span{padding-top:5px;height:32px;line-height:32px;display:block}
+.exportbutton a:hover{background:none}
+/* Items */
+/*...........................................................*/
+.item-title{background:url('/images/ko_kr/title-itemsearch.gif') no-repeat 123px 5px}
+.alt-stats em{background:url('/images/ko_kr/title-quickfacts.gif') no-repeat 0 0;top:-21px;left:-16px}
+a.viewboss{background:url('/images/ko_kr/viewboss.gif') no-repeat 0 0}
+.dungeon-header-wotlk{background:url('/images/ko_kr/header-dungeons-wotlk.jpg') no-repeat 0 0}
+.dungeon-header-bc{background:url('/images/ko_kr/header-dungeons-bc.jpg') no-repeat 0 0}
+.dungeon-header-classic{background:url('/images/ko_kr/header-dungeons-classic.jpg') no-repeat 0 0}
+.faction-header{background:url('/images/ko_kr/header-factions.jpg') no-repeat 0 0}
+.updates-header{background:url('/images/ko_kr/header-updates.jpg') no-repeat 0 0}
+.faq-header{background:url('/images/ko_kr/header-faq.jpg') no-repeat 0 0}
+.pvprewards-header{background:url('/images/ko_kr/header-pvprewards.jpg') no-repeat 0 0}
+.pin-link{right:132px}
+/* Arena Tournament */
+/*...........................................................*/
+div.tournament_header{position:absolute;background:url('/images/ko_kr/tournament_title.jpg');background-repeat:no-repeat;background-position:top left;width:854px;height:185px;margin:-9px 0px 0px -10px;padding:0px 0px 0px 0px}
+div.tournament_parchment_news[class]{position:absolute;width:200px;height:91px;background:url('/images/ko_kr/tournament_parch_news.png');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_news{position:absolute;width:200px;height:91px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ko_kr/tournament_parch_news.png',sizingMethod='scale');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_faq[class]{position:absolute;width:200px;height:91px;background:url('/images/ko_kr/tournament_parch_faq.png');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_faq{position:absolute;width:200px;height:91px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ko_kr/tournament_parch_faq.png',sizingMethod='scale');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_rules[class]{position:absolute;width:200px;height:91px;background:url('/images/ko_kr/tournament_parch_rules.png');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_rules{position:absolute;width:200px;height:91px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ko_kr/tournament_parch_rules.png',sizingMethod='scale');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_info[class]{position:absolute;width:200px;height:91px;background:url('/images/ko_kr/tournament_parch_information.png');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_info{position:absolute;width:200px;height:91px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ko_kr/tournament_parch_information.png',sizingMethod='scale');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_brackets[class]{position:absolute;width:200px;height:91px;background:url('/images/ko_kr/tournament_parch_brackets.png');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_brackets{position:absolute;width:200px;height:91px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ko_kr/tournament_parch_brackets.png',sizingMethod='scale');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_prizes[class]{position:absolute;width:200px;height:91px;background:url('/images/ko_kr/tournament_parch_prizes.png');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_prizes{position:absolute;width:200px;height:91px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ko_kr/tournament_parch_prizes.png',sizingMethod='scale');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_venues[class]{position:absolute;width:200px;height:91px;background:url('/images/ko_kr/tournament_parch_venues.png');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_venues{position:absolute;width:200px;height:91px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ko_kr/tournament_parch_venues.png',sizingMethod='scale');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_partners[class]{position:absolute;width:200px;height:91px;background:url('/images/ko_kr/tournament_parch_partners.png');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_parchment_partners{position:absolute;width:200px;height:91px;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/images/ko_kr/tournament_parch_partners.png',sizingMethod='scale');background-repeat:no-repeat;background-position:top left;margin:-35px 0px 0px -40px;padding:0px 0px 0px 0px;border:0px red solid}
+div.tournament_box_newstitle{font:bold 10pt dotum !important}
+div.tournament_box_newsdate{font:bold 9pt dotum !important}
+div.tournament_box_newstext{font:normal 9pt/12pt dotum !important}
+div.tournament_faqquestion{font:bold 9pt/15pt dotum !important}
+div.tournament_rules_official{font:bold 10pt dotum !important}
+
+/* Layout */
+/*_______________________________________________________________*/
+#loadingDivInnerText{font:bold 11pt dotum !important;color:#FFFFFF !important;margin:0px 0 0 0 !important}
+/*#legalicon-container{display:none !important}*/
+.copyright{height: 50px !important}
+
+/* drop down filter */
+/*_______________________________________________________________*/
+.dropDowner{font-size:9pt}
+
+/* tooltip */
+/*_______________________________________________________________*/
+.tooltip div{font:normal 9pt/12pt dotum !important}
+.tooltipTitle{font:normal 9pt/12pt dotum !important}
+.tooltipContentSpecial{color:#ffd800;font-weight:normal;font-size:9pt !important;display:block}
+
+/* Item Tooltip formatting */
+/*_______________________________________________________________*/
+.myTable{font-size:9pt}
+
+/* Index Page */
+/*_______________________________________________________________*/
+.related-links{font:bold 9pt/13pt dotum !important}
+.faq-desc{font:normal 9pt/15pt dotum !important}
+.index-faq h1,.list h1,.faq-desc h2{font:bold 13pt/17pt dotum !important}
+.ilinks h2{font-size:0px !important;color:#dfc778 !important;position:absolute !important;top:13px !important;left:48px !important;width:67px !important;height:18px !important;background:url('/images/ko_kr/title-related-link.gif') no-repeat 0 0 !important}
+.ifaq h2{font-size:0px !important;color:#dfc778 !important;position:absolute !important;top:13px !important;left:48px !important;width:34px !important;height:18px !important;background:url('/images/ko_kr/title-faq.gif') no-repeat 0 0 !important}
+.faq-links{font:normal 9pt/13pt dotum !important}
+
+/*home*/
+.other .search{background: url('/images/ko_kr/search-left.gif') no-repeat 0 0 !important}
+.other .search-right{background: url('/images/ko_kr/search-right.gif') no-repeat 100% 0 !important}
+.armory-news{text-align:left;position:relative;z-index:50;margin:25px auto 30px;padding:4px 10px 4px 10px;font:normal 8pt dotum !important; line-height:17px;}
+
+/* Results */
+/*_______________________________________________________________*/
+.result-box h2{font:normal 13pt/20pt dotum !important}
+.paging{font:normal 10pt dotum !important}
+.data-table q{font:bold 9pt dotum !important}
+.left b,.right span{font:normal 9pt dotum !important;margin:2px 0 3px 0 !important}
+.generic-name h3,.generic-name h4{font:bold 16pt/28pt dotum !important;letter-spacing:-1px}
+.generic-content h5{font:bold 11pt/16pt dotum !important;letter-spacing:-1px}
+.default-list ul{font:normal 10pt dotum !important}
+.tabs a{font:bold 10pt dotum !important}
+.icharacters h4{font:bold 9pt/11pt dotum !important;color:#005ba1 !important}
+.icharacters h3{font:bold 11pt/14pt dotum !important;color:#000000 !important}
+.iarenateams h4{font:bold 9pt/11pt dotum !important;color:#005ba1 !important}
+.iarenateams h3{font:bold 11pt/14pt dotum !important;color:#000000 !important}
+.iguilds h4{font:bold 9pt/11pt dotum !important;color:#005ba1 !important}
+.iguilds h3{font:bold 11pt/14pt dotum !important;color:#000000 !important}
+.backlink{font:normal 8pt/17pt dotum !important}
+.data-table strong{font:bold 9pt dotum !important}
+td.relevance q{font:bold 9pt dotum !important}
+.pagesInput{height:13px !important;text-align:right !important}
+.unavailables{font:normal 9pt/13pt dotum !important}
+.generic-content td.r1{font:normal 8pt/12pt dotum !important;padding:3px 0 3px 0 !important}
+.generic-content td.r2{font:normal 8pt/12pt dotum !important;padding:3px 0 3px 0 !important}
+.data-table span{font:bold 9pt dotum !important}
+
+/* Player Profiles */
+/*_______________________________________________________________*/
+.copy-link-left{font:bold 9pt dotum !important}
+.spec h4 ,.resists h4 ,.profs h4{font:bold 9pt dotum !important;margin:5px 0 0 0 !important}
+.stack2 h4{font:bold 9pt dotum !important;margin:2px 0 0 0 !important}
+.resists ul{font:bold 9pt dotum !important}
+.drop-stats,.stack3{font:bold 9pt/12pt dotum !important}
+.tooltip ul{font:bold 9pt/12pt dotum !important; margin:2 0 2 0}
+.brownBox h4 {font:bold 9pt dotum !important;margin:5px 0 0 0 !important}
+.achRight h4 {font:bold 9pt dotum !important;margin:5px 0 0 0 !important}
+
+/* Updates */
+/*...........................................................*/
+.ud-url{background:url('/images/ko_kr/updates/armory4-url.jpg') no-repeat 50% 0;height:60px;position:relative;top:-10px}
+.ud-item{background:url('/images/ko_kr/updates/armory4-item.jpg') no-repeat 50% 0;height:60px;position:relative;}
+.ud-calc a, .ud-plugin a{display:block;height:100%}
+.ud-plugin{float:right;margin:0;background:url('/images/ko_kr/updates/armory6.gif') no-repeat;width:390px;height:77px;position:relative;right:-20px}
+.ud-calc{float:right;margin:0;background:url('/images/ko_kr/updates/armory5.gif') no-repeat;width:356px;height:333px;position:relative;right:-20px}
+.ud-paging{float:right;margin:0;background:url('/images/ko_kr/updates/armory4.gif') no-repeat;width:339px;height:338px;position:relative;right:-20px;top:-10px}
+.ud-pin{float:right;margin:0;background:url('/images/ko_kr/updates/armory3.gif') no-repeat;width:339px;height:318px;position:relative;right:-20px;top:-10px}
+.ud-pin em.e1,.ud-pin em.e2,.ud-pin em.e3,.ud-pin em.e4,.ud-pin em.e5,.ud-upgrade em.e1,.ud-desired em.e1,.ud-desired em.e2,.ud-paging em.e1,.ud-paging em.e2,.ud-calc em.e1,.ud-calc em.e2,.ud-calc em.e3,.ud-bankcontents em.e1,.ud-bankcontents em.e2,.ud-bankcontents em.e3{position:absolute;display:block;font-weight:bold;line-height:normal !important;text-align:center;font:bold 9pt/11pt dotum !important}
+.ud-bankcontents em.e1{position:absolute; top:25px !important; left:140px !important; display:block;line-height:normal !important;text-align:center;font:bold 12px dotum !important}
+.ud-bankcontents em.e2{position:absolute; top:190px !important; left:-127px !important; display:block;line-height:normal !important;text-align:center;font:bold 12px dotum !important}
+.ud-bankcontents em.e3{position:absolute; top:238px !important; left:78px !important; display:block;line-height:normal !important;text-align:center;font:bold 12px dotum !important}
+.ud-calc em.e1{top:30px;left:95px;width:140px}
+.ud-calc em.e2{top:247px;left:25px;width:130px}
+.ud-calc em.e3{top:266px;left:191px;width:140px}
+.ud-paging em.e1{top:45px;left:120px;width:125px}
+.ud-paging em.e2{top:295px;left:129px;width:125px}
+.ud-pin em.e1{top:35px;left:60px;width:100px}
+.ud-pin em.e2{top:28px;left:210px;width:84px}
+.ud-pin em.e3{top:250px;left:20px;width:80px}
+.ud-pin em.e4{top:250px;left:130px;width:90px}
+.ud-pin em.e5{top:243px;left:243px;width:90px}
+.ud-options{margin:0 0 10px 0;background:url('/images/ko_kr/updates/armory4.jpg') no-repeat;width:557px;height:189px;position:relative;left:-10px}
+.ud-upgrade{float:right;margin:0;background:url('/images/ko_kr/updates/armory1.gif') no-repeat;width:326px;height:326px;position:relative;right:-20px}
+.ud-upgrade em.e1{top:258px;left:90px;width:130px}
+.ud-desired{float:right;margin:0;background:url('/images/ko_kr/updates/armory2.gif') no-repeat;width:328px;height:317px;position:relative;right:-20px}
+.ud-desired em.e1{top:37px;left:90px;width:130px}
+.ud-desired em.e2{top:267px;left:90px;width:130px}
+/* arena layout */
+.oppositeTeamLink {display: block !important;padding-top:5px !important;height:23px !important;float:left !important}
+.timeFormat { line-height:17px !important;padding:7px 0px 0px 0px !important;}
+.filterInput[class] { border: 1px solid #B29A47; color: #000; height: 15px; line-height: 15px; font-size: 12px; padding: 2px; margin: 0;  float: left; background: transparent url(/images/parch-search-bg1.gif) repeat-x; font-weight: normal; } 
+#dateStart[class] { width: 90px !important; }
+#dateEnd[class] { width: 90px !important; } 
+.graphTxt {display: block !important;padding-top:5px !important;}
+.graphTxt[class] {display: block !important;padding-top:5px !important;height:23px !important;float:left !important;line-height:23px !important;}
+.masthead th {letter-spacing:-2px !important;}
+
+/* arena calculator */
+/*...........................................................*/
+.ud-login {float:right;margin:0;background:url('/images/ko_kr/updates/armory7.gif') no-repeat;width:309px;height:245px;position:relative;right:-10px;}
+.ud-bankcontents {float:right;margin:0;background:url('/images/ko_kr/updates/armory8.gif') no-repeat;width:352px;height:333px;position:relative;right:-20px;}
+.arenacalc .sidebar h1 div {background:url(/images/ko_kr/calc-reftitle.gif) 0 0 no-repeat;}
+.ud-bankcontents em.e1{top:22px;left:144px;width:130px;}
+.ud-bankcontents em.e2{top:213px;left:14px;width:90px;}
+.ud-bankcontents em.e3{top:266px;left:219px;width:90px;}
+.ud-banklog{margin:0; padding:0; display:block; width:644px;height:281px;position:relative;left:-10px}
+.ud-guildtabard {float:right;margin:0;background:url('/images/ko_kr/updates/armory10.gif') no-repeat;width:385px;height:254px;position:relative;right:-10px;}
+.ud-calendar {float:right;margin:0;background:url('/images/ko_kr/updates/armory11.gif') no-repeat;width:302px;height:312px;position:relative;right:-10px;}
+/* search */
+/*...........................................................*/
+.search,.search a{font-weight:bold !important}
+a.title-search{position:absolute;display:block;width:200px;height:13px;top:14px;left:33px;background:url('/images/ko_kr/title-searcharmory.gif') no-repeat;z-index:20}
+a.title-advsearch{position:absolute;display:block;width:110px;height:13px;top:2px;left:56px;background:url('/images/ko_kr/title-advancedsearch.gif') no-repeat;z-index:1}
+.home .submit{background:url('/images/ko_kr/index-search0.gif') no-repeat}
+.home a.submit{background:url('/images/ko_kr/index-search0.gif') no-repeat 0 0}
+.other .submit{background:url('/images/ko_kr/index-search.gif') no-repeat}
+.other a.submit{background:url('/images/ko_kr/index-search.gif') no-repeat 0 0}
+a.submit:hover{background-position:0 100%;cursor:pointer}
+.battlegroups0 a.bg-button,.battlegroups1 a.bg-button,.realms0 a.realms-button,.realms1 a.realms-button{display:block;width:266px;height:53px}
+
+/* Battlegroups */
+/*...........................................................*/
+.battlegroups0 a.bg-button,.battlegroups1 a.bg-button,.realms0 a.realms-button,.realms1 a.realms-button{display:block;width:266px;height:53px}
+.battlegroups0 a.bg-button,.battlegroups1 a.bg-button{background:url('/images/ko_kr/select-bg.jpg') no-repeat}
+.realms0 a.realms-button,.realms1 a.realms-button{background:url('/images/ko_kr/select-realm.jpg') no-repeat 0 0}
+.battlegroups0 a.bg-button:hover,.battlegroups1 a.bg-button:hover,.realms0 a.realms-button:hover,.realms1 a.realms-button:hover,.battlegroups1 a.bg-button,.realms1 a.realms-button{background-position:0 100%}
+.battlegroups0 a.bg-button,.realms0 a.realms-button{background-position:0 0}
+a.battlegroupSmall{display:block;width:21px !important;height:21px;margin:0 3px;z-index:999;position:relative}
+a.battlegroupSmall:hover{border-bottom:none !important}
+.groupretaliation{background:url('/images/ko_kr/battlegroups/icons-small/retaliation.png') no-repeat}
+.groupreckoning{background:url('/images/ko_kr/battlegroups/icons-small/reckoning.png') no-repeat}
+.groupvindication{background:url('/images/ko_kr/battlegroups/icons-small/vindication.png')no-repeat}
+.grouprampage{background:url('/images/ko_kr/battlegroups/icons-small/rampage.png')no-repeat}
+.groupferocity{background:url('/images/ko_kr/battlegroups/icons-small/ferocity.png')no-repeat;}
+.groupbloodlust{background:url('/images/ko_kr/battlegroups/icons-small/bloodlust.png') no-repeat}
+.groupvengeance{background:url('/images/ko_kr/battlegroups/icons-small/vengeance.png') no-repeat}
+.group-coliseumtitle{background:url(/images/ko_kr/title-coliseumbattlegroups.gif) 0 0 no-repeat;}
+
+/* Layout */
+/*_______________________________________________________________*/
+#loadingDivInnerText{font:bold 11pt dotum !important;color:#FFFFFF !important;margin:0px 0 0 0 !important;}
+#loadingDivInnerText em{display:block;font-style:normal !important;color:white !important;position:absolute;top:0px;right:0px;text-align:center;width:155px;height:62px}
+
+/* drop down filter */
+/*_______________________________________________________________*/
+.dropDowner{font-size:9pt}
+
+/* login */
+a.login-button{float:left;display:block;height:23px;width:112px;background-position:0 0;background:url('/images/ko_kr/button-login.gif') top left  no-repeat}
+a.cancel-button{float:right;display:block;height:23px;width:112px;background-position:0 0;background:url('/images/ko_kr/button-cancel.gif') top left  no-repeat}
+
+/* Quick Login */
+.user-message em {position:absolute;bottom:0px;right:auto !important;left:7px !important;}
+
+.guild-motd { margin: 0 142px 0 200px; padding: 6px; font-style: normal; }
+
+/* light tooltip */
+/*_______________________________________________________________*/
+.light-tip div{font:normal 9pt/12pt dotum !important;color:black;margin:0px !important;padding:1px 2px !important}
+.language-filter a{padding:6px 0px 0 0px !important;font:bold 8pt/12pt dotum !important}
+
+/* Index Page */
+/*_______________________________________________________________*/
+.related-links{font:bold 9pt/13pt dotum !important}
+.faq-desc{font:normal 9pt/15pt dotum !important}
+.index-faq h1,.list h1,.faq-desc h2{font:bold 11pt/17pt dotum !important}
+.faq-links{font:normal 9pt/13pt dotum !important}
+.language-filter a{padding:6px 12px 0 13px !important}
+.relatedlinknew	a{font:bold 9pt/12pt dotum !important}
+.language[class] {width:1000px !important;}
+
+/* Results */
+/*_______________________________________________________________*/
+.result-box h2{font:normal 13pt/20pt dotum !important}
+.paging{font:normal 10pt dotum !important}
+.data-table q{font:bold 9pt dotum !important}
+.left b,.right span{font:normal 9pt dotum !important;margin:2px 0 3px 0 !important}
+.generic-name h3, .generic-name h4{font:bold 16pt/30pt dotum !important;letter-spacing:-1px}
+.generic-content h5{font:bold 11pt/16pt dotum !important;letter-spacing:-1px}
+.default-list ul{font:normal 10pt dotum !important}
+.tabs a{font:bold 10pt dotum !important}
+.results-header{font:normal 8pt/11pt dotum !important}
+.results-header span{font:normal 9pt/11pt dotum !important}
+
+/* title styles for each pages */
+.icharacters h4{font:normal 8pt/10pt dotum !important;color:#005ba1 !important;margin:3px 0 0 0 !important;}
+.icharacters h3{font:bold 10pt/13pt dotum !important;color:#000000 !important;}
+.iarenateams h4{font:normal 8pt/10pt dotum !important;color:#005ba1 !important;margin:3px 0 0 0 !important;}
+.iarenateams h3{font:bold 10pt/13pt dotum !important;color:#000000 !important;}
+.iguilds h4{font:normal 9pt/10pt dotum !important;color:#005ba1 !important;margin:3px 0 0 0 !important;}
+.iguilds h3{font:bold 10pt/13pt dotum !important;color:#000000 !important;}
+.ilegend h4{font:normal 9pt/10pt dotum !important;color:#005ba1 !important;margin:3px 0 0 0 !important;}
+.ilegend h3{font:bold 10pt/13pt dotum !important;color:#000000 !important;}
+.iitems h4{font:normal 9pt/10pt dotum !important;color:#005ba1 !important;margin:3px 0 0 0 !important;}
+.iitems h3{font:bold 10pt/13pt dotum !important;color:#000000 !important;}
+.idungeons h4{font:normal 9pt/10pt dotum !important;color:#005ba1 !important;margin:3px 0 0 0 !important;}
+.idungeons h3{font:bold 10pt/13pt dotum !important;color:#000000 !important;}
+.ifactions h4{font:normal 9pt/10pt dotum !important;color:#005ba1 !important;margin:3px 0 0 0 !important;}
+.ifactions h3{font:bold 10pt/13pt dotum !important;color:#000000 !important;}
+.iupdates h4{font:normal 9pt/10pt dotum !important;color:#005ba1 !important;margin:3px 0 0 0 !important;}
+.iupdates h3{font:bold 10pt/13pt dotum !important;color:#000000 !important;}
+.ifaqheader h4{font:normal 9pt/10pt dotum !important;color:#005ba1 !important;margin:3px 0 0 0 !important;}
+.ifaqheader h3{font:bold 10pt/13pt dotum !important;color:#000000 !important;}
+.ipvprewards h4{font:normal 9pt/10pt dotum !important;color:#005ba1 !important;margin:3px 0 0 0 !important;}
+.ipvprewards h3{font:bold 10pt/13pt dotum !important;color:#000000 !important;}
+
+/* etc. */
+.backlink{font:normal 8pt/17pt dotum !important}
+.data-table strong{font:bold 9pt dotum !important}
+td.relevance q{font:bold 9pt dotum !important}
+.pagesInput{height:13px !important;text-align:right !important}
+.unavailables{font:normal 9pt/13pt dotum !important}
+.generic-content td.r1{font:normal 9pt/12pt dotum !important;padding:3px 0 3px 0 !important}
+.generic-content td.r2{font:normal 9pt/12pt dotum !important;padding:3px 0 3px 0 !important;}
+tr.masthead span{font:bold 9pt dotum !important}
+.data-table a{font:bold 9pt dotum !important}
+.data-table span{font:normal 9pt dotum !important}
+.result-banner h3{font:normal 9pt dotum !important}
+.parch-search{font:bold 9pt dotum !important}
+.parch-search input{font:bold 8pt dotum !important}
+#replaceResults{font:bold 9pt dotum !important}
+.data h5{font:bold 9pt dotum !important}
+.realms{font:normal 9pt dotum !important}
+
+/* Arena */
+/*_______________________________________________________________*/
+.teamRank{font:normal 14pt dotum !important;color:#b29c62}
+.arenaTeam-name h3,.arenaTeam-name h4{font:normal 16pt/28pt dotum !important}
+
+/* Player Profiles */
+/*_______________________________________________________________*/
+.copy-link-left{font:bold 9pt dotum !important}
+.spec h4,.resists h4,.profs h4{font:normal 9pt dotum !important}
+.stack2 h4{font:normal 9pt dotum !important}
+.prof1 h4{font:normal 9pt dotum !important}
+.resists ul{font:bold 9pt dotum !important}
+.resists ul{padding:0px 0 0 0 !important;margin:-5px 0 0 0 !important}
+.resists li{height:29px !important;text-align:right;width:90px;position:relative}
+
+.stack3{font:bold 9pt/13pt dotum !important}
+.character-stats span{font:normal 8pt/11pt dotum !important;height:13px !important}
+.stats1,.stats2{height:98px !important}
+.stats1 em.pbl,.stats1 em.pbr,.stats2 em.pbl,.stats2 em.pbr{top:95px !important}
+.drop-stats{font:bold 9pt/14pt dotum !important}
+.tooltip ul{font:bold 9pt/16pt dotum !important}
+#replaceTalentSpecText{font:normal 9pt dotum !important}
+.lastModified{font:normal 9pt dotum !important}
+#divAchievement h2{font:normal 14pt/18pt dotum !important;height:25px !important}
+#divAchievement h3{font:bold 9pt/13pt dotum !important}
+.exportbutton span{font:bold 10pt/26pt dotum !important}
+
+/* factions */
+.iht p{padding:15px 0 0 0;margin:0;font:normal 12pt dotum !important;letter-spacing:-1px !important}
+.faction-name{font:bold 9pt dotum !important;padding:3px 0 0 0 !important}
+.rep-icon{font:bold 9pt dotum !important;padding:3px 0 0 20px !important}
+.rep7 p.rep-icon{background:url('/images/icons/faction/exalted.gif') no-repeat 0px 0 !important}
+.rep6 p.rep-icon{background:url('/images/icons/faction/revered.gif') no-repeat 0px 0 !important}
+.rep5 p.rep-icon{background:url('/images/icons/faction/honored.gif') no-repeat 0px 0 !important}
+.rep4 p.rep-icon{background:url('/images/icons/faction/friendly.gif') no-repeat 0px 0 !important}
+.rep3 p.rep-icon{background:url('/images/icons/faction/neutral.gif') no-repeat 0px 0 !important}
+.rep2 p.rep-icon{background:url('/images/icons/faction/unfriendly.gif') no-repeat 0px 0 !important}
+.rep1 p.rep-icon{background:url('/images/icons/faction/hostile.gif') no-repeat 0px 0 !important}
+.rep0 p.rep-icon{background:url('/images/icons/faction/hated.gif') no-repeat 0px 0 !important}
+
+/* Team Profiles */
+/*_______________________________________________________________*/
+.legend-arena h4{font:bold 11pt dotum !important}
+.s-bg h4{text-align:center !important;font:normal 10pt/17pt dotum !important;margin:10px 0 10px 0 !important}
+a.name,a.name:active,a.name:visited{font:bold 9pt/18pt dotum !important;text-decoration:none !important}
+.team-header{font:bold 10pt dotum !important}
+.hl{font:bold 10pt dotum !important}
+.innerData table{font:bold 10pt dotum !important}
+
+/* shared */
+blockquote h2{color:#ab8332;padding:10px 0 0 45px;margin:0;letter-spacing:-1px;font:normal 18px/24px dotum !important}
+blockquote h3{color:black;padding:0 0 0 65px;margin:0 0 1px 0;letter-spacing:-1px;font:bold 10pt/13pt dotum !important}
+blockquote h3 b{color:black;padding:0 0 0 7px;margin:0 0 1px 0;letter-spacing:-1px;font:bold 10pt/13pt dotum !important}
+blockquote h4{color:#ab8332;padding:5px 0 0 65px;margin:0;font-size:11px !important}
+blockquote h4 a{font:normal 8pt/10pt dotum !important;color:#005ba1 !important;margin:3px 0 0 0 !important}
+
+/*Items*/
+.filter-container{font:normal 9pt/12pt dotum !important}
+#idAndOr{font:normal 8pt dotum !important}
+.parentPredefinedFilter{font:normal 9pt/12pt dotum !important}
+optgroup{font-style:normal !important}
+
+.filter-container{font:normal 9pt/12pt dotum !important}
+.option-cont{font:normal 9pt/12pt dotum !important}
+.input-cont{font:normal 9pt/12pt dotum !important}
+.multi-filter{font:normal 9pt/12pt dotum !important}
+.sub-filters{font:normal 9pt/12pt dotum !important}
+.filterError{font:normal 9pt/12pt dotum !important}
+.filterError input,.filterError select{font:normal 9pt/12pt dotum !important}
+.sub-label{font:normal 9pt/12pt dotum !important}
+.sub-label-top{font:normal 9pt/12pt dotum !important}
+.detail-search-results .sub-label-top{font:normal 9pt/12pt dotum !important}
+.a-option{font:normal 9pt/12pt dotum !important}
+.irange{font:normal 8pt/12pt dotum !important;width:25px !important}
+.drop-source{font:normal 9pt/12pt dotum !important}
+.drop-source2{font:normal 9pt/12pt dotum !important}
+#idAddFilter a{font:normal 9pt/12pt dotum !important}
+#idAddFilter a.button-red{font:normal 9pt/12pt dotum !important}
+a.button-lite,a.button-lite:active,a.button-lite:visited{font:normal 8pt/12pt dotum !important;margin-top:3px !important;letter-spacing:-1 !important}
+a.button-lite:hover{font:normal 8pt/12pt dotum !important;margin-top:3px !important;letter-spacing:-1 !important}
+a.add-filter,a.add-filter:active,a.add-filter:visited{font:normal 8pt/12pt dotum !important;margin-top:1px !important;letter-spacing:-1 !important}
+a.add-filter:hover{font:normal 8pt/12pt dotum !important;margin-top:1px !important;letter-spacing:-1 !important}
+#hiddenPredefinedGeneric,#hiddenPredefinedDruid,#hiddenPredefinedHunter,#hiddenPredefinedPaladin,#hiddenPredefinedWarrior,#hiddenPredefinedRogue,#hiddenPredefinedPriest,#hiddenPredefinedWarlock,#hiddenPredefinedShaman,#hiddenPredefinedMage{font:normal 8pt dotum !important}
+.ao-cont{font:normal 9pt/12pt dotum !important}
+.ao-cont a{font:normal 9pt/12pt dotum !important; }
+.ao-cont a:hover{font:normal 9pt/12pt dotum !important; }
+a.ao-pop,a.ao-pop:active,a.ao-pop:visited{font:normal 9pt/12pt dotum !important}
+a.ao-pop:hover{font:normal 9pt/12pt dotum !important}
+a.ao-pop em{font:normal 9pt/12pt dotum !important}
+a.ao-pop:hover em{font:normal 9pt/12pt dotum !important}
+.advanced-cont{font:normal 9pt/12pt dotum !important}
+a.remove{font:normal 9pt/12pt dotum !important}
+a.remove span{font:normal 9pt/12pt dotum !important}
+.see-also{font:normal 9pt/12pt dotum !important}
+.see-also em{position: absolute;width:6px;height:6px}
+.see-also em.a{font:normal 9pt/12pt dotum !important}
+.see-also em.b{font:normal 9pt/12pt dotum !important}
+.see-also em.c{font:normal 9pt/12pt dotum !important}
+.see-also em.d{font:normal 9pt/12pt dotum !important}
+.see-also h2{font:normal 9pt/12pt dotum !important}
+.see-also p{font:normal 9pt/12pt dotum !important}
+.item-class-icon{font:normal 9pt/12pt dotum !important}
+.mobName{font:normal 9pt/12pt dotum !important}
+.token span{font:normal 9pt/12pt dotum !important}
+#replaceShowFilters1{font:normal 8pt dotum !important;margin-top:4px !important}
+#replaceShowFilters2{font:normal 8pt dotum !important;margin-top:4px !important}
+
+/*Items Info*/
+.rel-tab h3{font:bold 11pt dotum !important;margin-top:2px !important}
+.alt-stats{font:normal 8pt/13pt dotum !important}
+.shadow-tip .myItemName,.item-double .myItemName{font:bold 15pt/25pt dotum !important;margin-bottom:5px !important}
+.warning-desc{font:normal 9pt/9pt dotum !important}
+.warning-desc div{padding:11px 10px 12px 42px !important}
+
+/* Dungeons */
+.dungeon-content{font:bold 9pt dotum !important;margin-top:2px !important}
+.d-bosses{font:normal 8pt dotum !important;margin-top:2px !important}
+
+/* FAQS */
+.profile-wrapper{font:normal 9pt/12pt dotum !important}
+.faq-content h2{font:bold 15pt/18pt dotum !important}
+.question{font:bold 10pt/12pt dotum !important}
+
+/* Updates */
+.update-content h2{font:bold 15pt dotum !important;letter-spacing:5 !important}
+.update-item span{font:bold 11pt/14pt dotum !important}
+.update-item a{font:normal 9pt/12pt dotum !important}
+.update-body{line-height:22px;font-size:9pt}
+/*.update-body p.lead{font:8px Georgia,"Times New Roman",Times,serif !important;line-height:28px}*/
+.update-body p.question{padding:10px;background:url('../images/colored-parch-bg2.jpg'); font:normal 11pt dotum !important;color:#ffebb5;line-height:24px}
+
+/* Arena Tournament */
+/* Brackets */
+.advances{font-style:normal !important}
+.upperbracket{font-style:normal !important}
+.lowerbracket{font-style:normal !important}
+.sub-head{font:normal 18px dotum !important}
+
+/* Arena Calculator */
+.arenacalc .sidebar h1 div{background:url(/images/ko_kr/calc-reftitle.gif) 0 0 no-repeat}
+.calc-select h2{font:bold 14pt dotum !important}
+.calc-select h3{font:normal 10pt dotum !important}
+#hidePoints h4,#hideRating h4,#hideTime h4{font:normal 11pt/30pt dotum !important;font-style:normal !important}
+.red-label,.green-label,.teal-label,.brown-label{font:bold 9pt/25px dotum !important}
+#hideWhatPin{font:normal 8pt/25px dotum !important}
+.sidebar-module h2{font:normal 11pt/25px dotum !important;font-style:normal !important}
+
+.playername strong{font:bold 9pt dotum !important}
+.playername blockquote{font:normal 8pt/11pt dotum !important}
+.sidebar-module-bot p{font:normal 8pt/11pt dotum !important}
+.sidebar-module-bot em{font:bold 8pt/11pt dotum !important;font-style:normal !important}
+.ratingbracket span{font:normal 8pt/25px dotum !important}
+.ratingweeks span,.ratingweeks li{font:bold 8pt/25px dotum !important}
+
+#hidePoints ul li span{font:normal 8pt/20px dotum !important}
+#colorRating td{font:normal 8pt/18px dotum !important}
+
+.itemtype-label span,.itemcost-label span{font:bold 8pt dotum !important}
+.itemcost-type a,.itemcost-cost{font:normal 8pt/10pt dotum !important}
+.formulae table td,.formula-label1,.formula-label2{font:normal 11pt dotum !important}
+.formula-division{font:normal 8pt dotum !important}
+.formulae sup{font:normal 8pt dotum !important}
+.penalty strong{font:bold 10pt dotum !important}
+.plugin-intro h2{font:bold 17pt/25pt dotum !important}
+.operainstructions h3{font:normal 13pt dotum !important}
+.installbutton span{font:bold 11pt/40px dotum !important}
+
+
+/* login screen */
+/*...........................................................*/
+div.login-title {font: bold 18px/30px dotum !important}
+div.login-inputcontainer1 { position: absolute; margin: 112px 0 0 0; width: 253px;}
+div.login-inputcontainer2 { position: absolute; margin: 175px 0 0 0 !important; width: 253px;}
+div.login-inputitem1 { position: absolute; height:14px !important; margin:0; font:bold 12px/14px dotum !important; letter-spacing:-1px; color:#564309;}
+div.login-inputitem2 { position: absolute; margin:14px 0 0 0 !important}
+div.login-inputitem3 { position: absolute; margin:41px 0 0 0 !important; text-align:right !important; line-height:15px !important; height:15px !important; width: 250px;}
+div.login-inputitem3 a{float:right; height:15px !important; text-align:right !important; line-height:15px !important;}
+div.login-inputitem4 { position: absolute; margin:54px 0 0 0 !important; text-align:right !important; line-height:15px !important; height:15px !important; width: 250px;}
+div.login-inputitem4 a{float:right; height:15px !important; text-align:right !important; line-height:15px !important;}
+
+/* Armory Error MSG */
+div.guilderrortitle { font:bold 14px/18px dotum !important;}
+
+.propass { font-size: 15px; left: -4px; position: relative;line-height:30px; }
+.propassName {line-height:35px !important;}
+
+
+/* calander */
+.calendar-monthtitle {font:bold 16px dotum !important}
+.title-container .title {font:bold 14px/25px dotum !important}
+.calendar .month th {font:bold 12px/29px dotum !important;}
+.calendar-drop div {font:bold 12px/19px dotum !important;}
+.select-custom ul,
+.calendar-day-events-select ol,
+.calendar-day-events ol {
+	margin-left:15px !important;
+	width:308px !important;
+	padding-left: 0;
+	list-style-type: none;
+}
+.calendar-day-events-select span,
+.calendar-day-events span {
+	width:240px !important;
+}
+.calendar-day-events-select span.time,
+.calendar-day-events span.time {
+	width:68px !important;
+	text-align:right !important;
+}
+.calendar-day-events-contents li {
+	line-height:25px !important;
+	padding-left:0px !important;
+}
+#nav {right:-10%}

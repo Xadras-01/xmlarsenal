@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/tools/talent-calculator.xsl"?><page globalSearch="1" lang="fr_fr" requestUrl="/talent-calc.xml">
+  <talents classId="$CLASSID" name="$CLASS" tal="$TAL" />
+  <talentTabs>
+    <talentTab classId="2" name="Paladin" url="c=Paladin"/>
+    <talentTab classId="4" name="Voleur" url="c=Voleur"/>
+    <talentTab classId="9" name="Démoniste" url="c=D%C3%A9moniste"/>
+    <talentTab classId="8" name="Mage" url="c=Mage"/>
+    <talentTab classId="6" name="Chevalier de la mort" url="c=Chevalier+de+la+mort"/>
+    <talentTab classId="11" name="Druide" url="c=Druide"/>
+    <talentTab classId="1" name="Guerrier" url="c=Guerrier"/>
+    <talentTab classId="3" name="Chasseur" url="c=Chasseur"/>
+    <talentTab classId="7" name="Chaman" url="c=Chaman"/>
+    <talentTab classId="5" name="Prêtre" url="c=Pr%C3%AAtre"/>
+  </talentTabs>
+</page>

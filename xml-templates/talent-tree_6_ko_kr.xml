@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?><page globalSearch="1" lang="ko_kr" requestUrl="/talent-tree.xml">
+  <talentTrees>
+    <tree bgImage="DeathKnightFrost" icon="spell_deathknight_frostpresence" key="Frost" name="냉기" order="1">
+      <talent column="0" icon="spell_deathknight_icetouch" key="2031" name="얼음 손길 연마" tier="0">
+        <rank description="얼음 손길의 피해가 추가로 5%만큼 증가하고 서리 열병에 걸린 대상의 근접 및 원거리 공격 속도가 추가로 2%만큼 더 감소합니다." lvl="1"/>
+        <rank description="얼음 손길의 피해가 추가로 10%만큼 증가하고 서리 열병에 걸린 대상의 근접 및 원거리 공격 속도가 추가로 4%만큼 더 감소합니다." lvl="2"/>
+        <rank description="얼음 손길의 피해가 추가로 15%만큼 증가하고 서리 열병에 걸린 대상의 근접 및 원거리 공격 속도가 추가로 6%만큼 더 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_arcane_arcane01" key="2020" name="룬 마력 전문화" tier="0">
+        <rank description="최대 룬 마력이 15만큼 증가합니다." lvl="1"/>
+        <rank description="최대 룬 마력이 30만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_holy_devotion" key="1968" name="강인함" tier="0">
+        <rank description="장비 착용으로 인한 방어도가 2%만큼 증가하고 감속 효과의 지속시간이 6%만큼 감소합니다." lvl="1"/>
+        <rank description="장비 착용으로 인한 방어도가 4%만큼 증가하고 감속 효과의 지속시간이 12%만큼 감소합니다." lvl="2"/>
+        <rank description="장비 착용으로 인한 방어도가 6%만큼 증가하고 감속 효과의 지속시간이 18%만큼 감소합니다." lvl="3"/>
+        <rank description="장비 착용으로 인한 방어도가 8%만큼 증가하고 감속 효과의 지속시간이 24%만큼 감소합니다." lvl="4"/>
+        <rank description="장비 착용으로 인한 방어도가 10%만큼 증가하고 감속 효과의 지속시간이 30%만큼 감소합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_frost_manarecharge" key="2035" name="얼음의 테두리" tier="1">
+        <rank description="얼음 손길, 얼음 결계, 작렬하는 분노의 사정거리가 5미터만큼 증가합니다." lvl="1"/>
+        <rank description="얼음 손길, 얼음 결계, 작렬하는 분노의 사정거리가 10미터만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_darkritual" key="1973" name="검은 얼음" tier="1">
+        <rank description="냉기 및 암흑 공격력이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="냉기 및 암흑 공격력이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="냉기 및 암흑 공격력이 6%만큼 증가합니다." lvl="3"/>
+        <rank description="냉기 및 암흑 공격력이 8%만큼 증가합니다." lvl="4"/>
+        <rank description="냉기 및 암흑 공격력이 10%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="3" icon="ability_dualwield" key="2022" name="차가운 강철 신경" tier="1">
+        <rank description="한손 근접 무기의 적중률이 1%만큼, 보조 무기로 입히는 피해가 5%만큼 증가합니다." lvl="1"/>
+        <rank description="한손 근접 무기의 적중률이 2%만큼, 보조 무기로 입히는 피해가 10%만큼 증가합니다." lvl="2"/>
+        <rank description="한손 근접 무기의 적중률이 3%만큼, 보조 무기로 입히는 피해가 15%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_deathknight_icytalons" key="2042" name="얼음 발톱" requires="2031" tier="2">
+        <rank description="서리 열병의 제물로부터 열기를 흡수합니다. 대상의 근접 속도가 감소하면 다음 20초 동안 자신의 공격 속도가 4%만큼 증가합니다." lvl="1"/>
+        <rank description="서리 열병의 제물로부터 열기를 흡수합니다. 대상의 근접 속도가 감소하면 다음 20초 동안 자신의 공격 속도가 8%만큼 증가합니다." lvl="2"/>
+        <rank description="서리 열병의 제물로부터 열기를 흡수합니다. 대상의 근접 공격 속도가 감소하면 다음 20초 동안 자신의 공격 속도가 12%만큼 증가합니다." lvl="3"/>
+        <rank description="서리 열병의 제물로부터 열기를 흡수합니다. 대상의 근접 공격 속도가 감소하면 다음 20초 동안 자신의 공격 속도가 16%만큼 증가합니다." lvl="4"/>
+        <rank description="서리 열병의 제물로부터 열기를 흡수합니다. 대상의 근접 속도가 감소하면 다음 20초 동안 자신의 공격 속도가 20%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_raisedead" key="2215" name="리치의 혼" tier="2">
+        <rank description="부정의 에너지를 끌어내어 10초 동안 언데드가 됩니다. 언데드가 되면 현혹과 공포, 수면에 면역이 됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="120000"/>
+      </talent>
+      <talent column="2" icon="inv_weapon_hand_18" key="2048" name="파멸" tier="2">
+        <rank description="근접 특수 공격으로 치명타를 적중시킬 확률이 1%만큼 증가합니다. 추가로 절멸 사용 시 33%의 확률로 질병을 소모하지 않고 피해를 입힙니다." lvl="1"/>
+        <rank description="근접 특수 공격으로 치명타를 적중시킬 확률이 2%만큼 증가합니다. 추가로 절멸 사용 시 66%의 확률로 질병을 소모하지 않고 피해를 입힙니다." lvl="2"/>
+        <rank description="근접 특수 공격으로 치명타를 적중시킬 확률이 3%만큼 증가합니다. 추가로 절멸 사용 시 100%의 확률로 질병을 소모하지 않고 피해를 입힙니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_sword_122" key="2044" name="도살기" tier="3">
+        <rank description="근접 공격 시 일정 확률로 다음 얼음 손길, 작렬하는 분노, 냉기의 일격이 치명타로 적중합니다." lvl="1"/>
+        <rank description="근접 공격 시 일정 확률로 다음 얼음 손길, 작렬하는 분노, 냉기의 일격이 치명타로 적중합니다. 1 레벨 도살기보다 치명타가 적중할 확률이 높습니다." lvl="2"/>
+        <rank description="근접 공격 시 일정 확률로 다음 얼음 손길, 작렬하는 분노, 냉기의 일격이 치명타로 적중합니다. 2 레벨 도살기보다 치명타로 적중할 확률이 높습니다." lvl="3"/>
+        <rank description="근접 공격 시 일정 확률로 다음 얼음 손길, 작렬하는 분노, 냉기의 일격이 치명타로 적중합니다. 3 레벨 도살기보다 치명타로 적중할 확률이 높습니다." lvl="4"/>
+        <rank description="근접 공격 시 일정 확률로 다음 얼음 손길, 작렬하는 분노, 냉기의 일격이 치명타로 적중합니다. 4 레벨 도살기보다 치명타로 적중할 확률이 높습니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_frost_frostshock" key="1981" name="무덤의 한기" tier="3">
+        <rank description="얼음 결계, 작렬하는 분노, 얼음 손길, 절멸 사용 시 2.5의 룬 마력을 추가로 생성합니다." lvl="1"/>
+        <rank description="얼음 결계, 작렬하는 분노, 얼음 손길, 절멸 사용 시 5의 룬 마력을 추가로 생성합니다." lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_twilight" key="1971" name="영원한 겨울" tier="3">
+        <rank description="얼음 결계 사용 시 50%의 확률로 대상에게 서리 열병을 일으키고 정신 얼리기에 소비되는 룬 마력이 10으로 감소합니다." lvl="1"/>
+        <rank description="얼음 결계 사용 시 100%의 확률로 대상에게 서리 열병을 일으키고 정신 얼리기에 소비되는 룬 마력이 0으로 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="inv_chest_mail_04" key="1990" name="공포의 얼음갑옷" tier="4">
+        <rank description="근접 공격에 적중 당할 확률이 1%만큼 감소합니다." lvl="1"/>
+        <rank description="근접 공격에 적중 당할 확률이 2%만큼 감소합니다." lvl="2"/>
+        <rank description="근접 공격에 적중 당할 확률이 3%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_nature_removedisease" key="2030" name="부패한 얼음" tier="4">
+        <rank description="질병에 걸린 적은 얼음 손길, 작렬하는 분노, 냉기의 일격에 7%의 추가 피해를 입습니다." lvl="1"/>
+        <rank description="질병에 걸린 적은 얼음 손길, 작렬하는 분노, 냉기의 일격에 13%의 추가 피해를 입습니다." lvl="2"/>
+        <rank description="질병에 걸린 적은 얼음 손길, 작렬하는 분노, 냉기의 일격에 20%의 추가 피해를 입습니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_soulleech_2" key="1980" name="죽음의 한기" tier="4">
+        <rank description="활성화되면 30초 내에 시전하는 다음 얼음 손길, 작렬하는 분노, 냉기의 일격, 절멸이 치명타로 적중합니다." lvl="1"/>
+        <spell castTime="0" cooldown="120000"/>
+      </talent>
+      <talent column="0" icon="spell_deathknight_icytalons" key="2223" name="얼음 발톱 연마" requires="2042" tier="5">
+        <rank description="얼음 발톱의 효과로 다음 20초 동안 파티원 혹은 공격대원의 근접 가속도가 20%만큼 증가합니다. 추가로 자신의 가속도가 항상 5%만큼 증가합니다." lvl="1"/>
+      </talent>
+      <talent column="1" icon="inv_sword_112" key="1993" name="무자비한 전투" tier="5">
+        <rank description="생명력이 35% 미만인 적에게 사용하는 얼음 손길, 작렬하는 분노, 절멸, 냉기의 일격은 6%의 추가 피해를 입힙니다" lvl="1"/>
+        <rank description="생명력이 35% 미만인 적에게 사용하는 얼음 손길, 작렬하는 분노, 절멸, 냉기의 일격은 12%의 추가 피해를 입힙니다" lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_frost_freezingbreath" key="1992" name="단단한 얼음" tier="5">
+        <rank description="얼음 손길과 절멸이 치명타로 적중할 확률이 5%만큼 증가하고, 절멸 사용 시 5%의 확률로 작렬하는 분노의 재사용 대기시간이 초기화되며 다음 작렬하는 분노는 룬을 소비하지 않습니다." lvl="1"/>
+        <rank description="얼음 손길과 절멸이 치명타로 적중할 확률이 10%만큼 증가하고, 절멸 사용 시 10%의 확률로 작렬하는 분노의 재사용 대기시간이 초기화되며 다음 작렬하는 분노는 룬을 소비하지 않습니다." lvl="2"/>
+        <rank description="얼음 손길과 절멸이 치명타로 적중할 확률이 15%만큼 증가하고, 절멸 사용 시 15%의 확률로 작렬하는 분노의 재사용 대기시간이 초기화되며 다음 작렬하는 분노는 룬을 소비하지 않습니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_frost_wisp" key="2260" name="동창" tier="6">
+        <rank description="서리 열병의 희생자를 얼려 10초 동안 이동 속도를 15%만큼 감소시킵니다." lvl="1"/>
+        <rank description="서리 열병의 희생자를 얼려 10초 동안 이동 속도를 30%만큼 감소시킵니다." lvl="2"/>
+        <rank description="서리 열병의 희생자를 얼려 10초 동안 이동 속도를 50%만큼 감소시킵니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_staff_15" key="1999" name="갈망의 한기" tier="6">
+        <rank description="죽음의 기사 주위의 땅에서 열기를 정화하고 10 미터 내에 있는 적을 얼음으로 가두어 10초 동안 어떤 행동도 하지 못하도록 합니다. 대상은 서리 열병에 걸리고 얼어붙은 상태로 간주되지만 질병 이외의 추가 피해를 입으면 효과가 사라집니다." lvl="1"/>
+        <spell castTime="0" cooldown="60000">
+          <power cost="40" type="runic"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_deathknight_frostpresence" key="2029" name="냉기의 형상 연마" tier="6">
+        <rank description="혈기의 형상 혹은 부정의 형상을 취하는 동안 냉기의 형상으로 인한 체력 보너스가 3%만큼 유지되고 냉기의 형상을 취하는 동안 받는 피해가 추가로 1%만큼 감소합니다." lvl="1"/>
+        <rank description="혈기의 형상 혹은 부정의 형상을 취하는 동안 냉기의 형상으로 인한 체력 보너스가 6%만큼 유지되고 냉기의 형상을 취하는 동안 받는 피해가 추가로 2%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_dualwieldspecialization" key="2284" name="타사리안의 위협" tier="7">
+        <rank description="쌍수 무기로 죽음의 일격, 절멸, 역병의 일격, 피의 일격, 냉기의 일격 사용 시 30%의 확률로 보조 무기로도 피해를 입힙니다." lvl="1"/>
+        <rank description="쌍수 무기로 죽음의 일격, 절멸, 역병의 일격, 피의 일격, 냉기의 일격 사용 시 60%의 확률로 보조 무기로도 피해를 입힙니다." lvl="2"/>
+        <rank description="쌍수 무기로 죽음의 일격, 절멸, 역병의 일격, 피의 일격, 냉기의 일격 사용 시 100%의 확률로 보조 무기로도 피해를 입힙니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_weapon_shortblade_79" key="2210" name="극지의 피" tier="7">
+        <rank description="피의 일격과 냉기의 일격의 공격력이 3%만큼 증가합니다. 추가로 피의 일격과 전염병을 적중시키면 30%의 확률로 활성화되는 혈기 룬이 죽음의 룬으로 전환됩니다. 죽음의 룬은 혈기 룬, 부정 룬, 냉기 룬으로 간주됩니다." lvl="1"/>
+        <rank description="피의 일격과 냉기의 일격의 공격력이 6%만큼 증가합니다. 추가로 피의 일격과 전염병을 적중시키면 60%의 확률로 활성화되는 혈기 룬이 죽음의 룬으로 전환됩니다. 죽음의 룬은 혈기 룬, 부정 룬, 냉기 룬으로 간주됩니다." lvl="2"/>
+        <rank description="피의 일격과 냉기의 일격의 공격력이 10%만큼 증가합니다. 추가로 피의 일격과 전염병을 적중시키면 100%의 확률로 활성화되는 혈기 룬이 죽음의 룬으로 전환됩니다. 죽음의 룬은 혈기 룬, 부정 룬, 냉기 룬으로 간주됩니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="inv_armor_helm_plate_naxxramas_raidwarrior_c_01" key="1979" name="불굴의 갑옷" tier="7">
+        <rank description="방어구를 두꺼운 얼음으로 강화하여 20초 동안 모든 공격에 의한 피해를 2만큼 감소시키고 힘을 25%만큼 증가시킵니다. 방어도가 높을 수록 감소하는 피해량도 증가합니다." lvl="1"/>
+        <spell castTime="0" cooldown="120000">
+          <power cost="1" type="frost"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="spell_fire_elementaldevastation" key="1997" name="순화력" tier="8">
+        <rank description="주문 공격을 받으면 10%의 확률로 18초 동안 해당 마법 계열에 대한 저항력이 증가합니다. 3번까지 중복됩니다." lvl="1"/>
+        <rank description="주문 공격을 받으면 20%의 확률로 18초 동안 해당 마법 계열에 대한 저항력이 증가합니다. 3번까지 중복됩니다." lvl="2"/>
+        <rank description="주문 공격을 받으면 30%의 확률로 18초 동안 해당 마법 계열에 대한 저항력이 증가합니다. 3번까지 중복됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_deathknight_empowerruneblade2" key="1975" name="냉기의 일격" tier="8">
+        <rank description="즉시 적을 공격하여 무기 공격력의 55%에 해당하는 피해를 입히고 추가로 48의 냉기 피해를 입힙니다." lvl="1"/>
+        <spell castTime="0" maxRange="5">
+          <power cost="40" type="runic"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="inv-sword_53" key="2040" name="고어핀드의 계략" tier="8">
+        <rank description="피의 일격, 냉기의 일격, 작렬하는 분노, 절멸의 치명타 피해 보너스가 15%만큼 증가하고 얼음같은 인내력의 지속시간이 2초만큼 증가합니다." lvl="1"/>
+        <rank description="피의 일격, 냉기의 일격, 작렬하는 분노, 절멸의 치명타 피해 보너스가 30%만큼 증가하고 얼음같은 인내력의 지속시간이 4초만큼 증가합니다." lvl="2"/>
+        <rank description="피의 일격, 냉기의 일격, 작렬하는 분노, 절멸의 치명타 피해 보너스가 45%만큼 증가하고 얼음같은 인내력의 지속시간이 6초만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_tranquility" key="1998" name="동토의 추적자" tier="9">
+        <rank description="서리 열병에 걸린 대상에게 사용하는 주문과 능력의 피해가 3%만큼 증가하고 숙련이 1만큼 증가합니다." lvl="1"/>
+        <rank description="서리 열병에 걸린 대상에게 사용하는 주문과 능력의 피해가 6%만큼 증가하고 숙련이 2만큼 증가합니다." lvl="2"/>
+        <rank description="서리 열병에 걸린 대상에게 사용하는 주문과 능력의 피해가 9%만큼 증가하고 숙련이 3만큼 증가합니다." lvl="3"/>
+        <rank description="서리 열병에 걸린 대상에게 사용하는 주문과 능력의 피해가 12%만큼 증가하고 숙련이 4만큼 증가합니다." lvl="4"/>
+        <rank description="서리 열병에 걸린 대상에게 사용하는 주문과 능력의 피해가 15%만큼 증가하고 숙련이 5만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_frost_arcticwinds" key="1989" name="작렬하는 분노" tier="10">
+        <rank description="얼음의 바람을 대상에게 날려 10미터 반경 내에 있는 모든 적에게 198~214의 냉기 피해를 입힙니다." lvl="1"/>
+        <spell castTime="0" cooldown="8000" maxRange="20">
+          <power cost="1" type="unholy"/>
+          <power cost="1" type="frost"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="DeathKnightBlood" icon="spell_deathknight_bloodpresence" key="Blood" name="혈기" order="0">
+      <talent column="0" icon="inv_axe_68" key="1939" name="도살자" tier="0">
+        <rank description="적을 처치한 후 경험치나 명예 점수를 받으면 룬 마력이 최대 10만큼 생성됩니다. 추가로 전투 중에도 매 5초마다 룬 마력이 1만큼 생성됩니다." lvl="1"/>
+        <rank description="적을 처치한 후 경험치나 명예 점수를 받으면 룬 마력이 최대 20만큼 생성됩니다. 추가로 전투 중에도 매 5초마다 룬 마력이 2만큼 생성됩니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_deathknight_subversion" key="1945" name="파괴의 칼날" tier="0">
+        <rank description="피의 일격과 심장 강타, 절멸이 치명타로 적중할 확률이 3%만큼 증가하고, 혈기의 형상과 부정의 형상을 취했을 때 생성되는 위협 수준이 8%만큼 감소합니다." lvl="1"/>
+        <rank description="피의 일격과 심장 강타, 절멸이 치명타로 적중할 확률이 6%만큼 증가하고, 혈기의 형상과 부정의 형상을 취했을 때 생성되는 위협 수준이 16%만큼 감소합니다." lvl="2"/>
+        <rank description="피의 일격과 심장 강타, 절멸이 치명타로 적중할 확률이 9%만큼 증가하고, 혈기의 형상과 부정의 형상을 취했을 때 생성되는 위협 수준이 25%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_upgrademoonglaive" key="2017" name="칼날 보호막" tier="0">
+        <rank description="혈기 룬이 모두 재사용 대기 상태일 때, 다음 10초 동안 받는 피해를 1%만큼 감소시키는 칼날 보호막 효과를 얻습니다." lvl="1"/>
+        <rank description="혈기 룬이 모두 재사용 대기 상태일 때, 다음 10초 동안 받는 피해를 2%만큼 감소시키는 칼날 보호막 효과를 얻습니다." lvl="2"/>
+        <rank description="혈기 룬이 모두 재사용 대기 상태일 때, 다음 10초 동안 받는 피해를 3%만큼 감소시키는 칼날 보호막 효과를 얻습니다." lvl="3"/>
+        <rank description="혈기 룬이 모두 재사용 대기 상태일 때, 다음 10초 동안 받는 피해를 4%만큼 감소시키는 칼날 보호막 효과를 얻습니다." lvl="4"/>
+        <rank description="혈기 룬이 모두 재사용 대기 상태일 때, 다음 10초 동안 받는 피해를 5%만큼 감소시키는 칼날 보호막 효과를 얻습니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="inv_shoulder_36" key="1938" name="칼날 갑옷" tier="1">
+        <rank description="방어도 180당 전투력이 1만큼 증가합니다." lvl="1"/>
+        <rank description="방어도 180당 전투력이 2만큼 증가합니다." lvl="2"/>
+        <rank description="방어도 180당 전투력이 3만큼 증가합니다." lvl="3"/>
+        <rank description="방어도 180당 전투력이 4만큼 증가합니다." lvl="4"/>
+        <rank description="방어도 180당 전투력이 5만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_rogue_bloodyeye" key="1948" name="피의 향기" tier="1">
+        <rank description="공격을 회피하거나, 무기로 막거나, 직접 피해를 받으면 15%의 확률로 피의 향기 효과를 얻어 다음 1회의 근접 공격 동안 10의 룬 마력을 생성합니다." lvl="1"/>
+        <rank description="공격을 회피하거나, 무기로 막거나, 직접 피해를 받으면 15%의 확률로 피의 향기 효과를 얻어 다음 2회의 근접 공격 동안 10의 룬 마력을 생성합니다." lvl="2"/>
+        <rank description="공격을 회피하거나, 무기로 막거나, 직접 피해를 받으면 15%의 확률로 피의 향기 효과를 얻어 다음 3회의 근접 공격 동안 10의 룬 마력을 생성합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="inv_sword_68" key="2217" name="양손 무기류 전문화" tier="1">
+        <rank description="양손 무기의 공격력이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="양손 무기의 공격력이 4%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_deathknight_runetap" key="1941" name="룬 전환" tier="2">
+        <rank description="1개의 혈기 룬을 최대 생명력의 10%에 해당하는 생명력으로 전환합니다." lvl="1"/>
+        <spell castTime="0" cooldown="60000">
+          <power cost="1" type="blood"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="spell_deathknight_darkconviction" key="1943" name="암흑의 자각" tier="2">
+        <rank description="근접 무기, 주문 및 기술로 치명타를 적중시킬 확률이 1%만큼 증가합니다." lvl="1"/>
+        <rank description="근접 무기, 주문 및 기술로 치명타를 적중시킬 확률이 2%만큼 증가합니다." lvl="2"/>
+        <rank description="근접 무기, 주문 및 기술로 치명타를 적중시킬 확률이 3%만큼 증가합니다." lvl="3"/>
+        <rank description="근접 무기, 주문 및 기술로 치명타를 적중시킬 확률이 4%만큼 증가합니다." lvl="4"/>
+        <rank description="근접 무기, 주문 및 기술로 치명타를 적중시킬 확률이 5%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="inv_sword_62" key="2086" name="죽음의 룬 숙련" tier="2">
+        <rank description="죽음의 일격 혹은 절멸 사용 시 33%의 확률로 냉기 및 부정 룬이 활성화된 후 죽음의 룬으로 전환됩니다. 죽음의 룬은 혈기 룬, 부정 룬, 냉기 룬으로 간주됩니다." lvl="1"/>
+        <rank description="죽음의 일격 혹은 절멸 사용 시 66%의 확률로 냉기 및 부정 룬이 활성화된 후 죽음의 룬으로 전환됩니다. 죽음의 룬은 혈기 룬, 부정 룬, 냉기 룬으로 간주됩니다." lvl="2"/>
+        <rank description="죽음의 일격 혹은 절멸 사용 시 100%의 확률로 냉기 및 부정 룬이 활성화된 후 죽음의 룬으로 전환됩니다. 죽음의 룬은 혈기 룬, 부정 룬, 냉기 룬으로 간주됩니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_deathknight_runetap" key="1942" name="룬 전환 연마" requires="1941" tier="3">
+        <rank description="룬 전환으로 회복되는 생명력이 33%만큼 증가하고 룬 전환 주문의 재사용 대기시간이 10초만큼 감소합니다." lvl="1"/>
+        <rank description="룬 전환으로 회복되는 생명력이 66%만큼 증가하고 룬 전환 주문의 재사용 대기시간이 20초만큼 감소합니다." lvl="2"/>
+        <rank description="룬 전환으로 회복되는 생명력이 100%만큼 증가하고 룬 전환 주문의 재사용 대기시간이 30초만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_deathknight_spelldeflection" key="2018" name="주문 회피" tier="3">
+        <rank description="무기 막기와 동일한 확률로 직접 피해 주문에 의해 받는 피해가 15%만큼 감소합니다." lvl="1"/>
+        <rank description="무기 막기와 동일한 확률로 직접 피해 주문에 의해 받는 피해가 30%만큼 감소합니다." lvl="2"/>
+        <rank description="무기 막기와 동일한 확률로 직접 피해 주문에 의해 받는 피해가 45%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_deathknight_vendetta" key="1953" name="원한" tier="3">
+        <rank description="대상을 처치하고 명예 점수나 경험치를 받으면, 최대 생명력의 최대 2%에 해당하는 생명력을 회복합니다." lvl="1"/>
+        <rank description="대상을 처치하고 명예 점수나 경험치를 받으면, 최대 생명력의 최대 4%에 해당하는 생명력을 회복합니다." lvl="2"/>
+        <rank description="대상을 처치하고 명예 점수나 경험치를 받으면, 최대 생명력의 최대 6%에 해당하는 생명력을 회복합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_deathknight_deathstrike" key="2015" name="핏빛 일격" tier="4">
+        <rank description="피의 일격의 공격력이 5%만큼, 심장 강타의 공격력이 15%만큼, 피의 소용돌이 기술의 공격력이 10%만큼 증가합니다." lvl="1"/>
+        <rank description="피의 일격의 공격력이 10%만큼, 심장 강타의 공격력이 30%만큼, 피의 소용돌이 기술의 공격력이 20%만큼 증가합니다." lvl="2"/>
+        <rank description="피의 일격의 공격력이 15%만큼, 심장 강타의 공격력이 45%만큼, 피의 소용돌이 기술의 공격력이 30%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_misc_warsongfocus" key="1950" name="3차 대전쟁의 역전용사" tier="4">
+        <rank description="전체 힘이 2%만큼, 체력이 1%만큼, 숙련이 2만큼 증가합니다." lvl="1"/>
+        <rank description="전체 힘이 4%만큼, 체력이 2%만큼, 숙련이 4만큼 증가합니다." lvl="2"/>
+        <rank description="전체 힘이 6%만큼, 체력이 3%만큼, 숙련이 6만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="ability_hunter_rapidkilling" key="1949" name="피의 징표" tier="4">
+        <rank description="피의 징표를 적에게 겁니다. 징표가 걸린 적이 피해를 입힐 때마다 적이 공격하는 대상은 최대 생명력의 4%에 해당하는 생명력을 회복합니다. 20초 동안 혹은 20회 공격을 적중시킬 때까지 지속됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000" maxRange="30">
+          <power cost="1" type="blood"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="ability_backstab" key="1944" name="피의 복수" requires="1943" tier="5">
+        <rank description="무기나 주문, 기술로 치명타를 적중시키면 다음 30초 동안 물리 공격력이 1%만큼 증가합니다. 최대 3번까지 중복됩니다." lvl="1"/>
+        <rank description="무기나 주문, 기술로 치명타를 적중시키면 다음 30초 동안 물리 공격력이 2%만큼 증가합니다. 최대 3번까지 중복됩니다." lvl="2"/>
+        <rank description="무기나 주문, 기술로 치명타를 적중시키면 다음 30초 동안 물리 공격력이 3%만큼 증가합니다. 최대 3번까지 중복됩니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_warrior_intensifyrage" key="2105" name="누더기골렘의 힘" tier="5">
+        <rank description="피의 일격과 심장 강타 사용 시 25%의 확률로, 죽음의 일격과 절멸 사용 시 50%의 확률로 10초 동안 45미터 반경 내에 있는 공격대원의 전투력이 10%만큼 증가합니다. 자신의 전체 힘이 1%만큼 증가합니다." lvl="1"/>
+        <rank description="피의 일격과 심장 강타 사용 시 50%의 확률로, 죽음의 일격과 절멸 사용 시 100%의 확률로 10초 동안 45미터 반경 내에 있는 공격대원의 전투력이 10%만큼 증가합니다. 자신의 전체 힘이 2%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_soulleech" key="1960" name="피구더기" tier="6">
+        <rank description="무기 공격 시 3%의 확률로 피구더기 2-4마리가 생성됩니다. 피구더기가 적에게 피해를 입히면 죽음의 기사는 생명력을 회복합니다. 살아 있는 피구더기는 20초 동안 적을 공격합니다." lvl="1"/>
+        <rank description="무기 공격 시 6%의 확률로 피구더기 2-4마리가 생성됩니다. 피구더기가 적에게 피해를 입히면 죽음의 기사는 생명력을 회복합니다. 살아 있는 피구더기는 20초 동안 적을 공격합니다." lvl="2"/>
+        <rank description="무기 공격 시 9%의 확률로 피구더기 2-4마리가 생성됩니다. 피구더기가 적에게 피해를 입히면 죽음의 기사는 생명력을 회복합니다. 살아 있는 피구더기는 20초 동안 적을 공격합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_deathknight_bladedarmor" key="1954" name="격분" tier="6">
+        <rank description="우호적인 대상을 30초 동안 죽음의 광란에 빠뜨립니다. 대상은 격노하여 물리 공격력이 20%만큼 증가하지만 매초마다 최대 생명력의 1%에 해당하는 피해를 입습니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000" maxRange="30"/>
+      </talent>
+      <talent column="2" icon="spell_deathknight_bloodpresence" key="1936" name="혈기의 형상 연마" tier="6">
+        <rank description="냉기의 형상 혹은 부정의 형상을 취하는 동안 혈기의 형상으로 인한 치유 효과가 2%만큼 유지되고 혈기의 형상을 취하는 동안 받는 치유 효과가 5%만큼 증가합니다." lvl="1"/>
+        <rank description="냉기의 형상 혹은 부정의 형상을 취하는 동안 혈기의 형상으로 인한 치유 효과가 4%만큼 유지되고 혈기의 형상을 취하는 동안 받는 치유 효과가 10%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_deathknight_butcher2" key="2259" name="죽음의 일격 연마" tier="7">
+        <rank description="죽음의 일격으로 입히는 피해가 15%만큼, 치명타를 적중시킬 확률이 3%만큼, 치유량이 25%만큼 증가합니다." lvl="1"/>
+        <rank description="죽음의 일격으로 입히는 피해가 30%만큼, 치명타를 적중시킬 확률이 6%만큼, 치유량이 50%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_painspike" key="1955" name="불시의 파멸" tier="7">
+        <rank description="피의 일격과 심장 강타 사용 시 5%의 확률로 룬 마력을 소모하지 않고 대상에게 죽음의 고리를 시전합니다." lvl="1"/>
+        <rank description="피의 일격과 심장 강타 사용 시 10%의 확률로 룬 마력을 소모하지 않고 대상에게 죽음의 고리를 시전합니다." lvl="2"/>
+        <rank description="피의 일격과 심장 강타 사용 시 15%의 확률로 룬 마력을 소모하지 않고 대상에게 죽음의 고리를 시전합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_lifedrain" key="2019" name="흡혈" tier="7">
+        <rank description="일시적으로 최대 생명력이 15%만큼 증가하고 주문과 효과로 인한 치유 효과가 35%만큼 증가합니다. 20초 동안 지속됩니다. 효과가 사라지면 임시 생명력은 사라집니다." lvl="1"/>
+        <spell castTime="0" cooldown="120000">
+          <power cost="1" type="blood"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="ability_creature_cursed_02" key="1959" name="죽음의 요새의 결의" tier="8">
+        <rank description="생명력이 35% 아래로 내려갈 수 있는 공격을 받거나 생명력이 35% 상태일 때 공격을 받으면, 받는 피해가 5%만큼 감소합니다. 이 효과는 매 15초마다 최대 1번씩만 발동될 수 있습니다. 자신 생명력의 5% 미만인 피해를 입히는 공격에는 효과가 발동하지 않습니다." lvl="1"/>
+        <rank description="생명력이 35% 아래로 내려갈 수 있는 공격을 받거나 생명력이 35% 상태일 때 공격을 받으면, 받는 피해가 10%만큼 감소합니다. 이 효과는 매 15초마다 최대 1번씩만 발동될 수 있습니다. 자신 생명력의 5% 미만인 피해를 입히는 공격에는 효과가 발동하지 않습니다." lvl="2"/>
+        <rank description="생명력이 35% 아래로 내려갈 수 있는 공격을 받거나 생명력이 35% 상태일 때 공격을 받으면, 받는 피해가 15%만큼 감소합니다. 이 효과는 매 15초마다 최대 1번씩만 발동될 수 있습니다. 자신 생명력의 5% 미만인 피해를 입히는 공격에는 효과가 발동하지 않습니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_weapon_shortblade_40" key="1957" name="심장 강타" tier="8">
+        <rank description="즉시 적 대상과 그에게서 가장 가까운 적을 동시에 공격하여 무기 공격력의 50%에 추가로 125의 피해를 입힙니다. 대상에게 걸려 있는 자신의 질병 효과 하나당 전체 피해가 10%만큼 증가합니다." lvl="1"/>
+        <spell castTime="0" maxRange="5">
+          <power cost="1" type="blood"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_deathknight_classicon" key="1958" name="모그레인의 힘" tier="8">
+        <rank description="피의 소용돌이, 피의 일격, 죽음의 일격, 심장 강타 기술의 치명타 피해 보너스가 15%만큼 증가합니다." lvl="1"/>
+        <rank description="피의 소용돌이, 피의 일격, 죽음의 일격, 심장 강타 기술의 치명타 피해 보너스가 30%만큼 증가합니다." lvl="2"/>
+        <rank description="피의 소용돌이, 피의 일격, 죽음의 일격, 심장 강타 기술의 치명타 피해 보너스가 45%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_reincarnation" key="2034" name="피의 탐닉" tier="9">
+        <rank description="생명력이 75% 이상일 때 공격력이 2%만큼 증가합니다. 또한 공격 시 상대의 방어도를 최대 2%만큼 무시합니다." lvl="1"/>
+        <rank description="생명력이 75% 이상일 때 공격력이 4%만큼 증가합니다. 또한 공격 시 상대의 방어도를 최대 4%만큼 무시합니다." lvl="2"/>
+        <rank description="생명력이 75% 이상일 때 공격력이 6%만큼 증가합니다. 또한 공격 시 상대의 방어도를 최대 6%만큼 무시합니다." lvl="3"/>
+        <rank description="생명력이 75% 이상일 때 공격력이 8%만큼 증가합니다. 또한 공격 시 상대의 방어도를 최대 8%만큼 무시합니다." lvl="4"/>
+        <rank description="생명력이 75% 이상일 때 공격력이 10%만큼 증가합니다. 또한 공격 시 상대의 방어도를 최대 10%만큼 무시합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="inv_sword_07" key="1961" name="춤추는 룬 무기" tier="10">
+        <rank description="12초 동안 전투를 도와 줄 두 번째 룬 무기를 소환합니다. 소환된 룬 무기는 죽음의 기사와 같은 공격을 하지만 공격력이 50%만큼 감소합니다." lvl="1"/>
+        <spell castTime="0" cooldown="90000" maxRange="30">
+          <power cost="60" type="runic"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="DeathKnightUnholy" icon="spell_deathknight_unholypresence" key="Unholy" name="부정" order="2">
+      <talent column="0" icon="spell_deathknight_plaguestrike" key="2082" name="악의의 일격" tier="0">
+        <rank description="역병의 일격, 스컬지의 일격의 치명타 적중률이 3%만큼, 치명타 피해 보너스가 15%만큼 증가합니다." lvl="1"/>
+        <rank description="역병의 일격, 스컬지의 일격의 치명타 적중률이 6%만큼, 치명타 피해 보너스가 30%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_burningspirit" key="1932" name="발병력" tier="0">
+        <rank description="주문 적중률이 1%만큼 증가하고 자신이 발생시킨 지속적인 피해를 주는 질병이 제거될 확률이 10%만큼 감소합니다." lvl="1"/>
+        <rank description="주문 적중률이 2%만큼 증가하고 자신이 발생시킨 지속적인 피해를 주는 질병이 제거될 확률이 20%만큼 감소합니다." lvl="2"/>
+        <rank description="주문 적중률이 3%만큼 증가하고 자신이 발생시킨 지속적인 피해를 주는 질병이 제거될 확률이 30%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_nature_mirrorimage" key="2218" name="직감" tier="0">
+        <rank description="회피 확률이 1%만큼 증가합니다." lvl="1"/>
+        <rank description="회피 확률이 2%만큼 증가합니다." lvl="2"/>
+        <rank description="회피 확률이 3%만큼 증가합니다." lvl="3"/>
+        <rank description="회피 확률이 4%만큼 증가합니다." lvl="4"/>
+        <rank description="회피 확률이 5%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_shadowwordpain" key="1963" name="유행성 병균" tier="1">
+        <rank description="피의 역병과 서리 열병의 지속시간이 3초만큼 증가합니다." lvl="1"/>
+        <rank description="피의 역병과 서리 열병의 지속시간이 6초만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_deathanddecay" key="1933" name="병독" tier="1">
+        <rank description="죽음의 고리로 인한 공격력과 치유량이 5%만큼 증가하고 죽음과 부패의 재사용 대기시간이 5초만큼 감소합니다." lvl="1"/>
+        <rank description="죽음의 고리로 인한 공격력과 치유량이 10%만큼 증가하고 죽음과 부패의 재사용 대기시간이 10초만큼 감소합니다." lvl="2"/>
+        <rank description="죽음의 고리로 인한 공격력과 치유량이 15%만큼 증가하고 죽음과 부패의 재사용 대기시간이 15초만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_deathknight_strangulate" key="2025" name="부정의 명령" tier="1">
+        <rank description="죽음의 손아귀 기술의 재사용 대기시간이 5초만큼 감소합니다." lvl="1"/>
+        <rank description="죽음의 손아귀 기술의 재사용 대기시간이 10초만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_deathknight_gnaw_ghoul" key="1934" name="포악한 사자" tier="1">
+        <rank description="전체 힘이 1%만큼 증가하고 구울이 죽음의 기사에게서 받는 힘과 체력이 20%만큼 증가합니다." lvl="1"/>
+        <rank description="전체 힘이 2%만큼 증가하고 구울이 죽음의 기사에게서 받는 힘과 체력이 40%만큼 증가합니다." lvl="2"/>
+        <rank description="전체 힘이 3%만큼 증가하고 구울이 죽음의 기사에게서 받는 힘과 체력이 60%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_plaguecloud" key="2008" name="돌발 열병" tier="2">
+        <rank description="역병의 일격으로 입히는 피해가 10%만큼, 스컬지의 일격으로 입히는 피해가 7%만큼 증가합니다." lvl="1"/>
+        <rank description="역병의 일격으로 입히는 피해가 20%만큼, 스컬지의 일격으로 입히는 피해가 13%만큼 증가합니다." lvl="2"/>
+        <rank description="역병의 일격으로 입히는 피해가 30%만큼, 스컬지의 일격으로 입히는 피해가 20%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="inv_weapon_shortblade_60" key="2047" name="괴사" tier="2">
+        <rank description="자동 공격 시 4%의 추가 암흑 피해를 입힙니다." lvl="1"/>
+        <rank description="자동 공격 시 8%의 추가 암흑 피해를 입힙니다." lvl="2"/>
+        <rank description="자동 공격 시 12%의 추가 암흑 피해를 입힙니다." lvl="3"/>
+        <rank description="자동 공격 시 16%의 추가 암흑 피해를 입힙니다." lvl="4"/>
+        <rank description="자동 공격 시 20%의 추가 암흑 피해를 입힙니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="ability_creature_disease_02" key="1985" name="시체 폭발" tier="2">
+        <rank description="시체를 폭발시켜 10 미터 반경 내에 있는 모든 적에게 166의 암흑 피해를 입힙니다. 선택한 대상이 시체가 아니면 가까운 시체를 폭발시킵니다. 기계나 정령의 시체는 폭발시킬 수 없습니다." lvl="1"/>
+        <spell castTime="0" cooldown="5000" maxRange="30">
+          <power cost="40" type="runic"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="spell_deathknight_summondeathcharger" key="2039" name="창백한 말" tier="3">
+        <rank description="죽음의 존재가 되어 저지하기 어려운 존재가 됩니다. 기절과 공포 효과의 지속시간이 10%만큼 감소하고 탈것의 속도가 10%만큼 증가합니다. 다른 이동 속도 증가 효과와 중복 적용되지 않습니다." lvl="1"/>
+        <rank description="죽음의 존재가 되어 저지하기 어려운 존재가 됩니다. 기절과 공포 효과의 지속시간이 20%만큼 감소하고 탈것의 속도가 20%만큼 증가합니다. 다른 이동 속도 증가 효과와 중복 적용되지 않습니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_criticalstrike" key="2004" name="피 묻은 칼날" tier="3">
+        <rank description="자동 공격 시 10%의 확률로 피 묻은 칼날 효과를 일으켜, 무기 공격력의 25%에 해당하는 피해를 입히고 대상에게 걸려 있는 자신의 질병 효과 하나당 추가로 12.5%에 해당하는 피해를 입힙니다." lvl="1"/>
+        <rank description="자동 공격 시 20%의 확률로 피 묻은 칼날 효과를 일으켜, 무기 공격력의 25%에 해당하는 피해를 입히고 대상에게 걸려 있는 자신의 질병 효과 하나당 추가로 12.5%에 해당하는 피해를 입힙니다." lvl="2"/>
+        <rank description="자동 공격 시 30%의 확률로 피 묻은 칼날 효과를 일으켜, 무기 공격력의 25%에 해당하는 피해를 입히고 대상에게 걸려 있는 자신의 질병 효과 하나당 추가로 12.5%에 해당하는 피해를 입힙니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_deathknight_armyofthedead" key="2225" name="사자의 밤" tier="3">
+        <rank description="시체 되살리기의 재사용 대기시간이 45초만큼 감소하고 사자의 군대의 재사용 대기시간이 5분만큼 감소합니다. 또한 소환수가 광역 공격으로 받는 피해가 40%만큼 감소합니다." lvl="1"/>
+        <rank description="시체 되살리기의 재사용 대기시간이 90초만큼 감소하고 사자의 군대의 재사용 대기시간이 10분만큼 감소합니다. 또한 소환수가 광역 공격으로 받는 피해가 70%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_contagion" key="1996" name="부정의 파멸충" tier="4">
+        <rank description="죽음의 고리로 피해를 입힌 대상을 타락한 벌레떼로 둘러싸 10초에 걸쳐 죽음의 고리로 입힌 피해의 20%에 해당하는 피해를 입힙니다." lvl="1"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_shadowandflame" key="2005" name="불순함" tier="4">
+        <rank description="전투력으로 향상되는 주문력 보너스가 4%만큼 증가합니다." lvl="1"/>
+        <rank description="전투력으로 향상되는 주문력 보너스가 8%만큼 증가합니다." lvl="2"/>
+        <rank description="전투력으로 향상되는 주문력 보너스가 12%만큼 증가합니다." lvl="3"/>
+        <rank description="전투력으로 향상되는 주문력 보너스가 16%만큼 증가합니다." lvl="4"/>
+        <rank description="전투력으로 향상되는 주문력이 추가로 20%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_shadesofdarkness" key="2011" name="진혼곡" tier="4">
+        <rank description="죽음의 일격, 절멸, 역병의 일격, 스컬지의 일격 사용 시 2.5의 룬 마력을 추가로 생성합니다." lvl="1"/>
+        <rank description="죽음의 일격, 절멸, 역병의 일격, 스컬지의 일격 사용 시 5의 룬 마력을 추가로 생성합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_shadowfiend" key="2226" name="모독" tier="5">
+        <rank description="역병의 일격 혹은 스컬지의 일격 사용 시 더럽혀진 대지 효과를 일으킵니다. 대상은 부정한 대지에 서 있는 동안 사자의 손아귀로 인해 이동 속도가 25%만큼 감소합니다. 12초 동안 지속됩니다." lvl="1"/>
+        <rank description="역병의 일격 혹은 스컬지의 일격 사용 시 더럽혀진 대지 효과를 일으킵니다. 대상은 부정한 대지에 서 있는 동안 사자의 손아귀로 인해 이동 속도가 50%만큼 감소합니다. 12초 동안 지속됩니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_antimagicshell" key="2009" name="마법 억제" tier="5">
+        <rank description="모든 마법으로 인한 피해가 2%만큼 감소합니다. 또한 대마법 보호막으로 8%의 추가 피해를 흡수합니다." lvl="1"/>
+        <rank description="모든 마법으로 인한 피해가 4%만큼 감소합니다. 또한 대마법 보호막으로 16%의 추가 피해를 흡수합니다." lvl="2"/>
+        <rank description="모든 마법으로 인한 피해가 6%만큼 감소합니다. 또한 대마법 보호막으로 25%의 추가 피해를 흡수합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_shadetruesight" key="2001" name="영혼 거두기" tier="5">
+        <rank description="피의 일격과 전염병 사용 시 33%의 확률로 활성화되는 혈기 룬이 죽음의 룬으로 전환됩니다. 죽음의 룬은 혈기 룬, 부정 룬, 냉기 룬으로 간주됩니다." lvl="1"/>
+        <rank description="피의 일격과 전염병 사용 시 66%의 확률로 활성화되는 혈기 룬이 죽음의 룬으로 전환됩니다. 죽음의 룬은 혈기 룬, 부정 룬, 냉기 룬으로 간주됩니다." lvl="2"/>
+        <rank description="피의 일격과 전염병 사용 시 100%의 확률로 활성화되는 혈기 룬이 죽음의 룬으로 전환됩니다. 죽음의 룬은 혈기 룬, 부정 룬, 냉기 룬으로 간주됩니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_animatedead" key="1984" name="구울의 지배자" requires="2225" tier="5">
+        <rank description="시체 되살리기의 재사용 대기시간이 60초만큼 감소하고 시체 되살리기로 소환한 구울을 소환수로 부릴 수 있습니다. 일반적인 죽음의 기사의 구울과는 달리, 소환수는 지속시간 제한 없이 유지됩니다." lvl="1"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_unholyfrenzy" key="2285" name="황폐화" tier="6">
+        <rank description="피의 일격 사용 시 다음 20초 동안 매 공격 시 1%의 추가 피해를 입힙니다." lvl="1"/>
+        <rank description="피의 일격 사용 시 다음 20초 동안 매 공격 시 2%의 추가 피해를 입힙니다." lvl="2"/>
+        <rank description="피의 일격 사용 시 다음 20초 동안 매 공격 시 3%의 추가 피해를 입힙니다." lvl="3"/>
+        <rank description="피의 일격 사용 시 다음 20초 동안 매 공격 시 4%의 추가 피해를 입힙니다." lvl="4"/>
+        <rank description="피의 일격 사용 시 다음 20초 동안 매 공격 시 5%의 추가 피해를 입힙니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_deathknight_antimagiczone" key="2221" name="대마법 지대" requires="2009" tier="6">
+        <rank description="안에 있는 파티원이나 공격대원의 주문 피해를 75%만큼 감소시켜주는 커다란 대마법 지대를 생성합니다. 대마법 지대는 10초 동안 혹은  10054의 주문 피해를 흡수할 때까지 지속됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="120000">
+          <power cost="1" type="unholy"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_deathknight_unholypresence" key="2013" name="부정의 형상 연마" tier="6">
+        <rank description="혈기의 형상 혹은 냉기의 형상을 취하는 동안 부정의 형상으로 인한 이동 속도 증가 효과가 8%만큼 유지되고 부정의 형상을 취하는 동안 룬의 재사용 대기시간이 5%만큼 감소합니다." lvl="1"/>
+        <rank description="혈기의 형상 혹은 냉기의 형상을 취하는 동안 부정의 형상으로 인한 이동 속도 증가 효과가 15%만큼 유지되고 부정의 형상을 취하는 동안 룬의 재사용 대기시간이 10%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="3" icon="ability_ghoulfrenzy" key="2085" name="구울의 광기" requires="1984" tier="6">
+        <rank description="30초 동안 소환수의 가속이 25%만큼 증가하고 전체 생명력의 60%에 해당하는 생명력이 회복됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="10000" maxRange="45">
+          <power cost="1" type="unholy"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="spell_nature_nullifydisease" key="1962" name="지하 열병" tier="7">
+        <rank description="자신의 질병이 지하 열병을 유발시켜, 대상이 질병으로 받는 피해를 10%만큼 증가시킵니다." lvl="1"/>
+        <rank description="자신의 질병이 지하 열병을 유발시켜, 대상이 질병으로 받는 피해를 20%만큼 증가시킵니다." lvl="2"/>
+        <rank description="자신의 질병이 지하 열병을 유발시켜, 대상이 질병으로 받는 피해를 30%만큼 증가시킵니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="inv_chest_leather_13" key="2007" name="뼈의 보호막" tier="7">
+        <rank description="소용돌이치는 4개의 뼈가 죽음의 기사 주위에 머무릅니다. 뼈가 1개 이상 남아 있는 동안 모든 받는 피해가 20%만큼 감소하고 모든 공격력이 2%만큼 증가합니다. 공격을 받을 때마다 1개의 뼈가 사라집니다. 5분 동안 지속됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="120000">
+          <power cost="1" type="unholy"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="spell_shadow_callofbone" key="2003" name="떠도는 역병" tier="8">
+        <rank description="질병으로 적에게 피해를 입히면 근접 치명타 적중률과 같은 확률로 대상과 대상 주위 8미터 반경 내에 있는 모든 적들에게 33%의 추가 피해를 입힙니다. 피해를 받으면 효과가 풀리는 주문에 걸려 있는 대상은 무시됩니다." lvl="1"/>
+        <rank description="질병으로 적에게 피해를 입히면 근접 치명타 적중률과 같은 확률로 대상과 대상 주위 8미터 반경 내에 있는 모든 적들에게 66%의 추가 피해를 입힙니다. 피해를 받으면 효과가 풀리는 주문에 걸려 있는 대상은 무시됩니다." lvl="2"/>
+        <rank description="질병으로 적에게 피해를 입히면 근접 치명타 적중률과 같은 확률로 대상과 대상 주위 8미터 반경 내에 있는 모든 적들에게 100%의 추가 피해를 입힙니다. 피해를 받으면 효과가 풀리는 주문에 걸려 있는 대상은 무시됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_creature_cursed_03" key="2043" name="칠흑의 역병인도자" requires="1962" tier="8">
+        <rank description="지하 열병이 칠흑의 역병으로 변하여 대상이 받는 마법 피해를 4%만큼 증가시키고 추가로 질병으로 인한 피해를 증가시킵니다. 주문과 무기로 치명타를 적중시킬 확률이 1%만큼 증가합니다." lvl="1"/>
+        <rank description="지하 열병이 칠흑의 역병으로 변하여 대상이 받는 마법 피해를 9%만큼 증가시키고 추가로 질병으로 인한 피해를 증가시킵니다. 주문과 무기로 치명타를 적중시킬 확률이 2%만큼 증가합니다." lvl="2"/>
+        <rank description="지하 열병이 칠흑의 역병으로 변하여 대상이 받는 마법 피해를 13%만큼 증가시키고 추가로 질병으로 인한 피해를 증가시킵니다. 주문과 무기로 치명타를 적중시킬 확률이 3%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_deathknight_scourgestrike" key="2216" name="스컬지의 일격" tier="8">
+        <rank description="적에게 부정한 일격을 가하여 무기 공격력의 40%에 해당하는 암흑 피해와 추가로 135의 피해를 입힙니다. 대상에게 걸려 있는 자신의 질병 하나당 전체 피해가 10%만큼 증가합니다." lvl="1"/>
+        <spell castTime="0" maxRange="5">
+          <power cost="1" type="unholy"/>
+          <power cost="1" type="frost"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="inv_weapon_halberd14" key="2036" name="리븐데어의 분노" tier="9">
+        <rank description="숙련이 1만큼 증가하고 피의 역병에 걸린 대상에게 사용하는 주문과 기술의 피해가 2%만큼 증가합니다." lvl="1"/>
+        <rank description="숙련이 2만큼 증가하고 피의 역병에 걸린 대상에게 사용하는 주문과 기술의 피해가 4%만큼 증가합니다." lvl="2"/>
+        <rank description="숙련이 3만큼 증가하고 피의 역병에 걸린 대상에게 사용하는 주문과 기술의 피해가 6%만큼 증가합니다." lvl="3"/>
+        <rank description="숙련이 4만큼 증가하고 피의 역병에 걸린 대상에게 사용하는 주문과 기술의 피해가 8%만큼 증가합니다." lvl="4"/>
+        <rank description="숙련이 5만큼 증가하고 피의 역병에 걸린 대상에게 사용하는 주문과 기술의 피해가 10%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_hunter_pet_bat" key="2000" name="가고일 소환" tier="10">
+        <rank description="날아다니는 가고일로 대상을 공격하여 자연 피해를 입힙니다. 죽음의 기사의 전투력에 따라 피해량이 달라집니다. 30초 동안 지속됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000" maxRange="30">
+          <power cost="60" type="runic"/>
+        </spell>
+      </talent>
+    </tree>
+  </talentTrees>
+</page>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Talentos del personaje">
+	<faqlist>
+		<faq question="¿Qué funciones tiene la página de talentos?">
+			La adición de la especialización doble de talentos a World of Warcraft está reflejada en la Armería. Si un personaje posee esta facultad, podrás cambiar entre ambas especializaciones utilizando las pestañas ubicadas en la parte superior derecha de los árboles de talentos. Además, el conjunto de glifos que corresponde a cada especialización dependerá de cual estés viendo.
+		</faq>
+		<faq question="¿Como se determina el nombre de las especializaciones?">
+			La especialización de talentos recibe una etiqueta con base en el árbol de talentos dominante, es decir, aquel en el que hayas invertido la mayoría de tus puntos. Cuando los puntos están distribuidos de manera uniforme entre varios árboles, la especialización será designada como "Híbrida", mientras que los árboles sin puntos serán designados como "sin talentos".
+		</faq>
+		<faq question="¿Puedo interactuar con los talentos que aparecen en esa página?">
+			Como ésta es la especialización de talentos actual de un personaje, no es posible interactuar con ellos en esta página. Sin embargo, puedes hacer clic en el enlace que te ofrecemos para visitar una plantilla de dicha especialización de talentos en nuestro sitio web. Ahí podrás modificar los talentos a tu gusto.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="Búsqueda de personajes" url="/character-search.xml"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Talentos" type="external" url="http://www.worldofwarcraft.com/info/classes/talent-index/"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Preguntas frecuentes" url="/faq-armory.xml"/>		
+		<relatedlink name="Problemas conocidos" type="external" url="http://forums.worldofwarcraft.com/thread.html?topicId=6440987228&amp;sid=2"/>
+		<relatedlink name="Reporta errores en la página" type="report" url="mailto:wowarmory@blizzard.com?subject=Error en la Armería de WoW&amp;body=Escribe tu reporte de error a continuación. Navegador: REPLACEBROWSER. Error en la página: REPLACEURL"/>
+		<relatedlink name="Reporta problemas de traducción" type="translation" url="http://forums.worldofwarcraft.com/board.html?forumId=20002&amp;sid=2"/>
+	</relatedlinks>
+</relatedinfo>

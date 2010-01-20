@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><tabs>
+	<tab href="/talent-calc.xml" id="talentCalc">특성 계산기
+		<subTab href="/talent-calc.xml?c=6" id="6">죽음의 기사</subTab>
+		<subTab href="/talent-calc.xml?c=11" id="11">드루이드</subTab>	
+		<subTab href="/talent-calc.xml?c=3" id="3">사냥꾼</subTab>
+		<subTab href="/talent-calc.xml?c=8" id="8">마법사</subTab>
+		<subTab href="/talent-calc.xml?c=2" id="2">성기사</subTab>
+		<subTab href="/talent-calc.xml?c=5" id="5">사제</subTab>
+		<subTab href="/talent-calc.xml?c=4" id="4">도적</subTab>		
+		<subTab href="/talent-calc.xml?c=7" id="7">주술사</subTab>
+		<subTab href="/talent-calc.xml?c=9" id="9">흑마법사</subTab>
+		<subTab href="/talent-calc.xml?c=1" id="1">전사</subTab>		
+	</tab>
+	<tab href="/arena-calculator.xml" id="arenaCalc">투기장 계산기</tab>
+</tabs>

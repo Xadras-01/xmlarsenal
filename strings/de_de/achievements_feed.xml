@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><strs>
+
+<!--<str id="serverFirst.realm.first."></str>
+<str id="regionFirst.realm.first."></str>-->
+
+<str id="serverFirst.realm.first.level.80">
+    <param-html1/> ist der erste Charakter, der auf dem Realm <param-html2/> Stufe 80 erreicht hat!</str>
+<str id="regionFirst.realm.first.level.80">Gratulation an <param-html1/> vom Realm <param-html2/> für das erste Erreichen der Stufe 80 auf allen Realms!</str>
+
+<str id="serverFirst.realm.first.level.80.classrace">
+    <param-html1/> ist der erste <param-html3/>, der auf dem Realm <param-html2/> Stufe 80 erreicht hat! </str>
+<str id="regionFirst.realm.first.level.80.classrace">Gratulation an <param-html1/> vom Realm <param-html2/>, dieser Charakter ist der erste <param-html3/> aller Realms, der Stufe 80 erreicht hat!</str>
+
+<str id="serverFirst.realm.first.northrend.vanguard">
+    <param-html1/> ist der erste Charakter auf dem Realm <param-html2/>, der einen ehrfürchtigen Ruf mit den Fraktionen Argentumkreuzzug, dem Wyrmruhpakt, den Kirin Tor und den Rittern der Schwarzen Klinge erreicht hat!</str>
+
+<str id="regionFirst.realm.first.northrend.vanguard">Gratulation an <param-html1/>, er ist der erste Charakter aller Realms, die einen ehrfürchtigen Ruf mit den Fraktionen Argentumkreuzzug, dem Wyrmruhpakt, den Kirin Tor und den Rittern der Schwarzen Klinge erreicht hat!</str>
+
+<str id="serverFirst.realm.first.grand.master.profession">
+    <param-html1/> ist der erste Charakter, der den Wert 450 in <param-html3/> auf dem Realm <param-html2/> erreicht hat!</str>
+
+<str id="regionFirst.realm.first.grand.master.profession">Gratulation an <param-html1/> vom Realm <param-html2/>, dieser Charakter hat vor allen anderen auf allen Realms den Wert 450 in <param-html3/> erreicht!</str>
+
+<str id="serverFirst.realm.first.conqueror.of.naxxramas">
+    <param-html1/> ist die erste Gilde, die auf dem Realm <param-html2/> Kel’Thuzad auf heroischer Schwierigkeit besiegt haben! Alle teilnehmenden Charaktere haben jeweils den Titel “Eroberer von Naxxramas” verliehen bekommen.</str>
+
+<str id="regionFirst.realm.first.conqueror.of.naxxramas">Gratulation an <param-html1/> vom Realm <param-html2/>, sie hat als erste Gilde aller Realms Kel’Thuzad auf heroischer Schwierigkeit besiegt! Alle teilnehmenden Charaktere haben jeweils den Titel “Eroberer von Naxxramas” verliehen bekommen.</str>
+
+<str id="serverFirst.realm.first.conqueror.of.naxxramas.single">
+    <param-html1/> ist die erste Gilde, die auf dem Realm <param-html2/> Kel’Thuzad auf heroischer Schwierigkeit besiegt haben! Alle teilnehmenden Charaktere haben jeweils den Titel “Eroberer von Naxxramas” verliehen bekommen.</str>
+
+<str id="regionFirst.realm.first.conqueror.of.naxxramas.single">Gratulation an <param-html1/> vom Realm <param-html2/>, sie hat als erste Gilde aller Realms Kel’Thuzad auf heroischer Schwierigkeit besiegt! Alle teilnehmenden Charaktere haben jeweils den Titel “Eroberer von Naxxramas” verliehen bekommen.</str>
+
+<str id="serverFirst.realm.first.obsidian.slayer">
+    <param-html1/> ist die erste Gilde, die auf dem Realm <param-html2/> Sartharion dem Onyxwächter auf heroischer Schwierigkeit besiegt haben! Alle teilnehmenden Charaktere haben jeweils den Titel “Obsidianvernichter” verliehen bekommen.</str>
+
+<str id="regionFirst.realm.first.obsidian.slayer">Gratulation an <param-html1/> vom Realm <param-html2/>, sie hat als erste Gilde aller Realms Sartharion dem Onyxwächter auf heroischer Schwierigkeit besiegt! Alle teilnehmenden Charaktere haben jeweils den Titel “Obsidianvernichter” verliehen bekommen.</str>
+
+<str id="serverFirst.realm.first.obsidian.slayer.single">
+    <param-html1/> ist die erste Gilde, die auf dem Realm <param-html2/> Sartharion dem Onyxwächter auf heroischer Schwierigkeit besiegt haben! Alle teilnehmenden Charaktere haben jeweils den Titel “Obsidianvernichter” verliehen bekommen.</str>
+
+<str id="regionFirst.realm.first.obsidian.slayer.single">Gratulation an <param-html1/> vom Realm <param-html2/>, sie hat als erste Gilde aller Realms Sartharion dem Onyxwächter auf heroischer Schwierigkeit besiegt! Alle teilnehmenden Charaktere haben jeweils den Titel “Obsidianvernichter” verliehen bekommen.</str>
+
+<str id="serverFirst.realm.first.magic.seeker">
+    <param-html1/> ist die erste Gilde, die auf dem Realm <param-html2/> Malygos auf heroischer Schwierigkeit besiegt haben! Alle teilnehmenden Charaktere haben jeweils den Titel “Magiesuchender” verliehen bekommen.</str>
+
+<str id="regionFirst.realm.first.magic.seeker">Gratulation an <param-html1/> vom Realm <param-html2/>, sie hat als erste Gilde aller Realms Malygos auf heroischer Schwierigkeit besiegt! Alle teilnehmenden Charaktere haben jeweils den Titel “Magiesuchender” verliehen bekommen.</str>
+
+<str id="serverFirst.realm.first.magic.seeker.single">
+    <param-html1/> ist die erste Gilde, die auf dem Realm <param-html2/> Malygos auf heroischer Schwierigkeit besiegt haben! Alle teilnehmenden Charaktere haben jeweils den Titel “Magiesuchender” verliehen bekommen.</str>
+
+<str id="regionFirst.realm.first.magic.seeker.single">Gratulation an <param-html1/> vom Realm <param-html2/>, sie hat als erste Gilde aller Realms Malygos auf heroischer Schwierigkeit besiegt! Alle teilnehmenden Charaktere haben jeweils den Titel “Magiesuchender” verliehen bekommen.</str>
+<str id="serverFirst.realm.first.celestial.defender">
+    <param-html1/> sind die ersten Gilden, die Algalon den Beobachter auf heroischem Schwierigkeitsgrad auf dem Realm <param-html2/> besiegt haben! Alle teilnehmenden Charaktere haben jeweils den Titel “Himmelsverteidiger” verliehen bekommen.</str>
+<str id="regionFirst.realm.first.celestial.defender">Gratulation an <param-html1/> vom Realm <param-html2/>, sie hat als erste Gilde aller Realms Algalon den Beobachter auf heroischer Schwierigkeit besiegt! Alle teilnehmenden Charaktere haben jeweils den Titel “Himmelsverteidiger” verliehen bekommen.</str>
+<str id="serverFirst.realm.first.celestial.defender.single">
+    <param-html1/> ist die erste Gilde, die Algalon den Beobachter auf heroischem Schwierigkeitsgrad auf dem Realm <param-html2/> besiegt haben! Alle teilnehmenden Charaktere haben jeweils den Titel “Himmelsverteidiger” verliehen bekommen.</str>
+<str id="regionFirst.realm.first.celestial.defender.single">Gratulation an <param-html1/> vom Realm <param-html2/>, sie hat als erste Gilde aller Realms Algalon den Beobachter auf heroischer Schwierigkeit besiegt! Alle teilnehmenden Charaktere haben jeweils den Titel “Himmelsverteidiger” verliehen bekommen.</str>
+<str id="serverFirst.realm.first.deaths.demise">
+    <param-html1/> sind die ersten Gilden, die Yogg-Saron auf heroischem Schwierigkeitsgrad auf dem Realm <param-html2/> besiegt haben! Alle teilnehmenden Charaktere haben jeweils den Titel “Todesbote” verliehen bekommen.</str>
+<str id="regionFirst.realm.first.deaths.demise">Gratulation an <param-html1/> vom Realm <param-html2/>, sie hat als erste Gilde aller Realms Yogg-Saron auf heroischer Schwierigkeit besiegt! Alle teilnehmenden Charaktere haben jeweils den Titel “Todesbote” verliehen bekommen.</str>
+<str id="serverFirst.realm.first.deaths.demise.single">
+    <param-html1/> ist die erste Gilde, die Yogg-Saron auf heroischem Schwierigkeitsgrad auf dem Realm <param-html2/> besiegt haben! Alle teilnehmenden Charaktere haben jeweils den Titel “Todesbote” verliehen bekommen.</str>
+<str id="regionFirst.realm.first.deaths.demise.single">Gratulation an <param-html1/> vom Realm <param-html2/>, sie hat als erste Gilde aller Realms Yogg-Saron auf heroischer Schwierigkeit besiegt! Alle teilnehmenden Charaktere haben jeweils den Titel “Todesbote” verliehen bekommen.</str>
+<str id="level80pos">23</str>
+
+<str id="blood.elf.name">Blutelf</str>
+<str id="death.knight.name">Todesritter</str>
+<str id="draenei.name">Draenei</str>
+<str id="druid.name">Druide</str>
+<str id="dwarf.name">Zwerg</str>
+<str id="forsaken.name">Verlassene</str>
+<str id="gnome.name">Gnom</str>
+<str id="human.name">Mensch</str>
+<str id="hunter.name">Jäger</str>
+<str id="mage.name">Magier</str>
+<str id="night.elf.name">Nachtelf</str>
+<str id="orc.name">Orc</str>
+<str id="paladin.name">Paladin</str>
+<str id="priest.name">Priester</str>
+<str id="rogue.name">Schurke</str>
+<str id="shaman.name">Schamane</str>
+<str id="tauren.name">Tauren</str>
+<str id="troll.name">Troll</str>
+<str id="warlock.name">Hexenmeister</str>
+<str id="warrior.name">Krieger</str>
+
+<str id="cooking.grand.master.type">Kochen</str>
+<str id="first.aid.grand.master.type">Erste Hilfe</str>
+<str id="grand.master.alchemist.type">Alchemie</str>
+<str id="grand.master.angler.type">Angeln</str>
+<str id="grand.master.blacksmith.type">Schmiedekunst</str>
+<str id="grand.master.enchanter.type">Verzauberkunst</str>
+<str id="grand.master.engineer.type">Ingenieurskunst</str>
+<str id="grand.master.herbalist.type">Kräuterkunde</str>
+<str id="grand.master.jewelcrafter.type">Juwelenschleifen</str>
+<str id="grand.master.leatherworker.type">Lederverarbeitung</str>
+<str id="grand.master.miner.type">Bergbau</str>
+<str id="grand.master.scribe.type">Inschriftenkunde</str>
+<str id="grand.master.skinner.type">Kürschnerei</str>
+<str id="grand.master.tailor.type">Schneiderei</str>
+
+</strs>

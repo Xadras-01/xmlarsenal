@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="투기장 기록">
+<!-- Do not translate until the functionality is added in the Armroy -->
+	<faqlist>
+		<faq question="경기 전적 페이지는 어떤 기능이 있나요?">
+현재 전적 페이지에서는 선택한 시즌의 투기장 경기 결과가 쌍방향 도표로 나타납니다. 기록을 남긴다는 목적 외에 시즌이 진행되는 동안 특정한 주간이나 특정한 시간대에서 각 팀이 어떤 성과를 거뒀는지 확인하는 도구로서 유용하게 쓰일 수 있습니다. 아래에 있는 질문을 선택하시면 개별 정보와 기능을 각각 그래프와 검색 범주로 확인하실 수 있습니다. 
+		</faq>
+		<faq question="투기장 기록이 무엇인가요?">
+1시즌 처음부터 해당 팀으로 치렀던 모든 경기를 이 쌍방향 그래프로 보기 쉽게 확인하실 수 있습니다. 
+<ul>
+<li>그래프 상에 있는 정보 위로 마우스 커서를 올리면 해당 경기가 벌어진 날짜, 결과에 따른 승률 변화, 그리고 상대팀의 이름이 나타납니다.</li>
+<li>시즌 전체는 커다란 그래프 아래에 개별 그래프로 나타납니다. 시즌별 그래프 아래에 있는 이동 막대로 원하는 시즌의 특정 기간을 빠르게 탐색해볼 수 있습니다.</li>
+<li>그래프 아래에 있는 링크를 누르면 선택했던 경기 요약 선택이 초기화되며, 가장 최근 경기 예시와 전체 시즌이 각각 나타납니다.</li>
+<li>그래프의 위쪽에 있는 창에는 항상 그래프 시작 시기의 팀 승률과 선택한 경기의 승률 변화와 선택한 경기 종료 시점의 팀 승률이 나타납니다.</li>
+</ul>
+		</faq>
+		<faq question="경기 전적 검색 범주가 무엇인가요?">
+그래프 아래에는 시즌별 경기 목록이 있어 검색, 정렬하거나 걸러내어 볼 수 있습니다.
+<ul>
+<li>위쪽의 그래프에는 목록에 나타난 각 경기에 해당하는 좌표가 있습니다. 각 경기가 있는 열의 오른쪽에 있는 그래프 단추를 누르면 해당 경기의 좌표가 그래프의 오른쪽 끝에 맞춰집니다.</li>
+<li>경기 결과 오른쪽에 있는 화살표를 누르면 세부 경기 기록이 나타납니다. 경기 기록에서 게임 안에서 볼 수 있는 것과 같은 팀 명단, 결정타, 피해 및 치유량, 그리고 승률 변화를 확인할 수 있습니다.</li>
+</ul>
+		</faq>				
+		<faq question="다른 경기 결과를 그래프로 보려면 어떻게 하나요?">
+		그래프 아래에 있는 작은 선택 막대를 보고자 하는 구간으로 끌어다 놓으면 됩니다. 아니면, 그래프 하단의 링크를 누르면 가장 최근에 치른 경기 모음을 볼 수 있고, 전체 시즌을 그래프로 볼 수도 있습니다. 그래프 밑에 있는 검색 범주를 사용하면 결과 목록만 변경되며, 그래프 자체는 변하지 않습니다. 
+		</faq>				
+		<faq question="일정 경기의 승률 변화가 0으로 나타나는 이유는 무엇인가요?">
+	 	두 팀 간 승률 차가 클 때 그러한 현상이 나타납니다.
+		</faq>				
+		<faq question="전적 항의 새로운 승률 에는 인접한 승률 변화 값이 포함되나요?">
+		  네, 포함됩니다.
+		</faq>
+		<faq question="승부 거래를 해서 팀 승률을 인위적으로 올린다고 의심이 가는 팀이 있는데, 신고해야 하나요?">
+투기장 기록을 확인해보신 다음, 승부 거래 행위가 분명하다면 게임 안에서 GM에게 신고하시기 바랍니다.
+		</faq>	
+	
+	
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="투기장 토너먼트 정보" url="/arena-tournament.xml"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="투기장 시스템 개요" type="external" url="http://www.worldofwarcraft.co.kr/guide/arena/"/>
+		<relatedlink name="투기장 심층 분석" type="external" url="http://www.worldofwarcraft.co.kr/news/world/article/arena.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="F.A.Q." url="/faq-armory.xml"/>		
+		<relatedlink name="알려진 문제들" url="Javascript:openIssues()"/>		
+		<relatedlink name="전투정보실 오류 신고" type="report" url="mailto:bugreport@blizzard.co.kr"/>
+	</relatedlinks>
+</relatedinfo>

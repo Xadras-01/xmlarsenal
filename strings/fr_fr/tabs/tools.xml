@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><tabs>
+	<tab href="/talent-calc.xml" id="talentCalc">Calculateur de talents
+		<subTab href="/talent-calc.xml?c=6" id="6">Chevalier de la mort</subTab>
+		<subTab href="/talent-calc.xml?c=11" id="11">Druide</subTab>	
+		<subTab href="/talent-calc.xml?c=3" id="3">Chasseur</subTab>
+		<subTab href="/talent-calc.xml?c=8" id="8">Mage</subTab>
+		<subTab href="/talent-calc.xml?c=2" id="2">Paladin</subTab>
+		<subTab href="/talent-calc.xml?c=5" id="5">Prêtre</subTab>
+		<subTab href="/talent-calc.xml?c=4" id="4">Voleur</subTab>		
+		<subTab href="/talent-calc.xml?c=7" id="7">Chaman</subTab>
+		<subTab href="/talent-calc.xml?c=9" id="9">Guerrier</subTab>		
+	</tab>
+	<tab href="/arena-calculator.xml" id="arenaCalc">Calculateur d'arène</tab>
+</tabs>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><tabs>
+	<tab href="/character-sheet.xml" id="character">Персонаж
+		<subTab href="/character-sheet.xml" id="profile">Профиль</subTab>
+		<subTab href="/character-talents.xml" id="talents">Таланты и символы</subTab>	
+		<subTab href="/character-reputation.xml" id="reputation">Репутация</subTab>
+		<subTab href="/vault/character-calendar.xml" id="calendar" login="true">Календарь</subTab>
+		<subTab href="/character-achievements.xml" id="achievements">Достижения</subTab>
+		<subTab href="/character-statistics.xml" id="statistics">Статистика</subTab>
+		<subTab href="/character-arenateams.xml" id="arena">Арена</subTab>
+	</tab>
+	<tab href="/guild-info.xml" id="guild">Гильдия
+		<subTab href="/guild-info.xml" id="guildRoster">Эмблема</subTab>
+		<subTab href="/guild-stats.xml" id="guildStats">Статистика</subTab>
+		<subTab href="/vault/guild-bank-contents.xml" id="guildBankContents" login="true">Содержипмое банка</subTab>
+		<subTab href="/vault/guild-bank-log.xml" id="guildBankLog" login="true">Журнал вкладов</subTab>	
+	</tab>
+</tabs>

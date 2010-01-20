@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Se connecter à l'Armurerie">
+	<faqlist>
+		<faq question="Quel compte dois-je utiliser pour me connecter à l'Armurerie ?">
+			Utilisez les informations de connexion de votre compte World of Warcraft pour vous connecter à l'Armurerie.
+		</faq>	
+		<faq question="Pourquoi l'Armurerie me demande-t-elle de me connecter avec mon compte de World of Warcraft ?">
+			Au vu de la nature des informations affichées par certaines zones de l'Armurerie, vous devez vous identifier avec votre compte de World of Warcraft pour accéder aux zones en question. Actuellement, il s'agit principalement des pages dédiées au système de banques de guildes et au calendrier des joueurs. D'autres zones sécurisés supplémentaires pourront être implémentées à l'avenir.
+		</faq>
+		<faq question="Quelles sont les autres fonctionnalités accessibles après identification ?">
+			La possibilité de garder en mémoire une fiche de personnage grâce à l'option « Épingler une fiche » a été repensée : vous pouvez maintenant mettre plusieurs fiches de personnages en raccourci, du moment qu'ils sont sur le compte en question. Dès la connexion, l'Armurerie désigne la fiche de personnage la plus pertinente dans le coin supérieur droit de la fenêtre. Plusieurs personnages seront déjà en raccourci dans une liste déroulante, et vous pourrez afficher davantage de personnages du compte en sélectionnant l'option idoine.
+		</faq>	
+		<faq question="J'ai des doutes sur la sécurité de mes informations de connexion, puis-je être certain que c'est bien sans risque ?">
+			Assurez-vous que le lien de la page de l'Armurerie contient bien wowarmory.com à sa racine. Notre système de connection vous redirige automatiquement vers notre serveur sécurisé d'authentification qui est hebergé sur un site Blizzard Entertainmet comme blizzard.com.
+		</faq>		
+		<faq question="Pourquoi ne suis-je pas capable de me connecter dans l'Armurerie ?">
+			Si vous avez des difficultés à vous connecter dans l'Armurerie, cela est peut-être dû à l'usage des cookies par votre navigateur. Les préfèrences de votre navigateur doivent autoriser l'Armurerie à stocker les cookies afin de permettre à la connexion de fonctionner.
+		</faq>		
+		<faq question="Combien de temps une connexion dure-t-elle ?">
+			Vous pouvez accéder aux fonctionnalités sécurisées, dont les banques de guilde et le calendrier des joueurs, pendant environ deux semaines après identification.
+		</faq>
+		<faq question="Est-ce qu'en me connectant à l'Armurerie, je me connecte aussi en même temps à la gestion de mon compte World of Warcraft ?">
+			Non.
+		</faq>
+		<faq question="Comment puis-je me déconnecter ?">
+			Cliquez tout simplement sur l'option « Déconnectez-vous » en haut à droite de la fenêtre si vous souhaitez vous déconnecter de l'Armurerie. Fermer la fenêtre de l'Armurerie ne vous déonnecte plus, mais effacer vos cookies le fait. De plus, votre session de connexion expirera automatiquement après approximativement deux semaines.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="Récompenses des Emblèmes d'héroïsme" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofheroism&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Récompenses des Emblèmes de vaillance" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofvalor&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Objets « Héritage »" url="/search.xml?fl[source]=all&amp;fl[type]=all&amp;fl[usbleBy]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[rrt]=hm&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>						
+		<relatedlink type="hr"/>
+		<relatedlink name="Trouvés en donjons &amp; raids" url="/dungeons.xml"/>
+		<relatedlink name="Récompenses de faction" url="/factions.xml"/>
+		<relatedlink name="Récompenses JcJ" url="/pvprewards.xml"/>		
+		<relatedlink type="hr"/>
+		<relatedlink name="Informations sur les tournois d'arène" url="/arena-tournament.xml"/>		
+		<relatedlink type="hr"/>		
+		<relatedlink name="F.A.Q." url="/faq-armory.xml"/>		
+		<relatedlink name="Signaler une erreur" type="report" url="mailto:wowarmory@blizzard.com?subject=WoW Armory Error&amp;body=Décrivez l'erreur ci-dessous. Navigateur : NOM-DU-NAVIGATEUR. Adresse de la page sur laquelle se trouve l'erreur : ADRESSE"/>
+	</relatedlinks>
+</relatedinfo>

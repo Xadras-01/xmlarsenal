@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/arena/ladder.xsl"?><page globalSearch="1" lang="$LANGUAGE" requestQuery="ts=$TEAMSIZE&amp;b=$REALMPOOLURL" requestUrl="/arena-ladder.xml">
+	<arenaLadderPagedResult battleGroup="$REALMPOOL" filterField="$FILTERFIELD" filterValue="$FILTERVALUE" level="80" maxPage="1" page="1" sortDir="a" sortField="rank" teamSize="$TEAMSIZE" url="b=$REALMPOOLURL&amp;ts=$TEAMSIZE" xmlSchemaVersion="1.0">
+		<arenaTeams>
+			$TEAMS
+		</arenaTeams>
+	</arenaLadderPagedResult>
+</page>

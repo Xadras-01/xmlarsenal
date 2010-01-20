@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/character/achievements.xsl"?><page globalSearch="1" lang="$LANGUAGE" requestUrl="/character-achievements.xml">
+  <tabInfo subTab="achievements" tab="character" tabGroup="character" tabUrl="$TABURL"/>
+  <characterInfo>
+    <character battleGroup="$REALMPOOL" charUrl="$CHARURL" class="$CLASS" classId="$CLASSID" classUrl="$CLASSURL" faction="$FACTION" factionId="$FACTIONID" gender="$GENDER" genderId="$GENDERID" $GUILDVALUES lastModified="$MODIFIED" level="$LEVEL" name="$NAME" points="$ACHIEVEMENTPOINTS" prefix="$PREFIX" race="$RACE" raceId="$RACEID" realm="$REALM" suffix="$SUFFIX" titleId="$TITLEID">
+$ARENATEAMSSTART
+$ARENATEAMS
+$ARENATEAMSEND
+	</character>
+  </characterInfo>
+  <achievements>
+  <summary>
+      <c earned="$ACHIEVEMENTSNUM" points="$ACHIEVEMENTPOINTS" total="$ACHIEVEMENTSNUMTOTAL" totalPoints="$ACHIEVEMENTPOINTSTOTAL"/>
+      <category id="92" name="$NAMECAT92">
+        <c earned="$ACHIEVEMENTSNUM92" earnedPoints="$ACHIEVEMENTPOINTS92" total="$ACHIEVEMENTSNUMTOTAL92" totalPoints="$ACHIEVEMENTPOINTSTOTAL92"/>
+      </category>
+      <category id="96" name="$NAMECAT96">
+        <c earned="$ACHIEVEMENTSNUM96" earnedPoints="$ACHIEVEMENTPOINTS96" total="$ACHIEVEMENTSNUMTOTAL96" totalPoints="$ACHIEVEMENTPOINTSTOTAL96"/>
+      </category>
+      <category id="97" name="$NAMECAT97">
+        <c earned="$ACHIEVEMENTSNUM97" earnedPoints="$ACHIEVEMENTPOINTS97" total="$ACHIEVEMENTSNUMTOTAL97" totalPoints="$ACHIEVEMENTPOINTSTOTAL97"/>
+      </category>
+      <category id="95" name="$NAMECAT95">
+        <c earned="$ACHIEVEMENTSNUM95" earnedPoints="$ACHIEVEMENTPOINTS95" total="$ACHIEVEMENTSNUMTOTAL95" totalPoints="$ACHIEVEMENTPOINTSTOTAL95"/>
+      </category>
+      <category id="168" name="$NAMECAT168">
+        <c earned="$ACHIEVEMENTSNUM168" earnedPoints="$ACHIEVEMENTPOINTS168" total="$ACHIEVEMENTSNUMTOTAL168" totalPoints="$ACHIEVEMENTPOINTSTOTAL168"/>
+      </category>
+      <category id="169" name="$NAMECAT169">
+        <c earned="$ACHIEVEMENTSNUM169" earnedPoints="$ACHIEVEMENTPOINTS169" total="$ACHIEVEMENTSNUMTOTAL169" totalPoints="$ACHIEVEMENTPOINTSTOTAL169"/>
+      </category>
+      <category id="201" name="$NAMECAT201">
+        <c earned="$ACHIEVEMENTSNUM201" earnedPoints="$ACHIEVEMENTPOINTS201" total="$ACHIEVEMENTSNUMTOTAL201" totalPoints="$ACHIEVEMENTPOINTSTOTAL201"/>
+      </category>
+      <category id="155" name="$NAMECAT155">
+        <c earned="$ACHIEVEMENTSNUM155" earnedPoints="$ACHIEVEMENTPOINTS155" total="$ACHIEVEMENTSNUMTOTAL155" totalPoints="$ACHIEVEMENTPOINTSTOTAL155"/>
+      </category>
+      <category id="81" name="$NAMECAT81">
+        <c earned="$ACHIEVEMENTSNUM81"/>
+      </category>
+	  $LATESTACH
+    </summary>
+    <rootCategories>
+		$CATEGORIES
+    </rootCategories>
+  </achievements>
+</page>

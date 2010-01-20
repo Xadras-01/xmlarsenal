@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/character/reputation.xsl"?><page globalSearch="1" lang="$LANGUAGE" requestUrl="/character-reputation.xml">
+	<tabInfo subTab="reputation" tab="character" tabGroup="character" tabUrl="$TABURL"/>
+	<characterInfo>
+		<character battleGroup="$REALMPOOL" charUrl="$CHARURL" class="$CLASS" classId="$CLASSID" classUrl="$CLASSURL" faction="$FACTION" factionId="$FACTIONID" gender="$GENDER" genderId="$GENDERID" $GUILDVALUES lastModified="$MODIFIED" level="$LEVEL" name="$NAME" points="$ACHIEVEMENTPOINTS" prefix="$PREFIX" race="$RACE" raceId="$RACEID" realm="$REALM" suffix="$SUFFIX" titleId="$TITLEID">
+$ARENATEAMSSTART
+$ARENATEAMS
+$ARENATEAMSEND
+	</character>
+		<reputationTab>
+			<faction header="1" id="1118" key="classic" name="$NAME1118">
+				<faction id="529" key="argentdawn" name="$NAME529" reputation="$REP529"/>
+				<faction id="87" key="bloodsailbuccaneers" name="$NAME87" reputation="$REP87"/>
+				<faction id="910" key="broodofnozdormu" name="$NAME910" reputation="$REP910"/>
+				<faction id="609" key="cenarioncircle" name="$NAME609" reputation="$REP609"/>
+				<faction id="92" key="gelkisclan" name="$NAME92" reputation="$REP92"/>
+				<faction id="93" key="magramclancentaur" name="$NAME93" reputation="$REP93"/>
+				<faction id="749" key="hydraxianwaterlords" name="$NAME749" reputation="$REP749"/>
+				<faction id="909" key="darkmoonfaire" name="$NAME909" reputation="$REP909"/>
+				<faction id="349" key="ravenholdt" name="$NAME349" reputation="$REP349"/>
+				<faction id="59" key="thoriumbrotherhood" name="$NAME59" reputation="$REP59"/>
+				<faction id="576" key="timbermawhold" name="$NAME576" reputation="$REP576"/>
+				<faction id="270" key="zandalartribe" name="$NAME270" reputation="$REP270"/>
+				<faction id="809" key="shen'dralar" name="$NAME809" reputation="$REP809"/>
+				<faction header="1" id="469" key="alliance" name="$NAME469" reputation="$REP469">
+					<faction id="69" key="darnassus" name="$NAME69" reputation="$REP69"/>
+					<faction id="930" key="exodar" name="$NAME930" reputation="$REP930"/>
+					<faction id="54" key="gnomereganexiles" name="$NAME54" reputation="$REP54"/>
+					<faction id="47" key="ironforge" name="$NAME47" reputation="$REP47"/>
+					<faction id="72" key="stormwind" name="$NAME72" reputation="$REP72"/>
+				</faction>
+				<faction header="1" id="891" key="allianceforces" name="$NAME891">
+					<faction id="890" key="silverwingsentinels" name="$NAME890" reputation="$REP890"/>
+					<faction id="730" key="stormpikeguard" name="$NAME730" reputation="$REP730"/>
+					<faction id="509" key="theleagueofarathor" name="$NAME509" reputation="$REP509"/>
+				</faction>
+				<faction header="1" id="169" key="steamwheedlecartel" name="$NAME169">
+					<faction id="21" key="bootybay" name="$NAME21" reputation="$REP21"/>
+					<faction id="577" key="everlook" name="$NAME577" reputation="$REP577"/>
+					<faction id="369" key="gadgetzan" name="$NAME369" reputation="$REP369"/>
+					<faction id="470" key="ratchet" name="$NAME470" reputation="$REP470"/>
+				</faction>
+			</faction>
+			<faction header="1" id="980" key="theburningcrusade" name="$NAME980">
+				<faction id="1012" key="ashtonguedeathsworn" name="$NAME1012" reputation="$REP1012"/>
+				<faction id="942" key="cenarionexpedition" name="$NAME942" reputation="$REP942"/>
+				<faction id="946" key="honorhold" name="$NAME946" reputation="$REP946"/>
+				<faction id="989" key="keepersoftime" name="$NAME989" reputation="$REP989"/>
+				<faction id="978" key="kurenai" name="$NAME978" reputation="$REP978"/>
+				<faction id="970" key="sporeggar" name="$NAME970" reputation="$REP970"/>
+				<faction id="933" key="theconsortium" name="$NAME933" reputation="$REP933"/>
+				<faction id="990" key="thescaleofthesands" name="$NAME990" reputation="$REP990"/>
+				<faction id="967" key="thevioleteye" name="$NAME967" reputation="$REP967"/>
+				<faction id="1015" key="netherwing" name="$NAME1015" reputation="$REP1015"/>
+				<faction id="1038" key="ogri'la" name="$NAME1038" reputation="$REP1038"/>
+				<faction header="1" id="936" key="shattrathcity" name="$NAME936">
+					<faction id="1011" key="lowercity" name="$NAME1011" reputation="$REP1011"/>
+					<faction id="1031" key="sha'tariskyguard" name="$NAME1031" reputation="$REP1031"/>
+					<faction id="1077" key="shatteredsunoffensive" name="$NAME1077" reputation="$REP1077"/>
+					<faction id="932" key="thealdor" name="$NAME932" reputation="$REP932"/>
+					<faction id="934" key="thescryers" name="$NAME934" reputation="$REP934"/>
+					<faction id="935" key="thesha'tar" name="$NAME935" reputation="$REP935"/>
+				</faction>
+			</faction>
+			<faction header="1" id="1097" key="wrathofthelichking" name="$NAME1097">
+				<faction id="1106" key="argentcrusade" name="$NAME1106" reputation="$REP1106"/>
+				<faction id="1090" key="kirintor" name="$NAME1090" reputation="$REP1090"/>
+				<faction id="1098" key="knightsoftheebonblade" name="$NAME1098" reputation="$REP1098"/>
+				<faction id="1073" key="thekalu'ak" name="$NAME1073" reputation="$REP1073"/>
+				<faction id="1119" key="thesonsofhodir" name="$NAME1119" reputation="$REP1119"/>
+				<faction id="1091" key="thewyrmrestaccord" name="$NAME1091" reputation="$REP1091"/>
+				<faction header="1" id="1037" key="alliancevanguard" name="$NAME1037" reputation="$REP1037">
+					<faction id="1068" key="explorers'league" name="$NAME1068" reputation="$REP1068"/>
+					<faction id="1126" key="thefrostborn" name="$NAME1126" reputation="$REP1126"/>
+					<faction id="1094" key="thesilvercovenant" name="$NAME1094" reputation="$REP1094"/>
+					<faction id="1050" key="valianceexpedition" name="$NAME1050" reputation="$REP1050"/>
+				</faction>
+				<faction header="1" id="1117" key="sholazarbasin" name="$NAME1117">
+					<faction id="1104" key="frenzyhearttribe" name="$NAME1104" reputation="$REP1104"/>
+					<faction id="1105" key="theoracles" name="$NAME1105" reputation="$REP1105"/>
+				</faction>
+			</faction>
+			<faction header="1" id="999999" key="zzother" name="Other">
+				<faction id="70" key="syndicate" name="$NAME70" reputation="$REP70"/>
+				<faction id="589" key="wintersabertrainers" name="$NAME589" reputation="$REP589"/>
+				<faction id="349" key="ravenholdt" name="$NAME349" reputation="$REP349"/>
+			</faction>
+		</reputationTab>
+	</characterInfo>
+</page>

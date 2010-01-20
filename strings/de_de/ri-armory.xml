@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Informationen zum Arsenal">
+	<faqlist>
+		<faq question="Was ist das Arsenal?">
+			Das Arsenal ist eine umfassende durchsuchbare Datenbank mit Informationen zu World of Warcraft, direkt unseren Servern entnommen und mit einer benutzerfreundlichen Oberfläche aufbereitet. Da das Arsenal die Daten von unseren Spielservern bezieht, ist es die umfangreichste und aktuellste Datenbank mit Charakteren, Arena-Teams, Gilden, Gegenständen, Dungeons, Schlachtzügen, Bossen und Fraktionsbelohnungen aus World of Warcraft.
+		</faq>
+		<faq question="Wonach kann ich im Arsenal suchen?">
+			Ihr könnt nach Charakteren, Gegenständen, Gilden, Dungeons, Arena-Teams, Bossmonstern und Fraktionsbelohnungen suchen. Alle diese Suchfilter könnt ihr im Suchmenü auswählen, bevor ihr einen Suchbegriff eingebt.
+		</faq>
+		<faq question="Auf welche zusätzlichen Features habe ich nach einem Login in das Arsenal Zugriff?">
+			In der oberen rechten Ecke des Arsenals befindet sich ein Reiter mit der Aufschrift "Einloggen". Klickt ihr auf diesen Link, könnt ihr euch im Arsenal unter Verwendung eurer World of Warcraft-Accountinformationen anmelden, ohne dabei die Seite zu verlassen. Gleichzeitig wird ein Link zu dem Charakter des Accounts hergestellt, für den hinsichtlich des Arsenals die höchste Relevanz besteht. Ihr könnt die Option "Meine Charaktere" unterhalb des Profil-Links verwenden, um auf Profile anderer Charaktere des selben Accounts zuzugreifen. Einmal eingeloggt, könnt ihr login-geschützte Daten, wie die Gildenbank oder den persönlichen Kalender des Charakters einsehen.
+			<p/>
+			Erfahrt mehr über das Interface zur Charakterauswahl und den Vorgang des Einloggens in unserer <a href="/faq-login.xml">FAQ zur Anmeldung im Arsenal</a>.
+		</faq>
+		<faq question="Was bewirkt die Option &quot;Besseren Gegenstand finden&quot; bei Gegenständen im Charakterprofil?">
+			Beim Überfahren eines Gegenstandes in einem Charakterprofil wird eine kleine Schaltfläche in Form eines Pfeiles angezeigt. Ein Klick auf diese Schaltfläche "Besseren Gegenstand finden" bringt euch auf eine Suchergebnisseite, die die besten Verbesserungsmöglichkeiten für diesen Gegenstand und für diesen Charakter anzeigt.
+			<p/>
+			Diese empfohlenen Verbesserungen richten sich nach der Klasse, den Eigenschaften und der generellen Ausrüstungsqualität dieses Charakters. Auf diese Weise könnt ihr nach Verbesserungen für euren Charakter sowie für alle anderen Charaktere in World of Warcraft suchen. Dieses Feature soll auch Charakteren mit mehreren Rüstungssets helfen, Verbesserungen für alle ihre Sets zu finden. Achtet für genaue Ergebnissse darauf, dass auf den gewählten Charakter keine Stärkungs- oder Schwächungszauber wirken, denn diese beeinflussen seine Charakterwerte, auf denen das Suchergebnis basiert.
+			<p/>
+			Lest mehr dazu in unserer <a href="/faq-item-info-recommended.xml">FAQ zum Suchen nach Verbesserungen</a>.
+		</faq>
+		<faq question="Was bedeutet der Begriff &quot;Relevanz&quot; auf der Ergebnisseite einer Suche?">
+			Wie die Relevanz bei einer Suchmaschine, versucht diese Kategorie die Ergebnisse zu sortieren, mit dem Ziel die passendsten Ergebnisse zuerst anzuzeigen. Die Relevanz wird durch eine Kombination von Faktoren in einem Algorithmus bestimmt. Diese Faktoren sind in jedem Bereich der Suche unterschiedlich. Zum Beispiel wird die Relevanz in der Suche nach einem Charakternamen von der Stufe des Charakters abhängen, von dem Zeitpunkt, an dem er sich zuletzt angemeldet hat, und noch weiteren Faktoren.
+		</faq>
+		<faq question="Welche Browser werden für das Arsenal unterstützt und empfohlen?">
+			Das Arsenal unterstützt Internet Explorer (Version 6.0 und neuer), Opera 9 und Safari. Allerdings werdet ihr im Arsenal mit <a href="http://www.mozilla-europe.org/de/products/firefox/" target="_blank">Firefox</a> die besten Erfahrungen machen. Außerdem benötigen einige Features den <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&amp;promoid=BIOW">Flash Player</a>, um korrekt angezeigt zu werden.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<!--<relatedlink name = "Neu im Arsenal - 19. November 2008" url = "/updates.xml" type = "new" />
+		<relatedlink type = "hr"/>-->
+		<relatedlink name="Belohnungen: Emblem des Heldentums" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofheroism&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Belohnungen: Emblem der Ehre" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofvalor&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Gegenstände: Erbstücke" url="/search.xml?fl[source]=all&amp;fl[type]=all&amp;fl[usbleBy]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[rrt]=hm&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>						
+		<relatedlink type="hr"/>
+		<relatedlink name="Arena-Rechner" url="/arena-calculator.xml"/>
+		<relatedlink name="Browser Such-Plugin" url="/search-plugin.xml"/>
+
+		<relatedlink type="hr"/>
+		<relatedlink name="Neu im Arsenal" url="/updates.xml"/>
+		<relatedlink name="Häufig gestellte Fragen" url="/faq-armory.xml"/>		
+		<relatedlink name="Bekannte Probleme" type="external" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+		<relatedlink name="Fehler melden" type="report" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+	</relatedlinks>
+</relatedinfo>

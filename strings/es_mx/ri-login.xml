@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Inicio de sesión en la Armería">
+	<faqlist>
+		<faq question="¿Qué cuenta debo usar para iniciar sesión en la Armería? ">
+			Si ya fusionaste tu cuenta de World of Warcraft con una cuenta de Battle.net, utiliza la información de tu cuenta de Battle.net. En caso contrario, deberás utilizar tu información de cuenta de World of Warcraft. 
+		</faq>	
+		<faq question="¿Por qué la Armería me pide que inicie sesión?">
+			En algunas secciones de la Armería, como el Calendario para el jugador, tendrás que iniciar sesión con tu cuenta de World of Warcraft debido al tipo de información que contienen. Es posible que en el futuro se agreguen nuevas secciones que lo requieran.
+		</faq>
+		<faq question="¿Hay otras características que sólo son accesibles después de iniciar sesión?">
+			Después de iniciar sesión podrás guardar perfiles de personaje múltiples en la cuenta con la que te conectaste. El perfil de personaje con mayor relevancia, según determine la Armería, aparecerá de manera automática en la parte superior derecha. Habrá varios personajes en el menú desplegable y podrás ver más personajes de la cuenta a través de la opción correspondiente de dicho menú. Esta característica tiene soporte para múltiples cuentas de World of Warcraft que hayan sido fusionadas con una cuenta de Battle.net.
+		</faq>	
+		<faq question="Me preocupa la seguridad de la información de mi cuenta. ¿Es seguro este proceso? ">
+			Verifica que el URL de esta página contenga wowarmory.com como raíz. El proceso de inicio de sesión es enviado a través de nuestro servidor seguro, el cual se aloja en un URL de Blizzard Entertainment como blizzard.com.
+		</faq>		
+		<faq question="¿Por qué no puedo iniciar sesión en la Armería?">
+			Los problemas de inicio de sesión en la Armería pueden deberse al almacenamiento de cookies de tu navegador. La configuración de éste deberá permitir que la Armería almacene cookies para que te sea posible utilizar esta característica.
+		</faq>		
+		<faq question="¿Cuánto dura una sesión iniciada?">
+			Tendrás acceso a las características protegidas, incluyendo las páginas del Banco y del Calendario, durante dos semanas aproximadamente.
+		</faq>
+		<faq question="¿Si inicio sesión en la Armería entraré también al sitio de Gestión de cuenta de World of Warcraft?">
+			No.
+		</faq>
+		<faq question="¿Cómo cierro mi sesión?">
+			Sólo haz clic en la opción "Salir" ubicada en la parte superior derecha. Cerrar la ventana de la Armería ya no te desconectará, sin embargo, borrar las cookies sí. Además, tu inicio de sesión expirará de manera automática al cabo de dos semanas aproximadamente.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="Emblemas de Heroísmo: recompensas" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofheroism&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Emblemas de Valor: recompensas" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofvalor&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Reliquias" url="/search.xml?fl[source]=all&amp;fl[type]=all&amp;fl[usbleBy]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[rrt]=hm&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Objetos de mazmorras y bandas" url="/dungeons.xml"/>
+		<relatedlink name="Recompensas de facción" url="/factions.xml"/>
+		<relatedlink name="Recompensas JcJ" url="/pvprewards.xml"/>		
+		<relatedlink type="hr"/>
+		<relatedlink name="Información del Torneo Arena" url="/arena-tournament.xml"/>		
+		<relatedlink type="hr"/>		
+		<relatedlink name="Preguntas frecuentes" url="/faq-armory.xml"/>		
+		<relatedlink name="Reporta errores en la página" type="report" url="mailto:wowarmory@blizzard.com?subject=WoW Armory Error&amp;body=Escribe tu reporte de error a continuación. Browser Agent: REPLACEBROWSER. Error on page: REPLACEURL"/>
+	</relatedlinks>
+</relatedinfo>

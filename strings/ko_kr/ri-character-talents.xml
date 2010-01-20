@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="캐릭터 특성">
+	<faqlist>
+		<faq question="특성 페이지에는 어떤 기능들이 있나요?">
+			캐릭터 특성 페이지에는 현재의 특성이 표시됩니다. 각 특성 위에 마우스를 올리면 자세한 설명을 읽어볼 수 있습니다. 특성 포인트가 추가되면 이에 따라 증가하는 능력치의 양도 갱신되어 표시됩니다.
+		</faq>
+		<faq question="해당 페이지에서 특성을 수정해 볼 수도 있나요?">
+			캐릭터의 실제 특성을 표시하는 본 페이지에서 특성을 수정할 수는 없습니다. 하지만, 링크를 클릭하면 나타나는 특성 계산기에서는 특성을 수정하여 다양한 조합을 시험해 볼 수 있습니다.
+		</faq>
+		<faq question="이 페이지에서 특성을 변경해 볼 수 있나요?">
+			해당 페이지의 내용이 실제 캐릭터의 특성 구조이기 때문에, 이 페이지에서는 특성을 변경해 볼 수 없습니다. 특성 화면 아래 있는 "특성 내보내기"를 사용하면 월드 오브 워크래프트 웹사이트에서 해당 특성 구조와 동일한 형태로 특성 미리 보기를 할 수 있는 페이지로 이동합니다. 이동한 페이지에서 원하는 대로 자신의 특성을 변경해 볼 수 있습니다.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="캐릭터 검색" url="/character-search.xml"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="특성 기본 정보" type="external" url="http://www.worldofwarcraft.co.kr/info/basics/beginners/talents.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="F.A.Q." url="/faq-armory.xml"/>		
+		<relatedlink name="알려진 문제들" type="external" url="Javascript:openIssues()"/>	
+		<relatedlink name="전투정보실 오류 신고" type="report" url="mailto:bugreport@blizzard.co.kr"/>
+	</relatedlinks>
+</relatedinfo>

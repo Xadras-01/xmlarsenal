@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?><page globalSearch="1" lang="ko_kr" requestUrl="/talent-tree.xml">
+  <talentTrees>
+    <tree bgImage="MageFrost" icon="spell_frost_frostbolt02" key="Frost" name="냉기" order="2">
+      <talent column="0" icon="spell_frost_frostarmor" key="38" name="동상" tier="0">
+        <rank description="5%의 확률로 빙결 효과에 걸린 적을 5초 동안 움직이지 못하도록 만듭니다." lvl="1"/>
+        <rank description="10%의 확률로 빙결 효과에 걸린 적을 5초 동안 움직이지 못하도록 만듭니다." lvl="2"/>
+        <rank description="15%의 확률로 빙결 효과에 걸린 적을 5초 동안 움직이지 못하도록 만듭니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_frost_frostbolt02" key="37" name="얼음 화살 연마" tier="0">
+        <rank description="얼음 화살의 시전 시간이 0.1초만큼 단축됩니다." lvl="1"/>
+        <rank description="얼음 화살의 시전 시간이 0.2초만큼 단축됩니다." lvl="2"/>
+        <rank description="얼음 화살의 시전 시간이 0.3초만큼 단축됩니다." lvl="3"/>
+        <rank description="얼음 화살의 시전 시간이 0.4초만큼 단축됩니다." lvl="4"/>
+        <rank description="얼음 화살의 시전 시간이 0.5초만큼 단축됩니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_frost_icefloes" key="62" name="빙하" tier="0">
+        <rank description="얼음 회오리, 냉기 돌풍, 얼음 방패, 얼음 핏줄의 재사용 대기시간이 7%만큼 단축됩니다." lvl="1"/>
+        <rank description="얼음 회오리, 냉기 돌풍, 얼음 방패, 얼음 핏줄의 재사용 대기시간이 14%만큼 단축됩니다." lvl="2"/>
+        <rank description="얼음 회오리, 냉기 돌풍, 얼음 방패, 얼음 핏줄의 재사용 대기시간이 20%만큼 단축됩니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_frost_iceshard" key="73" name="얼음 파편" tier="1">
+        <rank description="냉기 주문이 치명타로 적중할 경우 보너스 피해가 33%만큼 증가합니다." lvl="1"/>
+        <rank description="냉기 주문이 치명타로 적중할 경우 보너스 피해가 66%만큼 증가합니다." lvl="2"/>
+        <rank description="냉기 주문이 치명타로 적중할 경우 보너스 피해가 100%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_frost_frostward" key="70" name="냉기의 수호" tier="1">
+        <rank description="냉기 갑옷과 얼음 갑옷으로 증가하는 방어도와 저항력이 25%만큼 증가합니다. 추가로 냉기계 수호와 화염계 수호가 활성화되어 있는 동안 15%의 확률로 흡수한 공격 주문의 피해를 무효화하고 그 피해만큼 마나를 회복합니다." lvl="1"/>
+        <rank description="냉기 갑옷과 얼음 갑옷으로 증가하는 방어도와 저항력이 50%만큼 증가합니다. 추가로 냉기계 수호와 화염계 수호가 활성화되어 있는 동안 30%의 확률로 흡수한 공격 주문의 피해를 무효화하고 그 피해만큼 마나를 회복합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_ice_magicdamage" key="1649" name="정밀함" tier="1">
+        <rank description="주문의 적중률이 1%만큼 증가하고 주문의 마나 소비량이 같은 비율로 감소합니다." lvl="1"/>
+        <rank description="주문의 적중률이 2%만큼 증가하고 주문의 마나 소비량이 같은 비율로 감소합니다." lvl="2"/>
+        <rank description="주문의 적중률이 3%만큼 증가하고 주문의 마나 소비량이 같은 비율로 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_frost_wisp" key="65" name="영구 결빙" tier="1">
+        <rank description="빙결 효과의 지속시간을 1초만큼 증가시키고 대상의 이동 속도를 4%만큼, 대상이 받는 치유 효과를 7%만큼 감소시킵니다." lvl="1"/>
+        <rank description="빙결 효과의 지속시간을 2초만큼 증가시키고 대상의 이동 속도를 7%만큼, 대상이 받는 치유 효과를 13%만큼 감소시킵니다." lvl="2"/>
+        <rank description="빙결 효과의 지속시간을 3초만큼 증가시키고 대상의 이동 속도를 10%만큼, 대상이 받는 치유 효과를 20%만큼 감소시킵니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_frost_frostbolt" key="61" name="사무치는 냉기" tier="2">
+        <rank description="냉기 주문의 공격력이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="냉기 주문의 공격력이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="냉기 주문의 공격력이 6%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_frost_coldhearted" key="69" name="얼음 핏줄" tier="2">
+        <rank description="주문 시전을 빠르게 하여, 주문 시전 가속도를 20%만큼 증가시키고 주문 시전 중 피해로 인한 시전 밀림 효과를 100%만큼 감소시킵니다. 20초 동안 지속됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000">
+          <power cost="3" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_frost_icestorm" key="63" name="눈보라 연마" tier="2">
+        <rank description="눈보라 주문에 피해를 입을 때 빙결에 걸리도록 합니다. 빙결 효과는 적의 이동 속도를 25%만큼 감소시킵니다. 1.50초 동안 지속됩니다." lvl="1"/>
+        <rank description="눈보라 주문에 피해를 입을 때 빙결에 걸리도록 합니다. 빙결 효과는 적의 이동 속도를 40%만큼 감소시킵니다. 1.50초 동안 지속됩니다." lvl="2"/>
+        <rank description="눈보라 주문에 피해를 입을 때 빙결에 걸리도록 합니다. 빙결 효과는 적의 이동 속도를 50%만큼 감소시킵니다. 1.50초 동안 지속됩니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_darkritual" key="741" name="혹한의 손길" tier="3">
+        <rank description="얼음 화살, 얼음창, 동결, 눈보라의 사정거리와 얼음 회오리, 냉기 돌풍의 반경이 10%만큼 증가합니다." lvl="1"/>
+        <rank description="얼음 화살, 얼음창, 동결, 눈보라의 사정거리와 얼음 회오리, 냉기 돌풍의 반경이 20%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_frost_stun" key="66" name="냉기계 정신집중" tier="3">
+        <rank description="마법을 시전하는 데 필요한 마나가 4%만큼 감소하고 냉기 주문으로 발생되는 위협 수준이 4%만큼 감소합니다." lvl="1"/>
+        <rank description="마법을 시전하는 데 필요한 마나가 7%만큼 감소하고 냉기 주문으로 발생되는 위협 수준이 7%만큼 감소합니다." lvl="2"/>
+        <rank description="마법을 시전하는 데 필요한 마나가 10%만큼 감소하고 냉기 주문으로 발생되는 위협 수준이 10%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_frost_frostshock" key="67" name="산산조각" tier="3">
+        <rank description="얼어붙은 적을 주문으로 공격했을 때 극대화 효과를 발휘할 확률이 17%만큼 증가합니다." lvl="1"/>
+        <rank description="얼어붙은 적을 주문으로 공격했을 때 극대화 효과를 발휘할 확률이 34%만큼 증가합니다." lvl="2"/>
+        <rank description="얼어붙은 적을 주문으로 공격했을 때 극대화 효과를 발휘할 확률이 50%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_frost_wizardmark" key="72" name="매서운 한파" tier="4">
+        <rank description="최근 사용한 모든 냉기 주문의 재사용 대기시간을 초기화시켜 바로 사용할 수 있도록 합니다." lvl="1"/>
+        <spell castTime="0" cooldown="480000"/>
+      </talent>
+      <talent column="2" icon="spell_frost_glacier" key="64" name="냉기 돌풍 연마" tier="4">
+        <rank description="냉기 돌풍의 공격력이 15%만큼 증가합니다." lvl="1"/>
+        <rank description="냉기 돌풍의 공격력이 25%만큼 증가합니다." lvl="2"/>
+        <rank description="냉기 돌풍의 공격력이 35%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_frost_frozencore" key="1736" name="얼어붙은 핵" tier="4">
+        <rank description="받는 모든 마법 피해가 2%만큼 감소합니다." lvl="1"/>
+        <rank description="받는 모든 마법 피해가 4%만큼 감소합니다." lvl="2"/>
+        <rank description="받는 모든 마법 피해가 6%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_mage_coldasice" key="1737" name="얼음 한기" requires="72" tier="5">
+        <rank description="매서운 한파, 얼음 보호막, 물의 정령 소환 주문의 재사용 대기시간이 10%만큼 감소합니다." lvl="1"/>
+        <rank description="매서운 한파, 얼음 보호막, 물의 정령 소환 주문의 재사용 대기시간이 20%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_frost_chillingblast" key="68" name="혹한의 추위" tier="5">
+        <rank description="얼음 화살 주문이 치명타로 적중할 확률이 추가로 1%만큼 증가하고 냉기 공격 주문 사용 시 33%의 확률로 혹한의 추위 효과를 얻게 됩니다. 효과가 활성화되면 15초 동안 주문이 극대화 효과를 발휘할 확률이 1%만큼 증가합니다. 5번까지 중복될 수 있습니다." lvl="1"/>
+        <rank description="얼음 화살 주문이 치명타로 적중할 확률이 추가로 2%만큼 증가하고 냉기 공격 주문 사용 시 66%의 확률로 혹한의 추위 효과를 얻게 됩니다. 효과가 활성화되면 15초 동안 주문이 극대화 효과를 발휘할 확률이 1%만큼 증가합니다. 5번까지 중복될 수 있습니다." lvl="2"/>
+        <rank description="얼음 화살 주문이 치명타로 적중할 확률이 추가로 3%만큼 증가하고 냉기 공격 주문 사용 시 100%의 확률로 혹한의 추위 효과를 얻게 됩니다. 효과가 활성화되면 15초 동안 주문이 극대화 효과를 발휘할 확률이 1%만큼 증가합니다. 5번까지 중복될 수 있습니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_mage_shattershield" key="2214" name="부서지는 보호막" requires="71" tier="6">
+        <rank description="얼음 보호막이 파괴되면 50%의 확률로 10미터 반경 내에 있는 모든 적들을 8초 동안 얼어붙게 만듭니다." lvl="1"/>
+        <rank description="얼음 보호막이 파괴되면 100%의 확률로 10미터 반경 내에 있는 모든 적들을 8초 동안 얼어붙게 만듭니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_ice_lament" key="71" name="얼음 보호막" requires="72" tier="6">
+        <rank description="자신 주위에 즉시 보호막을 생성하여 438의 피해를 흡수합니다. 1분 동안 지속됩니다. 보호막이 지속되는 동안은 피해를 입어도 마법 시전이 지연되지 않습니다." lvl="1"/>
+        <spell castTime="0" cooldown="30000">
+          <power cost="26" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_frost_arcticwinds" key="1738" name="북극의 바람" tier="6">
+        <rank description="냉기 공격으로 입히는 피해가 1%만큼 증가하고 근접 및 원거리 공격에 적중 당할 확률이 1%만큼 감소합니다." lvl="1"/>
+        <rank description="냉기 공격으로 입히는 피해가 2%만큼 증가하고 근접 및 원거리 공격에 적중 당할 확률이 2%만큼 감소합니다." lvl="2"/>
+        <rank description="냉기 공격으로 입히는 피해가 3%만큼 증가하고 근접 및 원거리 공격에 적중 당할 확률이 3%만큼 감소합니다." lvl="3"/>
+        <rank description="냉기 공격으로 입히는 피해가 4%만큼 증가하고 근접 및 원거리 공격에 적중 당할 확률이 4%만큼 감소합니다." lvl="4"/>
+        <rank description="냉기 공격으로 입히는 피해가 5%만큼 증가하고 근접 및 원거리 공격에 적중 당할 확률이 5%만큼 감소합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_frost_frostbolt02" key="1740" name="얼음 화살 강화" tier="7">
+        <rank description="얼음 화살 주문의 피해가 주문력의 5%만큼 증가하고 시전 시간이 0.1초만큼 감소합니다." lvl="1"/>
+        <rank description="얼음 화살 주문의 피해가 주문력의 10%만큼 증가하고 시전 시간이 0.2초만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_mage_wintersgrasp" key="1853" name="서리의 손가락" tier="7">
+        <rank description="빙결 효과를 일으키면 7%의 확률로 서리의 손가락 효과를 받아, 자신이 시전하는 다음 2회의 주문은 얼어붙은 대상을 공격하는 효과를 내도록 합니다. 15초 동안 지속됩니다." lvl="1"/>
+        <rank description="빙결 효과를 일으키면 15%의 확률로 서리의 손가락 효과를 받아, 자신이 시전하는 다음 2회의 주문은 얼어붙은 대상을 공격하는 효과를 내도록 합니다. 15초 동안 지속됩니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_mage_brainfreeze" key="1854" name="두뇌 빙결" tier="8">
+        <rank description="빙결 효과가 있는 냉기 주문 시전 시 5%의 확률로 다음 화염구 주문은 마나를 소비하지 않고 즉시 시전됩니다." lvl="1"/>
+        <rank description="빙결 효과가 있는 냉기 주문 시전 시 10%의 확률로 다음 화염구 주문은 마나를 소비하지 않고 즉시 시전됩니다." lvl="2"/>
+        <rank description="빙결 효과가 있는 냉기 주문 시전 시 15%의 확률로 다음 화염구 주문은 마나를 소비하지 않고 즉시 시전됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_frost_summonwaterelemental_2" key="1741" name="물의 정령 소환" tier="8">
+        <rank description="45초 동안 시전자의 명령을 따르는 물의 정령을 소환합니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000">
+          <power cost="16" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_frost_summonwaterelemental_2" key="1855" name="인내의 겨울" requires="1741" tier="8">
+        <rank description="소환된 물의 정령이 머무는 시간이 5초만큼 증가하고 얼음 화살 공격 시 33%의 확률로 재충전 효과를 발동시켜 최대 10명의 파티원 혹은 공격대원이 15초 동안 매초마다 최대 마나의 0.25%에 해당하는 마나를 회복하게 합니다. 이 효과는 6초마다 한 번씩만 발동됩니다." lvl="1"/>
+        <rank description="소환된 물의 정령이 머무는 시간이 10초만큼 증가하고 얼음 화살 공격 시 66%의 확률로 재충전 효과를 발동시켜 최대 10명의 파티원 혹은 공격대원이 15초 동안 매초마다 최대 마나의 0.25%에 해당하는 마나를 회복하게 합니다. 이 효과는 6초마다 한 번씩만 발동됩니다." lvl="2"/>
+        <rank description="소환된 물의 정령이 머무는 시간이 15초만큼 증가하고 얼음 화살 공격 시 100%의 확률로 재충전 효과를 발동시켜 최대 10명의 파티원 혹은 공격대원이 15초 동안 매초마다 최대 마나의 0.25%에 해당하는 마나를 회복하게 합니다. 이 효과는 6초마다 한 번씩만 발동됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_mage_chilledtothebone" key="1856" name="사무치는 한기" tier="9">
+        <rank description="얼음 화살, 얼음불꽃 화살 및 얼음창의 공격력이 1%만큼 증가하고 빙결 효과에 걸린 대상의 이동 속도가 추가로 2%만큼 감소합니다." lvl="1"/>
+        <rank description="얼음 화살, 얼음불꽃 화살 및 얼음창의 공격력이 2%만큼 증가하고 빙결 효과에 걸린 대상의 이동 속도가 추가로 4%만큼 감소합니다." lvl="2"/>
+        <rank description="얼음 화살, 얼음불꽃 화살 및 얼음창의 공격력이 3%만큼 증가하고 빙결 효과에 걸린 대상의 이동 속도가 추가로 6%만큼 감소합니다." lvl="3"/>
+        <rank description="얼음 화살, 얼음불꽃 화살 및 얼음창의 공격력이 4%만큼 증가하고 빙결 효과에 걸린 대상의 이동 속도가 추가로 8%만큼 감소합니다." lvl="4"/>
+        <rank description="얼음 화살, 얼음불꽃 화살 및 얼음창의 공격력이 5%만큼 증가하고 빙결 효과에 걸린 대상의 이동 속도가 추가로 10%만큼 감소합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_mage_deepfreeze" key="1857" name="동결" tier="10">
+        <rank description="5초 동안 대상을 기절시킵니다. 얼어붙은 대상에게만 사용할 수 있습니다." lvl="1"/>
+        <spell castTime="0" cooldown="30000" maxRange="30">
+          <power cost="9" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="MageFire" icon="spell_fire_firebolt02" key="Fire" name="화염" order="1">
+      <talent column="0" icon="spell_fire_fireball" key="27" name="화염 작렬 연마" tier="0">
+        <rank description="화염 작렬의 재사용 대기시간이 1초만큼 단축됩니다." lvl="1"/>
+        <rank description="화염 작렬의 재사용 대기시간이 2초만큼 단축됩니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_fire_flameshock" key="1141" name="소각" tier="0">
+        <rank description="화염 작렬, 불태우기, 비전 작렬, 냉기 돌풍이 극대화 효과를 발휘할 확률이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="화염 작렬, 불태우기, 비전 작렬, 냉기 돌풍이 극대화 효과를 발휘할 확률이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="화염 작렬, 불태우기, 비전 작렬, 냉기 돌풍이 극대화 효과를 발휘할 확률이 6%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_fire_flamebolt" key="26" name="화염구 연마" tier="0">
+        <rank description="화염구의 시전 시간이 0.1초만큼 단축됩니다." lvl="1"/>
+        <rank description="화염구의 시전 시간이 0.2초만큼 단축됩니다." lvl="2"/>
+        <rank description="화염구의 시전 시간이 0.3초만큼 단축됩니다." lvl="3"/>
+        <rank description="화염구의 시전 시간이 0.4초만큼 단축됩니다." lvl="4"/>
+        <rank description="화염구의 시전 시간이 0.5초만큼 단축됩니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_fire_incinerate" key="34" name="작열" tier="1">
+        <rank description="화염 주문이 치명타로 적중했을 때, 4초에 걸쳐 입힌 피해의 8%에 해당하는 추가 피해를 입힙니다." lvl="1"/>
+        <rank description="화염 주문이 치명타로 적중했을 때, 4초에 걸쳐 입힌 피해의 16%에 해당하는 추가 피해를 입힙니다." lvl="2"/>
+        <rank description="화염 주문이 치명타로 적중했을 때, 4초에 걸쳐 입힌 피해의 24%에 해당하는 추가 피해를 입힙니다." lvl="3"/>
+        <rank description="화염 주문이 치명타로 적중했을 때, 4초에 걸쳐 입힌 피해의 32%에 해당하는 추가 피해를 입힙니다." lvl="4"/>
+        <rank description="화염 주문이 치명타로 적중했을 때, 4초에 걸쳐 입힌 피해의 40%에 해당하는 추가 피해를 입힙니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_fire_totemofwrath" key="2212" name="불타는 결의" tier="1">
+        <rank description="주문 시전이 방해받거나 침묵에 걸릴 경우 50%의 확률로 10초 동안 주문 시전 방해와 침묵에 면역이 됩니다." lvl="1"/>
+        <rank description="주문 시전이 방해받거나 침묵에 걸릴 경우 100%의 확률로 10초 동안 주문 시전 방해와 침묵에 면역이 됩니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="ability_mage_worldinflames" key="31" name="화염의 세계" tier="1">
+        <rank description="불기둥, 불덩이 작렬, 화염 폭풍, 용의 숨결, 살아있는 폭탄, 눈보라, 신비한 폭발 주문이 극대화 효과를 발휘할 확률이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="불기둥, 불덩이 작렬, 화염 폭풍, 용의 숨결, 살아있는 폭탄, 눈보라, 신비한 폭발 주문이 극대화 효과를 발휘할 확률이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="불기둥, 불덩이 작렬, 화염 폭풍, 용의 숨결, 살아있는 폭탄, 눈보라, 신비한 폭발 주문이 극대화 효과를 발휘할 확률이 6%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_fire_flare" key="28" name="화염 발사" tier="2">
+        <rank description="얼음불꽃 화살을 제외한 모든 화염 주문의 사정 거리가 3미터만큼 증가합니다." lvl="1"/>
+        <rank description="얼음불꽃 화살을 제외한 모든 화염 주문의 사정 거리가 6미터만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_fire_meteorstorm" key="30" name="충돌" tier="2">
+        <rank description="주문 공격 시 4%의 확률로 다음 시전하는 화염 작렬 주문이 적을 2초 동안 기절시키게 합니다." lvl="1"/>
+        <rank description="주문 공격 시 7%의 확률로 다음 시전하는 화염 작렬 주문이 적을 2초 동안 기절시키게 합니다." lvl="2"/>
+        <rank description="주문 공격 시 10%의 확률로 다음 시전하는 화염 작렬 주문이 적을 2초 동안 기절시키게 합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_fire_fireball02" key="29" name="불덩이 작렬" tier="2">
+        <rank description="엄청난 크기의 불덩이를 던져 141~187의 화염 피해를 입히고 추가로 12초에 걸쳐 총 56의 화염 피해를 입힙니다." lvl="1"/>
+        <spell castTime="5000" maxRange="35">
+          <power cost="27" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="3" icon="spell_fire_fire" key="23" name="불타는 영혼" tier="2">
+        <rank description="화염 주문 시전 시 피해로 인한 시전 밀림 효과가 35%만큼 감소하고 화염 주문으로 발생되는 위협 수준이 5%만큼 감소합니다." lvl="1"/>
+        <rank description="화염 주문 시전 시 피해로 인한 시전 밀림 효과가 70%만큼 감소하고 화염 주문으로 발생되는 위협 수준이 10%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_fire_soulburn" key="25" name="불태우기 연마" tier="3">
+        <rank description="불태우기, 화염구, 얼음불꽃 화살 주문이 치명타로 적중할 확률이 추가로 1%만큼 증가하고, 불태우기 사용 시 33%의 확률로 대상을 주문 공격에 취약하게 만들어 30초 동안 대상에게 주문 치명타를 적중시킬 확률을 1%만큼 증가시킵니다. 최대 5번까지 중복됩니다." lvl="1"/>
+        <rank description="불태우기, 화염구, 얼음불꽃 화살 주문이 치명타로 적중할 확률이 추가로 2%만큼 증가하고, 불태우기 사용 시 66%의 확률로 대상을 주문 공격에 취약하게 만들어 30초 동안 대상에게 주문 치명타를 적중시킬 확률을 1%만큼 증가시킵니다. 최대 5번까지 중복됩니다." lvl="2"/>
+        <rank description="불태우기, 화염구, 얼음불꽃 화살 주문이 치명타로 적중할 확률이 추가로 3%만큼 증가하고, 불태우기 사용 시 100%의 확률로 대상을 주문 공격에 취약하게 만들어 30초 동안 대상에게 주문 치명타를 적중시킬 확률을 1%만큼 증가시킵니다. 최대 5번까지 중복됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_fire_firearmor" key="24" name="타오르는 보호막" tier="3">
+        <rank description="화염계 수호와 냉기계 수호가 활성화되어 있는 동안 15%의 확률로 흡수한 주문을 반사합니다. 추가로 타오르는 갑옷은 50%의 확률로 원거리 및 주문 공격에 영향을 줍니다." lvl="1"/>
+        <rank description="화염계 수호와 냉기계 수호가 활성화되어 있는 동안 30%의 확률로 흡수한 주문을 반사합니다. 추가로 타오르는 갑옷은 100%의 확률로 원거리 및 주문 공격에 영향을 줍니다." lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_fire_masterofelements" key="1639" name="원소 마법의 대가" tier="3">
+        <rank description="주문이 극대화 효과를 발휘할 경우 기본 마나의 10%만큼을 다시 돌려받습니다." lvl="1"/>
+        <rank description="주문이 극대화 효과를 발휘할 경우 기본 마나의 20%만큼을 다시 돌려받습니다." lvl="2"/>
+        <rank description="주문이 극대화 효과를 발휘할 경우 기본 마나의 30%만큼을 다시 돌려받습니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_fire_playingwithfire" key="1730" name="불장난" tier="4">
+        <rank description="모든 주문 공격력이 1%만큼 증가하지만 받는 모든 주문 피해도 1%만큼 증가합니다." lvl="1"/>
+        <rank description="모든 주문 공격력이 2%만큼 증가하지만 받는 모든 주문 피해도 2%만큼 증가합니다." lvl="2"/>
+        <rank description="모든 주문 공격력이 3%만큼 증가하지만 받는 모든 주문 피해도 3%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_wispheal" key="33" name="화염 결집" tier="4">
+        <rank description="화염 주문이 극대화 효과를 발휘할 확률이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="화염 주문이 극대화 효과를 발휘할 확률이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="화염 주문이 극대화 효과를 발휘할 확률이 6%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_excorcism_02" key="32" name="화염 폭풍" requires="29" tier="4">
+        <rank description="불의 파도가 시전자 주위로 뿜어져 나와 모든 적을 불길로 감싸 154~186의 화염 피해를 입히고 멀리 밀쳐낸 후 6초 동안 멍해지게 만듭니다." lvl="1"/>
+        <spell castTime="0" cooldown="30000">
+          <power cost="34" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="spell_fire_burningspeed" key="1731" name="타오르는 속도" tier="5">
+        <rank description="근접 및 원거리 공격에 적중당했을 경우 5%의 확률로 8초 동안 이동 속도가 50%만큼 증가하고 모든 이동 방해 효과를 무효화합니다." lvl="1"/>
+        <rank description="근접 및 원거리 공격에 적중당했을 경우 10%의 확률로 8초 동안 이동 속도가 50%만큼 증가하고 모든 이동 방해 효과를 무효화합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_fire_immolation" key="35" name="화염 마법 강화" tier="5">
+        <rank description="화염 계열 주문의 공격력이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="화염 계열 주문의 공격력이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="화염 계열 주문의 공격력이 6%만큼 증가합니다." lvl="3"/>
+        <rank description="화염 계열 주문의 공격력이 8%만큼 증가합니다." lvl="4"/>
+        <rank description="화염 계열 주문의 공격력이 10%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_fire_burnout" key="1733" name="광기의 화염술사" tier="6">
+        <rank description="주문의 극대화 적중률이 1%만큼 추가로 증가하고 주문 시전 중에도 17%의 속도로 마나가 회복됩니다." lvl="1"/>
+        <rank description="주문의 극대화 적중률이 2%만큼 추가로 증가하고 주문 시전 중에도 33%의 속도로 마나가 회복됩니다." lvl="2"/>
+        <rank description="주문의 극대화 적중률이 3%만큼 추가로 증가하고 주문 시전 중에도 50%의 속도로 마나가 회복됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_fire_sealoffire" key="36" name="발화" requires="33" tier="6">
+        <rank description="활성화되면 자신의 화염 공격 주문이 적중할 때마다 화염 공격 주문이 극대화 효과를 발휘할 확률이 10%만큼 증가합니다. 극대화 효과를 3회 발휘할 때까지 지속됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+      <talent column="2" icon="spell_fire_moltenblood" key="1732" name="타오르는 격노" tier="6">
+        <rank description="생명력이 35% 미만인 적에 대해 모든 계열의 주문 공격력이 6%만큼 증가합니다." lvl="1"/>
+        <rank description="생명력이 35% 미만인 적에 대해 모든 계열의 주문 공격력이 12%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="ability_mage_fierypayback" key="1848" name="보복의 불꽃" tier="7">
+        <rank description="생명력이 35% 미만일 때 받는 모든 피해가 10%만큼 감소하고, 불덩이 작렬의 시전 시간이 1.75초만큼 감소합니다. 동시에 재사용 대기시간이 2.5초만큼 증가합니다. 추가로 근접 및 원거리 공격을 받으면 5%의 확률로 공격자의 주무기와 원거리 무기를 무장 해제시킵니다." lvl="1"/>
+        <rank description="생명력이 35% 미만일 때 받는 모든 피해가 20%만큼 감소하고, 불덩이 작렬의 시전 시간이 3.5초만큼 감소합니다. 동시에 재사용 대기시간이 5초만큼 증가합니다. 추가로 근접 및 원거리 공격을 받으면 10%의 확률로 공격자의 주무기와 원거리 무기를 무장 해제시킵니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_fire_flamebolt" key="1734" name="강력한 불꽃" tier="7">
+        <rank description="화염구와 얼음불꽃 화살의 피해가 주문력의 5%만큼 증가합니다. 추가로, 작열 특성으로 피해를 입힐 때마다 33%의 확률로 기본 마나의 2%에 해당하는 마나를 회복합니다." lvl="1"/>
+        <rank description="화염구와 얼음불꽃 화살의 피해가 주문력의 10%만큼 증가합니다. 추가로, 작열 특성으로 피해를 입힐 때마다 67%의 확률로 기본 마나의 2%에 해당하는 마나를 회복합니다." lvl="2"/>
+        <rank description="화염구와 얼음불꽃 화살의 피해가 주문력의 15%만큼 증가합니다. 추가로, 작열 특성으로 피해를 입힐 때마다 100%의 확률로 기본 마나의 2%에 해당하는 마나를 회복합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_mage_firestarter" key="1849" name="화염 촉발" requires="1735" tier="8">
+        <rank description="화염 폭풍과 용의 숨결 주문으로 피해를 입혔을 때 50%의 확률로 다음 불기둥 주문이 즉시 시전됩니다. 10초 동안 지속됩니다." lvl="1"/>
+        <rank description="화염 폭풍과 용의 숨결 주문으로 피해를 입혔을 때 100%의 확률로 다음 불기둥 주문이 즉시 시전됩니다. 10초 동안 지속됩니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="inv_misc_head_dragon_01" key="1735" name="용의 숨결" requires="36" tier="8">
+        <rank description="시전자 전방의 적에게 370~430의 화염 피해를 입히고 5초 동안 방황하게 만듭니다. 직접 피해를 입으면 효과가 사라집니다. 사용하면 자동 공격을 중단합니다." lvl="1"/>
+        <spell castTime="0" cooldown="20000">
+          <power cost="37" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_mage_hotstreak" key="1850" name="몰아치는 열기" tier="8">
+        <rank description="주기적인 피해를 제외하고 화염구, 화염 작렬, 불태우기, 살아있는 폭탄, 얼음불꽃 화살 주문이 2회 연속해서 극대화 효과를 발휘하면 33%의 확률로 10초 내에 시전하는 다음 불덩이 작렬 주문은 즉시 시전됩니다." lvl="1"/>
+        <rank description="주기적인 피해를 제외하고 화염구, 화염 작렬, 불태우기, 살아있는 폭탄, 얼음불꽃 화살 주문이 2회 연속해서 극대화 효과를 발휘하면 66%의 확률로 10초 내에 시전하는 다음 불덩이 작렬 주문은 즉시 시전됩니다." lvl="2"/>
+        <rank description="주기적인 피해를 제외하고 화염구, 화염 작렬, 불태우기, 살아있는 폭탄, 얼음불꽃 화살 주문이 2회 연속해서 극대화 효과를 발휘하면 100%의 확률로 10초 내에 시전하는 다음 불덩이 작렬 주문은 즉시 시전됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_mage_burnout" key="1851" name="완전 연소" tier="9">
+        <rank description="주문의 극대화 피해 보너스가 10%만큼 증가하고 동시에 주기적인 피해를 제외한 주문이 극대화 효과를 발휘하면 주문에 소비되는 마나의 1%를 추가로 소비합니다." lvl="1"/>
+        <rank description="주문의 극대화 피해 보너스가 20%만큼 증가하고 동시에 주기적인 피해를 제외한 주문이 극대화 효과를 발휘하면 주문에 소비되는 마나의 2%를 추가로 소비합니다." lvl="2"/>
+        <rank description="주문의 극대화 피해 보너스가 30%만큼 증가하고 동시에 주기적인 피해를 제외한 주문이 극대화 효과를 발휘하면 주문에 소비되는 마나의 3%를 추가로 소비합니다." lvl="3"/>
+        <rank description="주문의 극대화 피해 보너스가 40%만큼 증가하고 동시에 주기적인 피해를 제외한 주문이 극대화 효과를 발휘하면 주문에 소비되는 마나의 4%를 추가로 소비합니다." lvl="4"/>
+        <rank description="주문의 극대화 피해 보너스가 50%만큼 증가하고 동시에 주기적인 피해를 제외한 주문이 극대화 효과를 발휘하면 주문에 소비되는 마나의 5%를 추가로 소비합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_mage_livingbomb" key="1852" name="살아있는 폭탄" tier="10">
+        <rank description="대상은 살아있는 폭탄이 되어 12초에 걸쳐 612의 화염 피해를 입습니다. 12초 후, 혹은 주문이 무효화되면 대상은 폭발하여 10미터 반경 내에 있는 모든 적에게 306의 화염 피해를 입힙니다." lvl="1"/>
+        <spell castTime="0" maxRange="35">
+          <power cost="27" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="MageArcane" icon="spell_holy_magicalsentry" key="Arcane" name="비전" order="0">
+      <talent column="0" icon="spell_holy_dispelmagic" key="74" name="신비한 미묘함" tier="0">
+        <rank description="자신의 이로운 주문과 지속적인 피해 효과가 무효화될 확률이 15%만큼 감소하고 비전 주문으로 발생되는 위협 수준이 20%만큼 감소합니다." lvl="1"/>
+        <rank description="자신의 이로운 주문과 지속적인 피해 효과가 무효화될 확률이 30%만큼 감소하고 비전 주문으로 발생되는 위협 수준이 40%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_devotion" key="76" name="신비한 집중" tier="0">
+        <rank description="비전 계열 주문으로 공격을 적중시킬 확률이 1%만큼 증가하고 같은 비율만큼 비전 계열 주문에 소비되는 마나가 감소합니다." lvl="1"/>
+        <rank description="비전 계열 주문으로 공격을 적중시킬 확률이 2%만큼 증가하고 같은 비율만큼 비전 계열 주문에 소비되는 마나가 감소합니다." lvl="2"/>
+        <rank description="비전 계열 주문으로 공격을 적중시킬 확률이 3%만큼 증가하고 같은 비율만큼 비전 계열 주문에 소비되는 마나가 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_nature_starfall" key="80" name="신비한 안정성" tier="0">
+        <rank description="신비한 화살과 비전 작렬 시전 중 피해로 인한 시전 밀림 효과가 20%만큼 감소합니다." lvl="1"/>
+        <rank description="신비한 화살과 비전 작렬 시전 중 피해로 인한 시전 밀림 효과가 40%만큼 감소합니다." lvl="2"/>
+        <rank description="신비한 화살과 비전 작렬 시전 중 피해로 인한 시전 밀림 효과가 60%만큼 감소합니다." lvl="3"/>
+        <rank description="신비한 화살과 비전 작렬 시전 중 피해로 인한 시전 밀림 효과가 80%만큼 감소합니다." lvl="4"/>
+        <rank description="신비한 화살과 비전 작렬 시전 중 피해로 인한 시전 밀림 효과가 100%만큼 감소합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_arcane_arcaneresilience" key="85" name="신비한 인내력" tier="1">
+        <rank description="방어도가 지능의 50%만큼 증가합니다." lvl="1"/>
+        <rank description="방어도가 지능의 100%만큼 증가합니다." lvl="2"/>
+        <rank description="방어도가 지능의 150%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_astralrecalgroup" key="1650" name="마법 흡수" tier="1">
+        <rank description="모든 마법 저항력이 레벨 당 0.5만큼 증가하고 주문을 완전히 저항할 때마다 전체 마나의 1%에 달하는 마나를 회복합니다. 1초마다 1번씩만 발동됩니다." lvl="1"/>
+        <rank description="모든 마법 저항력이 레벨 당 1만큼 증가하고 시전자가 주문을 완전히 저항할 때마다 전체 마나의 2%에 달하는 마나를 회복합니다. 1초마다 1번씩만 발동됩니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_manaburn" key="75" name="신비한 정신집중" tier="1">
+        <rank description="공격 마법이 대상에 적중한 이후 2%의 확률로 정신 집중 상태를 취합니다. 정신 집중 상태에서는 다음 공격 주문의 마나 소비량이 100%만큼 감소됩니다." lvl="1"/>
+        <rank description="공격 마법이 대상에 적중한 이후 4%의 확률로 정신 집중 상태를 취합니다. 정신 집중 상태에서는 다음 공격 주문의 마나 소비량이 100%만큼 감소됩니다." lvl="2"/>
+        <rank description="공격 마법이 대상에 적중한 이후 6%의 확률로 정신 집중 상태를 취합니다. 정신 집중 상태에서는 다음 공격 주문의 마나 소비량이 100%만큼 감소됩니다." lvl="3"/>
+        <rank description="공격 마법이 대상에 적중한 이후 8%의 확률로 정신 집중 상태를 취합니다. 정신 집중 상태에서는 다음 공격 주문의 마나 소비량이 100%만큼 감소됩니다." lvl="4"/>
+        <rank description="공격 마법이 대상에 적중한 이후 10%의 확률로 정신 집중 상태를 취합니다. 정신 집중 상태에서는 다음 공격 주문의 마나 소비량이 100%만큼 감소됩니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_abolishmagic" key="82" name="마법의 조화" tier="2">
+        <rank description="비전 주문의 사정 거리가 3미터만큼 증가하고 마법 증폭과 마법 감쇠의 효과가 25%만큼 증가합니다." lvl="1"/>
+        <rank description="비전 주문의 사정 거리가 6미터만큼 증가하고 마법 증폭과 마법 감쇠의 효과가 50%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_wispsplode" key="81" name="마법 충돌" tier="2">
+        <rank description="신비한 폭발, 비전 작렬, 화염 폭풍, 화염 작렬, 불태우기, 화염구, 얼음창, 냉기 돌풍 주문의 피해가 2%만큼 추가로 증가합니다." lvl="1"/>
+        <rank description="신비한 폭발, 비전 작렬, 화염 폭풍, 화염 작렬, 불태우기, 화염구, 얼음창, 냉기 돌풍 주문의 피해가 4%만큼 추가로 증가합니다." lvl="2"/>
+        <rank description="신비한 폭발, 비전 작렬, 화염 폭풍, 화염 작렬, 불태우기, 화염구, 얼음창, 냉기 돌풍 주문의 피해가 6%만큼 추가로 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="ability_mage_studentofthemind" key="1845" name="정신의 탐구자" tier="2">
+        <rank description="정신력이 4%만큼 증가합니다." lvl="1"/>
+        <rank description="정신력이 7%만큼 증가합니다." lvl="2"/>
+        <rank description="정신력이 10%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_arcane_studentofmagic" key="2211" name="마법 집중" tier="2">
+        <rank description="대상의 주문 극대화 적중률이 3%만큼 증가합니다. 대상의 주문이 극대화 효과를 발휘하면 마법 집중을 시전한 마법사의 주문 극대화 확률이 10초 동안 3%만큼 증가합니다. 자신에게 시전할 수 없습니다." lvl="1"/>
+        <spell castTime="0" maxRange="30">
+          <power cost="6" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="0" icon="spell_shadow_detectlesserinvisibility" key="83" name="비전 보호" tier="3">
+        <rank description="마나 보호막 사용 시 피해를 입었을 때 감소되는 마나량이 17%만큼 감소하고 마법사 갑옷으로 증가하는 저항력이 25%만큼 증가합니다." lvl="1"/>
+        <rank description="마나 보호막 사용 시 피해를 입었을 때 감소되는 마나량이 33%만큼 감소하고 마법사 갑옷으로 증가하는 저항력이 50%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_frost_iceshock" key="88" name="마법 차단 연마" tier="3">
+        <rank description="마법 차단 시 2초 동안 대상을 침묵시킵니다." lvl="1"/>
+        <rank description="마법 차단 시 4초 동안 대상을 침묵시킵니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_siphonmana" key="1142" name="신비한 명상" tier="3">
+        <rank description="시전 중에도 평소의 17%에 달하는 속도로 마나가 회복됩니다." lvl="1"/>
+        <rank description="시전 중에도 평소의 33%에 달하는 속도로 마나가 회복됩니다." lvl="2"/>
+        <rank description="시전 중에도 평소의 50%에 달하는 속도로 마나가 회복됩니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="ability_mage_tormentoftheweak" key="2222" name="약점 고문" tier="3">
+        <rank description="얼음 화살, 화염구, 얼음불꽃 화살, 신비한 화살, 비전 작렬, 비전 탄막 사용 시 감속 상태의 대상에게 4%의 추가 피해를 입힙니다." lvl="1"/>
+        <rank description="얼음 화살, 화염구, 얼음불꽃 화살, 신비한 화살, 비전 작렬, 비전 탄막 사용 시 감속 상태의 대상에게 8%의 추가 피해를 입힙니다." lvl="2"/>
+        <rank description="얼음 화살, 화염구, 얼음불꽃 화살, 신비한 화살, 비전 작렬, 비전 탄막 사용 시 감속 상태의 대상에게 12%의 추가 피해를 입힙니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_arcane_blink" key="1724" name="점멸 연마" tier="4">
+        <rank description="점멸에 소비되는 마나가 25%만큼 감소하고 점멸 시전 후 4초 동안 모든 공격과 주문에 적중 당할 확률이 15%만큼 감소합니다." lvl="1"/>
+        <rank description="점멸에 소비되는 마나가 50%만큼 감소하고 점멸 시전 후 4초 동안 모든 공격과 주문에 적중 당할 확률이 30%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_enchantarmor" key="86" name="냉정" tier="4">
+        <rank description="활성화되면 시전 시간이 10초 미만인 다음 주문은 시전 시간 없이 바로 발동됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="120000"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_charm" key="77" name="신비한 정신" tier="4">
+        <rank description="지능이 3%만큼 증가합니다." lvl="1"/>
+        <rank description="지능이 6%만큼 증가합니다." lvl="2"/>
+        <rank description="지능이 9%만큼 증가합니다." lvl="3"/>
+        <rank description="지능이 12%만큼 증가합니다." lvl="4"/>
+        <rank description="지능이 15%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_arcane_prismaticcloak" key="1726" name="굴절의 망토" tier="5">
+        <rank description="받는 모든 피해가 2%만큼 감소하고 투명해지기까지 필요한 시간이 1초만큼 감소합니다." lvl="1"/>
+        <rank description="받는 모든 피해가 4%만큼 감소하고 투명해지기까지 필요한 시간이 2초만큼 감소합니다." lvl="2"/>
+        <rank description="받는 모든 피해가 6%만큼 감소하고 투명해지기까지 필요한 시간이 3초만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_teleport" key="421" name="신비한 불안정성" requires="86" tier="5">
+        <rank description="주문의 공격력과 공격 주문이 극대화 효과를 발휘할 확률이 1%만큼 증가합니다." lvl="1"/>
+        <rank description="주문의 공격력과 공격 주문이 극대화 효과를 발휘할 확률이 2%만큼 증가합니다." lvl="2"/>
+        <rank description="주문의 공격력과 공격 주문이 극대화 효과를 발휘할 확률이 3%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_arcane_arcanepotency" key="1725" name="신비한 잠재력" requires="86" tier="5">
+        <rank description="정신 집중 상태가 되었을 때 혹은 냉정이 활성화되어 있을 때 다음 공격 주문이 극대화 효과를 발휘할 확률이 15%만큼 증가합니다." lvl="1"/>
+        <rank description="정신 집중 상태가 되었을 때 혹은 냉정이 활성화되어 있을 때 다음 공격 주문이 극대화 효과를 발휘할 확률이 30%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_nature_starfall" key="1727" name="비전 마법 강화" tier="6">
+        <rank description="신비한 화살 주문의 피해가 주문력의 15%만큼, 비전 작렬 주문의 피해가 주문력의 3%만큼 증가합니다." lvl="1"/>
+        <rank description="신비한 화살 주문의 피해가 주문력의 30%만큼, 비전 작렬 주문의 피해가 주문력의 6%만큼 증가합니다." lvl="2"/>
+        <rank description="신비한 화살 주문의 피해가 주문력의 45%만큼, 비전 작렬 주문의 피해가 주문력의 9%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_nature_lightning" key="87" name="신비의 마법 강화" requires="421" tier="6">
+        <rank description="활성화되면 20%만큼의 마나를 더 소비하여 20%의 추가 피해를 입힙니다. 이 효과는 15초 동안 지속됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="120000"/>
+      </talent>
+      <talent column="2" icon="ability_mage_incantersabsorbtion" key="1844" name="주문술사의 흡수력" tier="6">
+        <rank description="10초 동안 주문 공격력이 흡수한 피해의 5%만큼 증가합니다. 증가하는 전체 주문 공격력은 자신 생명력의 5%를 넘지 못합니다." lvl="1"/>
+        <rank description="10초 동안 주문 공격력이 흡수한 피해의 10%만큼 증가합니다. 증가하는 전체 주문 공격력은 자신 생명력의 5%를 넘지 못합니다." lvl="2"/>
+        <rank description="10초 동안 주문 공격력이 흡수한 피해의 15%만큼 증가합니다. 증가하는 전체 주문 공격력은 자신 생명력의 5%를 넘지 못합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_mage_potentspirit" key="1843" name="신비한 순환" requires="87" tier="7">
+        <rank description="냉정, 신비의 마법 강화, 투명화 주문의 재사용 대기시간이 15%만큼, 환기의 재사용 대기시간이 1분만큼 감소합니다." lvl="1"/>
+        <rank description="냉정, 신비의 마법 강화, 투명화 주문의 재사용 대기시간이 30%만큼, 환기의 재사용 대기시간이 2분만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_arcane_mindmastery" key="1728" name="정신 단련" tier="7">
+        <rank description="주문력이 총 지능의 3%만큼 증가합니다." lvl="1"/>
+        <rank description="주문력이 총 지능의 6%만큼 증가합니다." lvl="2"/>
+        <rank description="주문력이 총 지능의 9%만큼 증가합니다." lvl="3"/>
+        <rank description="주문력이 총 지능의 12%만큼 증가합니다." lvl="4"/>
+        <rank description="주문력이 총 지능의 15%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_nature_slow" key="1729" name="감속" tier="8">
+        <rank description="대상의 이동 속도를 60%만큼 감소시키고 원거리 공격 속도를 60%만큼 감소시키며 시전 시간을 30%만큼 지연시킵니다. 15초 동안 지속됩니다. 동시에 한 대상에게만 걸 수 있습니다." lvl="1"/>
+        <spell castTime="0" maxRange="30">
+          <power cost="12" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="ability_mage_missilebarrage" key="2209" name="화살 탄막" tier="8">
+        <rank description="비전 작렬, 비전 탄막, 화염구, 얼음 화살, 얼음불꽃 화살 시전 시 4%의 확률로 다음 신비한 화살 주문의 지속시간이 2.5초만큼 감소하고 매 0.5초마다 화살을 발사합니다." lvl="1"/>
+        <rank description="비전 작렬, 비전 탄막, 화염구, 얼음 화살, 얼음불꽃 화살 시전 시 8%의 확률로 다음 신비한 화살 주문의 지속시간이 2.5초만큼 감소하고 매 0.5초마다 화살을 발사합니다." lvl="2"/>
+        <rank description="비전 작렬, 비전 탄막, 화염구, 얼음 화살, 얼음불꽃 화살 시전 시 12%의 확률로 다음 신비한 화살 주문의 지속시간이 2.5초만큼 감소하고 매 0.5초마다 화살을 발사합니다." lvl="3"/>
+        <rank description="비전 작렬, 비전 탄막, 화염구, 얼음 화살, 얼음불꽃 화살 시전 시 16%의 확률로 다음 신비한 화살 주문의 지속시간이 2.5초만큼 감소하고 매 0.5초마다 화살을 발사합니다." lvl="4"/>
+        <rank description="비전 작렬, 비전 탄막, 화염구, 얼음 화살, 얼음불꽃 화살 시전 시 20%의 확률로 다음 신비한 화살 주문의 지속시간이 2.5초만큼 감소하고 매 0.5초마다 화살을 발사합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="ability_mage_netherwindpresence" key="1846" name="황천바람의 현신" tier="9">
+        <rank description="주문 가속이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="주문 가속이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="주문 가속이 6%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_arcane_arcanetorrent" key="1826" name="주문 강화" tier="9">
+        <rank description="모든 주문이 치명타로 적중할 경우 보너스 피해가 25%만큼 증가합니다." lvl="1"/>
+        <rank description="모든 주문이 치명타로 적중할 경우 보너스 피해가 50%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="ability_mage_arcanebarrage" key="1847" name="비전 탄막" tier="10">
+        <rank description="적 대상에게 여러 발의 화살을 발사하여 386~470의 비전 피해를 입힙니다." lvl="1"/>
+        <spell castTime="0" cooldown="3000" maxRange="30">
+          <power cost="27" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+  </talentTrees>
+</page>

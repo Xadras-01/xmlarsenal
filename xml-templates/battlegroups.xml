@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/arena/battlegroups.xsl"?><page globalSearch="1" lang="$LANGUAGE" requestUrl="/battlegroups.xml">
+  <battlegroups>
+    <battlegroup display="$REALMPOOL" ladderUrl="b=$REALMPOOLURL" name="$REALMPOOL" sortPosition="1">
+      <realms>
+        $REALMS
+      </realms>
+    </battlegroup>
+  </battlegroups>
+</page>

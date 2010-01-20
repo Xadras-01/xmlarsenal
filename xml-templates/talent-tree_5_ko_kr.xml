@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?><page globalSearch="1" lang="ko_kr" requestUrl="/talent-tree.xml">
+  <talentTrees>
+    <tree bgImage="PriestDiscipline" icon="spell_holy_wordfortitude" key="Discipline" name="수양" order="0">
+      <talent column="1" icon="spell_magic_magearmor" key="342" name="굳은 의지" tier="0">
+        <rank description="자신에게 걸린 기절과 공포, 침묵 효과의 지속시간이 추가로 6%만큼 감소합니다." lvl="1"/>
+        <rank description="자신에게 걸린 기절과 공포, 침묵 효과의 지속시간이 추가로 12%만큼 감소합니다." lvl="2"/>
+        <rank description="자신에게 걸린 기절과 공포, 침묵 효과의 지속시간이 추가로 18%만큼 감소합니다." lvl="3"/>
+        <rank description="자신에게 걸린 기절과 공포, 침묵 효과의 지속시간이 추가로 24%만큼 감소합니다." lvl="4"/>
+        <rank description="자신에게 걸린 기절과 공포, 침묵 효과의 지속시간이 추가로 30%만큼 감소합니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_holy_sealofvengeance" key="1898" name="이면의 수양" tier="0">
+        <rank description="즉시 시전 주문의 공격력과 치유량이 1%만큼 증가합니다." lvl="1"/>
+        <rank description="즉시 시전 주문의 공격력과 치유량이 2%만큼 증가합니다." lvl="2"/>
+        <rank description="즉시 시전 주문의 공격력과 치유량이 3%만큼 증가합니다." lvl="3"/>
+        <rank description="즉시 시전 주문의 공격력과 치유량이 4%만큼 증가합니다." lvl="4"/>
+        <rank description="즉시 시전 주문의 공격력과 치유량이 5%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_nature_manaregentotem" key="352" name="무언의 결심" tier="1">
+        <rank description="신성 및 수양 주문으로 인한 위협 수준이 7%만큼 감소하고 자신의 이로운 주문과 지속적인 피해 효과가 무효화될 확률이 10%만큼 감소합니다." lvl="1"/>
+        <rank description="신성 및 수양 주문으로 인한 위협 수준이 14%만큼 감소하고 자신의 이로운 주문과 지속적인 피해 효과가 무효화될 확률이 20%만큼 감소합니다." lvl="2"/>
+        <rank description="신성 및 수양 주문으로 인한 위협 수준이 20%만큼 감소하고 자신의 이로운 주문과 지속적인 피해 효과가 무효화될 확률이 30%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_innerfire" key="346" name="내면의 열정 연마" tier="1">
+        <rank description="내면의 열정 주문의 효과가 15%만큼 증가하고 유효 횟수가 4만큼 증가합니다." lvl="1"/>
+        <rank description="내면의 열정 주문의 효과가 30%만큼 증가하고 유효 횟수가 8만큼 증가합니다." lvl="2"/>
+        <rank description="내면의 열정 주문의 효과가 45%만큼 증가하고 유효 횟수가 12만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_wordfortitude" key="344" name="신의 권능: 인내 연마" tier="1">
+        <rank description="신의 권능: 인내와 인내의 기원의 효과가 15%만큼 증가하고, 사제의 전체 체력이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="신의 권능: 인내와 인내의 기원의 효과가 30%만큼 증가하고, 사제의 전체 체력이 4%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_nature_tranquility" key="321" name="헌신" tier="1">
+        <rank description="근접 및 원거리 치명타 공격을 받았을 때 50%의 확률로 6초 동안 집중력 효과가 활성화됩니다. 집중력 효과를 받으면 사제 주문 시전 중 받는 피해로 인한 시전 밀림 효과와 방해 효과의 지속시간이 10%만큼 감소합니다." lvl="1"/>
+        <rank description="근접 및 원거리 치명타 공격을 받았을 때 100%의 확률로 6초 동안 집중력 효과가 활성화됩니다. 집중력 효과를 받으면 사제 주문 시전 중 받는 피해로 인한 시전 밀림 효과와 방해 효과의 지속시간이 20%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_nature_sleep" key="347" name="명상" tier="2">
+        <rank description="시전 중에도 평소의 17%에 달하는 속도로 마나가 회복됩니다." lvl="1"/>
+        <rank description="시전 중에도 평소의 33%에 달하는 속도로 마나가 회복됩니다." lvl="2"/>
+        <rank description="시전 중에도 평소의 50%에 달하는 속도로 마나가 회복됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_frost_windwalkon" key="348" name="내면의 집중력" tier="2">
+        <rank description="활성화되면 다음 주문에 소비되는 마나가 100%만큼 감소하고 해당 주문이 극대화 효과를 낼 수 있는 주문일 경우 극대화 효과를 발휘할 확률이 25%만큼 증가합니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000"/>
+      </talent>
+      <talent column="2" icon="spell_holy_powerwordshield" key="343" name="신의 권능: 보호막 연마" tier="2">
+        <rank description="신의 권능: 보호막으로 흡수되는 피해가 5%만큼 증가합니다." lvl="1"/>
+        <rank description="신의 권능: 보호막으로 흡수되는 피해가 10%만큼 증가합니다." lvl="2"/>
+        <rank description="신의 권능: 보호막으로 흡수되는 피해가 15%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_holy_absolution" key="1769" name="사면" tier="3">
+        <rank description="마법 무효화, 질병 치료, 질병 해제, 대규모 무효화에 소비되는 마나가 5%만큼 감소합니다." lvl="1"/>
+        <rank description="마법 무효화, 질병 치료, 질병 해제, 대규모 무효화에 소비되는 마나가 10%만큼 감소합니다." lvl="2"/>
+        <rank description="마법 무효화, 질병 치료, 질병 해제, 대규모 무효화에 소비되는 마나가 15%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="ability_hibernation" key="341" name="마음의 기민함" tier="3">
+        <rank description="즉시 시전 주문에 소비되는 마나가 4%만큼 감소합니다." lvl="1"/>
+        <rank description="즉시 시전 주문에 소비되는 마나가 7%만큼 감소합니다." lvl="2"/>
+        <rank description="즉시 시전 주문에 소비되는 마나가 10%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_manaburn" key="350" name="마나 연소 연마" tier="3">
+        <rank description="마나 연소의 시전 시간이 0.5초만큼 단축됩니다." lvl="1"/>
+        <rank description="마나 연소의 시전 시간이 1초만큼 단축됩니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_holy_powerwordshield" key="2268" name="반사의 보호막" tier="4">
+        <rank description="신의 권능: 보호막으로 흡수한 피해의 22%에 해당하는 피해를 공격자에게 되돌립니다. 이로 인한 피해는 위협 수준을 발생시키지 않습니다." lvl="1"/>
+        <rank description="신의 권능: 보호막으로 흡수한 피해의 45%에 해당하는 피해를 공격자에게 되돌립니다. 이로 인한 피해는 위협 수준을 발생시키지 않습니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_nature_enchantarmor" key="1201" name="강인한 정신" tier="4">
+        <rank description="총 지능이 3%만큼 증가합니다." lvl="1"/>
+        <rank description="총 지능이 6%만큼 증가합니다." lvl="2"/>
+        <rank description="총 지능이 9%만큼 증가합니다." lvl="3"/>
+        <rank description="총 지능이 12%만큼 증가합니다." lvl="4"/>
+        <rank description="총 지능이 15%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_holy_pureofheart" key="351" name="영혼의 수호" requires="343" tier="4">
+        <rank description="신의 권능: 보호막의 재사용 대기시간이 4초만큼 감소하고 신의 권능: 보호막 주문에 소모되는 마나가 15%만큼 감소합니다." lvl="1"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_focusedpower" key="1771" name="집중된 마력" tier="5">
+        <rank description="주문의 공격력과 치유량이 2%만큼 증가합니다. 추가로 대규모 무효화의 시전 시간이 0.5초만큼 단축됩니다." lvl="1"/>
+        <rank description="주문의 공격력과 치유량이 4%만큼 증가합니다. 추가로 대규모 무효화의 시전 시간이 1초만큼 단축됩니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_arcane_mindmastery" key="1772" name="깨달음" tier="5">
+        <rank description="전체 정신력이 2%만큼 증가하고 주문 가속이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="전체 정신력이 4%만큼 증가하고 주문 가속이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="전체 정신력이 6%만큼 증가하고 주문 가속이 6%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_arcane_focusedpower" key="1858" name="의지 집중" tier="6">
+        <rank description="주문이 극대화 효과를 발휘할 확률이 1%만큼 증가하며, 치명타 공격을 받은 후 받는 모든 피해를 2%만큼 감소시키고 치유 효과를 3%만큼 증가시켜주는 의지 집중 효과를 얻습니다. 3번까지 중복됩니다. 8초동안 지속됩니다." lvl="1"/>
+        <rank description="주문이 극대화 효과를 발휘할 확률이 2%만큼 증가하며, 치명타 공격을 받은 후 받는 모든 피해를 3%만큼 감소시키고 치유 효과를 4%만큼 증가시켜주는 의지 집중 효과를 얻습니다. 3번까지 중복됩니다. 8초동안 지속됩니다." lvl="2"/>
+        <rank description="주문이 극대화 효과를 발휘할 확률이 3%만큼 증가하며, 치명타 공격을 받은 후 받는 모든 피해를 4%만큼 감소시키고 치유 효과를 5%만큼 증가시켜주는 의지 집중 효과를 얻습니다. 3번까지 중복됩니다. 8초동안 지속됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_powerinfusion" key="322" name="마력 주입" requires="1201" tier="6">
+        <rank description="대상에게 마력을 주입하여 주문 시전 속도를 20%만큼 증가시키고 주문 시전에 필요한 마나를 20%만큼 감소시킵니다. 15초 동안 지속됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="120000" maxRange="30">
+          <power cost="16" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_holy_chastise" key="1773" name="순간 치유 연마" tier="6">
+        <rank description="순간 치유 주문에 소모되는 마나가 5%만큼 감소하고, 생명력이 50% 이하인 아군 대상에게 순간 치유 주문이 극대화 효과를 발휘할 확률이 4%만큼 증가합니다." lvl="1"/>
+        <rank description="순간 치유 주문에 소모되는 마나가 10%만큼 감소하고, 생명력이 50% 이하인 아군 대상에게 순간 치유 주문이 극대화 효과를 발휘할 확률이 7%만큼 증가합니다." lvl="2"/>
+        <rank description="순간 치유 주문에 소모되는 마나가 15%만큼 감소하고, 생명력이 50% 이하인 아군 대상에게 순간 치유 주문이 극대화 효과를 발휘할 확률이 10%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_holy_holyprotection" key="2235" name="새로운 희망" tier="7">
+        <rank description="약화된 영혼 효과가 걸려 있는 대상에게는 순간 치유, 상급 치유, 회개(치유) 주문이 극대화 효과를 발휘할 확률이 2%만큼 증가하고 신의 권능: 보호막 시전 시 50%의 확률로 20초 동안 모든 파티원과 공격대원이 받는 피해를 3%만큼 감소시킵니다." lvl="1"/>
+        <rank description="약화된 영혼 효과가 걸려 있는 대상에게는 순간 치유, 상급 치유, 회개(치유) 주문이 극대화 효과를 발휘할 확률이 4%만큼 증가하고 신의 권능: 보호막 시전 시 100%의 확률로 20초 동안 모든 파티원과 공격대원이 받는 피해를 3%만큼 감소시킵니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_rapture" key="1896" name="환희" tier="7">
+        <rank description="신의 권능: 보호막이 완전히 흡수되거나 무효화되면 즉시 전체 마나의 1.5%에 해당하는 마나를 회복하고 33%의 확률로 보호막을 사용한 대상이 전체 마나의 2%, 8의 분노, 16의 기력, 혹은 32의 룬 마력을 회복합니다. 이 효과는 매 12초마다 최대 1번씩만 발동됩니다." lvl="1"/>
+        <rank description="신의 권능: 보호막이 완전히 흡수되거나 무효화되면 즉시 전체 마나의 2%에 해당하는 마나를 회복하고 66%의 확률로 보호막을 사용한 대상이 전체 마나의 2%, 8의 분노, 16의 기력, 혹은 32의 룬 마력을 회복합니다. 이 효과는 매 12초마다 최대 1번씩만 발동됩니다." lvl="2"/>
+        <rank description="신의 권능: 보호막이 완전히 흡수되거나 무효화되면 즉시 전체 마나의 2.5%에 해당하는 마나를 회복하고 100%의 확률로 보호막을 사용한 대상이 전체 마나의 2%, 8의 분노, 16의 기력, 혹은 32의 룬 마력을 회복합니다. 이 효과는 매 12초마다 최대 1번씩만 발동됩니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_aspiration" key="1894" name="열망" tier="7">
+        <rank description="내면의 집중력, 마력 주입, 고통 억제, 회개 주문의 재사용 대기시간이 10%만큼 감소합니다." lvl="1"/>
+        <rank description="내면의 집중력, 마력 주입, 고통 억제, 회개 주문의 재사용 대기시간이 20%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_holy_devineaegis" key="1895" name="신의 보호" tier="8">
+        <rank description="치유 주문이 극대화 효과를 발휘하면 대상에 보호막이 생성되어 치유된 생명력의 10%에 해당하는 피해를 흡수합니다. 12초 동안 지속됩니다." lvl="1"/>
+        <rank description="치유 주문이 극대화 효과를 발휘하면 대상에 보호막이 생성되어 치유된 생명력의 20%에 해당하는 피해를 흡수합니다. 12초 동안 지속됩니다." lvl="2"/>
+        <rank description="치유 주문이 극대화 효과를 발휘하면 대상에 보호막이 생성되어 치유된 생명력의 30%에 해당하는 피해를 흡수합니다. 12초 동안 지속됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_painsupression" key="1774" name="고통 억제" tier="8">
+        <rank description="시전 즉시 우호적인 대상의 위협 수준이 5%만큼 감소되고, 8초 동안 모든 받는 피해가 40%만큼 감소되며 무효화에 대한 저항력이 65%만큼 증가합니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000" maxRange="40">
+          <power cost="8" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_holy_hopeandgrace" key="1901" name="은총" tier="8">
+        <rank description="순간 치유, 상급 치유, 회개 사용 시 50%의 확률로 대상에게 은총을 내려 자신의 주문으로 인한 치유 효과를 3%만큼 증가시킵니다. 최대 3번까지 중복됩니다. 15초 동안 지속됩니다. 은총은 대상마다 동시에 하나만 효과를 발휘할 수 있습니다." lvl="1"/>
+        <rank description="순간 치유, 상급 치유, 회개 사용 시 100%의 확률로 대상에게 은총을 내려 자신의 주문으로 인한 치유 효과를 3%만큼 증가시킵니다. 최대 3번까지 중복됩니다. 15초 동안 지속됩니다. 은총은 대상마다 동시에 하나만 효과를 발휘할 수 있습니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_borrowedtime" key="1202" name="시간 벌기" tier="9">
+        <rank description="신의 권능: 보호막 주문 시전 시 다음 주문은 가속이 5%만큼 증가하고, 신의 권능: 보호막으로 흡수되는 피해가 주문력의 8%만큼 증가합니다." lvl="1"/>
+        <rank description="신의 권능: 보호막 주문 시전 시 다음 주문은 가속이 10%만큼 증가하고, 신의 권능: 보호막으로 흡수되는 피해가 주문력의 16%만큼 증가합니다." lvl="2"/>
+        <rank description="신의 권능: 보호막 주문 시전 시 다음 주문은 가속이 15%만큼 증가하고, 신의 권능: 보호막으로 흡수되는 피해가 주문력의 24%만큼 증가합니다." lvl="3"/>
+        <rank description="신의 권능: 보호막 주문 시전 시 다음 주문은 가속이 20%만큼 증가하고, 신의 권능: 보호막으로 흡수되는 피해가 주문력의 32%만큼 증가합니다." lvl="4"/>
+        <rank description="신의 권능: 보호막 주문 시전 시 다음 주문은 가속이 25%만큼 증가하고, 신의 권능: 보호막으로 흡수되는 피해가 주문력의 40%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_holy_penance" key="1897" name="회개" tier="10">
+        <rank description="신성한 빛의 화살로 적에게 240의 신성 피해를 입히거나 2초 동안 즉시 그리고 매 1초마다 아군의 생명력을 670~756만큼 회복시킵니다." lvl="1"/>
+        <spell castTime="0" channeled="1" cooldown="12000" maxRange="30">
+          <power cost="16" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="PriestHoly" icon="spell_holy_guardianspirit" key="Holy" name="신성" order="1">
+      <talent column="0" icon="spell_holy_healingfocus" key="410" name="치유의 정신집중" tier="0">
+        <rank description="치유 주문 시전 시 피해로 인한 시전 밀림 효과가 35%만큼 감소합니다." lvl="1"/>
+        <rank description="치유 주문 시전 시 피해로 인한 시전 밀림 효과가 70%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_renew" key="406" name="소생 연마" tier="0">
+        <rank description="소생으로 치유되는 생명력이 5%만큼 증가합니다." lvl="1"/>
+        <rank description="소생으로 치유되는 생명력이 10%만큼 증가합니다." lvl="2"/>
+        <rank description="소생으로 치유되는 생명력이 15%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_sealofsalvation" key="401" name="신성 마법 전문화" tier="0">
+        <rank description="신성 주문이 극대화 효과를 발휘할 확률이 1%만큼 증가합니다." lvl="1"/>
+        <rank description="신성 주문이 극대화 효과를 발휘할 확률이 2%만큼 증가합니다." lvl="2"/>
+        <rank description="신성 주문이 극대화 효과를 발휘할 확률이 3%만큼 증가합니다." lvl="3"/>
+        <rank description="신성 주문이 극대화 효과를 발휘할 확률이 4%만큼 증가합니다." lvl="4"/>
+        <rank description="신성 주문이 극대화 효과를 발휘할 확률이 5%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_holy_spellwarding" key="411" name="주문 수호" tier="1">
+        <rank description="모든 주문으로부터 받는 피해가 2%만큼 감소합니다." lvl="1"/>
+        <rank description="모든 주문으로부터 받는 피해가 4%만큼 감소합니다." lvl="2"/>
+        <rank description="모든 주문으로부터 받는 피해가 6%만큼 감소합니다." lvl="3"/>
+        <rank description="모든 주문으로부터 받는 피해가 8%만큼 감소합니다." lvl="4"/>
+        <rank description="모든 주문으로부터 받는 피해가 10%만큼 감소합니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_holy_sealofwrath" key="1181" name="신의 격노" tier="1">
+        <rank description="성스러운 일격과 신성한 불꽃, 치유, 상급 치유의 시전 시간이 0.1초만큼 단축됩니다." lvl="1"/>
+        <rank description="성스러운 일격과 신성한 불꽃, 치유, 상급 치유의 시전 시간이 0.2초만큼 단축됩니다." lvl="2"/>
+        <rank description="성스러운 일격과 신성한 불꽃, 치유, 상급 치유의 시전 시간이 0.3초만큼 단축됩니다." lvl="3"/>
+        <rank description="성스러운 일격과 신성한 불꽃, 치유, 상급 치유의 시전 시간이 0.4초만큼 단축됩니다." lvl="4"/>
+        <rank description="성스러운 일격과 신성한 불꽃, 치유, 상급 치유의 시전 시간이 0.5초만큼 단축됩니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_holy_restoration" key="442" name="구원의 기도" tier="2">
+        <rank description="즉시 시전자의 생명력을 263~325만큼 회복시킵니다." lvl="1"/>
+        <spell castTime="0" cooldown="120000">
+          <power cost="23" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="spell_holy_blessedrecovery" key="1636" name="축복받은 회복력" tier="2">
+        <rank description="근접 및 원거리 치명타 공격을 받으면 축복받은 회복력으로 6초에 걸쳐 받은 피해의 5%에 해당하는 생명력이 회복됩니다. 효과가 걸려 있는 동안 추가로 치명타 공격을 받으면 회복되는 생명력이 증가합니다." lvl="1"/>
+        <rank description="근접 및 원거리 치명타 공격을 받으면 축복받은 회복력으로 6초에 걸쳐 받은 피해의 10%에 해당하는 생명력이 회복됩니다. 효과가 걸려 있는 동안 추가로 치명타 공격을 받으면 회복되는 생명력이 증가합니다." lvl="2"/>
+        <rank description="근접 및 원거리 치명타 공격을 받으면 축복받은 회복력으로 6초에 걸쳐 받은 피해의 15%에 해당하는 생명력이 회복됩니다. 효과가 걸려 있는 동안 추가로 치명타 공격을 받으면 회복되는 생명력이 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="3" icon="spell_holy_layonhands" key="361" name="신의 계시" tier="2">
+        <rank description="순간 치유, 치유, 상급 치유, 결속의 치유, 회개, 치유의 기원, 치유의 마법진 주문이 극대화 효과를 발휘했을 때 15초 동안 대상이 받는 물리 피해를 3%만큼 감소시킵니다." lvl="1"/>
+        <rank description="순간 치유, 치유, 상급 치유, 결속의 치유, 회개, 치유의 기원, 치유의 마법진 주문이 극대화 효과를 발휘했을 때 15초 동안 대상이 받는 물리 피해를 7%만큼 감소시킵니다." lvl="2"/>
+        <rank description="순간 치유, 치유, 상급 치유, 결속의 치유, 회개, 치유의 기원, 치유의 마법진 주문이 극대화 효과를 발휘했을 때 15초 동안 대상이 받는 물리 피해를 10%만큼 감소시킵니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_holy_purify" key="1635" name="신성한 테두리" tier="3">
+        <rank description="성스러운 일격, 신성한 불꽃 주문의 사정거리와 치유의 기원, 신성한 폭발, 천상의 찬가, 치유의 마법진의 적용 반경이 10%만큼 증가합니다." lvl="1"/>
+        <rank description="성스러운 일격, 신성한 불꽃 주문의 사정거리와 치유의 기원, 신성한 폭발, 천상의 찬가, 치유의 마법진의 적용 반경이 20%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_heal02" key="408" name="치유 연마" tier="3">
+        <rank description="하급 치유, 치유, 상급 치유, 천상의 찬가, 회개에 소비되는 마나가 5%만큼 감소됩니다." lvl="1"/>
+        <rank description="하급 치유, 치유, 상급 치유, 천상의 찬가, 회개에 소비되는 마나가 10%만큼 감소됩니다." lvl="2"/>
+        <rank description="하급 치유, 치유, 상급 치유, 천상의 찬가, 회개에 소비되는 마나가 15%만큼 감소됩니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_holy_searinglightpriest" key="403" name="타오르는 빛" requires="1181" tier="3">
+        <rank description="성스러운 일격 및 신성한 불꽃, 신성한 폭발, 회개의 공격력이 5%만큼 증가합니다." lvl="1"/>
+        <rank description="성스러운 일격 및 신성한 불꽃, 신성한 폭발, 회개의 공격력이 10%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="0" icon="spell_holy_prayerofhealing02" key="413" name="치유의 기원 연마" tier="4">
+        <rank description="치유의 기원, 회복의 기원에 소비되는 마나가 10%만큼 감소합니다." lvl="1"/>
+        <rank description="치유의 기원, 회복의 기원에 소비되는 마나가 20%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="inv_enchant_essenceeternallarge" key="1561" name="구원의 영혼" tier="4">
+        <rank description="총 정신력이 5%만큼 증가하며 사제가 생명력을 모두 잃으면 15초 동안 구원의 영혼으로 변합니다. 구원의 영혼은 이동하거나 공격하거나 공격받거나 어떠한 주문이나 효과의 대상이 될 수 없습니다. 이 형태에서는 모든 치유 주문을 마나 소비 없이 사용할 수 있습니다. 효과가 종료되면 사제는 죽습니다." lvl="1"/>
+      </talent>
+      <talent column="2" icon="spell_holy_spiritualguidence" key="402" name="영혼의 길잡이" tier="4">
+        <rank description="주문력이 총 정신력의 5%만큼 증가합니다." lvl="1"/>
+        <rank description="주문력이 총 정신력의 10%만큼 증가합니다." lvl="2"/>
+        <rank description="주문력이 총 정신력의 15%만큼 증가합니다." lvl="3"/>
+        <rank description="주문력이 총 정신력의 20%만큼 증가합니다." lvl="4"/>
+        <rank description="주문력이 총 정신력의 25%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_holy_surgeoflight" key="1766" name="빛의 쇄도" tier="5">
+        <rank description="주문이 극대화 효과를 발휘했을 시 25%의 확률로 다음 성스러운 일격 혹은 순간 치유 주문은 시전 시간 없이 바로 발동되며 마나를 소비하지 않습니다. 하지만 이 때 극대화 효과는 발휘되지 않습니다. 효과는 10초 동안 지속됩니다." lvl="1"/>
+        <rank description="주문이 극대화 효과를 발휘했을 시 50%의 확률로 다음 성스러운 일격 혹은 순간 치유 주문은 시전 시간 없이 바로 발동되며 마나를 소비하지 않습니다. 하지만 이 때 극대화 효과는 발휘되지 않습니다. 효과는 10초 동안 지속됩니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_nature_moonglow" key="404" name="영혼의 치유" tier="5">
+        <rank description="자신의 모든 치유 주문으로 회복되는 생명력이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="자신의 모든 치유 주문으로 회복되는 생명력이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="자신의 모든 치유 주문으로 회복되는 생명력이 6%만큼 증가합니다." lvl="3"/>
+        <rank description="자신의 모든 치유 주문으로 회복되는 생명력이 8%만큼 증가합니다." lvl="4"/>
+        <rank description="자신의 모든 치유 주문으로 회복되는 생명력이 10%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_holy_fanaticism" key="1768" name="신성한 정신집중" tier="6">
+        <rank description="순간 치유, 상급 치유, 결속의 치유, 소생 강화 주문이 극대화 효과를 발휘하면 8초 동안 정신력으로 인한 마나 회복 속도가 16%만큼 증가합니다." lvl="1"/>
+        <rank description="순간 치유, 상급 치유, 결속의 치유, 소생 강화 주문이 극대화 효과를 발휘하면 8초 동안 정신력으로 인한 마나 회복 속도가 32%만큼 증가합니다." lvl="2"/>
+        <rank description="순간 치유, 상급 치유, 결속의 치유, 소생 강화 주문이 극대화 효과를 발휘하면 8초 동안 정신력으로 인한 마나 회복 속도가 50%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_summonlightwell" key="1637" name="빛샘" requires="1561" tier="6">
+        <rank description="사제 주위에 성스러운 빛샘을 생성합니다. 파티원이나 공격대원이 빛샘을 클릭하면 6초에 걸쳐 801의 생명력을 회복할 수 있습니다. 전체 생명력의 30%만큼 피해를 입으면 효과가 취소됩니다. 빛샘은 10번 사용하거나 3분이 지나면 사라집니다." lvl="1"/>
+        <spell castTime="500" cooldown="180000" maxRange="40">
+          <power cost="19" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_holy_blessedresillience" key="1765" name="축복받은 탄력성" tier="6">
+        <rank description="치유 주문의 효과가 1%만큼 증가하고 치명타 공격을 받을 시 20%의 확률로 6초 내에 다시 치명타 공격에 적중당하지 않도록 보호받습니다." lvl="1"/>
+        <rank description="치유 주문의 효과가 2%만큼 증가하고 치명타 공격을 받을 시 40%의 확률로 6초 내에 다시 치명타 공격에 적중당하지 않도록 보호받습니다." lvl="2"/>
+        <rank description="치유 주문의 효과가 3%만큼 증가하고 치명타 공격을 받을 시 60%의 확률로 6초 내에 다시 치명타 공격에 적중당하지 않도록 보호받습니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_holy_symbolofhope" key="2279" name="육체와 영혼" tier="7">
+        <rank description="신의 권능: 보호막 주문 시전 시 대상의 이동 속도가 4초 동안 30%만큼 증가하고, 자신에게 질병 해제 주문 시전 시 50%의 확률로 질병 효과에 추가로 독 효과 1개를 제거합니다." lvl="1"/>
+        <rank description="신의 권능: 보호막 주문 시전 시 대상의 이동 속도가 4초 동안 60%만큼 증가하고, 자신에게 질병 해제 주문 시전 시 100%의 확률로 질병 효과에 추가로 독 효과 1개를 제거합니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_holy_greaterheal" key="1767" name="치유 강화" tier="7">
+        <rank description="상급 치유 사용 시 주문 치유량 증가 효과를 8%만큼, 순간 치유 및 결속의 치유 사용 시 주문 치유량 증가 효과를 4%만큼 추가로 받습니다." lvl="1"/>
+        <rank description="상급 치유 사용 시 주문 치유량 증가 효과를 16%만큼, 순간 치유 및 결속의 치유 사용 시 주문 치유량 증가 효과를 8%만큼 추가로 받습니다." lvl="2"/>
+        <rank description="상급 치유 사용 시 주문 치유량 증가 효과를 24%만큼, 순간 치유 및 결속의 치유 사용 시 주문 치유량 증가 효과를 12%만큼 추가로 받습니다." lvl="3"/>
+        <rank description="상급 치유 사용 시 주문 치유량 증가 효과를 32%만큼, 순간 치유 및 결속의 치유 사용 시 주문 치유량 증가 효과를 16%만큼 추가로 받습니다." lvl="4"/>
+        <rank description="상급 치유 사용 시 주문 치유량 증가 효과를 40%만큼, 순간 치유 및 결속의 치유 사용 시 주문 치유량 증가 효과를 20%만큼 추가로 받습니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_holy_serendipity" key="1904" name="우연한 행운" tier="7">
+        <rank description="결속의 치유나 순간 치유를 시전하면 다음 상급 치유나 치유의 기원 주문의 시전 시간이 4%만큼 감소합니다. 3번까지 중복됩니다. 20초 동안 지속됩니다." lvl="1"/>
+        <rank description="결속의 치유나 순간 치유를 시전하면 다음 상급 치유나 치유의 기원 주문의 시전 시간이 8%만큼 감소합니다. 3번까지 중복됩니다. 20초 동안 지속됩니다." lvl="2"/>
+        <rank description="결속의 치유나 순간 치유를 시전하면 다음 상급 치유나 치유의 기원 주문의 시전 시간이 12%만큼 감소합니다. 3번까지 중복됩니다. 20초 동안 지속됩니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="ability_paladin_infusionoflight" key="1902" name="소생 강화" tier="8">
+        <rank description="소생 주문 시전 시 주문 치유량 증가 효과를 5%만큼 추가로 받고 대상의 생명력을 전체 주기적인 치유 효과의 5%만큼 즉시 치유합니다." lvl="1"/>
+        <rank description="소생 주문 시전 시 주문 치유량 증가 효과를 10%만큼 추가로 받고 대상의 생명력을 전체 주기적인 치유 효과의 10%만큼 즉시 치유합니다." lvl="2"/>
+        <rank description="소생 주문 시전 시 주문 치유량 증가 효과를 15%만큼 추가로 받고 대상의 생명력을 전체 주기적인 치유 효과의 15%만큼 즉시 치유합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_circleofrenewal" key="1815" name="치유의 마법진" tier="8">
+        <rank description="대상과 그로부터 15미터 반경 내에 있는 최대 5명의 아군 파티원과 공격대원의 생명력을 343~379만큼 회복시킵니다." lvl="1"/>
+        <spell castTime="0" cooldown="6000" maxRange="40">
+          <power cost="24" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_holy_testoffaith" key="1903" name="믿음의 시험" tier="8">
+        <rank description="생명력이 50% 이하인 아군 대상에 대한 치유 효과가 4%만큼 증가합니다." lvl="1"/>
+        <rank description="생명력이 50% 이하인 아군 대상에 대한 치유 효과가 8%만큼 증가합니다." lvl="2"/>
+        <rank description="생명력이 50% 이하인 아군 대상에 대한 치유 효과가 12%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_holy_divineprovidence" key="1905" name="천상의 섭리" tier="9">
+        <rank description="치유의 마법진, 결속의 치유, 신성한 폭발, 치유의 기원, 천상의 찬가, 회복의 기원으로 회복되는 치유량이 2%만큼 증가합니다. 또한 회복의 기원의 재사용 대기시간이 6%만큼 감소합니다." lvl="1"/>
+        <rank description="치유의 마법진, 결속의 치유, 신성한 폭발, 치유의 기원, 천상의 찬가, 회복의 기원으로 회복되는 치유량이 4%만큼 증가합니다. 또한 회복의 기원의 재사용 대기시간이 12%만큼 감소합니다." lvl="2"/>
+        <rank description="치유의 마법진, 결속의 치유, 신성한 폭발, 치유의 기원, 천상의 찬가, 회복의 기원으로 회복되는 치유량이 6%만큼 증가합니다. 또한 회복의 기원의 재사용 대기시간이 18%만큼 감소합니다." lvl="3"/>
+        <rank description="치유의 마법진, 결속의 치유, 신성한 폭발, 치유의 기원, 천상의 찬가, 회복의 기원으로 회복되는 치유량이 8%만큼 증가합니다. 또한 회복의 기원의 재사용 대기시간이 24%만큼 감소합니다." lvl="4"/>
+        <rank description="치유의 마법진, 결속의 치유, 신성한 폭발, 치유의 기원, 천상의 찬가, 회복의 기원으로 회복되는 치유량이 10%만큼 증가합니다. 또한 회복의 기원의 재사용 대기시간이 30%만큼 감소합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_holy_guardianspirit" key="1911" name="수호 영혼" tier="10">
+        <rank description="수호 영혼을 불러내어 아군 대상을 보호하게 합니다. 수호 영혼은 대상이 받는 치유 효과를 40%만큼 증가시키고 자신을 희생하여 대상을 죽음으로부터 보호합니다. 희생 시 효과는 사라지고 대상의 최대 생명력의 50%에 해당하는 생명력을 회복시킵니다. 10초 동안 지속됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="180000" maxRange="40">
+          <power cost="6" type="mana"/>
+        </spell>
+      </talent>
+    </tree>
+    <tree bgImage="PriestShadow" icon="spell_shadow_shadowwordpain" key="Shadow" name="암흑" order="2">
+      <talent column="0" icon="spell_shadow_requiem" key="465" name="정신력 누출" tier="0">
+        <rank description="자신이 결정타를 가하여 적을 처치한 후 경험치나 명예 점수를 받으면 33%의 확률로 정신력이 100%만큼 증가합니다. 이 동안은 주문 시전 중 마나가 83%의 속도로 회복됩니다. 15초 동안 지속됩니다." lvl="1"/>
+        <rank description="자신이 결정타를 가하여 적을 처치한 후 경험치나 명예 점수를 받으면 66%의 확률로 정신력이 100%만큼 증가합니다. 이 동안은 주문 시전 중 마나가 83%의 속도로 회복됩니다. 15초 동안 지속됩니다." lvl="2"/>
+        <rank description="자신이 결정타를 가하여 적을 처치한 후 경험치나 명예 점수를 받으면 100%의 확률로 정신력이 100%만큼 증가합니다. 이 동안은 주문 시전 중 마나가 83%의 속도로 회복됩니다. 15초 동안 지속됩니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_requiem" key="2027" name="정신력 누출 연마" requires="465" tier="0">
+        <rank description="정신 분열이나 어둠의 권능: 죽음이 극대화 효과를 발휘하면 전체 정신력이 5%만큼 증가합니다. 이 동안은 주문 시전 중 마나가 17%의 속도로 회복됩니다. 8초 동안 지속됩니다." lvl="1"/>
+        <rank description="정신 분열이나 어둠의 권능: 죽음이 극대화 효과를 발휘하면 전체 정신력이 10%만큼 증가합니다. 이 동안은 주문 시전 중 마나가 33%의 속도로 회복됩니다. 8초 동안 지속됩니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_twilight" key="462" name="어둠" tier="0">
+        <rank description="암흑 주문의 공격력이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="암흑 주문의 공격력이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="암흑 주문의 공격력이 6%만큼 증가합니다." lvl="3"/>
+        <rank description="암흑 주문의 공격력이 8%만큼 증가합니다." lvl="4"/>
+        <rank description="암흑 주문의 공격력이 10%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_shadowward" key="466" name="암흑 마법 친화" tier="1">
+        <rank description="암흑 주문의 위협 수준이 8%만큼 감소하고, 어둠의 권능: 고통 혹은 흡혈의 손길 주문이 무효화되면 기본 마나의 5%에 해당하는 마나를 회복합니다." lvl="1"/>
+        <rank description="암흑 주문의 위협 수준이 16%만큼 감소하고, 어둠의 권능: 고통 혹은 흡혈의 손길 주문이 무효화되면 기본 마나의 10%에 해당하는 마나를 회복합니다." lvl="2"/>
+        <rank description="암흑 주문의 위협 수준이 25%만큼 감소하고, 어둠의 권능: 고통 혹은 흡혈의 손길 주문이 무효화되면 기본 마나의 15%에 해당하는 마나를 회복합니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_shadowwordpain" key="482" name="어둠의 권능: 고통 연마" tier="1">
+        <rank description="어둠의 권능: 고통으로 입히는 피해가 3%만큼 증가합니다." lvl="1"/>
+        <rank description="어둠의 권능: 고통으로 입히는 피해가 6%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_burningspirit" key="463" name="암흑 마법 집중" tier="1">
+        <rank description="암흑 주문의 적중률이 1%만큼 증가하고 암흑 주문 시전에 소비되는 마나량이 2%만큼 감소합니다." lvl="1"/>
+        <rank description="암흑 주문의 적중률이 2%만큼 증가하고 암흑 주문 시전에 소비되는 마나량이 4%만큼 감소합니다." lvl="2"/>
+        <rank description="암흑 주문의 적중률이 3%만큼 증가하고 암흑 주문 시전에 소비되는 마나량이 6%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_psychicscream" key="542" name="영혼의 절규 연마" tier="2">
+        <rank description="영혼의 절규 주문의 재사용 대기시간이 2초만큼 단축됩니다." lvl="1"/>
+        <rank description="영혼의 절규 주문의 재사용 대기시간이 4초만큼 단축됩니다." lvl="2"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_unholyfrenzy" key="481" name="정신 분열 연마" tier="2">
+        <rank description="정신 분열의 재사용 대기시간이 0.5초만큼 단축됩니다. 어둠의 형상을 취한 상태에서 정신 분열을 시전하면 20%의 확률로 10초 동안 대상이 받는 치유 효과를 20%만큼 감소시킵니다." lvl="1"/>
+        <rank description="정신 분열의 재사용 대기시간이 1초만큼 단축됩니다. 어둠의 형상을 취한 상태에서 정신 분열을 시전하면 40%의 확률로 10초 동안 대상이 받는 치유 효과를 20%만큼 감소시킵니다." lvl="2"/>
+        <rank description="정신 분열의 재사용 대기시간이 1.5초만큼 단축됩니다. 어둠의 형상을 취한 상태에서 정신 분열을 시전하면 60%의 확률로 10초 동안 대상이 받는 치유 효과를 20%만큼 감소시킵니다." lvl="3"/>
+        <rank description="정신 분열의 재사용 대기시간이 2초만큼 단축됩니다. 어둠의 형상을 취한 상태에서 정신 분열을 시전하면 80%의 확률로 10초 동안 대상이 받는 치유 효과를 20%만큼 감소시킵니다." lvl="4"/>
+        <rank description="정신 분열의 재사용 대기시간이 2.5초만큼 단축됩니다. 어둠의 형상을 취한 상태에서 정신 분열을 시전하면 100%의 확률로 10초 동안 대상이 받는 치유 효과를 20%만큼 감소시킵니다." lvl="5"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_siphonmana" key="501" name="정신의 채찍" tier="2">
+        <rank description="대상의 정신을 암흑의 기운으로 공격하여 3초에 걸쳐 30의 암흑 피해를 입히고 이동 속도를 15%만큼 감소시킵니다." lvl="1"/>
+        <spell castTime="0" channeled="1" maxRange="20">
+          <power cost="10" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="spell_magic_lesserinvisibilty" key="483" name="어두운 그림자" tier="3">
+        <rank description="소실의 재사용 대기시간이 3초만큼 단축되고 어둠의 마귀의 재사용 대기시간이 1분만큼 단축됩니다." lvl="1"/>
+        <rank description="소실의 재사용 대기시간이 6초만큼 단축되고 어둠의 마귀의 재사용 대기시간이 2분만큼 단축됩니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_chilltouch" key="881" name="어둠의 테두리" tier="3">
+        <rank description="암흑 공격 주문의 사정거리가 10%만큼 증가합니다." lvl="1"/>
+        <rank description="암흑 공격 주문의 사정거리가 20%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_shadow_blackplague" key="461" name="어둠의 매듭" tier="3">
+        <rank description="암흑 계열 공격 주문 사용 시 33%의 확률로 15초 동안 암흑 공격력이 2%만큼 증가합니다. 최대 5번까지 중복됩니다." lvl="1"/>
+        <rank description="암흑 계열 공격 주문 사용 시 66%의 확률로 15초 동안 암흑 공격력이 2%만큼 증가합니다. 최대 5번까지 중복됩니다." lvl="2"/>
+        <rank description="암흑 계열 공격 주문 사용 시 100%의 확률로 15초 동안 암흑 공격력이 2%만큼 증가합니다. 최대 5번까지 중복됩니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_impphaseshift" key="541" name="침묵" requires="542" tier="4">
+        <rank description="대상을 침묵시켜 5초 동안 주문을 시전하지 못하도록 만듭니다." lvl="1"/>
+        <spell castTime="0" cooldown="45000" maxRange="30">
+          <power cost="225" type="unknown"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="spell_shadow_unsummonbuilding" key="484" name="흡혈의 선물" tier="4">
+        <rank description="대상을 암흑의 기운으로 감싸 자신이 입히는 암흑 주문 피해의 일정 비율만큼 모든 파티원의 생명력을 회복시킵니다. 자신은 15%만큼, 다른 파티원은 3%만큼의 생명력을 회복합니다. 5분 동안 지속됩니다." lvl="1"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_improvedvampiricembrace" key="1638" name="흡혈의 선물 연마" requires="484" tier="4">
+        <rank description="흡혈의 선물로 회복되는 생명력이 33%만큼 증가합니다." lvl="1"/>
+        <rank description="흡혈의 선물로 회복되는 생명력이 67%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="3" icon="spell_nature_focusedmind" key="1777" name="흐트러짐 없는 마음" tier="4">
+        <rank description="정신 분열, 정신 지배, 정신의 채찍, 정신 불태우기 주문에 소비되는 마나가 5%만큼 감소합니다." lvl="1"/>
+        <rank description="정신 분열, 정신 지배, 정신의 채찍, 정신 불태우기 주문에 소비되는 마나가 10%만큼 감소합니다." lvl="2"/>
+        <rank description="정신 분열, 정신 지배, 정신의 채찍, 정신 불태우기 주문에 소비되는 마나가 15%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_skull" key="1781" name="정신 녹이기" tier="5">
+        <rank description="정신 분열, 정신의 채찍, 정신 불태우기 주문이 극대화 효과를 발휘할 확률이 2%만큼 증가하고, 흡혈의 손길, 파멸의 역병, 어둠의 권능: 고통 주문의 주기적인 피해가 치명타로 적중할 확률이 3%만큼 증가합니다." lvl="1"/>
+        <rank description="정신 분열, 정신의 채찍, 정신 불태우기 주문이 극대화 효과를 발휘할 확률이 4%만큼 증가하고, 흡혈의 손길, 파멸의 역병, 어둠의 권능: 고통 주문의 주기적인 피해가 치명타로 적중할 확률이 6%만큼 증가합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_devouringplague." key="2267" name="파멸의 역병 연마" tier="5">
+        <rank description="파멸의 역병으로 입히는 주기적인 피해가 5%만큼 증가하고 파멸의 역병 공격 시 즉시 전체 주기적인 효과의 5%에 해당하는 피해를 입힙니다." lvl="1"/>
+        <rank description="파멸의 역병으로 입히는 주기적인 피해가 10%만큼 증가하고 파멸의 역병 공격 시 즉시 전체 주기적인 효과의 10%에 해당하는 피해를 입힙니다." lvl="2"/>
+        <rank description="파멸의 역병으로 입히는 주기적인 피해가 15%만큼 증가하고 파멸의 역병 공격 시 즉시 전체 주기적인 효과의 15%에 해당하는 피해를 입힙니다." lvl="3"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_shadowform" key="521" name="어둠의 형상" requires="484" tier="6">
+        <rank description="어둠의 형상을 취해 암흑 공격력을 15%만큼 증가시키고 받는 모든 피해를 15%만큼, 생성되는 위협 수준을 30%만큼 감소시킵니다. 하지만 이 상태에서는 질병 치료와 질병 해제를 제외한 다른 신성 주문을 사용할 수 없습니다. 또한 어둠의 권능: 고통, 파멸의 역병, 흡혈의 손길 주문의 주기적인 피해가 100%만큼 증가한 치명타로 적중할 수 있습니다." lvl="1"/>
+        <spell castTime="0" cooldown="1500">
+          <power cost="32" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_shadow_shadowpower" key="1778" name="어둠의 힘" tier="6">
+        <rank description="정신 분열, 정신의 채찍, 어둠의 권능: 죽음이 극대화 효과를 발휘했을 때 보너스 피해가 20%만큼 증가합니다." lvl="1"/>
+        <rank description="정신 분열, 정신의 채찍, 어둠의 권능: 죽음이 극대화 효과를 발휘했을 때 보너스 피해가 40%만큼 증가합니다." lvl="2"/>
+        <rank description="정신 분열, 정신의 채찍, 어둠의 권능: 죽음이 극대화 효과를 발휘했을 때 보너스 피해가 60%만큼 증가합니다." lvl="3"/>
+        <rank description="정신 분열, 정신의 채찍, 어둠의 권능: 죽음이 극대화 효과를 발휘했을 때 보너스 피해가 80%만큼 증가합니다." lvl="4"/>
+        <rank description="정신 분열, 정신의 채찍, 어둠의 권능: 죽음이 극대화 효과를 발휘했을 때 보너스 피해가 100%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_summonvoidwalker" key="1906" name="어둠의 형상 연마" requires="521" tier="7">
+        <rank description="어둠의 형상을 취한 상태에서 소실에 들어가면 50%의 확률로 모든 이동 방해 효과에서 벗어나고 암흑 주문 시전 도중 피해를 받았을 때 정신 집중이나 주문 시전이 지연되는 시간이 35%만큼 감소합니다." lvl="1"/>
+        <rank description="어둠의 형상을 취한 상태에서 소실에 들어가면 100%의 확률로 모든 이동 방해 효과에서 벗어나고 암흑 주문 시전 도중 피해를 받았을 때 정신 집중이나 주문 시전이 지연되는 시간이 70%만큼 감소합니다." lvl="2"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_misery" key="1816" name="불행" tier="7">
+        <rank description="어둠의 권능: 고통, 정신의 채찍, 흡혈의 손길 사용 시 24초 동안 해로운 주문이 적중할 확률이 1%만큼 증가하고, 정신 분열, 정신의 채찍, 정신 불태우기 주문이 주문력으로 받는 효과가 5%만큼 증가합니다." lvl="1"/>
+        <rank description="어둠의 권능: 고통, 정신의 채찍, 흡혈의 손길 사용 시 24초 동안 해로운 주문이 적중할 확률이 2%만큼 증가하고, 정신 분열, 정신의 채찍, 정신 불태우기 주문이 주문력으로 받는 효과가 10%만큼 증가합니다." lvl="2"/>
+        <rank description="어둠의 권능: 고통, 정신의 채찍, 흡혈의 손길 사용 시 24초 동안 해로운 주문이 적중할 확률이 3%만큼 증가하고, 정신 분열, 정신의 채찍, 정신 불태우기 주문이 주문력으로 받는 효과가 15%만큼 증가합니다." lvl="3"/>
+      </talent>
+      <talent column="0" icon="spell_shadow_psychichorrors" key="1908" name="정신적 공포" tier="8">
+        <rank description="3초 동안 극심한 공포로 대상을 두려움에 떨도록 만들고 10초 동안 주장비 무기와 원거리 무기를 떨어뜨리게 합니다." lvl="1"/>
+        <spell castTime="0" cooldown="120000" maxRange="30">
+          <power cost="16" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="1" icon="spell_holy_stoicism" key="1779" name="흡혈의 손길" requires="521" tier="8">
+        <rank description="대상을 암흑의 기운으로 감싸 대상에게 15초에 걸쳐 450의 암흑 피해를 입힙니다. 대상에게 정신 분열로 피해를 입히면 최대 10명의 파티원 혹은 공격대원이 매 5초마다 최대 마나의 1%를 회복합니다. 추가로 흡혈의 손길이 무효화되면 대상에게 720의 피해를 입힙니다." lvl="1"/>
+        <spell castTime="1500" maxRange="30">
+          <power cost="18" type="mana"/>
+        </spell>
+      </talent>
+      <talent column="2" icon="spell_shadow_painandsuffering" key="1909" name="고통과 고뇌" tier="8">
+        <rank description="정신의 채찍 사용 시 33%의 확률로 대상에 걸린 어둠의 권능: 고통의 지속시간이 초기화되고 어둠의 권능: 죽음으로 자신이 받는 피해가 10%만큼 감소합니다." lvl="1"/>
+        <rank description="정신의 채찍 사용 시 66%의 확률로 대상에 걸린 어둠의 권능: 고통의 지속시간이 초기화되고 어둠의 권능: 죽음으로 자신이 받는 피해가 20%만큼 감소합니다." lvl="2"/>
+        <rank description="정신의 채찍 사용 시 100%의 확률로 대상에 걸린 어둠의 권능: 고통의 지속시간이 초기화되고 어둠의 권능: 죽음으로 자신이 받는 피해가 30%만큼 감소합니다." lvl="3"/>
+      </talent>
+      <talent column="2" icon="spell_shadow_mindtwisting" key="1907" name="뒤틀린 믿음" tier="9">
+        <rank description="주문력이 전체 정신력의 2%만큼 증가하고, 어둠의 권능: 고통에 걸린 대상 공격 시 정신의 채찍과 정신 분열 주문의 공격력이 2%만큼 증가합니다." lvl="1"/>
+        <rank description="주문력이 전체 정신력의 4%만큼 증가하고, 어둠의 권능: 고통에 걸린 대상 공격 시 정신의 채찍과 정신 분열 주문의 공격력이 4%만큼 증가합니다." lvl="2"/>
+        <rank description="주문력이 전체 정신력의 6%만큼 증가하고, 어둠의 권능: 고통에 걸린 대상 공격 시 정신의 채찍과 정신 분열 주문의 공격력이 6%만큼 증가합니다." lvl="3"/>
+        <rank description="주문력이 전체 정신력의 8%만큼 증가하고, 어둠의 권능: 고통에 걸린 대상 공격 시 정신의 채찍과 정신 분열 주문의 공격력이 8%만큼 증가합니다." lvl="4"/>
+        <rank description="주문력이 전체 정신력의 10%만큼 증가하고, 어둠의 권능: 고통에 걸린 대상 공격 시 정신의 채찍과 정신 분열 주문의 공격력이 10%만큼 증가합니다." lvl="5"/>
+      </talent>
+      <talent column="1" icon="spell_shadow_dispersion" key="1910" name="분산" requires="1779" tier="10">
+        <rank description="순수한 암흑의 에너지로 흩어져, 받는 모든 피해를 90%만큼 감소시킵니다. 이 동안에는 공격하거나 주문을 시전할 수 없습니다. 매초마다 6%의 마나를 회복합니다. 6초 동안 지속됩니다. 기절, 공포, 침묵 효과에 걸려 있는 동안 시전할 수 있고 모든 이동 방해 효과와 감속 효과를 제거하며 활성화되어 있는 동안 해당 효과에 면역이 됩니다." lvl="1"/>
+        <spell castTime="0" cooldown="120000"/>
+      </talent>
+    </tree>
+  </talentTrees>
+</page>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/character/talents.xsl"?><page globalSearch="1" lang="$LANGUAGE" requestUrl="/character-talents.xml">
+  <tabInfo subTab="talents" tab="character" tabGroup="character" tabUrl="$TABURL"/>
+  <characterInfo>
+    <character battleGroup="$REALMPOOL" charUrl="$CHARURL" class="$CLASS" classId="$CLASSID" classUrl="$CLASSURL" faction="$FACTION" factionId="$FACTIONID" gender="$GENDER" genderId="$GENDERID" $GUILDVALUES lastModified="$MODIFIED" level="$LEVEL" name="$NAME" points="$ACHIEVEMENTPOINTS" prefix="$PREFIX" race="$RACE" raceId="$RACEID" realm="$REALM" suffix="$SUFFIX" titleId="$TITLEID">>
+      $ARENATEAMSSTART
+		$ARENATEAMS
+	  $ARENATEAMSEND
+    </character>
+    <talents>
+	  $TALENTS
+    </talents>
+  </characterInfo>
+</page>

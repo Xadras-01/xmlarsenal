@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Ruf">
+	<faqlist>
+		<faq question="Welche Funktionen bietet die Seite &quot;Ruf&quot;?">
+			Auf dieser Seite könnt ihr den Ruf eines Charakters bei allen Fraktionen, mit denen er im Laufe seiner Spielzeit in Berührung gekommen ist, einsehen. Wie im Spiel wird jeder Rufwert von einer farbigen Leiste dargestellt. Der aktuelle Rufwert des Charakters steht rechts von dieser Leiste.
+		</faq>
+		<faq question="Wo kann ich mehr über den Ruf bei verschiedenen Fraktionen erfahren?">
+			Verschiedene Fraktionen besitzen ihre eigenen Seiten in unserem Game Guide. Diese sind direkt im Text dieser Seite verlinkt und sind blau eingefärbt.
+		</faq>
+		<faq question="Was bedeuten die verschiedenen Rufstufen und wielange dauert es, eine Stufe aufzusteigen?">
+			Ihr benötigt zum Aufstieg die folgende Anzahl an Rufpunkten:
+			  <ul>
+			0/36000 – Verhasst zu Feindlich
+			  <br/>
+			0/3000 – Feindlich zu Unfreundlich
+			  <br/>			  
+			0/3000 – Unfreundlich zu Neutral
+			  <br/>
+			0/3000 – Neutral zu Freundlich
+			  <br/>
+			0/6000 – Freundlich zu Wohlwollend
+			  <br/>
+			0/12000 – Wohlwollend zu Respektvoll
+			  <br/>
+			0/21000 – Respektvoll zu Ehrfürchtig
+			  </ul>
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="Charaktersuche" url="/character-search.xml"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Game Guide -&gt; Ruf" type="external" url="http://www.wow-europe.com/de/info/basics/reputation.html"/>
+		<relatedlink name="Game Guide -&gt; Fraktionen" type="external" url="http://www.wow-europe.com/de/info/basics/factions/index.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="Häufig gestellte Fragen" url="/faq-armory.xml"/>	
+		<relatedlink name="Bekannte Probleme" type="external" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+		<relatedlink name="Fehler melden" type="report" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+		<relatedlink name="Übersetzungsfehler melden" type="translation" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+	</relatedlinks>
+</relatedinfo>

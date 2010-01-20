@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="Сведения об Оружейной">
+	<faqlist>
+		<faq key="whatisarmory" question="Что такое Оружейная?">
+			Оружейная — это обширная база данных с прозрачным и удобным интерфейсом, по которой можно производить поиск. Все данные поступают напрямую из игровых миров, поэтому в Оружейной вы найдете самую полную и свежую информацию о персонажах, командах Арены, гильдиях, предметах, подземельях, походах, боссах и наградах фракций World of Warcraft. 
+		</faq>
+		<faq question="Среди каких категорий можно проводить поиск?">
+			Вы можете искать среди персонажей, предметов, гильдий, подземелий, команд Арены, боссов и наград для фракций. Выберите соответствующую категорию в выпадающем меню и введите искомое слово.
+		</faq>
+		<faq question="Какие дополнительные возможности Оружейной становятся доступны при вхоже в нее?">
+			В правом верхнем углу экрана находится ссылка на вход в систему. Щелкнув по ней, вы сможете ввести информацию о вашей учетной записи World of Warcraft, не покидая текущую страницу Оружейной. Вы также можете выбрать профиль основного персонажа для быстрого доступа. Выберите пункт "Мои персонажи", чтобы перейти к профилям других пероснажей на этой учетной записи. Войдите в Оружейную, чтобы получить доступ к защищенной информации о персонаже, банку гильдии и календарю персонажа.
+			<p/>
+			Более подробную информацию о новом интерфейсе выбора персонажа вы можете узнать в разделе <a href="/faq-login.xml">вопросов и ответов о входе в Оружейную</a>.
+		</faq>
+		<faq question="Что означает функция  «Найти лучше» в профиле персонажа?">
+			Наведите указатель мыши на любой предмет в профиле персонажа: появится стрелка, которая затем превратится в кнопку «Найти лучше». Щелкнув по этой кнопке, вы попадете на страницу результатов поиска, на которой будет выведен перечень предметов, которые для данного персонажа являются предметами более высокого ранга.
+			<p/>
+			Этот перечень формируется с учетом класса, к которому относится персонаж, его характеристик и качества его обмундирования в целом. Таким образом вы можете найти предметы лучше как для вашего персонажа, так и для других персонажей World of Warcraft. Кроме того, если у вашего персонажа несколько комплектов обмундирования, с помощью этой функции можно найти предметы более высокого ранга для каждого из них. Подбор предметов будет точнее, если персонаж не находится в данный момент под воздействием заклинания, изменяющего его характеристики.
+			<p/>
+			Подробнее читайте в разделе <a href="/faq-item-info-recommended.xml">часто задаваемых вопросов о поиске предметов лучше</a>.
+		</faq>		
+		<faq question="Что означает слово «Соответствие» на странице результатов поиска?">
+			Критерий соответствия действует так же, как в поисковых системах: те результаты поиска, которые точнее всего отвечают запросу, выводятся первыми. Соответствие определяется с помощью алгоритма, выстроенного на основе нескольких параметров. Для каждой категории, в которой проводится поиск, они индивидуальны. Например, когда вы ищете персонажа, соответствие будет зависеть от его уровня, от даты его последнего посещения и еще нескольких факторов.
+		</faq>				
+		<faq question="Какими браузерами лучше пользоваться для просмотра Оружейной?">
+			Оружейная поддерживается браузерами Internet Explorer (версии от 6.0 и выше), Opera 9 и Safari, а также — и это удобнее всего — <a href="http://www.mozilla-europe.org/en/products/firefox/" target="_blank">Firefox</a>. Кроме того, отдельные функции требуют наличия <a href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash&amp;promoid=BIOW">Flash Player</a>.
+		</faq>		
+	</faqlist>
+	<relatedlinks>
+		<!--<relatedlink name = "Updates - November 19, 2008" url = "/updates.xml" type = "new" />
+		<relatedlink type = "hr"/>-->
+		<relatedlink name="Эмблемы героизма" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofheroism&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Эмблемы доблести" url="/search.xml?fl[source]=dungeon&amp;fl[dungeon]=emblemofvalor&amp;fl[type]=all&amp;fl[rrt]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[usbleBy]=all&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>		
+		<relatedlink name="Фамильные вещи" url="/search.xml?fl[source]=all&amp;fl[type]=all&amp;fl[usbleBy]=all&amp;fl[rqrMin]=&amp;fl[rqrMax]=&amp;fl[rrt]=hm&amp;advOptName=none&amp;fl[andor]=and&amp;searchType=items&amp;fl[advOpt]=none"/>						
+		<relatedlink type="hr"/>
+		<relatedlink name="Калькулятор Арены" url="/arena-calculator.xml"/>
+		<relatedlink name="Модуль поиска для браузера" url="/search-plugin.xml"/>
+		
+		<relatedlink type="hr"/>
+		<relatedlink name="Новости Оружейной" url="/updates.xml"/>
+		<relatedlink name="Часто задаваемые вопросы" url="/faq-armory.xml"/>		
+		<relatedlink name="Возможные проблемы" type="external" url="http://forums.wow-europe.com/thread.html?topicId=1016061940&amp;sid=1"/>
+		<relatedlink name="Сообщить о технической ошибке" type="report" url="http://forums.wow-europe.com/board.html?&amp;sid=5&amp;forumId=50005"/>
+		<relatedlink name="Сообщить об ошибке в переводе" type="report" url="http://forums.wow-europe.com/board.html?forumId=50002&amp;sid=5"/>	
+	</relatedlinks>
+</relatedinfo>

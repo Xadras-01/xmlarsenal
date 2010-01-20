@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><tabs>
+	<tab href="/character-sheet.xml" id="character">Personaje
+		<subTab href="/character-sheet.xml" id="profile">Perfil</subTab>
+		<subTab href="/character-talents.xml" id="talents">Talentos y Glifos</subTab>	
+		<subTab href="/character-reputation.xml" id="reputation">Reputación</subTab>
+		<subTab href="/vault/character-calendar.xml" id="calendar" login="true">Calendario</subTab>
+		<subTab href="/character-achievements.xml" id="achievements">Logros</subTab>
+		<subTab href="/character-statistics.xml" id="statistics">Estadísticas</subTab>		
+		<subTab href="/character-arenateams.xml" id="arena">Arena</subTab>
+	</tab>
+	<tab href="/guild-info.xml" id="guild">Hermandad
+		<subTab href="/guild-info.xml" id="roster">Miembros</subTab>
+		<subTab href="/guild-stats.xml" id="statistics">Estadísticas</subTab>
+		<subTab href="/vault/guild-bank-contents.xml" id="bank-contents" login="true">Contenido del banco</subTab>
+		<subTab href="/vault/guild-bank-log.xml" id="bank-log" login="true">Registro bancario</subTab>	
+	</tab>
+</tabs>

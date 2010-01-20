@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><relatedinfo topic="캐릭터 창">
+	<faqlist>
+		<faq question="캐릭터 정보의 &quot;추천 아이템 찾기&quot; 항목은 어떤 기능을 하나요?">
+			캐릭터 정보에 있는 아이템에 마우스를 올려놓으면 작은 화살표가 표시되면서 "추천 아이템 찾기" 단추로 바뀝니다. 이 단추를 누르면 아이템 검색 결과 페이지로 이동합니다. 이 페이지에서는 특정 캐릭터가 현재 소유한 아이템보다 더 나은 것으로 간주하는 아이템의 목록이 표시됩니다. 
+			<p/>
+			추천 아이템은 캐릭터의 직업, 능력치, 전체적인 장비 수준을 고려하여 검색됩니다. 이 기능을 통해 본인의 캐릭터에 대해서뿐만 아니라 월드 오브 워크래프트에 있는 모든 캐릭터에 대해서 추천 아이템을 찾아볼 수 있습니다. 이 기능은 여러 가지 장비 세트를 착용하고 있는 캐릭터가 각 장비 세트에 대한 추천 아이템을 찾을 때 도움이 되도록 만들어졌습니다. 추천 아이템 기능은 능력치에 영향을 미치는 강화 효과를 받지 않은 캐릭터에 사용했을 때 가장 정확한 결과를 보여 줍니다.
+			<p/>
+			<a href="faq-item-info-recommended.xml">추천 아이템 찾기 F.A.Q.</a>.
+		</faq>
+		<faq question="내 캐릭터 창이 보이지 않는 이유는 무엇인가요?">
+			유럽이나 북미 서버 플레이어는 서버가 속한 지역의 웹사이트를 방문해야 자신의 캐릭터를 찾을 수 있습니다. 한국의 전투정보실 사이트에는 유럽이나 북미 서버의 캐릭터가 나타나지 않습니다. 또한, 캐릭터를 플레이해야 그 캐릭터를 전투정보실에서 볼 수 있습니다. 해당 캐릭터가 최소 10레벨 이상이 되어야만 캐릭터 창이 활성화됩니다. 10레벨보다 낮은 캐릭터는 캐릭터 창은 물론 캐릭터 정보의 다른 부분도 확인할 수 없습니다.
+		</faq>
+		<faq question="왜 제 캐릭터 중 저 레벨 캐릭터는 찾아볼 수가 없나요?">
+			캐릭터 정보가 나타나거나 캐릭터 이름으로 검색되는 등 전투정보실에서 보이려면 최저 10레벨 이상이어야 합니다. 
+		</faq>
+		<faq question="투기장 아이콘은 어디서 볼 수 있나요?">
+			얻을 수 있는 모든 투기장 아이콘은 <a href="legend-achievements.xml" target="_blank">여기</a>서 보실 수 있습니다.
+		</faq>
+		<faq question="전적에 왜 제 전체 명예 승수가 표시되지 않나요?">
+			전체 명예 승수는 최소한 명예 승수가 1337이 넘어야 표시됩니다.
+		</faq>
+		<faq question="캐릭터 창에 탄환 및 화살 칸이 나타나지 않는 것은 왜인가요?">
+			향후 캐릭터 창에 탄환 및 화살 칸이 추가될 예정입니다.
+		</faq>
+		<faq question="왜 초상화가 게임 속의 제 캐릭터와 다른가요?">
+			전투정보실 캐릭터 정보의 왼쪽 위에 보이는 초상화는 게임 안에서의 실제 캐릭터의 모습이 아닙니다. 이 초상화는 특정 레벨 범위, 종족과 직업, 그리고 성별의 조합에 해당하는 모든 캐릭터를 대상으로 자동적으로 생성됩니다.
+		</faq>
+		<faq question="플레이어가  받을 수 있는 칭호에는 어떤 것이 있습니까?">
+			 전체 칭호 목록을 보시려면 <a href="http://www.worldofwarcraft.com/info/basics/titles.html">캐릭터 칭호 페이지</a>를 참조하시기 바랍니다.
+		</faq>
+	</faqlist>
+	<relatedlinks>
+		<relatedlink name="캐릭터 검색" url="/character-search.xml"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="캐릭터 능력치 정보" type="external" url="http://www.worldofwarcraft.co.kr/info/basics/beginners/characters.html"/>
+		<relatedlink name="종족" type="external" url="http://www.worldofwarcraft.co.kr/info/basics/races/index.html"/>
+		<relatedlink name="직업" type="external" url="http://www.worldofwarcraft.co.kr/info/basics/classes/index.html"/>
+		<relatedlink name="전문 기술" type="external" url="http://www.worldofwarcraft.co.kr/info/basics/professions/index.html"/>
+		<relatedlink type="hr"/>
+		<relatedlink name="F.A.Q." url="/faq-armory.xml"/>		
+		<relatedlink name="알려진 문제들" type="external" url="Javascript:openIssues()"/>	
+		<relatedlink name="전투정보실 오류 신고" type="report" url="mailto:bugreport@blizzard.co.kr"/>
+	</relatedlinks>
+</relatedinfo>
