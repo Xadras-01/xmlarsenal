@@ -47,6 +47,6 @@ Use the Issue-Tracker or email me: amras-taralom`[at]`streber24.de
 
  * [DBStructure Database Structure]
  * [Customization Customizing serveral things]
- * [arsenaldata.sqlite3]
+ * [arsenaldata_sqlite3 arsenaldata.sqlite3]
  * [PHPDBC PHP DBC-Parser]
  * [Supporting How to support XMLArsenal]
