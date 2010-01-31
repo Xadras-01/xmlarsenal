@@ -6,7 +6,7 @@
  * This file contains several helper functions, additional parsing and output-preps.
  *
  * @author Amras Taralom <amras-taralom@streber24.de>
- * @version 1.0, last modified 2010/01/20
+ * @version 1.0, last modified 2010/01/30
  * @package XMLArsenal
  * @subpackage includes
  * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License version 3 (GPLv3)

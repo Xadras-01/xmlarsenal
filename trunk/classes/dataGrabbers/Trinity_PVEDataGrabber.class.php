@@ -9,7 +9,7 @@
 * 
 * @author Ytrosh 
 * @author Amras Taralom <amras-taralom@streber24.de> 
-* @version 1.0, last modified 2009/11/26
+* @version 1.0, last modified 2010/01/31
 * @package XMLArsenal 
 * @subpackage classes 
 * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License version 3 (GPLv3) 
@@ -657,6 +657,41 @@ public function getChosenTitleMask(){
 	return $this->data[296];
 	
 }//getChosenTitleMask()
+
+public function getAchievementFirsts($realmName, $firstIDs){
+	
+	$achievements = array();
+	
+	if(!empty($firstIDs)){
+		
+		$incond = "";
+		foreach($firstIDs as $id){
+			$incond .= $id . ",";
+		}//foreach
+		
+		//cut last comma
+		$incond = substr($incond, 0 , -1);
+		
+		$res = mysql_query("SELECT c.race,c.class,c.gender,c.level, c.name, g.name as gname, ca.achievement, ca.date FROM `characters` c LEFT JOIN character_achievement ca ON ca.guid = c.guid LEFT JOIN `guild_member` gm on gm.guid = c.guid LEFT JOIN `guild` g on g.guildid=gm.guildid WHERE ca.achievement IN (".$incond.");", $this->pvedbconn); 
+		while($arr = mysql_fetch_assoc($res)){
+			
+			$achievements[] = array('realmName' 	=> $realmName,
+									'classId'		=> $arr['class'],
+									'genderId'		=> $arr['gender'],
+									'level'			=> $arr['level'],
+									'guild'			=> $arr['gname'],
+									'name'			=> $arr['name'],
+									'raceId'		=> $arr['race'],
+									'date'			=> $arr['date'],
+									'achievementid'	=> $arr['achievement']);
+			
+		}//while
+	
+	}//if
+	
+	return $achievements;
+	
+}//getAchievementFirsts()
 
 public function getSearchCharactersResults($realmName)
 	{

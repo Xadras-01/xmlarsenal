@@ -1,0 +1,3 @@
+<achievement dateCompleted="$DATE" desc="$DESC" icon="$ICON" key="$KEY" realm="$REALM" title="$TITLE">
+	<character achPoints="$ACHPOINTS" battleGroupId="0" classId="$CLASSID" factionId="$FACTIONID" genderId="$GENDERID" guild="$GUILD" guildId="0" guildUrl="$GUILDURL" lastLoginDate="null" level="$LEVEL" name="$NAME" raceId="$RACEID" realm="$REALM" url="$CHARURL"/>
+</achievement>

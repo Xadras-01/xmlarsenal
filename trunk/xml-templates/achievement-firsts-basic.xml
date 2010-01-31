@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="/layout/serverfirsts.xsl"?><page globalSearch="1" lang="$LANGUAGE" requestUrl="/achievement-firsts.xml">
+	<realmInfo $REALMINFO>
+		$ACHIEVEMENTS
+	</realmInfo>
+</page>
