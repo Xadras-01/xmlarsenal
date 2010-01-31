@@ -6,7 +6,7 @@
  * provides an extra layer for the database persistance via PEAR and the arsenaldata.sqlite3
  *
  * @author Amras Taralom <amras-taralom@streber24.de>
- * @version 1.0, last modified 2009/11/18
+ * @version 1.0, last modified 2010/01/30
  * @package XMLArsenal
  * @subpackage includes
  * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License version 3 (GPLv3)
@@ -36,7 +36,6 @@ if (PEAR::isError($arsenaldata)) {
 }
 
 
-
 //arsenal cache database (players, guilds etc.)
 if($cache_db_type == 'pdoSqlite' || $cache_db_type == 'sqlite') $dsn = "$cache_db_type://$cache_db_base";
 else $dsn = "$cache_db_type://$cache_db_user:$cache_db_pass@$cache_db_host/$cache_db_base";
@@ -55,12 +54,9 @@ if (PEAR::isError($arsenaldb)) {
 }
 
 
-
 //settings to utf8 for dbms that understand it
-if($cache_db_type != 'pdoSqlite' || $cache_db_type != 'sqlite'){
-	$arsenaldb->query('SET NAMES utf8');
-	$arsenaldata->query('SET NAMES utf8');
-}
+if($cache_db_type != 'pdoSqlite' && $cache_db_type != 'sqlite') 	$arsenaldb->setCharset('utf8');
+if($data_db_type != 'pdoSqlite' && $data_db_type != 'sqlite') 		$arsenaldata->setCharset('utf8');
 
 
 ?>

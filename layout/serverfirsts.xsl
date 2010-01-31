@@ -25,10 +25,11 @@
 		<h2>
         <xsl:choose>
         <xsl:when test="@realm">
-        <a href="achievement-firsts.xml"><xsl:value-of select="$loc/strs/region/str[@id=$region]/@name"/></a> » <xsl:value-of select="@realm"/>
+        <!-- <a href="achievement-firsts.xml"><xsl:value-of select="$loc/strs/region/str[@id=$region]/@name"/></a> » <xsl:value-of select="@realm"/> -->
+        <a href="achievement-firsts.xml"><xsl:value-of select="$bgXML/battlegroup/@name"/></a> » <xsl:value-of select="@realm"/>
         </xsl:when>
         <xsl:otherwise>
-        <xsl:value-of select="$loc/strs/region/str[@id=$region]/@name"/>
+        <xsl:value-of select="$bgXML/battlegroup/@name"/>
         </xsl:otherwise>
         </xsl:choose>
         </h2>
@@ -39,7 +40,7 @@
       <div class="firsts_top">
     <div class="closed" id="realmnav">
       <div class="f_nav_top">
-
+		
         <div class="f_nav_title"><xsl:value-of select="$loc/strs/achievements/str[@id='serverfirsts.realmnav.viewing']"/>:</div>
         <a href="javascript:;" onclick="rlmnv = document.getElementById('realmnav'); rlmnv.className=(rlmnv.className=='closed')?'':'closed'">
         <div class="arrow"><xsl:comment/></div>
@@ -48,7 +49,7 @@
             <xsl:value-of select="@realm"/>
             </xsl:when>
             <xsl:otherwise>
-            <xsl:value-of select="$loc/strs/region/str[@id=$region]/@name"/>
+            <xsl:value-of select="$bgXML/battlegroup/@name"/>
             </xsl:otherwise>
             </xsl:choose>
         </a>
@@ -59,17 +60,22 @@
 
                <xsl:variable name="login-status" select="document('/login-status.xml')" />
                <xsl:variable name="username" select="$login-status/page/loginStatus/@username" />
-
+				
+				<div class="f_nav_stitle"><xsl:value-of select="$loc/strs/arena/arenaLadderData/str[@id='armory.arena-ladder-data.all-realms']"/>:</div>
+	                <xsl:for-each select="$bgXML/battlegroup/realms/realm/@name"> <!-- distinct-values -->
+   						 <a href="achievement-firsts.xml?r={.}"><xsl:value-of select="."/></a>
+                    </xsl:for-each>
+				<!--
                <xsl:if test="string-length($username) != 0">
                <xsl:variable name="realms" select="document('/vault/character-select.xml?sel=2')/page/characters/character/@realm"/>
                 <xsl:if test="$realms">
                  <div class="f_nav_stitle"><xsl:value-of select="$loc/strs/achievements/str[@id='serverfirsts.realmnav.myrealms']"/>:</div>
-	                <xsl:for-each select="$realms[not(. = preceding::character/@realm)]"> <!-- distinct-values -->
+	                <xsl:for-each select="$realms[not(. = preceding::character/@realm)]"> 
    						 <a href="achievement-firsts.xml?r={.}"><xsl:value-of select="."/></a>
                     </xsl:for-each>
                  </xsl:if>
                 </xsl:if>
-
+				
 				 <div class="f_nav_stitle"><xsl:value-of select="$loc/strs/achievements/str[@id='serverfirsts.realmnav.otherrealms']"/>:</div>
                  <form onsubmit="frst_valid(this,r); return false; ">
                  <input name="r" id="r" type="text"/>
@@ -77,15 +83,7 @@
                  </form>
                  <div id="rsearch_results" style="display:none">
                  <div class="rsearch_top">
-                 <!--  
-                 <xsl:comment>
-                 <a href="#">Lightbringer</a>
-                 <div class="sepdiv"></div>
-                 <a href="#">Lightning's Edge</a>
-                 <div class="sepdiv"></div>
-                 <a href="#">Lightninghoof</a>
-                 </xsl:comment>
-                 -->
+                 
                  </div>
                  </div>
 
@@ -95,10 +93,10 @@
 				  <xsl:if test="not(starts-with($region,@id))">
                     <a href="{@url}/achievement-firsts.xml"><xsl:value-of select="@name"/></a>
                   </xsl:if>
-                 </xsl:for-each>
-     <br clear="all" />
+                 </xsl:for-each> -->
+     <br clear="all" /> 
               </div>
-             </div>
+             </div> 
             </div>
 
       </div>
