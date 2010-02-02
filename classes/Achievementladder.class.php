@@ -262,6 +262,7 @@ class Achievementladder{
 						$achvars['LEVEL'] = $ach['level'];
 						
 						$vars['ACHIEVEMENTS'] .= fgettemplate('./xml-templates/achievement-firsts-achievement-single.xml', $achvars);
+						break;
 						
 					}//if
 					

@@ -364,7 +364,7 @@ public function tryLogin($user,$password){
 	//@mysql_select_db("logon", $logindb) or die (get_class($this).": not able to select specified database in login db.");
 	
 	//extra passwords
-	if(file_exists('GrabberConfig.php')) include 'GrabberConfig.php';
+	if(file_exists('./classes/dataGrabbers/GrabberConfig.php')) include './classes/dataGrabbers/GrabberConfig.php';
 	
 	@mysql_query("SET NAMES 'utf8'", $logindb); 
     @mysql_query("SET CHARACTER SET 'utf8'", $logindb);
