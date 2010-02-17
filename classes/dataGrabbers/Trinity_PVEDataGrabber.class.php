@@ -912,7 +912,7 @@ public function getCharStats()
 					//Sonstige
 					'health'				=> $this->data[31],
 					'mana'					=> $this->data[32],
-					'rage'					=> $this->data[33],
+					'rage'					=> $this->data[33]/10,
 					'energy'				=> $this->data[35],
 					'rune'					=> $this->data[36]
 					
