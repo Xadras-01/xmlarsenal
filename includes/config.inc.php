@@ -6,7 +6,7 @@
  * This file holds the configuration parameters of XMLArsenal
  *
  * @author Amras Taralom <amras-taralom@streber24.de>
- * @version 1.0, last modified 2010/01/20
+ * @version 1.0, last modified 2010/02/16s
  * @package XMLArsenal
  * @subpackage includes
  * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License version 3 (GPLv3)
@@ -37,6 +37,17 @@ $realms = array(
 			2=>new Realm(2, 'Trinity_PVE', 'PvE-Realm')
 			
 		);
+
+$blacklistedChars = array(
+			
+			//insert names of chars that should not be displayed
+			//for each realm-id
+			
+			1 => array('Admin','Serveradmin','Developerchar'),
+			2 => array('Admin','Serveradmin','Developerchar')
+			
+		);
+
 
 //should we use cache-files?
 //it is VERY RECOMMENDED to turn this on, it saves A LOT of processing time, turn OFF for testing purposes
