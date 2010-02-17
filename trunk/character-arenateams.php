@@ -6,7 +6,7 @@
  * The script handles caching and output of the character-repuatation.xml with respective values.
  *
  * @author Amras Taralom <amras-taralom@streber24.de>
- * @version 1.0, last modified 2009/12/10
+ * @version 1.0, last modified 2010/02/17
  * @package XMLArsenal
  * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License version 3 (GPLv3)
  *
@@ -24,6 +24,13 @@ if(USEFILECACHE && file_exists($cachefile) && (filemtime($cachefile) + 60*60*UPD
 	echo file_get_contents($cachefile)."<!-- cached file. cache valid until ".date('d.m.Y H:i:s',filemtime($cachefile) + 60*60*UPDATEINTERVAL).". -->";
 	die();
 }
+
+//don't display blacklisted chars
+if(in_array($charname, $blacklistedChars[$usedRealm])){
+	echo fgettemplate('./xml-templates/error404.xml', array('LANGUAGE'=>$language));
+	die();
+}
+
 
 $char = new Character($charname, $usedRealm);
 
