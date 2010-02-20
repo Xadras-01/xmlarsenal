@@ -199,7 +199,7 @@ break;
 link2.href = "/"
 link5 = new Object();
 link5.text = "XMLArsenal"
-link5.href = "http://xmlarsenal.sourceforge.net/"
+link5.href = "http://code.google.com/p/xmlarsenal/"
 	
 linkarray.push(link1) 
 linkarray.push(link2)

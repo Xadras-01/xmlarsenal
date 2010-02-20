@@ -32,8 +32,8 @@ Die genaue Klassenaufstellung des gegnerischen Teams findet ihr am besten, indem
 		<relatedlink name="Arena: Insider-Vorschau" type="external" url="http://www.wow-europe.com/en/misc/wowinsider/wowi11/arena.html"/>
 		<relatedlink type="hr"/>
 		<relatedlink name="Häufig gestellte Fragen" url="/faq-armory.xml"/>
-		<relatedlink name="Bekannte Probleme" type="external" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>		
-		<relatedlink name="Fehler melden" type="report" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+		<relatedlink name="Bekannte Probleme" type="external" url="http://code.google.com/p/xmlarsenal/issues/list"/>		
+		<relatedlink name="Fehler melden" type="report" url="http://code.google.com/p/xmlarsenal/issues/list"/>
 
 	</relatedlinks>
 </relatedinfo>

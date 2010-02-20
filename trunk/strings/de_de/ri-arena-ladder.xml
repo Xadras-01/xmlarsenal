@@ -28,7 +28,7 @@
 		<relatedlink name="Arena-Belohnungen: Waffen" type="external" url="http://www.wow-europe.com/de/info/basics/arena/rewards-weapons.html"/>
 		<relatedlink name="Arena-Belohnungen: Klassenrüstungssets" type="external" url="http://www.wow-europe.com/de/info/basics/arena/rewards-class-armor.html"/>					
 		<relatedlink type="hr"/>
-		<relatedlink name="Fehler melden" type="report" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
-		<relatedlink name="Übersetzungsfehler melden" type="translation" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+		<relatedlink name="Fehler melden" type="report" url="http://code.google.com/p/xmlarsenal/issues/list"/>
+		<relatedlink name="Übersetzungsfehler melden" type="translation" url="http://code.google.com/p/xmlarsenal/issues/list"/>
 	</relatedlinks>
 </relatedinfo>

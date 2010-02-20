@@ -37,7 +37,7 @@
 		<relatedlink name="Arenaturnier" url="/arena-tournament.xml"/>		
 		<relatedlink type="hr"/>		
 		<relatedlink name="Häufig gestellte Fragen" url="/faq-armory.xml"/>		
-		<relatedlink name="Fehler melden" type="report" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
-		<relatedlink name="Übersetzungsfehler melden" type="translation" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+		<relatedlink name="Fehler melden" type="report" url="http://code.google.com/p/xmlarsenal/issues/list"/>
+		<relatedlink name="Übersetzungsfehler melden" type="translation" url="http://code.google.com/p/xmlarsenal/issues/list"/>
 	</relatedlinks>
 </relatedinfo>
