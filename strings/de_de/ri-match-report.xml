@@ -26,8 +26,8 @@ Jedes Arena-Match, über alle Brackets und Realmpools hinweg, verfügt über ein
 		<relatedlink name="Häufig gestellte Fragen" url="/faq-armory.xml"/>
 		<relatedlink name="Bekannte Probleme" url="http://forums.worldofwarcraft.com/thread.html?topicId=1777873353&amp;sid=1"/>		
 		<relatedlink type="hr"/>
-		<relatedlink name="Bekannte Probleme" type="external" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
-		<relatedlink name="Fehler melden" type="report" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
-		<relatedlink name="Übersetzungsfehler melden" type="translation" url="http://sourceforge.net/apps/mediawiki/xmlarsenal/index.php?title=Open_Issues"/>
+		<relatedlink name="Bekannte Probleme" type="external" url="http://code.google.com/p/xmlarsenal/issues/list"/>
+		<relatedlink name="Fehler melden" type="report" url="http://code.google.com/p/xmlarsenal/issues/list"/>
+		<relatedlink name="Übersetzungsfehler melden" type="translation" url="http://code.google.com/p/xmlarsenal/issues/list"/>
 	</relatedlinks>
 </relatedinfo>

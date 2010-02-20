@@ -179,9 +179,9 @@
 			<!-- <link key="armory.menu.searchPlugin" url="/search-plugin.xml"/> -->
 		</link>
 		<link key="armory.menu.xmlarsenal">
-			<link key="armory.menu.homepage" url="http://xmlarsenal.sourceforge.net/"/>
-			<link key="armory.menu.downloads" url="http://sourceforge.net/projects/xmlarsenal/files/"/>
-			<link key="armory.menu.about" url="http://sourceforge.net/projects/xmlarsenal/"/>
+			<link key="armory.menu.homepage" url="http://code.google.com/p/xmlarsenal/"/>
+			<link key="armory.menu.downloads" url="http://code.google.com/p/xmlarsenal/downloads/list"/>
+			<link key="armory.menu.about" url="http://code.google.com/p/xmlarsenal/w/list"/>
 		</link>
 	</links>
 </menuNav>
