@@ -18,12 +18,6 @@ require_once './includes/db.inc.php';
 require_once './includes/data.inc.php';
 require_once './includes/functions.inc.php';
 
-//try using cache
-$cachefile = FILECACHEFOLDER. md5("character-sheet.xml_".$charname."_on_".$realmName."_lang_".$language) .".cache";
-if(USEFILECACHE && file_exists($cachefile) && (filemtime($cachefile) + 60*60*UPDATEINTERVAL > time())){
-	echo file_get_contents($cachefile)."<!-- cached file. cache valid until ".date('d.m.Y H:i:s',filemtime($cachefile) + 60*60*UPDATEINTERVAL).". -->";
-	die();
-}
 
 //don't display blacklisted chars
 if(in_array($charname, $blacklistedChars[$usedRealm])){
@@ -31,6 +25,13 @@ if(in_array($charname, $blacklistedChars[$usedRealm])){
 	die();
 }
 
+
+//try using cache
+$cachefile = FILECACHEFOLDER. md5("character-sheet.xml_".$charname."_on_".$realmName."_lang_".$language) .".cache";
+if(USEFILECACHE && file_exists($cachefile) && (filemtime($cachefile) + 60*60*UPDATEINTERVAL > time())){
+	echo file_get_contents($cachefile)."<!-- cached file. cache valid until ".date('d.m.Y H:i:s',filemtime($cachefile) + 60*60*UPDATEINTERVAL).". -->";
+	die();
+}
 
 $char = new Character($charname, $usedRealm); 
 
