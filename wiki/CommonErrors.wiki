@@ -1,0 +1,9 @@
+#labels Phase-Deploy,Featured
+=== Empty page or "no element found" XML warning ===
+
+Some PHP installations seem to have problems with set set_error_handler(). If you get a blank page please go to _includes/functions.inc.php_, line 77 and comment it out.
+
+
+=== Error messages starting with "Notice:" ===
+
+Please go to _includes/config.inc.php_, line 21 and set ERROR_REPORING to E_ALL ^ E_NOTICE
