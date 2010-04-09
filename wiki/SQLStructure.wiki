@@ -5,13 +5,13 @@ This SQL-dump can be used to create the necessary database structure in the arse
 
 {{{
 -- phpMyAdmin SQL Dump
--- version 3.2.2
+-- version 3.2.5
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Erstellungszeit: 07. Januar 2010 um 13:43
+-- Erstellungszeit: 09. April 2010 um 23:39
 -- Server Version: 5.1.34
--- PHP-Version: 5.2.5 (x64)
+-- PHP-Version: 5.2.8-x64
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 
@@ -32,6 +32,29 @@ CREATE TABLE `arsenal_accounts` (
   `user_password_hash` varchar(512) NOT NULL,
   `data` mediumtext NOT NULL,
   PRIMARY KEY (`entry_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Tabellenstruktur für Tabelle `arsenal_accounts_seq`
+--
+
+DROP TABLE IF EXISTS `arsenal_accounts_seq`;
+CREATE TABLE `arsenal_accounts_seq` (
+  `sequence` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`sequence`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Tabellenstruktur für Tabelle `arsenal_achievementladder`
+--
+
+DROP TABLE IF EXISTS `arsenal_achievementladder`;
+CREATE TABLE `arsenal_achievementladder` (
+  `data` mediumtext NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
@@ -64,6 +87,18 @@ CREATE TABLE `arsenal_arenateams` (
 -- --------------------------------------------------------
 
 --
+-- Tabellenstruktur für Tabelle `arsenal_arenateams_seq`
+--
+
+DROP TABLE IF EXISTS `arsenal_arenateams_seq`;
+CREATE TABLE `arsenal_arenateams_seq` (
+  `sequence` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`sequence`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
 -- Tabellenstruktur für Tabelle `arsenal_characters`
 --
 
@@ -76,6 +111,18 @@ CREATE TABLE `arsenal_characters` (
   `data` mediumtext NOT NULL,
   PRIMARY KEY (`entry_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Tabellenstruktur für Tabelle `arsenal_characters_seq`
+--
+
+DROP TABLE IF EXISTS `arsenal_characters_seq`;
+CREATE TABLE `arsenal_characters_seq` (
+  `sequence` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`sequence`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
@@ -110,6 +157,18 @@ CREATE TABLE `arsenal_guilds` (
 -- --------------------------------------------------------
 
 --
+-- Tabellenstruktur für Tabelle `arsenal_guilds_seq`
+--
+
+DROP TABLE IF EXISTS `arsenal_guilds_seq`;
+CREATE TABLE `arsenal_guilds_seq` (
+  `sequence` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`sequence`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
 -- Tabellenstruktur für Tabelle `arsenal_searches`
 --
 
@@ -120,6 +179,18 @@ CREATE TABLE `arsenal_searches` (
   `data` mediumtext NOT NULL,
   PRIMARY KEY (`entry_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Tabellenstruktur für Tabelle `arsenal_searches_seq`
+--
+
+DROP TABLE IF EXISTS `arsenal_searches_seq`;
+CREATE TABLE `arsenal_searches_seq` (
+  `sequence` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`sequence`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
 
