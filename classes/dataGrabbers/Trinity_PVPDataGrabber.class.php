@@ -699,7 +699,7 @@ public function getSearchCharactersResults($realmName)
 	{
 	$x=0;
 	$this->SearchCharactersResults = array(); 
-    $res = mysql_query("SELECT c.race,c.class,c.gender,c.level,c.name, g.name as gname FROM `characters` c LEFT JOIN `guild_member` gm on gm.guid = c.guid LEFT JOIN `guild` g on g.guildid=gm.guildid WHERE c.name LIKE '%".$this->searchstring."%';", $this->pvpdbconn); 
+    $res = mysql_query("SELECT c.race,c.class,c.gender,c.level,c.name, g.name as gname FROM `characters` c LEFT JOIN `guild_member` gm on gm.guid = c.guid LEFT JOIN `guild` g on g.guildid=gm.guildid WHERE c.name LIKE '".$this->searchstring."%';", $this->pvpdbconn); 
 	while($arr = mysql_fetch_assoc($res))
 		{
 		$this->SearchCharactersResults[$x]['realmName']=$realmName;
@@ -718,7 +718,7 @@ public function getSearchTeamsResults($realmName)
 	{
 	$x=0;
 	$this->SearchSearchTeamsResults = array(); 
-    $res = mysql_query("SELECT a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, ats.rating, ats.rank, ats.games, ats.wins, ats.played, ats.wins2, c.race FROM `arena_team` a JOIN `arena_team_stats` ats on a.arenateamid = ats.arenateamid JOIN characters c ON c.guid = a.captainguid WHERE a.name LIKE '%".$this->searchstring."%';", $this->pvpdbconn); 
+    $res = mysql_query("SELECT a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, ats.rating, ats.rank, ats.games, ats.wins, ats.played, ats.wins2, c.race FROM `arena_team` a JOIN `arena_team_stats` ats on a.arenateamid = ats.arenateamid JOIN characters c ON c.guid = a.captainguid WHERE a.name LIKE '".$this->searchstring."%';", $this->pvpdbconn); 
     while($arr = mysql_fetch_assoc($res))
 		{
 		$this->SearchTeamsResults[$x]['realmName']=$realmName;
@@ -746,7 +746,7 @@ public function getSearchGuildsResults($realmName)
 	{
 	$x=0;
 	$this->SearchCharactersResults = array(); 
-    $res = mysql_query("SELECT g.BackgroundColor,g.BorderStyle, g.EmblemColor, g.EmblemStyle, g.BorderColor, g.name, c.race FROM `guild` g JOIN characters c on g.leaderguid = c.guid WHERE g.name LIKE '%".$this->searchstring."%';", $this->pvpdbconn); 
+    $res = mysql_query("SELECT g.BackgroundColor,g.BorderStyle, g.EmblemColor, g.EmblemStyle, g.BorderColor, g.name, c.race FROM `guild` g JOIN characters c on g.leaderguid = c.guid WHERE g.name LIKE '".$this->searchstring."%';", $this->pvpdbconn); 
     while($arr = mysql_fetch_assoc($res))
 		{
 		$this->SearchGuildsResults[$x]['realmName']=$realmName;
