@@ -1,4 +1,7 @@
 #labels Phase-Deploy
+This SQL-dump can be used to create the necessary database structure in the arsenal database (see [Config]).
+
+{{{
 -- phpMyAdmin SQL Dump
 -- version 3.2.5
 -- http://www.phpmyadmin.net
@@ -145,3 +148,4 @@ CREATE TABLE `arsenal_xmlcache` (
   `file_contents` mediumtext NOT NULL,
   PRIMARY KEY (`file_name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COMMENT='for saving xml in the database instead of files (optional)';
+}}}
