@@ -731,7 +731,7 @@ class Character{
 		$vars['STAT_EXPERTISE_ADD'] = 0;
 		
 		//mainhand data (if equipped)
-		if(!empty($this->items[15])){
+		if(!empty($this->items[15]) && $this->charStats['mhTempo'] != 0){
 			
 			$vars['STAT_MAINHAND_DPS'] = round((($this->charStats['mhMinDmg'] + $this->charStats['mhMaxDmg']) / 2) /  $this->charStats['mhTempo'], 2);
 			$vars['STAT_MAINHAND_MAXDMG'] = $this->charStats['mhMaxDmg'];
@@ -748,7 +748,7 @@ class Character{
 		}//if
 		
 		//offhand data (if equipped)
-		if(!empty($this->items[16])){
+		if(!empty($this->items[16]) && $this->charStats['ohTempo'] != 0){
 			//((Min Weapon Damage + Max Weapon Damage) / 2) / Weapon Speed
 			$vars['STAT_OFFHAND_DPS'] = round((($this->charStats['ohMinDmg'] + $this->charStats['ohMaxDmg']) / 2) /  $this->charStats['ohTempo'], 2);
 			$vars['STAT_OFFHAND_MAXDMG'] = $this->charStats['ohMaxDmg'];
@@ -765,7 +765,7 @@ class Character{
 		}//if
 		
 		//ranged weapon (if equipped)
-		if(!empty($this->items[17])){
+		if(!empty($this->items[17]) && $this->charStats['rTempo']){
 			//((Min Weapon Damage + Max Weapon Damage) / 2) / Weapon Speed
 			$vars['STAT_RANGED_DPS'] = round((($this->charStats['rMinDmg'] + $this->charStats['rMaxDmg']) / 2) /  $this->charStats['rTempo'], 2);
 			$vars['STAT_RANGED_MAXDMG'] = $this->charStats['rMaxDmg'];
