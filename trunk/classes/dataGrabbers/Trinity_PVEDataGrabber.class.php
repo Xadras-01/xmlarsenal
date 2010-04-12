@@ -6,9 +6,9 @@
 * This is the example implementation of a DataGrabber for XMLArsenal. 
 * If you like to use your own DataGrabber-Class just implement the functions in such a way that they use 
 * the same function-names and produce the same output as the functions shown in this file. 
-* 
-* @author Ytrosh 
+*
 * @author Amras Taralom <amras-taralom@streber24.de> 
+* @author Ytrosh 
 * @version 1.0, last modified 2010/01/31
 * @package XMLArsenal 
 * @subpackage classes 
@@ -16,7 +16,9 @@
 * 
 */ 
   
-  
+require dirname(__FILE__).'/fielddefs.php'; //load fieddefs
+
+
 class Trinity_PVEDataGrabber{ 
   
     /** 
@@ -342,13 +344,13 @@ private function int2float($int) {
 public function __construct(){ 
      
     //$this->pvedbconn = mysql_connect("localhost", "localuser", "userpassword", true) or die(get_class($this).": no connection to database."); 
-    //@mysql_select_db("pve_char", $this->pvedbconn) or die (get_class($this).": not able to select specified database.");
+    //@mysql_select_db("pvp_char", $this->pvedbconn) or die (get_class($this).": not able to select specified database."); 
 	
 	//extra passwords
 	if(file_exists('./classes/dataGrabbers/GrabberConfig.php')) include './classes/dataGrabbers/GrabberConfig.php';
 	
-    @mysql_query("SET NAMES 'utf8'", $this->pvedbconn);
-    @mysql_query("SET CHARACTER SET 'utf8'", $this->pvedbconn);
+    @mysql_query("SET NAMES 'utf8'", $this->pvedbconn); 
+    @mysql_query("SET CHARACTER SET 'utf8'", $this->pvedbconn); 
 } 
 
 
@@ -615,12 +617,14 @@ public function getName($player)
     } 
   
 public function getPrimaryProfessions(){
-
+	
+	$eUnitFields =& $GLOBALS['eUnitFields'];
+	
 	$professions = array(171, 186, 202, 773, 755, 182, 393, 165, 164, 197, 333);
 	$data = $this->data;
 	$resultset = array();
 	
-	for($i = 610; $i < 694; $i+=3){
+	for($i = $eUnitFields['PLAYER_SKILL_INFO_1_1']; $i < $eUnitFields['PLAYER_CHARACTER_POINTS1']; $i+=3){
 		
 		$priProfId = $data[$i];
 		if($priProfId > 65536) $priProfId = $priProfId - 65536;
@@ -653,10 +657,13 @@ public function getData($player)
 
 public function getChosenTitleMask(){
 	
+	$eUnitFields =& $GLOBALS['eUnitFields'];
+	
 	//this is from CharTitles.dbc column 37: titleMaskID (Integer, used ingame in the drop down menu)
-	return $this->data[296];
+	return $this->data[$eUnitFields['PLAYER_CHOSEN_TITLE']];
 	
 }//getChosenTitleMask()
+
 
 public function getAchievementFirsts($realmName, $firstIDs){
 	
@@ -692,6 +699,7 @@ public function getAchievementFirsts($realmName, $firstIDs){
 	return $achievements;
 	
 }//getAchievementFirsts()
+
 
 public function getSearchCharactersResults($realmName)
 	{
@@ -823,98 +831,100 @@ public function getGuildNameplayer()
   
 public function getCharStats() 
     { 
-    
+		
+		$eUnitFields =& $GLOBALS['eUnitFields'];
+		
 		return array( 
 					//Grundwerte
-					'strength'      		=> $this->data[84], 
-						'strengthPos'		=> round(int2float($this->data[89])), 
-						'strengthNeg'		=> round(int2float($this->data[94])),
-					'agility'      	 		=> $this->data[85], 
-						'agilityPos'		=> round(int2float($this->data[90])),  
-						'agilityNeg'		=> round(int2float($this->data[95])),
-					'stamina'       		=> $this->data[86], 
-						'staminaPos'		=> round(int2float($this->data[91])),  
-						'staminaNeg'		=> round(int2float($this->data[96])),
-					'int'           		=> $this->data[87], 
-						'intPos'			=> round(int2float($this->data[92])),
-						'intNeg'			=> round(int2float($this->data[97])), 
-					'spirit'       			=> $this->data[88], 
-						'spiritPos'			=> round(int2float($this->data[93])), 
-						'spiritNeg'			=> round(int2float($this->data[98])),
-					'armor'					=> $this->data[99],
+					'strength'      		=> $this->data[$eUnitFields['UNIT_FIELD_STAT0']], 
+						'strengthPos'		=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_POSSTAT0']])), 
+						'strengthNeg'		=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_NEGSTAT0']])),
+					'agility'      	 		=> $this->data[$eUnitFields['UNIT_FIELD_STAT1']], 
+						'agilityPos'		=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_POSSTAT1']])),  
+						'agilityNeg'		=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_NEGSTAT1']])),
+					'stamina'       		=> $this->data[$eUnitFields['UNIT_FIELD_STAT2']], 
+						'staminaPos'		=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_POSSTAT2']])),  
+						'staminaNeg'		=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_NEGSTAT2']])),
+					'int'           		=> $this->data[$eUnitFields['UNIT_FIELD_STAT3']], 
+						'intPos'			=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_POSSTAT3']])),
+						'intNeg'			=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_NEGSTAT3']])), 
+					'spirit'       			=> $this->data[$eUnitFields['UNIT_FIELD_STAT4']], 
+						'spiritPos'			=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_POSSTAT4']])), 
+						'spiritNeg'			=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_NEGSTAT4']])),
+					'armor'					=> $this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']],
 					  
 					//Nahkampf
-					'mhMinDmg'     		 	=> round(int2float($this->data[69])),
-					'mhMaxDmg'        	 	=> round(int2float($this->data[70])),
-					'ohMinDmg'        	 	=> round(int2float($this->data[71])),
-					'ohMaxDmg'        	 	=> round(int2float($this->data[72])),
-					'mhTempo'				=> round((int2float($this->data[61]) / 1000), 2),					
-					'ohTempo'				=> round((int2float($this->data[62]) / 1000), 2),
-					'mAtp'				 	=> $this->data[123],
-						'mAtpMod'			=> $this->data[124],
-					'mHitRating'		 	=> $this->data[1208],
+					'mhMinDmg'     		 	=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_MINDAMAGE']])),
+					'mhMaxDmg'        	 	=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_MAXDAMAGE']])),
+					'ohMinDmg'        	 	=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_MINOFFHANDDAMAGE']])),
+					'ohMaxDmg'        	 	=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_MAXOFFHANDDAMAGE']])),
+					'mhTempo'				=> round((int2float($this->data[$eUnitFields['UNIT_FIELD_BASEATTACKTIME']]) / 1000), 2),					
+					'ohTempo'				=> round((int2float($this->data[$eUnitFields['UNIT_FIELD_BASEATTACKTIME']+1]) / 1000), 2),
+					'mAtp'				 	=> $this->data[$eUnitFields['UNIT_FIELD_ATTACK_POWER']],
+						'mAtpMod'			=> $this->data[$eUnitFields['UNIT_FIELD_ATTACK_POWER_MODS']],
+					'mHitRating'		 	=> $this->data[$eUnitFields['PLAYER_FIELD_COMBAT_RATING_1']+5],
 						'mHitPercent'		=> 0.00,
-						'mExpRating'		=> $this->data[1227],
+						'mExpRating'		=> $this->data[$eUnitFields['PLAYER_FIELD_COMBAT_RATING_1'+23]],
 							'mExpPercent'	=> 0.00,
-					'mCritPercent'		 	=> round(int2float($this->data[1003]), 2),
-						'mCritRating'		=> $this->data[1211],					
-					'mExpertise'			=> $this->data[1001],
+					'mCritPercent'		 	=> round(int2float($this->data[$eUnitFields['PLAYER_CRIT_PERCENTAGE']]), 2),
+						'mCritRating'		=> $this->data[$eUnitFields['PLAYER_FIELD_COMBAT_RATING_1']+8],					
+					'mExpertise'			=> $this->data[$eUnitFields['PLAYER_EXPERTISE']],
 					
 					//Distanz
-					'rMinDmg'   		 	=> round(int2float($this->data[129])),
-					'rMaxDmg'  		 	 	=> round(int2float($this->data[130])),
-					'rTempo'				=> round((int2float($this->data[63]) / 1000), 2),
-					'rAtp'		 			=> $this->data[126],
-						'rAtpMod'	 		=> $this->data[127],		
-					'rHitRating'		 	=> $this->data[1209],
+					'rMinDmg'   		 	=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_MINRANGEDDAMAGE']])),
+					'rMaxDmg'  		 	 	=> round(int2float($this->data[$eUnitFields['UNIT_FIELD_MAXRANGEDDAMAGE']])),
+					'rTempo'				=> round((int2float($this->data[$eUnitFields['UNIT_FIELD_RANGEDATTACKTIME']]) / 1000), 2),
+					'rAtp'		 			=> $this->data[$eUnitFields['UNIT_FIELD_RANGED_ATTACK_POWER']],
+						'rAtpMod'	 		=> $this->data[$eUnitFields['UNIT_FIELD_RANGED_ATTACK_POWER_MODS']],		
+					'rHitRating'		 	=> $this->data[$eUnitFields['PLAYER_FIELD_COMBAT_RATING_1']+6],
 						'rHitPercent'		=> 0.00,
-						'rExpRating'		=> $this->data[1227],
+						'rExpRating'		=> $this->data[$eUnitFields['PLAYER_FIELD_COMBAT_RATING_1'+23]],
 							'rExpPercent'	=> 0.00,	
-					'rCritPercent'			=> round(int2float($this->data[1002]), 2),
-						'rCritRating'		=> $this->data[1212],
+					'rCritPercent'			=> round(int2float($this->data[$eUnitFields['PLAYER_RANGED_CRIT_PERCENTAGE']]), 2),
+						'rCritRating'		=> $this->data[$eUnitFields['PLAYER_FIELD_COMBAT_RATING_1']+9],
 					
 					//Zauber
-					'spellBonus'		 	=> $this->data[1145],
-						'holyBonus'    		=> $this->data[1146], 
-						'fireBonus'    		=> $this->data[1147], 
-						'natureBonus'   	=> $this->data[1148], 
-						'frostBonus'    	=> $this->data[1149], 
-						'shadowBonus'  	 	=> $this->data[1150], 
-						'arcaneBonus'    	=> $this->data[1151],
-					'healBonus'				=> $this->data[1166],														
-					'spHitRating'		 	=> $this->data[1210],
+					'spellBonus'		 	=> $this->data[$eUnitFields['PLAYER_FIELD_MOD_DAMAGE_DONE_POS']],
+						'holyBonus'    		=> $this->data[$eUnitFields['PLAYER_FIELD_MOD_DAMAGE_DONE_POS']+1], 
+						'fireBonus'    		=> $this->data[$eUnitFields['PLAYER_FIELD_MOD_DAMAGE_DONE_POS']+2], 
+						'natureBonus'   	=> $this->data[$eUnitFields['PLAYER_FIELD_MOD_DAMAGE_DONE_POS']+3], 
+						'frostBonus'    	=> $this->data[$eUnitFields['PLAYER_FIELD_MOD_DAMAGE_DONE_POS']+4], 
+						'shadowBonus'  	 	=> $this->data[$eUnitFields['PLAYER_FIELD_MOD_DAMAGE_DONE_POS']+5], 
+						'arcaneBonus'    	=> $this->data[$eUnitFields['PLAYER_FIELD_MOD_DAMAGE_DONE_POS']+6],
+					'healBonus'				=> $this->data[$eUnitFields['PLAYER_FIELD_MOD_HEALING_DONE_POS']],
+					'spHitRating'		 	=> $this->data[$eUnitFields['PLAYER_FIELD_COMBAT_RATING_1']+7],
 						'spHitPercent'		=> 0.00,
 						'spExpRating'		=> 0,
 							'spExpPercent'	=> 0.00,												
-					'spCritRating'			=> 0,												
-						'spCritPercent'	 	=> round(int2float($this->data[1004]), 2),
-						'holyCritPercent' 	=> round(int2float($this->data[1007]), 2),
-						'fireCritPercent' 	=> round(int2float($this->data[1008]), 2),
-						'natureCritPercent' => round(int2float($this->data[1009]), 2),
-						'frostCritPercent' 	=> round(int2float($this->data[1010]), 2),
-						'shadowCritPercent' => round(int2float($this->data[1011]), 2),
-						'arcaneCritPercent' => round(int2float($this->data[1012]), 2),
+					'spCritRating'			=> $this->data[$eUnitFields['PLAYER_FIELD_COMBAT_RATING_1']+10],
+						'spCritPercent'	 	=> round(int2float($this->data[$eUnitFields['PLAYER_SPELL_CRIT_PERCENTAGE1']]), 2),
+						'holyCritPercent' 	=> round(int2float($this->data[$eUnitFields['PLAYER_SPELL_CRIT_PERCENTAGE1']+1]), 2),
+						'fireCritPercent' 	=> round(int2float($this->data[$eUnitFields['PLAYER_SPELL_CRIT_PERCENTAGE1']+2]), 2),
+						'natureCritPercent' => round(int2float($this->data[$eUnitFields['PLAYER_SPELL_CRIT_PERCENTAGE1']+3]), 2),
+						'frostCritPercent' 	=> round(int2float($this->data[$eUnitFields['PLAYER_SPELL_CRIT_PERCENTAGE1']+4]), 2),
+						'shadowCritPercent' => round(int2float($this->data[$eUnitFields['PLAYER_SPELL_CRIT_PERCENTAGE1']+5]), 2),
+						'arcaneCritPercent' => round(int2float($this->data[$eUnitFields['PLAYER_SPELL_CRIT_PERCENTAGE1']+6]), 2),
 					'spHasteRating'			=> 0,
-						'spHastePercent'	=> round(int2float($this->data[80]), 2),
+						'spHastePercent'	=> round(int2float($this->data[$eUnitFields['UNIT_MOD_CAST_SPEED']]), 2),
 					'spRegeneration'		=> 0,
 					
 					//Verteidigung
-					'defense'				=> 0,					
-					'dodgePercent'			=> round(int2float($this->data[999]), 2),
-						'dodgeRating'		=> $this->getRatingFromPercent('dodge', round(int2float($this->data[999]), 2)),
-					'parryPercent' 			=> round(int2float($this->data[1000]), 2),	
-						'parryRating' 		=> $this->getRatingFromPercent('parry', round(int2float($this->data[1000]), 2)),
-					'blockPercent'			=> round(int2float($this->data[998]), 2),
-						'blockRating'		=> $this->getRatingFromPercent('block', round(int2float($this->data[998]), 2)),
+					'defense'				=> $this->data[$eUnitFields['PLAYER_FIELD_COMBAT_RATING_1']+1],
+					'dodgePercent'			=> round(int2float($this->data[$eUnitFields['PLAYER_DODGE_PERCENTAGE']]), 2),
+						'dodgeRating'		=> $this->data[$eUnitFields['PLAYER_FIELD_COMBAT_RATING_1']+2],
+					'parryPercent' 			=> round(int2float($this->data[$eUnitFields['PLAYER_PARRY_PERCENTAGE']]), 2),
+						'parryRating' 		=> $this->data[$eUnitFields['PLAYER_FIELD_COMBAT_RATING_1']+3],
+					'blockPercent'			=> round(int2float($this->data[$eUnitFields['PLAYER_BLOCK_PERCENTAGE']]), 2),
+						'blockRating'		=> $this->data[$eUnitFields['PLAYER_FIELD_COMBAT_RATING_1']+4],
 					'resilienceRating'		=> 0,
 						'resiliencePercent'	=> 0,
 					
 					//Sonstige
-					'health'				=> $this->data[31],
-					'mana'					=> $this->data[32],
-					'rage'					=> $this->data[33]/10,
-					'energy'				=> $this->data[35],
-					'rune'					=> $this->data[36]
+					'health'				=> $this->data[$eUnitFields['UNIT_FIELD_MAXHEALTH']],
+					'mana'					=> $this->data[$eUnitFields['UNIT_FIELD_MAXPOWER1']],
+					'rage'					=> $this->data[$eUnitFields['UNIT_FIELD_MAXPOWER2']]/10,
+					'energy'				=> $this->data[$eUnitFields['UNIT_FIELD_MAXPOWER4']],
+					'rune'					=> $this->data[$eUnitFields['UNIT_FIELD_MAXPOWER5']]
 					
 					);
     } 
@@ -944,12 +954,15 @@ private function getRatingFromPercent($which, $percent){
   
 public function getResistances() 
     { 
-    $this->resistances = array('holyRes'    =>$this->data[100], 
-                                  'fireRes'    =>$this->data[101], 
-                                  'natureRes'    =>$this->data[102], 
-                                  'frostRes'    =>$this->data[103], 
-                                  'shadowRes'    =>$this->data[104], 
-                                  'arcaneRes'    =>$this->data[105]); 
+	
+	$eUnitFields =& $GLOBALS['eUnitFields'];
+	
+    $this->resistances = array('holyRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+1], 
+                                  'fireRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+2], 
+                                  'natureRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+3], 
+                                  'frostRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+4], 
+                                  'shadowRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+5], 
+                                  'arcaneRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+6]); 
   
     return $this->resistances; 
     } 
