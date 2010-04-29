@@ -1540,7 +1540,7 @@ class Character{
 					if($statmodifier[1] == 0) $vars['STATMODIFIERS'] .= '<armor armorBonus="0">'.$statmodifier[2].'</armor>';
 					if($statmodifier[1] == 2) $vars['STATMODIFIERS'] .= '<fireResist>'.$statmodifier[2].'</fireResist>';
 					if($statmodifier[1] == 3) $vars['STATMODIFIERS'] .= '<natureResist>'.$statmodifier[2].'</natureResist>';
-					if($statmodifier[1] == 4) $vars['STATMODIFIERS'] .= '<forstResist>'.$statmodifier[2].'</frostResist>';
+					if($statmodifier[1] == 4) $vars['STATMODIFIERS'] .= '<frostResist>'.$statmodifier[2].'</frostResist>';
 					if($statmodifier[1] == 5) $vars['STATMODIFIERS'] .= '<shadowResist>'.$statmodifier[2].'</shadowResist>';
 					if($statmodifier[1] == 6) $vars['STATMODIFIERS'] .= '<arcaneResist>'.$statmodifier[2].'</arcaneResist>';
 					if($statmodifier[1] == 7) $vars['STATMODIFIERS'] .= '<holyResist>'.$statmodifier[2].'</holyResist>';
