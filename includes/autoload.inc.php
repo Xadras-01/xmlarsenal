@@ -13,21 +13,22 @@
  *
 */
 
+define('ARSENALBASE', dirname(dirname(__FILE__)));
 
 function __autoload($class_name) {
 
-	if(file_exists('./classes/'.$class_name.'.class.php')){
-		require_once './classes/'.$class_name.'.class.php';
+	if(file_exists(ARSENALBASE.'/classes/'.$class_name.'.class.php')){
+		require_once ARSENALBASE.'/classes/'.$class_name.'.class.php';
 		return;
 	}
 	
-	if(file_exists('../classes/'.$class_name.'.class.php')){
-		require_once '../classes/'.$class_name.'.class.php';
+	if(file_exists(ARSENALBASE.'/classes/'.$class_name.'.class.php')){
+		require_once ARSENALBASE.'/classes/'.$class_name.'.class.php';
 		return;
 	}
 	
-	if(file_exists('./classes/dataGrabbers/'.$class_name.'.class.php')){
-		require_once './classes/dataGrabbers/'.$class_name.'.class.php';
+	if(file_exists(ARSENALBASE.'/classes/dataGrabbers/'.$class_name.'.class.php')){
+		require_once ARSENALBASE.'/classes/dataGrabbers/'.$class_name.'.class.php';
 		return;
 	}
 	
