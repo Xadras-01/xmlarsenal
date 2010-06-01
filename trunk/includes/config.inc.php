@@ -6,7 +6,7 @@
  * This file holds the configuration parameters of XMLArsenal
  *
  * @author Amras Taralom <amras-taralom@streber24.de>
- * @version 1.0, last modified 2010/02/16s
+ * @version 1.0, last modified 2010/05/27
  * @package XMLArsenal
  * @subpackage includes
  * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License version 3 (GPLv3)
@@ -18,7 +18,7 @@
 //set to error_reporting(0) for maximum security
 //set to error_reporting(E_ALL) for maximum debug info
 //standard is error_reporting(E_ALL ^ E_NOTICE) which means everything but notices
-define('ERROR_REPORING', E_ALL ^ E_NOTICE);
+define('ERROR_REPORING', E_ALL ^ E_NOTICE ^ E_DEPRECATED);
 
 //debug mode on?
 define("DEBUGMODE", false);
