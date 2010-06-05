@@ -9,7 +9,7 @@
 *
 * @author Amras Taralom <amras-taralom@streber24.de> 
 * @author Ytrosh 
-* @version 1.0, last modified 2010/01/31
+* @version 0.6, last modified 2010/06/05
 * @package XMLArsenal 
 * @subpackage classes 
 * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License version 3 (GPLv3) 
@@ -17,7 +17,6 @@
 */ 
   
 require dirname(__FILE__).'/fielddefs.php'; //load fieddefs
-
 
 class Trinity_PVPDataGrabber{ 
   
@@ -967,95 +966,48 @@ public function getResistances()
     return $this->resistances; 
     } 
   
-  
 public function getReputation() 
     { 
+	
+	$handle = fopen(dirname(__FILE__).'/Faction.csv', 'r');
+	$factionTemplate = array();
+	while(($row = fgetcsv($handle)) != false){
+		$factionTemplate[$row[0]] = $row;
+	};
+	fclose($handle);
+
+	$raceMask = 1 << ($this->getRace()-1);
+	$classMask = 1 << ($this->getClass()-1);
+	
     $res = @mysql_query("SELECT faction, standing FROM `character_reputation` WHERE `guid`='".$this->charid."' AND (flags & 1 = 1);", $this->pvpdbconn); 
     while($arr = @mysql_fetch_assoc($res)) 
-        {   
-			if ($this->reputation[$arr['faction']]=='529')	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 200;//Argentumdämmerung
-			if ($this->reputation[$arr['faction']]=='21')	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 500;//Beutebucht
-			if ($this->reputation[$arr['faction']]=='87')	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] - 41500;//Blutsegelbukaniere
-			if ($this->reputation[$arr['faction']]=='169')	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 500;//Dampfdruckkartell
+        {
 			
-			if (($this->chartable['race']==4)  && ($this->reputation[$arr['faction']]==69))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 4000; 
-				else
-				if (($this->reputation[$arr['faction']]==69) && (($this->chartable['race']==1) || ($this->chartable['race']==3) || ($this->chartable['race']==7) || ($this->chartable['race']==11)))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 3100;//Darnassus
+			$faction = $arr['faction'];
+			$baseRep = 0;
 			
-			if (($this->reputation[$arr['faction']]==932) && ($this->chartable['race']==10))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] - 5500;//Aldor Blutelf
-			if (($this->reputation[$arr['faction']]==932) && ($this->chartable['race']==11))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 3500;//Aldor Draenei
-			if (($this->reputation[$arr['faction']]==934) && ($this->chartable['race']==10))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 3500;//Seher Blutelf
-			if (($this->reputation[$arr['faction']]==934) && ($this->chartable['race']==11))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] - 5500;//Seher Draenei
-			if (($this->reputation[$arr['faction']]==930) && ($this->chartable['race']==11))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 4000;//Exodar Draenei
-			if ($this->reputation[$arr['faction']]==941)	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] - 2500;//Mag'har 
+			for ($i=0; $i < 4; $i++){
+				if (($factionTemplate[$faction][2+$i] & $raceMask  ||
+					($factionTemplate[$faction][2+$i] == 0  &&
+					 $factionTemplate[$faction][6+$i] != 0)) &&
+					($factionTemplate[$faction][6+$i] & $classMask ||
+					 $factionTemplate[$faction][6+$i] == 0)){
+					 
+						$baseRep = $factionTemplate[$faction][10+$i];
+						if($baseRep >= 1000000000) $baseRep = -1*(4294967296 - $baseRep);
+						break;
+					}
+			}
 			
-			if (($this->chartable['race']==6) &&($this->reputation[$arr['faction']]==81))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 4000; 
-				else
-				if (($this->reputation[$arr['faction']]==81) &&(($this->chartable['race']==2) || ($this->chartable['race']==8)))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 3100;//Donnerfels
-					else if (($this->reputation[$arr['faction']]==81) &&(($this->chartable['race']==5) || ($this->chartable['race']==10)))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 500;//Donnerfels
-			
-			if (($this->chartable['race']==8) &&($this->reputation[$arr['faction']]==530))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 4000; 
-				else
-				if (($this->reputation[$arr['faction']]==530) &&(($this->chartable['race']==2) || ($this->chartable['race']==6)))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 3100;//Dunkelspeertrolle
-					else if(($this->reputation[$arr['faction']]==530) &&(($this->chartable['race']==5) || ($this->chartable['race']==10)))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 500;//Dunkelspeertrolle
-
-			if (($this->chartable['race']==3)  &&($this->reputation[$arr['faction']]==47))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 4000; //Eisenschmiede
-				else
-				if (($this->reputation[$arr['faction']]==47) &&(($this->chartable['race']==1) || ($this->chartable['race']==4) || ($this->chartable['race']==7) || ($this->chartable['race']==11)))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 3100;//Eisenschmiede
-
-			if ($this->reputation[$arr['faction']]==577)	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 500;//Argentumdämmerung
-			if ($this->reputation[$arr['faction']]==369)	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 500;//Gadgetzan
-			if ($this->reputation[$arr['faction']]==92)	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 2000;//Gelkisklan
-			
-			if (($this->chartable['race']==7)  &&($this->reputation[$arr['faction']]==54))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 4000; //Gnomeregangnome
-				else
-				if (($this->reputation[$arr['faction']]=='47') &&(($this->chartable['race']==1) || ($this->chartable['race']==3) || ($this->chartable['race']==4) || ($this->chartable['race']==11)))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 3100;//Gnomeregangnome
-			
-			if ($this->reputation[$arr['faction']]==576)	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] - 5500;//Holzschlundfeste
-			if ($this->reputation[$arr['faction']]==978)	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] - 1800;//Holzschlundfeste
-			if ($this->reputation[$arr['faction']]==93)	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 2000;//Magramklan
-			
-			if (($this->chartable['race']==2) &&($this->reputation[$arr['faction']]==76))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 4000; 
-				else
-				if (($this->reputation[$arr['faction']]==76) &&(($this->chartable['race']==6) || ($this->chartable['race']==8)))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 3100;//||grimmar
-					else if(($this->reputation[$arr['faction']]==76) &&(($this->chartable['race']==5) || ($this->chartable['race']==10)))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 500;//Orgrimmar
-			
-			if ($this->reputation[$arr['faction']]==470)	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 500;//Ratschet
-			if (($this->reputation[$arr['faction']]==1098) &&($this->chartable['class']==6))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 200;//Ritter der Schwarzen
-
-			if (($this->chartable['race']==10) &&($this->reputation[$arr['faction']]==911))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 4000; 
-				else
-				if (($this->reputation[$arr['faction']]==911) &&($this->chartable['race']==5))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 3100;//Silbermond
-					else if(($this->reputation[$arr['faction']]==911) &&(($this->chartable['race']==2) || ($this->chartable['race']==6) || ($this->chartable['race']==8)))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 400;//Silbermond
-			
-			if ($this->reputation[$arr['faction']]==970)	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] - 500;//sporeggar
-
-			if (($this->chartable['race']==1)  &&($this->reputation[$arr['faction']]==72))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 4000; //Sturmwind
-				else
-				if (($this->reputation[$arr['faction']]==72) &&(($this->chartable['race']==3) || ($this->chartable['race']==4) || ($this->chartable['race']==7) || ($this->chartable['race']==11)))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 3100;//Sturmwind
-			
-			if (($this->chartable['race']==5) &&($this->reputation[$arr['faction']]==68))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 4000; 
-				else
-				if (($this->reputation[$arr['faction']]==68) &&($this->chartable['race']==5))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 3100;//Unterstadt
-					else if(($this->reputation[$arr['faction']]==68) &&(($this->chartable['race']==2) || ($this->chartable['race']==6) || ($this->chartable['race']==8)))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 500;//Unterstadt
-
-			if (($this->chartable['race']==3)  &&($this->reputation[$arr['faction']]==471))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 500; //Wildhammerklan
-				else
-				if (($this->reputation[$arr['faction']]==471) &&(($this->chartable['race']==1)) || ($this->chartable['race']==4) || ($this->chartable['race']==7) || ($this->chartable['race']==11))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 150;//Wildhammerklan
-
-			if (($this->reputation[$arr['faction']]==609) &&(($this->chartable['race']==4) || ($this->chartable['race']==6)))	$this->reputation[$arr['standing']]=$this->reputation[$arr['standing']] + 2000;//Zirkel des Cenarius
-
-			
+			$standing = $baseRep + $arr['standing'];
 			//capping. else armory displays much too long status bars 
-            if($arr['standing'] > 42999)     $arr['standing'] = 42999; 
-            if($arr['standing'] < -42000)     $arr['standing'] = -42000; 
+            if($standing > 42999)     $standing = 42999; 
+            if($standing < -42000)    $standing = -42000;
 			
-			
-			$this->reputation[$arr['faction']] = $arr['standing']; 
-             
-        
+			$this->reputation[$faction] = $standing;
+            
         } 
-    return $this->reputation; 
+    return $this->reputation;
     } 
   
   
