@@ -9,7 +9,7 @@
 *
 * @author Amras Taralom <amras-taralom@streber24.de> 
 * @author Ytrosh 
-* @version 0.6, last modified 2010/06/05
+* @version 0.6b, last modified 2010/06/05
 * @package XMLArsenal 
 * @subpackage classes 
 * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License version 3 (GPLv3) 
@@ -971,35 +971,36 @@ public function getReputation()
 	
 	$handle = fopen(dirname(__FILE__).'/Faction.csv', 'r');
 	$factionTemplate = array();
-	while(($row = fgetcsv($handle)) != false){
-		$factionTemplate[$row[0]] = $row;
-	};
-	fclose($handle);
-
 	$raceMask = 1 << ($this->getRace()-1);
 	$classMask = 1 << ($this->getClass()-1);
+	
+	while(($row = fgetcsv($handle)) != false){
+		
+		$baseRep = 0;
+		for ($i=0; $i < 4; $i++){
+			if (($row[2+$i] & $raceMask  ||
+				($row[2+$i] == 0  &&
+				 $row[6+$i] != 0)) &&
+				($row[6+$i] & $classMask ||
+				 $row[6+$i] == 0)){
+				 
+					$baseRep = $row[10+$i];
+					if($baseRep >= 1000000000) $baseRep = -1*(4294967296 - $baseRep);
+					break;
+				}
+		}
+		
+		$this->reputation[$row[0]] = $baseRep;
+	}
+	
+	fclose($handle);
 	
     $res = @mysql_query("SELECT faction, standing FROM `character_reputation` WHERE `guid`='".$this->charid."' AND (flags & 1 = 1);", $this->pvedbconn); 
     while($arr = @mysql_fetch_assoc($res)) 
         {
 			
 			$faction = $arr['faction'];
-			$baseRep = 0;
-			
-			for ($i=0; $i < 4; $i++){
-				if (($factionTemplate[$faction][2+$i] & $raceMask  ||
-					($factionTemplate[$faction][2+$i] == 0  &&
-					 $factionTemplate[$faction][6+$i] != 0)) &&
-					($factionTemplate[$faction][6+$i] & $classMask ||
-					 $factionTemplate[$faction][6+$i] == 0)){
-					 
-						$baseRep = $factionTemplate[$faction][10+$i];
-						if($baseRep >= 1000000000) $baseRep = -1*(4294967296 - $baseRep);
-						break;
-					}
-			}
-			
-			$standing = $baseRep + $arr['standing'];
+			$standing = $this->reputation[$faction] + $arr['standing'];
 			//capping. else armory displays much too long status bars 
             if($standing > 42999)     $standing = 42999; 
             if($standing < -42000)    $standing = -42000;
