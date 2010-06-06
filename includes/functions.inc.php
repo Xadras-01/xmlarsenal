@@ -6,7 +6,7 @@
  * This file contains several helper functions, additional parsing and output-preps.
  *
  * @author Amras Taralom <amras-taralom@streber24.de>
- * @version 1.0, last modified 2010/01/30
+ * @version 1.0, last modified 2010/06/06
  * @package XMLArsenal
  * @subpackage includes
  * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License version 3 (GPLv3)
@@ -74,7 +74,23 @@ if($language == "en_us") $arsenaldataLang = "en_gb";
 set_include_path('./includes/pear');
 
 //set error handler to more modern, exception-based (and catchable!) behavior
-set_error_handler(create_function('$a, $b, $c, $d', 'throw new ErrorException($b, 0, $a, $c, $d);'), ERROR_REPORING);
+switch(ERROR_REPORTING_LEVEL){
+	
+	case 0:	 $ERROR_REPORING = 0; break;
+	case 1:	 $ERROR_REPORING = E_ALL ^ E_NOTICE ^ E_WARNING; break;
+	case 2:	 $ERROR_REPORING = E_ALL ^ E_NOTICE; break;
+	case 3:	 $ERROR_REPORING = E_ALL; break;
+	case 4:	 $ERROR_REPORING = -1; break;
+	default: $ERROR_REPORING = E_ALL ^ E_NOTICE ^ E_WARNING;
+	
+}
+
+//add deprecated for error levels smaller than 3
+if ((version_compare(PHP_VERSION, '5.3.0') >= 0) && $ERROR_REPORING <= 2) {
+	$ERROR_REPORING = $ERROR_REPORING ^ E_DEPRECATED;
+}
+
+set_error_handler(create_function('$a, $b, $c, $d', 'throw new ErrorException($b, 0, $a, $c, $d);'), $ERROR_REPORING);
 
 //file changedates etc are cached... to get right infos delete the cache...
 clearstatcache();
