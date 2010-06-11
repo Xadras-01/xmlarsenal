@@ -569,7 +569,8 @@ class MDB2_Driver_pdoSqlite extends MDB2_Driver_Common
         } else {
 //             do {
 //              $result = @$function($query.';', $connection, SQLITE_BOTH, $php_errormsg)
-                $result = $connection->query($query,';');
+                //$result = $connection->query($query,';');
+                $result = $connection->query($query);
                 $php_errormsg = $connection->errorInfo();
                 if ($php_errormsg[1] == 5) {
                 	foreach($connection->res as $key =>&$value){
