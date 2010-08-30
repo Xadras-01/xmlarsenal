@@ -9,7 +9,7 @@
 *
 * @author Amras Taralom <amras-taralom@streber24.de> 
 * @author Ytrosh 
-* @version 0.6b, last modified 2010/06/05
+* @version 0.8, last modified 2010/08/30
 * @package XMLArsenal 
 * @subpackage classes 
 * @license http://opensource.org/licenses/gpl-3.0.html GNU General Public License version 3 (GPLv3) 
@@ -240,7 +240,7 @@ class Trinity_PVEDataGrabber{
     * @access private 
     * @var string 
     */ 
-     private $pvedbconn; 
+     private $pvpdbconn; 
   
   
      /** 
@@ -343,7 +343,7 @@ private function int2float($int) {
 public function __construct(){ 
      
     //$this->pvedbconn = mysql_connect("localhost", "localuser", "userpassword", true) or die(get_class($this).": no connection to database."); 
-    //@mysql_select_db("pve_char", $this->pvedbconn) or die (get_class($this).": not able to select specified database."); 
+    //@mysql_select_db("pvp_char", $this->pvedbconn) or die (get_class($this).": not able to select specified database."); 
 	
 	//extra passwords
 	if(file_exists('./classes/dataGrabbers/GrabberConfig.php')) include './classes/dataGrabbers/GrabberConfig.php';
@@ -422,7 +422,7 @@ private function fullUpper($str){
 
 private function CharTable($player)     //chartable with guid 
     { 
-    $res = @mysql_query("SELECT guid, name, data, race, class FROM `characters` WHERE guid='".mysql_real_escape_string($player)."' LIMIT 1;", $this->pvedbconn); 
+    $res = @mysql_query("SELECT * FROM `characters` WHERE guid='".mysql_real_escape_string($player)."' LIMIT 1;", $this->pvedbconn); 
     $chartable2 = @mysql_fetch_assoc($res); 
     return $chartable2; 
     } 
@@ -430,7 +430,7 @@ private function CharTable($player)     //chartable with guid
   
 private function CharTable2($player)    //chartable with name 
     { 
-    $res = @mysql_query("SELECT guid, name, data, race, class FROM `characters` WHERE convert(name using utf8) COLLATE utf8_bin  = '".mysql_real_escape_string($player)."' LIMIT 1;", $this->pvedbconn); 
+    $res = @mysql_query("SELECT * FROM `characters` WHERE convert(name using utf8) COLLATE utf8_bin  = '".mysql_real_escape_string($player)."' LIMIT 1;", $this->pvedbconn); 
     $chartable2 = @mysql_fetch_assoc($res); 
     return $chartable2; 
     } 
@@ -468,7 +468,8 @@ private function ArenaTable($team) //arenatable with id
   
 private function setData($player) 
     { 
-    $this->data = explode(' ',$this->chartable['data']); 
+    
+	if(!empty($this->chartable['data']))	$this->data = explode(' ',$this->chartable['data']); 
     } 
   
 private function setMembertable($guild) 
@@ -618,27 +619,42 @@ public function getName($player)
 public function getPrimaryProfessions(){
 	
 	$eUnitFields =& $GLOBALS['eUnitFields'];
-	
-	$professions = array(171, 186, 202, 773, 755, 182, 393, 165, 164, 197, 333);
-	$data = $this->data;
 	$resultset = array();
+	$professions = array(171, 186, 202, 773, 755, 182, 393, 165, 164, 197, 333);
 	
-	for($i = $eUnitFields['PLAYER_SKILL_INFO_1_1']; $i < $eUnitFields['PLAYER_CHARACTER_POINTS1']; $i+=3){
+	if(!empty($this->data)){
+		$data = $this->data;
 		
-		$priProfId = $data[$i];
-		if($priProfId > 65536) $priProfId = $priProfId - 65536;
+		for($i = $eUnitFields['PLAYER_SKILL_INFO_1_1']; $i < $eUnitFields['PLAYER_CHARACTER_POINTS1']; $i+=3){
+			
+			$priProfId = $data[$i];
+			if($priProfId > 65536) $priProfId = $priProfId - 65536;
+			
+			if(in_array($priProfId, $professions)){
+				
+				$values = $data[$i+1];
+				$values = base_convert($values, 10, 2);
+				$values = str_pad($values, 32, 0, STR_PAD_LEFT);
+				$max = bindec(substr($values, 0, 16));
+				$cur = bindec(substr($values, 16, 16));
+				
+				array_push($resultset, array('prof'=>$priProfId, 'cur'=>$cur, 'max'=>$max));
+			}//if
+		}//for
+	}else{
 		
-		if(in_array($priProfId, $professions)){
+		$res = mysql_query("SELECT * FROM `character_skills` WHERE guid ='".$this->charid."';", $this->pvedbconn); 
+		while($arr = @mysql_fetch_assoc($res)){
 			
-			$values = $data[$i+1];
-			$values = base_convert($values, 10, 2);
-			$values = str_pad($values, 32, 0, STR_PAD_LEFT);
-			$max = bindec(substr($values, 0, 16));
-			$cur = bindec(substr($values, 16, 16));
+			if(in_array($arr['skill'], $professions)){
+				
+				array_push($resultset, array('prof'=>$arr['skill'], 'cur'=>$arr['value'], 'max'=>$arr['max']));
+				
+			}
 			
-			array_push($resultset, array('prof'=>$priProfId, 'cur'=>$cur, 'max'=>$max));
-		}//if
-	}//for
+		}
+		
+	}
 	
 	return $resultset;
 
@@ -648,8 +664,8 @@ public function getPrimaryProfessions(){
 
 public function getData($player) 
     { 
-    $this->data = explode(' ',$this->chartable['data']); 
-    return $this->data; 
+    //$this->data = explode(' ',$this->chartable['data']); 
+    //return $this->data; 
     } 
   
 //Nur zum Testen 
@@ -659,7 +675,9 @@ public function getChosenTitleMask(){
 	$eUnitFields =& $GLOBALS['eUnitFields'];
 	
 	//this is from CharTitles.dbc column 37: titleMaskID (Integer, used ingame in the drop down menu)
-	return $this->data[$eUnitFields['PLAYER_CHOSEN_TITLE']];
+	
+	if(!empty($this->data)) return $this->data[$eUnitFields['PLAYER_CHOSEN_TITLE']];
+	else return $this->chartable['chosenTitle'];
 	
 }//getChosenTitleMask()
 
@@ -782,40 +800,53 @@ public function getRace()
   
 public function getGender() 
     { 
-    $this->gender=($this->data[155]); 
+    if(!empty($this->data)) $this->gender=($this->data[155]);
+	else $this->gender = $this->chartable['gender'];
     return (int)$this->gender; 
     } 
   
   
 public function getLevel() 
     { 
-    $this->level=$this->data[53]; 
+    if(!empty($this->data)) $this->level=($this->data[53]);
+	else $this->level = $this->chartable['level'];
     return (int)$this->level; 
     } 
      
      
 public function getArenaPoints() 
     { 
-    $this->arenapoints=$this->data[1247]; 
+    if(!empty($this->data)) $this->arenapoints=$this->data[1247]; 
+	else $this->arenapoints=$this->chartable['arenaPoints'];
     return (int)$this->arenapoints; 
     } 
 	
 public function getHonorableKills() 
     { 
-    return (int)$this->data[1200];
+   
+	if(!empty($this->data))  return (int)$this->data[1200];
+	else 					 return $this->chartable['totalKills'];
+	
     } 
   
 public function getTitle() 
     { 
-    $this->title=$this->data[600]; 
-    return $this->title; 
+    if(!empty($this->data)) return $this->data[$eUnitFields['PLAYER_CHOSEN_TITLE']];
+	else return $this->chartable['chosenTitle'];
     } 
   
   
 public function getGuildIdplayer() 
     { 
-    $this->guildid=$this->data[151]; 
-    return $this->guildid; 
+    if(!empty($this->data)){
+		$this->guildid=$this->data[151];
+	}else{
+		
+		$res = mysql_query("SELECT guildid FROM guild_member WHERE guid = '".$this->charid."' LIMIT 1;", $this->pvedbconn); 
+		$arr = mysql_fetch_assoc($res);
+		$this->guildid = $arr['guildid'];
+	}
+    return $this->guildid;
     } 
      
      
@@ -831,6 +862,7 @@ public function getGuildNameplayer()
 public function getCharStats() 
     { 
 		
+		if(!empty($this->data)){
 		$eUnitFields =& $GLOBALS['eUnitFields'];
 		
 		return array( 
@@ -926,6 +958,118 @@ public function getCharStats()
 					'rune'					=> $this->data[$eUnitFields['UNIT_FIELD_MAXPOWER5']]
 					
 					);
+		}else{
+		
+			//NO data field, use player_levelstats.csv and character_stats table
+			$handle = fopen(dirname(__FILE__).'/player_levelstats.csv', 'r');
+			while(($row = fgetcsv($handle)) != false){
+				if($row[0] == $this->level && $row[1] == $this->class && $row[2] == $this->race){
+					
+					$basestats = $row;
+					break;
+				}
+			}
+			fclose($handle);
+
+			$res = mysql_query("SELECT * FROM `character_stats` WHERE guid = '".$this->charid."' LIMIT 1;", $this->pvedbconn);
+			$arr = mysql_fetch_assoc($res);
+			
+			$this->getResistances($arr);
+			
+			return array( 
+					//Grundwerte
+					'strength'      		=> $arr['strength'], 
+						'strengthPos'		=> $arr['strength'] - $basestats[3], 
+						'strengthNeg'		=> 0,
+					'agility'      	 		=> $arr['agility'],
+						'agilityPos'		=> $arr['agility'] - $basestats[4],
+						'agilityNeg'		=> 0,
+					'stamina'       		=> $arr['stamina'], 
+						'staminaPos'		=> $arr['stamina'] - $basestats[5],
+						'staminaNeg'		=> 0,
+					'int'           		=> $arr['intellect'],
+						'intPos'			=> $arr['intellect'] - $basestats[6],
+						'intNeg'			=> 0, 
+					'spirit'       			=> $arr['spirit'],
+						'spiritPos'			=> $arr['spirit'] - $basestats[7],
+						'spiritNeg'			=> 0,
+					'armor'					=> $arr['armor'],
+					  
+					//Nahkampf
+					'mhMinDmg'     		 	=> 0,
+					'mhMaxDmg'        	 	=> 0,
+					'ohMinDmg'        	 	=> 0,
+					'ohMaxDmg'        	 	=> 0,
+					'mhTempo'				=> 0.00,					
+					'ohTempo'				=> 0.00,
+					'mAtp'				 	=> 0,
+						'mAtpMod'			=> 0,
+					'mHitRating'		 	=> 0,
+						'mHitPercent'		=> 0.00,
+						'mExpRating'		=> 0,
+							'mExpPercent'	=> 0.00,
+					'mCritPercent'		 	=> round($arr['critPct'], 2),
+						'mCritRating'		=> 0,					
+					'mExpertise'			=> 0,
+					
+					//Distanz
+					'rMinDmg'   		 	=> 0,
+					'rMaxDmg'  		 	 	=> 0,
+					'rTempo'				=> 0.00,
+					'rAtp'		 			=> $arr['rangedAttackPower'],
+						'rAtpMod'	 		=> 0,		
+					'rHitRating'		 	=> 0,
+						'rHitPercent'		=> 0.00,
+						'rExpRating'		=> 0,
+							'rExpPercent'	=> 0.00,	
+					'rCritPercent'			=> round($arr['rangedCritPct'], 2),
+						'rCritRating'		=> 0,
+					
+					//Zauber
+					'spellBonus'		 	=> $arr['spellPower'],
+						'holyBonus'    		=> $arr['spellPower'],
+						'fireBonus'    		=> $arr['spellPower'],
+						'natureBonus'   	=> $arr['spellPower'],
+						'frostBonus'    	=> $arr['spellPower'],
+						'shadowBonus'  	 	=> $arr['spellPower'],
+						'arcaneBonus'    	=> $arr['spellPower'],
+					'healBonus'				=> $arr['spellPower'],
+					'spHitRating'		 	=> 0,
+						'spHitPercent'		=> 0.00,
+						'spExpRating'		=> 0,
+							'spExpPercent'	=> 0.00,												
+					'spCritRating'			=> $arr['spellCritPct'],
+						'spCritPercent'	 	=> round($arr['spellCritPct'], 2),
+						'holyCritPercent' 	=> round($arr['spellCritPct'], 2),
+						'fireCritPercent' 	=> round($arr['spellCritPct'], 2),
+						'natureCritPercent' => round($arr['spellCritPct'], 2),
+						'frostCritPercent' 	=> round($arr['spellCritPct'], 2),
+						'shadowCritPercent' => round($arr['spellCritPct'], 2),
+						'arcaneCritPercent' => round($arr['spellCritPct'], 2),
+					'spHasteRating'			=> 0,
+						'spHastePercent'	=> 0.00,
+					'spRegeneration'		=> 0,
+					
+					//Verteidigung
+					'defense'				=> 0,
+					'dodgePercent'			=> round($arr['dodgePct'], 2),
+						'dodgeRating'		=> 0,
+					'parryPercent' 			=> round($arr['parryPct'], 2),
+						'parryRating' 		=> 0,
+					'blockPercent'			=> round($arr['blockPct'], 2),
+						'blockRating'		=> 0,
+					'resilienceRating'		=> 0,
+						'resiliencePercent'	=> 0,
+					
+					//Sonstige
+					'health'				=> $arr['maxhealth'],
+					'mana'					=> $arr['maxpower1'],
+					'rage'					=> $arr['maxpower2'],
+					'energy'				=> $arr['maxpower4'],
+					'rune'					=> $arr['maxpower5']
+					
+					);
+		}
     } 
 
 private function getRatingFromPercent($which, $percent){
@@ -951,19 +1095,33 @@ private function getRatingFromPercent($which, $percent){
 	
 }
   
-public function getResistances() 
+public function getResistances($charStats = null) 
     { 
 	
-	$eUnitFields =& $GLOBALS['eUnitFields'];
+	if($this->resistances != null) return $this->resistances;
 	
-    $this->resistances = array('holyRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+1], 
-                                  'fireRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+2], 
-                                  'natureRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+3], 
-                                  'frostRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+4], 
-                                  'shadowRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+5], 
-                                  'arcaneRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+6]); 
-  
-    return $this->resistances; 
+	if($charStats == null){
+		$eUnitFields =& $GLOBALS['eUnitFields'];
+		
+		$this->resistances = array('holyRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+1], 
+									  'fireRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+2], 
+									  'natureRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+3], 
+									  'frostRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+4], 
+									  'shadowRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+5], 
+									  'arcaneRes'    =>$this->data[$eUnitFields['UNIT_FIELD_RESISTANCES']+6]); 
+		
+		return $this->resistances;
+	}
+	else{
+		
+		$this->resistances = array('holyRes'    => $charStats['resHoly'], 
+									  'fireRes'    =>$charStats['resFire'], 
+									  'natureRes'    =>$charStats['resNature'], 
+									  'frostRes'    =>$charStats['resFrost'], 
+									  'shadowRes'    =>$charStats['resShadow'], 
+									  'arcaneRes'    =>$charStats['resArcane']); 
+		return $this->resistances;
+	}
     } 
   
 public function getReputation() 
