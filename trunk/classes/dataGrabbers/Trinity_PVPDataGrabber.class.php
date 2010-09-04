@@ -1173,19 +1173,33 @@ public function getReputation()
 public function getItems(){ 
      
     $this->items = array(); 
-    $res = @mysql_query("SELECT ii.data, ci.slot, ci.item_template FROM `item_instance` ii JOIN `character_inventory` ci ON ci.item = ii.guid WHERE ii.owner_guid=".$this->charid." AND ci.bag = 0 AND ci.slot >= 0 AND ci.slot < 19;", $this->pvpdbconn); 
-    while($row = @mysql_fetch_assoc($res)){ 
+    $res = @mysql_query("SELECT * FROM `item_instance` ii JOIN `character_inventory` ci ON ci.item = ii.guid WHERE ii.owner_guid=".$this->charid." AND ci.bag = 0 AND ci.slot >= 0 AND ci.slot < 19;", $this->pvpdbconn); 
+	
+	while($row = @mysql_fetch_assoc($res)){ 
          
-        $idata = explode(' ',$row['data']); 
-         
-        $this->items[$row['slot']] = array( 'id'=>$row['item_template'], 
-                                            'ench'=>$idata[22], 
-                                            'socket1'=>$idata[28], 
-                                            'socket2'=>$idata[31], 
-                                            'socket3'=>$idata[34], 
-                                            'dur'=>$idata[61],
-											'randomEnchant'=>$idata[59]);
-    }//while 
+		 if($row['data']){
+			$idata = explode(' ',$row['data']); 
+			 
+			$this->items[$row['slot']] = array( 'id'=>$row['item_template'], 
+												'ench'=>$idata[22], 
+												'socket1'=>$idata[28], 
+												'socket2'=>$idata[31], 
+												'socket3'=>$idata[34], 
+												'dur'=>$idata[61],
+												'randomEnchant'=>$idata[59]);
+			}else{
+				
+				$enchantments = explode(' ', $row['enchantments']);
+				$this->items[$row['slot']] = array( 'id'=>$row['item_template'], 
+												'ench'=>$enchantments[0], 
+												'socket1'=>$enchantments[6], 
+												'socket2'=>$enchantments[9], 
+												'socket3'=>$enchantments[12], 
+												'dur'=>$row['durability'],
+												'randomEnchant'=>$row['randomPropertyId']);
+				
+			}
+	}//while 
      
     return $this->items; 
 }     
