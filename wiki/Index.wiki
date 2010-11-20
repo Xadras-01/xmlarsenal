@@ -13,7 +13,7 @@ It's currently maintained only be me, if you want to help please email me for an
 
 Though I'm German I will write the Wiki in English for in this way a lot people more may benefit from the information. Every one contributing here please do the same. 
 
-Please do *NOT* use this wiki for bug reporting, spam, feature requests etc. Use the appropriate tools from the project page instead.
+Please do *NOT* use this wiki for bug reporting, spam, feature requests etc. Use the appropriate tools from the project page instead. For problems while using XMLArsenal please use the mailing list (see right panel), there you can get help from me and other users.
 
 
 = Preliminary Warning =
