@@ -97,22 +97,17 @@ $data_db_base = './utils/arsenaldata.sqlite3';
  *                                                                        *
 /**************************************************************************/
 
-//set error handler to more modern, exception-based (and catchable!) behavior
+if (!defined('E_DEPRECATED')) {
+    define('E_DEPRECATED', 8192);  //defined since PHP 5.3
+}
+
 switch(ERROR_REPORTING_LEVEL){
-	
 	case 0:	 $ERROR_REPORING = 0; break;
-	case 1:	 $ERROR_REPORING = E_ALL ^ E_NOTICE ^ E_WARNING; break;
-	case 2:	 $ERROR_REPORING = E_ALL ^ E_NOTICE; break;
+	case 1:	 $ERROR_REPORING = E_ALL ^ E_NOTICE ^ E_WARNING ^ E_DEPRECATED; break;
+	case 2:	 $ERROR_REPORING = E_ALL ^ E_NOTICE ^ E_DEPRECATED; break;
 	case 3:	 $ERROR_REPORING = E_ALL; break;
 	case 4:	 $ERROR_REPORING = -1; break;
 	default: $ERROR_REPORING = E_ALL ^ E_NOTICE ^ E_WARNING;
-	
-}
-
-//add deprecated for error levels smaller than 3
-if ((version_compare(PHP_VERSION, '5.3.0') >= 0) && ERROR_REPORTING_LEVEL < 3) {
-	$ERROR_REPORING = $ERROR_REPORING ^ E_DEPRECATED;
-	//var_dump($ERROR_REPORING);
 }
 
 @error_reporting($ERROR_REPORING);
