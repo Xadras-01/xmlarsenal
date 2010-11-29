@@ -1660,9 +1660,11 @@ class Character{
 					
 					$enchant = $res2['enchantname'];
 					
-					$qry3 = "SELECT i.itemIcon, il.desc FROM itemsdata i JOIN itemsdata_en_gb il ON i.itemId = il.itemId WHERE i.itemid = ".$res2['socketRef'].";";
-					$stmt3 = $arsenaldata->query($qry3);
-					if($stmt3) $res3 = $stmt3->fetchRow(MDB2_FETCHMODE_ASSOC);
+					if($res2['socketRef'] != 0){
+						$qry3 = "SELECT i.itemIcon, il.desc FROM itemsdata i JOIN itemsdata_en_gb il ON i.itemId = il.itemId WHERE i.itemid = ".$res2['socketRef'].";";
+						$stmt3 = $arsenaldata->query($qry3);
+						if($stmt3) $res3 = $stmt3->fetchRow(MDB2_FETCHMODE_ASSOC);
+					}
 					
 					$icon = $res3['itemIcon'];
 					$desc = $res3['desc'];
