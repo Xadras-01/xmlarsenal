@@ -453,14 +453,14 @@ private function GuildTable2($guild) //guildtable with name
   
 private function ArenaTable2($team) //arenatable with name 
     { 
-    $res = mysql_query("SELECT a.arenateamid, a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, ats.rating, ats.rank, ats.games, ats.wins, ats.played, ats.wins2, c.race FROM `arena_team` a JOIN `arena_team_stats` ats on a.arenateamid = ats.arenateamid JOIN characters c ON c.guid = a.captainguid WHERE convert( a.name USING utf8 ) COLLATE utf8_bin = '".mysql_real_escape_string($team)."' LIMIT 1;", $this->pvedbconn); 
+    $res = mysql_query("SELECT a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, a.rating, a.rank, a.seasonGames, a.seasonWins, a.weekGames, a.weekWins, c.race FROM `arena_team` a JOIN characters c ON c.guid = a.captainguid WHERE convert( a.name USING utf8 ) COLLATE utf8_bin = '".mysql_real_escape_string($team)."' LIMIT 1;", $this->pvedbconn); 
     $arenaTable2 = @mysql_fetch_assoc($res);
     return $arenaTable2; 
     } 
   
 private function ArenaTable($team) //arenatable with id 
     { 
-	$res = mysql_query("SELECT a.arenateamid, a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, ats.rating, ats.rank, ats.games, ats.wins, ats.played, ats.wins2, c.race FROM `arena_team` a JOIN `arena_team_stats` ats on a.arenateamid = ats.arenateamid JOIN characters c ON c.guid = a.captainguid WHERE a.arenateamid='".mysql_real_escape_string($team)."' LIMIT 1;", $this->pvedbconn); 
+	$res = mysql_query("SELECT a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, a.rating, a.rank, a.seasonGames, a.seasonWins, a.weekGames, a.weekWins, c.race FROM `arena_team` a JOIN characters c ON c.guid = a.captainguid WHERE a.arenateamid='".mysql_real_escape_string($team)."' LIMIT 1;", $this->pvedbconn); 
     $arenaTable2 = @mysql_fetch_assoc($res); 
     return $arenaTable2; 
     } 
@@ -741,17 +741,17 @@ public function getSearchTeamsResults($realmName)
 	{
 	$x=0;
 	$this->SearchSearchTeamsResults = array(); 
-    $res = mysql_query("SELECT a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, ats.rating, ats.rank, ats.games, ats.wins, ats.played, ats.wins2, c.race FROM `arena_team` a JOIN `arena_team_stats` ats on a.arenateamid = ats.arenateamid JOIN characters c ON c.guid = a.captainguid WHERE a.name LIKE '".$this->searchstring."%';", $this->pvedbconn); 
+    $res = mysql_query("SELECT a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, a.rating, a.rank, a.seasonGames, a.seasonWins, a.weekGames, a.weekWins, c.race FROM `arena_team` a JOIN characters c ON c.guid = a.captainguid WHERE a.name LIKE '".$this->searchstring."%';", $this->pvedbconn); 
     while($arr = mysql_fetch_assoc($res))
 		{
 		$this->SearchTeamsResults[$x]['realmName']=$realmName;
-		$this->SearchTeamsResults[$x]['gamesPlayed']=$arr['games'];
-		$this->SearchTeamsResults[$x]['gamesWon']=$arr['wins'];
+		$this->SearchTeamsResults[$x]['gamesPlayed']=$arr['weekGames'];
+		$this->SearchTeamsResults[$x]['gamesWon']=$arr['weekWins'];
 		$this->SearchTeamsResults[$x]['name']=$arr['name'];
 		$this->SearchTeamsResults[$x]['ranking']=$arr['rank'];
 		$this->SearchTeamsResults[$x]['rating']=$arr['rating'];
-		$this->SearchTeamsResults[$x]['seasonGamesPlayed']=$arr['played'];
-		$this->SearchTeamsResults[$x]['seasonGamesWon']=$arr['wins2'];
+		$this->SearchTeamsResults[$x]['seasonGamesPlayed']=$arr['seasonGames'];
+		$this->SearchTeamsResults[$x]['seasonGamesWon']=$arr['seasonWins'];
 		$this->SearchTeamsResults[$x]['teamSize']=$arr['type'];
 		$this->SearchTeamsResults[$x]['background']= str_pad(base_convert($arr['BackgroundColor'], 10, 16), 8, 0, STR_PAD_LEFT);
 		
@@ -1190,7 +1190,7 @@ public function getItems(){
 			}else{
 				
 				$enchantments = explode(' ', $row['enchantments']);
-				$this->items[$row['slot']] = array( 'id'=>$row['item_template'], 
+				$this->items[$row['slot']] = array( 'id'=>$row['itemEntry'], 
 												'ench'=>$enchantments[0], 
 												'socket1'=>$enchantments[6], 
 												'socket2'=>$enchantments[9], 
@@ -1361,13 +1361,13 @@ public function getArenaTeamproperties()
 	$this->ArenaTeamproperties = array(); 
  	$arr=$this->ArenaTable($this->teamid);
  	$this->ArenaTeamproperties['teamId'] = $this->teamid;
-	$this->ArenaTeamproperties['gamesPlayed']=$arr['games'];
-	$this->ArenaTeamproperties['gamesWon']=$arr['wins'];
+	$this->ArenaTeamproperties['gamesPlayed']=$arr['weekGames'];
+	$this->ArenaTeamproperties['gamesWon']=$arr['weekWins'];
 	$this->ArenaTeamproperties['name']=$arr['name'];
 	$this->ArenaTeamproperties['ranking']=$arr['rank'];
 	$this->ArenaTeamproperties['rating']=$arr['rating'];
-	$this->ArenaTeamproperties['seasonGamesPlayed']=$arr['played'];
-	$this->ArenaTeamproperties['seasonGamesWon']=$arr['wins2'];
+	$this->ArenaTeamproperties['seasonGamesPlayed']=$arr['seasonGames'];
+	$this->ArenaTeamproperties['seasonGamesWon']=$arr['seasonWins'];
 	$this->ArenaTeamproperties['teamSize']=$arr['type'];
 	$this->ArenaTeamproperties['background']= str_pad(base_convert($arr['BackgroundColor'], 10, 16), 8, 0, STR_PAD_LEFT);
 		
@@ -1385,20 +1385,20 @@ public function getArenaTeammember()
 	$this->ArenaTeammember = array();
 	
 	$res = mysql_query("
-SELECT atm.guid, atm.played_week, atm.wons_week, atm.played_season, atm.wons_season, atm.personal_rating, c.name, c.race, c.gender, c.class, g.name as gname FROM `arena_team_member` atm JOIN `characters` c on atm.guid=c.guid LEFT JOIN `guild_member` gm on gm.guid = c.guid LEFT JOIN `guild` g on g.guildid=gm.guildid WHERE atm.arenateamid='".$this->teamid."';", $this->pvedbconn);
+SELECT atm.guid, atm.weekGames, atm.weekWins, atm.seasonGames, atm.seasonWins, atm.personalRating, c.name, c.race, c.gender, c.class, g.name as gname FROM `arena_team_member` atm JOIN `characters` c on atm.guid=c.guid LEFT JOIN `guild_member` gm on gm.guid = c.guid LEFT JOIN `guild` g on g.guildid=gm.guildid WHERE atm.arenateamid='".$this->teamid."';", $this->pvedbconn);
 	while($arr = @mysql_fetch_assoc($res))
 		{
 		array_push($this->ArenaTeammember, array('guid' => $arr['guid'], //Player Guid  
                                                  'name' => $arr['name'], //Player Name
                                                  'guild' => $arr['gname'], //Player Guild
-                                                 'played_week' => $arr['played_week'], 
+                                                 'played_week' => $arr['weekGames'], 
                                                  'class' => $arr['class'], 
                                                  'gender' => $arr['gender'], 
                                                  'race' => $arr['race'], 
-                                                 'won_week' => $arr['wons_week'], 
-                                                 'played_season' => $arr['played_season'], 
-                                                 'won_season' => $arr['wons_season'], 
-                                                 'personal_rating' =>$arr['personal_rating'] 
+                                                 'won_week' => $arr['weekWins'], 
+                                                 'played_season' => $arr['seasonGames'], 
+                                                 'won_season' => $arr['seasonWins'], 
+                                                 'personal_rating' =>$arr['personalRating'] 
                                         )); 
 		}
 	
@@ -1410,23 +1410,23 @@ SELECT atm.guid, atm.played_week, atm.wons_week, atm.played_season, atm.wons_sea
 	{
 	$x=0;
 	$this->arenaLadder = array(); 
-    $res = mysql_query("(SELECT a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, ats.rating, ats.rank, ats.games, ats.wins, ats.played, ats.wins2, c.race FROM `arena_team` a JOIN `arena_team_stats` ats on a.arenateamid = ats.arenateamid JOIN characters c ON c.guid = a.captainguid WHERE a.type = 3 ORDER BY ats.rating DESC LIMIT 20)
+    $res = mysql_query("(SELECT a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, a.rating, a.rank, a.seasonGames, a.seasonWins, a.weekGames, a.weekWins, c.race FROM `arena_team` a JOIN characters c ON c.guid = a.captainguid WHERE a.type = 3 ORDER BY a.rating DESC LIMIT 20)
 						UNION 
-						(SELECT a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, ats.rating, ats.rank, ats.games, ats.wins, ats.played, ats.wins2, c.race FROM `arena_team` a JOIN `arena_team_stats` ats on a.arenateamid = ats.arenateamid JOIN characters c ON c.guid = a.captainguid WHERE a.type = 2 ORDER BY ats.rating DESC LIMIT 20)
+						(SELECT a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, a.rating, a.rank, a.seasonGames, a.seasonWins, a.weekGames, a.weekWins, c.race FROM `arena_team` a JOIN characters c ON c.guid = a.captainguid WHERE a.type = 2 ORDER BY a.rating DESC LIMIT 20)
 						UNION 
-						(SELECT a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, ats.rating, ats.rank, ats.games, ats.wins, ats.played, ats.wins2, c.race FROM `arena_team` a JOIN `arena_team_stats` ats on a.arenateamid = ats.arenateamid JOIN characters c ON c.guid = a.captainguid WHERE a.type = 5 ORDER BY ats.rating DESC LIMIT 20);", 
+						(SELECT a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, a.rating, a.rank, a.seasonGames, a.seasonWins, a.weekGames, a.weekWins, c.race FROM `arena_team` a JOIN characters c ON c.guid = a.captainguid WHERE a.type = 5 ORDER BY a.rating DESC LIMIT 20);", 
 						$this->pvedbconn); 
     
     while($arr = mysql_fetch_assoc($res))
 		{
 		$this->arenaLadder[$x]['realmName']=$realmName;
-		$this->arenaLadder[$x]['gamesPlayed']=$arr['games'];
-		$this->arenaLadder[$x]['gamesWon']=$arr['wins'];
+		$this->arenaLadder[$x]['gamesPlayed']=$arr['weekGames'];
+		$this->arenaLadder[$x]['gamesWon']=$arr['weekWins'];
 		$this->arenaLadder[$x]['name']=$arr['name'];
 		$this->arenaLadder[$x]['ranking']=$arr['rank'];
 		$this->arenaLadder[$x]['rating']=$arr['rating'];
-		$this->arenaLadder[$x]['seasonGamesPlayed']=$arr['played'];
-		$this->arenaLadder[$x]['seasonGamesWon']=$arr['wins2'];
+		$this->arenaLadder[$x]['seasonGamesPlayed']=$arr['seasonGames'];
+		$this->arenaLadder[$x]['seasonGamesWon']=$arr['seasonWins'];
 		$this->arenaLadder[$x]['teamSize']=$arr['type'];
 		$this->arenaLadder[$x]['background']= str_pad(base_convert($arr['BackgroundColor'], 10, 16), 8, 0, STR_PAD_LEFT);
 		$this->arenaLadder[$x]['borderColor']= str_pad(base_convert($arr['BorderColor'], 10, 16), 8, 0, STR_PAD_LEFT);
