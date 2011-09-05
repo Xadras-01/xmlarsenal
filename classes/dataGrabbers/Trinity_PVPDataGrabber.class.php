@@ -453,14 +453,14 @@ private function GuildTable2($guild) //guildtable with name
   
 private function ArenaTable2($team) //arenatable with name 
     { 
-    $res = mysql_query("SELECT a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, a.rating, a.rank, a.seasonGames, a.seasonWins, a.weekGames, a.weekWins, c.race FROM `arena_team` a JOIN characters c ON c.guid = a.captainguid WHERE convert( a.name USING utf8 ) COLLATE utf8_bin = '".mysql_real_escape_string($team)."' LIMIT 1;", $this->pvpdbconn); 
+    $res = mysql_query("SELECT a.arenateamid, a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, a.rating, a.rank, a.seasonGames, a.seasonWins, a.weekGames, a.weekWins, c.race FROM `arena_team` a JOIN characters c ON c.guid = a.captainguid WHERE convert( a.name USING utf8 ) COLLATE utf8_bin = '".mysql_real_escape_string($team)."' LIMIT 1;", $this->pvpdbconn); 
     $arenaTable2 = @mysql_fetch_assoc($res);
     return $arenaTable2; 
     } 
   
 private function ArenaTable($team) //arenatable with id 
     { 
-	$res = mysql_query("SELECT a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, a.rating, a.rank, a.seasonGames, a.seasonWins, a.weekGames, a.weekWins, c.race FROM `arena_team` a JOIN characters c ON c.guid = a.captainguid WHERE a.arenateamid='".mysql_real_escape_string($team)."' LIMIT 1;", $this->pvpdbconn); 
+	$res = mysql_query("SELECT a.arenateamid, a.name,a.type,a.BackgroundColor,a.EmblemStyle,a.EmblemColor,a.BorderStyle,a.BorderColor, a.rating, a.rank, a.seasonGames, a.seasonWins, a.weekGames, a.weekWins, c.race FROM `arena_team` a JOIN characters c ON c.guid = a.captainguid WHERE a.arenateamid='".mysql_real_escape_string($team)."' LIMIT 1;", $this->pvpdbconn); 
     $arenaTable2 = @mysql_fetch_assoc($res); 
     return $arenaTable2; 
     } 
