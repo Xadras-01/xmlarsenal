@@ -519,15 +519,25 @@ class Character{
 		$this->numTalents1 = $this->numTalents2 = array(1=>0, 2=>0, 3=>0);
 		$this->activeSpec = $dataGrabber->getActiveSpec();
 		
-		//spec1
-		if(!empty($tal_spells[0]))	$this->parseTalents($tal_spells[0], 1);
+		//complete talent string and numbers come from grabber
+		if(!empty($tal_spells['predef'])){
+			
+			$this->talents1 = $tal_spells['predef'];
+			$this->numTalents1[1] = $tal_spells['num1'];
+			$this->numTalents1[2] = $tal_spells['num2'];
+			$this->numTalents1[3] = $tal_spells['num3'];
+			
+		}else{
 		
-		//spec2
-		if(!empty($tal_spells[1]))	$this->parseTalents($tal_spells[1], 2);
-		
-		//fix for chars < Level 10 (which have no talents)
-		if($this->talents1 == '') $this->talents1 = '0000000000000000000000000000000000000000000000000000000000000000000000000000000000';
-		
+			//spec1
+			if(!empty($tal_spells[0]))	$this->parseTalents($tal_spells[0], 1);
+			
+			//spec2
+			if(!empty($tal_spells[1]))	$this->parseTalents($tal_spells[1], 2);
+			
+			//fix for chars < Level 10 (which have no talents)
+			if($this->talents1 == '') $this->talents1 = '0000000000000000000000000000000000000000000000000000000000000000000000000000000000';
+		}
 		
 		//get glyphs
 		$glyphs = $dataGrabber->getGlyphs();
