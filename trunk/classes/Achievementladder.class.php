@@ -251,14 +251,14 @@ class Achievementladder{
 						$achvars['ICON'] = $res['a.icon'];
 						
 						$achvars['NAME'] = $ach['name'];
-						$achvars['CHARURL'] = "n=".urlencode($ach['name'])."&r=".$achvars['REALMURL'];
+						$achvars['CHARURL'] = "n=".urlencode($ach['name'])."&amp;r=".$achvars['REALMURL'];
 						$achvars['ACHPOINTS'] = 0;
 						$achvars['FACTIONID'] = $DATA["factions"][$ach['race']];
 						$achvars['CLASSID'] = $ach['class'];
 						$achvars['RACEID'] = $ach['raceId'];
 						$achvars['GENDERID'] = $ach['genderId'];
 						$achvars['GUILD'] = $ach['guild'];
-						$achvars['GUILDURL'] = "gn=".urlencode($ach['guild'])."&r=".$achvars['REALMURL'];
+						$achvars['GUILDURL'] = "gn=".urlencode($ach['guild'])."&amp;r=".$achvars['REALMURL'];
 						$achvars['LEVEL'] = $ach['level'];
 						
 						$vars['ACHIEVEMENTS'] .= fgettemplate('./xml-templates/achievement-firsts-achievement-single.xml', $achvars);
