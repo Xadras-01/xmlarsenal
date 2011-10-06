@@ -69,10 +69,6 @@ $arsenaldataLang = $language;
 if($language == "es_mx") $arsenaldataLang = "es_es";
 if($language == "en_us") $arsenaldataLang = "en_gb";
 
-
-//for pear to find all classes needed
-set_include_path('./includes/pear');
-
 //file changedates etc are cached... to get right infos delete the cache...
 clearstatcache();
 

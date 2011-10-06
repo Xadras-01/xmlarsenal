@@ -13,6 +13,8 @@
  *
 */
 
+//for pear to find all classes needed
+set_include_path('.:./includes/pear');
 
 require_once './includes/pear/MDB2.php';
 
